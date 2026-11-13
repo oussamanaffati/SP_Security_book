@@ -4,11 +4,11 @@ For a service provider, a cyber incident is never only an IT problem. If a mobil
 
 Service providers are moving more workloads closer to users, often called edge computing.[5] New services need lower latency, and operators are looking for new revenue. Each move changes where data lives, which systems connect, and who is responsible for securing them.
 
-With AI, the security question is not only what a system can detect. It is what it can access, what it can change, and whether the operator can stop and reverse an unsafe action.
+For each AI-enabled use, the operator needs to know what the system can access and change, and whether an unsafe action can be stopped and reversed.
 
-Operators are evaluating AI for customer care, service assurance, fraud management and internal operations. A tool that summarizes information has a different risk from one that can call other tools, change records or trigger a workflow. In service assurance, for example, access to alarms and tickets is not the same as authority to change a network configuration. Those actions can affect service continuity.
+Operators are evaluating AI for customer care, service assurance, fraud management and internal operations. A summarization tool presents a different risk profile from an agent that can call other tools, change records or trigger a workflow. In service assurance, for example, access to alarms and tickets is not the same as authority to change a network configuration. Those actions can affect service continuity.
 
-AI is not just another detection tool. It changes risk inside the operator and may give adversaries new ways to increase the pace and scale of activity. Treating AI only as a better detector improves one part of security while missing the wider change.
+AI is not just another detection tool. It can change who or what acts inside the operator, and it may give adversaries new ways to increase the pace and scale of activity. Treating AI only as a better detector improves one part of security while missing the wider change.
 
 ## An operator is part of the country’s operating system
 
@@ -16,17 +16,17 @@ Networks carry emergency calls, support payments, connect hospitals and keep bus
 
 ENISA’s 2026 NIS360 assessment places telecom among the EU’s most mature and critical sectors. Criticality reflects the impact of disruption, dependencies between sectors and how quickly consequences are felt. ENISA also notes legacy-related delays in vulnerability remediation, uneven follow-through on identified risks and the need for regular response and recovery exercises.[2]
 
-Operators already have security programs, but controls do not remove all risk. The remaining risk must be understood and accepted by the right owner. Security work must continue while the network stays in service.
+Operators already have security programs, but controls do not remove all risk. The accountable service or process owner must understand and accept the residual risk. Security work must continue while the network stays in service.
 
-In practice, “patch it now” can be the right security answer and still not be an operational plan. A network change may need a maintenance window, a rollback path, vendor coordination and agreement across engineering, operations and security. Some systems have been in service for years. Replacing them is a program, not a Tuesday afternoon task.
+In practice, “patch it now” can be the right security answer and still not be an operational plan. A network change may need a maintenance window, a rollback path, vendor coordination and agreement across engineering, operations and security. Some systems have been in service for years. Replacing them is a long-term program, not a quick fix.
 
-Then there is the business. Operators are investing in coverage, capacity, spectrum, cloud, fiber and customer experience. Security competes for the same people, time and budget. A CISO or CTO needs to explain why a security decision matters in terms the business can act on, not just present another list of controls.
+Then there is the business. Operators are investing in coverage, capacity, spectrum, cloud, fiber and customer experience. Security competes for the same people, time and budget. The CISO or CTO must make the decision clear: which service is at risk, what could happen, and what needs to be funded or changed. A list of controls alone will not answer those questions.
 
-An AI use case must be judged by its access and impact. An assistant that summarizes a public document is different from an agent that reads network data, opens a vendor case and triggers a production workflow. Ask what it can see and change, how effective the safeguards are, and whether the action can be reversed without harming service.
+Efficiency is only half the business case. If an AI-enabled process can affect a live service, include the cost of testing it, monitoring its actions and reversing a change safely. Otherwise, the business case understates service-continuity risk.
 
-## A warning from the network floor
+## Recent telco cases require careful attribution
 
-In February 2026, Singapore’s CSA and IMDA disclosed a campaign against all four major telcos. The actor used a zero-day to bypass a perimeter firewall and rootkits to evade detection. The coordinated response lasted more than eleven months and involved over 100 defenders. The actor reached parts of the telco networks, including some critical systems, but authorities reported no evidence at that point of customer-data theft or service disruption.[1]
+In February 2026, Singapore’s CSA and IMDA disclosed a campaign against all four major telcos. In one instance, the actor used a zero-day exploit to bypass a perimeter firewall; in another, it used rootkits to maintain access and evade detection. The coordinated response lasted more than eleven months and involved over 100 defenders. The actor reached parts of the telco networks, including some critical systems, and exfiltrated a small amount of technical data. Authorities reported no evidence at that point that sensitive or personal customer data had been accessed or exfiltrated, or that service had been disrupted.[1]
 
 The disclosure shows the demands operators already face: persistent adversaries, complex networks, stealthy access and response involving both companies and government. It did not say AI was involved. Calling every sophisticated attack “AI-powered” would overstate the evidence. The confirmed activity is serious on its own.
 
@@ -48,7 +48,7 @@ Joint guidance published in May 2026 by Australia’s cyber security center and 
 
 An agent may act faster than the review process around it. It may inherit a service account’s permissions or use a supplier tool whose risk has changed. Without reliable logs, its actions may look routine. For high-impact uses, assurance should test that permissions match the task, logs capture tool calls, and revocation works without interrupting service.
 
-AI can also arrive through a supplier feature or a software update, not just through a project called “AI.” One team enables a capability. Another team owns the data it can reach. A vendor changes what happens behind an interface. Meanwhile, the asset and risk inventory may still show the old product name. That is the ground-level problem: authority and dependencies can change faster than the documentation.
+A supplier feature or software update can introduce an AI capability outside a project labeled “AI.” The operator’s risk inventory may not reflect its access to data or workflows. Responsibility may span the team enabling the feature and the team that owns the data or process it touches.
 
 ## Response speed is part of the risk
 
@@ -56,7 +56,7 @@ The reported operation suggests an agent may reduce the effort needed to sustain
 
 The constraints are practical as well as technical: legacy systems can slow remediation, and response exercises need to test how teams work together. No operator can close every gap at once. AI may put more pressure on those limits.[2]
 
-The board-level question is whether hostile activity, combined with autonomous capabilities inside the operator, could outpace its ability to approve, monitor and contain change. Can Security, Network, IT, Operations, Procurement, Legal and business leaders make decisions together before a critical workflow is affected?
+If an external threat or internal agent can change a critical workflow faster than normal approvals, the board should ask whether the operator can detect the change, decide who can stop it, and contain it without extending service impact. That depends on Security, Network, IT, Operations, Procurement, Legal and business leaders making the decision together.
 
 ## Regulation does not assign operational ownership
 
