@@ -14,11 +14,13 @@ AI is not just another detection tool. It can change who or what acts inside the
 
 Networks carry emergency calls, support payments, connect hospitals and keep businesses running. Dependence varies by country, but disruption can reach organizations the operator does not control.
 
-ENISA’s 2026 NIS360 assessment places telecom among the EU’s most mature and critical sectors. Criticality reflects the impact of disruption, dependencies between sectors and how quickly consequences are felt. ENISA also notes legacy-related delays in vulnerability remediation, uneven follow-through on identified risks and the need for regular response and recovery exercises.[2]
+ENISA’s 2026 NIS360 assessment places telecom among the EU’s most mature and critical sectors. In ENISA’s assessment, criticality reflects the impact of disruption, dependencies between sectors and how quickly consequences are felt. ENISA also notes legacy-related delays in vulnerability remediation, uneven follow-through on identified risks and the need for regular response and recovery exercises.[2]
 
 Operators already have security programs, but controls do not remove all risk. The accountable service or process owner must understand and accept the residual risk. Security work must continue while the network stays in service.
 
-In practice, “patch it now” can be the right security answer and still not be an operational plan. A network change may need a maintenance window, a rollback path, vendor coordination and agreement across engineering, operations and security. Some systems have been in service for years. Replacing them is a long-term program, not a quick fix.
+In practice, “patch it now” can be the right security answer and still not be an operational plan. A network change may need a maintenance window, rollback, vendor coordination and agreement across engineering, operations and security. Some systems have been in service for years; replacing them is a long-term program, not a quick fix.
+
+A July 2026 Australian guide for critical infrastructure makes this a board risk-appetite issue. It recommends tolerating brief unavailability of internet-facing services to enable faster vulnerability remediation and more frequent patch windows. It also calls for greater urgency in removing or replacing internet-facing services without vendor support.[27] This is cross-sector guidance, not a telco rule. Operators still need to set the acceptable outage and rollback conditions for each service.
 
 Then there is the business. Operators are investing in coverage, capacity, spectrum, cloud, fiber and customer experience. Security competes for the same people, time and budget. The CISO or CTO must make the decision clear: which service is at risk, what could happen, and what needs to be funded or changed. A list of controls alone will not answer those questions.
 
@@ -56,7 +58,7 @@ The reported operation suggests an agent may reduce the effort needed to sustain
 
 The constraints are practical as well as technical: legacy systems can slow remediation, and response exercises need to test how teams work together. No operator can close every gap at once. AI may put more pressure on those limits.[2]
 
-If an external threat or internal agent can change a critical workflow faster than normal approvals, the board should ask whether the operator can detect the change, decide who can stop it, and contain it without extending service impact. That depends on Security, Network, IT, Operations, Procurement, Legal and business leaders making the decision together.
+If an external threat or internal agent can change a critical workflow faster than normal approvals, the board should ask whether the operator can detect and contain it without extending service impact. Who can stop the change? Security, Network, IT, Operations, Procurement, Legal and business leaders need to decide this together.
 
 ## Regulation does not assign operational ownership
 
@@ -64,7 +66,7 @@ Service providers already manage cybersecurity and privacy laws, communications-
 
 Compliance alone does not decide which agent may change a network configuration, what evidence is needed before its authority expands, or who accepts the residual risk when a supplier’s AI feature reaches a critical workflow. The executive accountable for the affected service should accept that risk against the operator’s stated appetite, with input from the workflow owner and CISO, and record the decision and rationale.
 
-Avoid two extremes: a separate AI process that duplicates governance but misses high-impact deployments, and the assumption that existing policies cover every new capability. Extend security, architecture, change-management and supplier-risk processes to cover machine identities, delegated authority, data access, autonomy and reversibility. Operators cannot wait for certainty. They can still identify each use’s owner and impact, and define evidence required before its authority expands.
+Extend security, architecture, change-management and supplier-risk processes to cover machine identities, delegated authority, data access, autonomy and reversibility. Operators cannot wait for certainty. They can still identify each use’s owner and impact, and define evidence required before its authority expands.
 
 ## Set boundaries before expanding use
 
