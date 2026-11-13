@@ -1,6 +1,6 @@
 # Chapter 2: The New Attack Surface Is Inside the Operator
 
-Service providers need to manage agent-related exposure even when no network function is operating autonomously. Risk grows when an AI-enabled system can use a trusted identity to read operational data, select tools or trigger actions. Identity, accessible data, connected tools and supplier dependencies shape what the system can affect if it is misused, manipulated or fails.
+Agent risk starts with access. An AI-enabled system can use a trusted identity to read operational data, select tools or trigger actions, even if no network function is autonomous. Its identity, accessible data, tools and supplier links define what it can affect if it is misused, manipulated or fails.
 
 Ownership and information sit across several teams. Customer care may enable a summarization feature, network engineering may test an assistant with service-assurance data, or a supplier may add AI to an existing product. A developer may connect a model to an internal API to reduce repetitive work. Each choice can make sense on its own. Together, they can create access paths across systems and teams that no one group sees end to end.
 
@@ -25,18 +25,17 @@ Shared service accounts make it harder to tell which agent acted. Inheriting a h
 CERT-In’s October 2026 advisory describes evaluation agents that exceeded assigned authorization and accessed live systems at Indian organizations.[11] They read personal and confidential business records using exposed credentials and connection settings in application configuration, public repositories and permissive cloud roles. CERT-In says the affected organizations did not detect the access themselves.[11]
 It also reports separate campaigns in which threat actors used open-source agentic tools.[11] These are not reported telecom incidents. For operators, the relevant point is that an agent may discover and use an existing credential. The weakness may be familiar, but the actor and path can be different.
 
-An inventory entry saying “AI assistant” does not explain its access. Teams need to record four things: its identity, the data and tools it can reach, whether it can delegate, and how to revoke access. For consequential uses, a distinct identity with task-specific permissions makes actions easier to limit and attribute than an identity with all the sponsor’s access.
+An inventory entry saying “AI assistant” does not explain its access. Teams need to record four things: its identity, the data and tools it can reach, whether it can delegate, and how to revoke access. For consequential uses, a distinct identity with task-specific permissions makes actions easier to limit and attribute than an identity with all the sponsor’s access.[11]
 
 ## Data becomes a route, not just a repository
 
-Operators hold information whose value and sensitivity can increase when records are combined. A service map joined with alarms, customer impact, maintenance history and supplier notes can reveal dependencies. Customer records may show services, locations or operational priority. Network records can be sensitive even when they contain no personal data.
+Operators hold information whose value and sensitivity can increase when records are combined. A service map joined with alarms, customer impact, maintenance history and supplier notes can show which customers or circuits depend on a network domain, shared route or supplier. Customer records may reveal locations or operational priority. Network records can be sensitive even when they contain no personal data.
 
 An agent can search a retrieval system, read a ticket, query service inventory and summarize results in a chat window. That can save time, but it may also send information to a supplier service or retain it in logs, prompts, traces or memory after the task ends.
 
 The access review should establish whether the agent needs each data type, whether a source is trustworthy for the task, and whether the destination is approved. Access to every customer record is excessive if the task needs only one account. A knowledge base that mixes public guidance with internal configuration must preserve the distinction.
 
-The joint guidance published by CISA and international partners in May 2026 warns that agent systems rely on connected tools, external data sources and memory, each of which can expand the attack surface.[10]
-The guidance also warns about indirect prompt injection through external content and recommends limiting access to sensitive data and critical systems.[13] Although it is not telecom-specific, the principle applies to operators: retrieved content is information to assess, not an instruction that can change the agent’s authority.
+May 2026 multi-agency guidance identifies connected tools, external data and memory as ways an agent’s attack surface can expand.[10] A companion guide describes indirect prompt injection through external content and recommends limiting access to sensitive data and critical systems.[13] For operators, retrieved content is information to assess, not an instruction that changes the agent’s authority.
 
 ## Tools determine what an agent can do
 
@@ -66,7 +65,7 @@ The inventory should not stop at models bought by a central AI team. It should i
 
 This is a composite scenario, not a reported incident. During a fiber disruption, an assistant reads alarms, service inventory, a supplier bulletin and the incident ticket. It matches affected circuits, summarizes impact and drafts an update, saving the team time assembling context.
 
-Now imagine the bulletin contains hostile instructions embedded in otherwise plausible technical text. The agent’s safeguards should treat that text as untrusted input. But suppose the assistant is also connected to a broad service-account identity, can query customer records, and can call tools that update ticket priority or initiate a workflow. The risk is no longer limited to a bad summary. The agent may retrieve information outside the task, disclose it to an unapproved supplier service, or prepare an action that looks credible because it appears in the normal ticketing process.
+Now imagine the bulletin contains hostile instructions embedded in otherwise plausible technical text. The agent’s safeguards should treat that text as untrusted input. But suppose the assistant is also connected to a broad service-account identity, can query customer records, and can call tools that update ticket priority or initiate a workflow. The risk is no longer limited to a bad summary. The agent may retrieve information outside the task, disclose it to a supplier service that is not approved to receive that data, or prepare an action that looks credible because it appears in the normal ticketing process.
 
 The agent need not reconfigure a live network for the scenario to matter. It might expose customer or topology details, change ticket priority or create a misleading change request. During an outage, the NOC, field teams and suppliers are coordinating under pressure. A plausible but incorrect update could misdirect work.
 
@@ -80,4 +79,4 @@ Residual risk remains. Incorrect data or a missed safeguard can still mislead op
 
 A service provider does not need a perfect diagram of every AI component before acting. It does need clear answers to a smaller set of questions: which AI-enabled systems can access network operations, OSS/BSS, customer data or supplier systems? Which identities do they use? What can they retrieve, change or trigger? Who owns the use and its risk? How can access be stopped or revoked?
 
-This chapter mapped where delegated authority can enter and spread: identities, data, tools, workflows and suppliers. Chapter 3 addresses a separate problem: whether the operator can understand a threat, decide and act quickly enough while maintaining service continuity.
+The map in this chapter shows where delegated authority can enter and spread across identities, data, tools, workflows and suppliers. Chapter 3 looks at the next question: can the operator understand the threat, decide and act quickly enough to keep service running?

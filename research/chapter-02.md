@@ -26,6 +26,8 @@ This cycle searched for evidence published in the previous 12 months (13 Novembe
 - Cycle 4 edits: removed the repeated attack-surface summary from the opening, clarified that agent risk exists without autonomous network operations, and added the OT-scope caveat and relevant fail-safe guidance.
 - Cycle 7 review (13 Nov 2026): searched current official and telecom sources; no new primary item materially improved the chapter’s inventory, identity, data and tool argument. Existing sources remain within the 12-month window or are explicitly marked as current consultation material.
 - Cycle 7 edits: tightened the opening by removing a repeated model/identity sentence and split the composite scenario’s dense control paragraph into clear controls, exercise verification and residual-risk ownership. Grok’s claims that February/October 2026 sources were future-dated were checked against the review date and source pages; they are not future-dated.
+- Cycle 11 review (13 Nov 2026): a new official-source search surfaced no additional primary evidence that materially improves the attack-surface argument. Reused the October 2026 CERT-In advisory already in the chapter to support its recommendation for separate, short-lived agent identities with least privilege.
+- Cycle 11 edits: made the opening more direct, specified the dependency types that joined operator records can reveal, reduced repeated attribution language around the two CISA/partner sources, clarified the destination-data issue in the composite scenario, and made the Chapter 3 handoff more conversational. No new incident or operator practice was invented.
 
 ## Self-critique
 
