@@ -26,6 +26,8 @@ Chapter 4 turns the book’s earlier findings into a sequenced, operator-owned 1
 - Cycle 2 edits: made the opening more concrete about the path from OSS query to operational action, specified identity/data/tool and approval questions, varied repetitive sentence openings, and moved ownership ahead of the supplier-feature decision. Consolidated the TRAI draft citation without changing its consultation-only status.
 - Cycle 5 review (13 Nov 2026): rechecked recent official and primary guidance; no new source materially improved the four-move sequence. Existing TRAI, CISA/partner and Canadian Cyber Centre evidence remains within scope and is appropriately caveated.
 - Cycle 5 edits: made the process-integration point concrete by asking where agent identities, tools or supplier features fall outside current controls; merged repeated access-tracing and revocation guidance into one test; tightened the Move 1-to-Move 2 transition; and removed slide-like bolding from an executive-review sentence.
+- Cycle 8 review (13 Nov 2026): current-source search found no new primary guidance that materially changes the four moves. Rechecked the disputed TRAI date against the regulator's press release and consultation entry: both give 30 October 2026, before the 13 November review date; the document remains clearly labeled as a draft.
+- Cycle 8 edits: made live-service/network-domain impact the explicit first sorting criterion in Move 1 and converted the Move 4 roadmap list into shorter decisions about accountable owners, milestones, dependencies, maintenance limits and the required leadership decision.
 
 ## Self-critique
 

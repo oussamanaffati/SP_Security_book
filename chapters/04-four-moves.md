@@ -12,7 +12,7 @@ A model list does not show what the system can do. AI may arrive as a feature in
 
 Two questions frame the work: where can AI reach the operator’s systems or data, and what actions can it take? A review can draw on Network Operations, IT, security, architecture, customer care, procurement, privacy and key suppliers. Its scope can include pilots, SaaS features and automation, even when no one calls them AI.
 
-Potential starting points include OSS/BSS, service assurance, network management, customer identity, field operations, cloud control planes and supplier access. The priority depends on the services at risk. A customer-care summary tool has a different service impact from an assistant that can reach network configuration or subscriber records.
+Prioritize by the live services and network domains an AI use can affect, not by model type. Potential starting points include OSS/BSS, service assurance, network management, customer identity, field operations, cloud control planes and supplier access. A customer-care summary tool has a different service impact from an assistant that can reach network configuration or subscriber records.
 
 A short record can capture the owner and purpose, model or supplier, identity, data and tools. It can also note affected services, available logs, fallback, relevant markets and who can suspend the use. Record unresolved questions rather than marking them complete.
 
@@ -62,9 +62,9 @@ The rehearsal shows the CISO and CTO what worked, what was unclear and which ser
 
 ## Move 4: A funded roadmap beats a collection of tools
 
-The first three moves reveal gaps in authority, control effectiveness and response. Leaders can use those findings to decide what to fund. A credible board paper names the service at risk, proposed work, owners, required resources and remaining risk.
+The first three moves reveal gaps in authority, control effectiveness and response. Leaders can use those findings to decide what to fund and what risk they can accept. A credible board paper names the service at risk, proposed work, required resources and remaining risk.
 
-A 12-month roadmap is easier to govern with three or four priorities. Each can name an executive owner, an operational lead, a milestone, supplier and legacy dependencies, maintenance-window limits and the decision needed from leaders. A board case is stronger when the cost of delay is clear in operator terms: customer-data exposure, reduced network control, slower containment, missed regulatory duties or loss of service.
+A 12-month roadmap is easier to govern with three or four priorities. For each, name an executive owner and an operational lead. Set milestones, dependencies on suppliers or legacy systems, maintenance-window limits and the decision leaders must make. A board case is stronger when the cost of delay is clear in operator terms: customer-data exposure, reduced network control, slower containment, missed regulatory duties or loss of service.
 
 Measures should show whether risk is changing, not how many tools were purchased. Useful indicators include named owners and data paths for high-impact uses, tested access revocation, clear containment authority, exercised service alternatives and closed exercise findings. A tool count can rise while access and response stay the same.
 
