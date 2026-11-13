@@ -4,7 +4,7 @@ For a service provider, a cyber incident is never only an IT problem. If a mobil
 
 Service providers are moving more workloads closer to users, often called edge computing.[5] New services need lower latency, and operators are looking for new revenue. Each move changes where data lives, which systems connect, and who is responsible for securing them.
 
-AI raises a different security question. Which systems can act, what authority do they have, and what happens if they make a mistake? Detection speed still matters. So does the ability to limit and reverse an action.
+With AI, the security question is not only what a system can detect. It is what it can access, what it can change, and whether the operator can stop and reverse an unsafe action.
 
 Operators are evaluating AI for customer care, service assurance, fraud management and internal operations. A tool that summarizes information has a different risk from one that can call other tools, change records or trigger a workflow. In service assurance, for example, access to alarms and tickets is not the same as authority to change a network configuration. Those actions can affect service continuity.
 
@@ -34,9 +34,9 @@ On 10 November 2026, CISA added a Cisco BroadWorks vulnerability (CVE-2026-20320
 
 Two days earlier, Malbear Labs published an account of an exposed operational workspace that it says documented a largely autonomous AI-enabled intrusion lasting more than two weeks. The researchers say the target was an unnamed European telecom provider and organizations hosted on its infrastructure. They describe a custom harness using a jailbroken DeepSeek model and say the agent exploited the BroadWorks flaw, adapted when tools were blocked, and continued with limited operator check-ins.[8]
 
-The evidence has different levels of confidence. CISA and Cisco confirm active exploitation of the BroadWorks flaw. Malbear Labs makes the link between that exploitation and the AI-enabled campaign; the official notices do not confirm it. The victim is unnamed, and the public sources reviewed here do not independently confirm every reported outcome. The operational lesson is still important: a known, patchable weakness in a carrier platform can create an entry point. Malbear Labs says an operator directed the reported activity while an agent carried out much of it. That account deserves attention, but it should not be presented as independently confirmed fact.
+The evidence is clear on some points and limited on others. CISA and Cisco confirm active exploitation of the BroadWorks flaw. Malbear Labs links it to the AI-enabled campaign; the official notices do not confirm that link. The victim is unnamed, and the public sources reviewed here do not independently confirm every reported outcome. The confirmed vulnerability still matters to operators: a known, patchable weakness in a carrier platform can create an entry point. Malbear Labs says an operator directed the reported activity while an agent carried out much of it. Treat that description as a research claim, not an official finding.
 
-Resilience is not a product you install. The Singapore response depended on operators notifying authorities, then coordinating containment, investigation and monitoring. That takes relationships, clear escalation paths and decisions made before all the facts are known. Those capabilities cannot be bought once an incident is under way.
+The Singapore response depended on operators notifying authorities and coordinating containment, investigation and monitoring. Those links and escalation paths need to be clear before an incident. They cannot be improvised once the response is under way.
 
 ## AI changes who can act
 
@@ -46,7 +46,7 @@ Consider a service-assurance assistant. It may begin by summarizing a ticket, th
 
 Joint guidance published in May 2026 by Australia’s cyber security center and partner agencies, including CISA, NSA and the UK NCSC, warns about privilege, identity, structural and accountability risks in agentic AI. The agencies recommend using existing security frameworks, beginning with low-risk tasks, avoiding broad access to critical systems, and keeping oversight and visibility.[3] This guidance is not telecom-specific. Its message matters even more where a company operates customer services alongside network and operational processes.
 
-An agent may act faster than the review process around it. It may inherit a service account’s permissions or use a supplier tool whose risk has changed. Without reliable logs, its actions may look routine. Operators need to know which identity acted, what authority it used, and whether controls actually limited the action. These governance questions have direct operational consequences.
+An agent may act faster than the review process around it. It may inherit a service account’s permissions or use a supplier tool whose risk has changed. Without reliable logs, its actions may look routine. For high-impact uses, assurance should test that permissions match the task, logs capture tool calls, and revocation works without interrupting service.
 
 AI can also arrive through a supplier feature or a software update, not just through a project called “AI.” One team enables a capability. Another team owns the data it can reach. A vendor changes what happens behind an interface. Meanwhile, the asset and risk inventory may still show the old product name. That is the ground-level problem: authority and dependencies can change faster than the documentation.
 
@@ -62,7 +62,7 @@ The board-level question is whether hostile activity, combined with autonomous c
 
 Service providers already manage cybersecurity and privacy laws, communications-sector rules, resilience expectations, incident reporting, contractual duties and, in some markets, national-security requirements. In Europe, NIS2 brings electronic communications providers into a shared framework for cybersecurity risk management and incident reporting, implemented through national law.[4] The details vary by service and country. A multinational operator cannot assume that one compliance answer fits every market.
 
-Compliance alone does not decide which agent may change a network configuration, what evidence is needed before its authority expands, or who accepts the residual risk when a supplier’s AI feature reaches a critical workflow. These decisions need a named owner and a record of the rationale.
+Compliance alone does not decide which agent may change a network configuration, what evidence is needed before its authority expands, or who accepts the residual risk when a supplier’s AI feature reaches a critical workflow. The executive accountable for the affected service should accept that risk against the operator’s stated appetite, with input from the workflow owner and CISO, and record the decision and rationale.
 
 Avoid two extremes: a separate AI process that duplicates governance but misses high-impact deployments, and the assumption that existing policies cover every new capability. Extend security, architecture, change-management and supplier-risk processes to cover machine identities, delegated authority, data access, autonomy and reversibility. Operators cannot wait for certainty. They can still identify each use’s owner and impact, and define evidence required before its authority expands.
 
@@ -86,4 +86,4 @@ A CISO or CTO does not need to settle every technical question this quarter. Thr
 
 **Keep accountability in step with autonomy.** Name who approves each use, who owns the risk, what limits apply and how an unsafe action can be detected and reversed. Vendor assurance does not replace operator ownership.
 
-The aim is to help readers choose three or four priorities for the next twelve months and explain them credibly to the CEO and board. The first step is to understand where delegated authority can enter and how far it can reach. This chapter has explained why the risk is changing. Chapter 2 maps where that change lands: the operator’s systems, suppliers, data and workflows.
+A CISO or CTO can use these questions to choose three or four priorities for the next twelve months and explain them to the CEO and board. The first is to understand where delegated authority can enter and how far it can reach. Chapter 2 maps those systems, suppliers, data and workflows.

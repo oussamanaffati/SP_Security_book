@@ -39,3 +39,13 @@ This cycle treated “recent” as the previous 12 months (13 November 2025–13
 - Added the November 2026 BroadWorks/CVE-2026-20320 development as a carefully attributed example; retained the Singapore case to distinguish an official, AI-unattributed campaign from the separately reported AI-enabled case.
 - Improved the bridge: Chapter 1 explains why risk changed; Chapter 2 explicitly maps where this authority enters and reaches.
 - Hard self-critique: the revision is more direct and less polished-sounding, and it now has timely operator-specific urgency. The Malbear Labs story is dramatic and rests on the research group’s account of exposed materials; the public record reviewed here does not establish that every claimed consequence was independently validated. Attribution caveats must remain. More SP leader interviews would still improve the voice and regional texture.
+
+### Manuscript inline-citation key
+- [1] Singapore CSA/IMDA Operation CYBER GUARDIAN — https://www.csa.gov.sg/news-events/press-releases/largest-multi-agency-cyber-operation-mounted-to-counter-threat-posed-by-advanced-persistent-threat--apt--actor-unc3886-to-singapore-s-telecommunications-sector/
+- [2] ENISA NIS360 2026 — https://www.enisa.europa.eu/sites/default/files/2026-05/ENISA%20NIS360%202026.pdf
+- [3] ASD ACSC and partner agencies, Careful Adoption of Agentic AI Services — https://www.cyber.gov.au/business-government/secure-design/artificial-intelligence/careful-adoption-of-agentic-ai-services
+- [4] European Commission NIS2 policy page — https://digital-strategy.ec.europa.eu/en/policies/nis2-directive
+- [5] Cisco blog style reference — https://blogs.cisco.com/security/a-glimpse-into-cisco-mobile-infrastructure-security-developments
+- [6] CISA KEV entry for CVE-2026-20320 — https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog
+- [7] Cisco PSIRT BroadWorks advisory — https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt
+- [8] Malbear Labs Operation Snowball — https://malbearlabs.com/posts/operation-snowball-inside-an-autonomous-ai-intrusion-campaign
