@@ -1,6 +1,6 @@
 # Chapter 5: Board Decisions Before the Next Incident
 
-Board decisions are practical: which service-risk work comes first, who owns it, what capacity it needs and what residual risk directors are prepared to accept while the network changes.
+The board must decide what to fund first, who owns the work and what engineering or change capacity it requires. It must also decide what residual risk the operator will carry while the network changes and services continue.
 
 This is a business and service-continuity discussion, not a technology pitch. The board needs to understand possible effects on services, customers and regulatory obligations; what is known and unknown; and which decisions can reduce exposure over the next twelve months.
 
@@ -8,7 +8,7 @@ Chapter 4 set out four moves: identify AI-enabled workflows with material access
 
 ## Speak in service-provider consequences
 
-A stronger board conversation starts with the service, not the tool. A network operator may support emergency communications, payment services, public agencies, hospitals, major enterprises and consumers. The UK Cyber Governance Code notes that cyber incidents can disrupt business continuity and damage customer trust.[18]
+Board conversations are more effective when they begin with the service, not the tool. A network operator may support emergency communications, payment services, public agencies, hospitals, major enterprises and consumers. The UK Cyber Governance Code notes that cyber incidents can disrupt business continuity and damage customer trust.[18]
 Network criticality alone does not prove national impact. Name the services affected, their dependencies and likely consequences, and make clear where evidence is incomplete.
 
 Make the board statement concrete: name the service at stake, the system or workflow that could affect it, current access and controls, the proposed action and residual risk. If information is incomplete, say so and name the next step to close the gap. Do not make uncertainty sound more dramatic than the evidence supports.
@@ -19,7 +19,7 @@ If the operator relies on a legacy management platform, an external supplier or 
 
 ## Show why the board is part of the operating model
 
-The board is not there to choose a model or approve a firewall rule. It is there to set direction, risk appetite, ownership and assurance. The CISO and CTO should give directors a clear way to ask whether the operator’s controls match its service obligations.
+The board’s role is to set direction, risk appetite, ownership and assurance, not select a model or approve a firewall rule. The CISO and CTO should equip directors to ask whether controls match the operator’s service obligations.
 
 The UK government’s Cyber Governance Code of Practice recommends that boards agree senior ownership of cyber risks, align them with enterprise risk management, define risk appetite and gain assurance that resources address those risks.[18]
 The Code also recommends at least quarterly formal reporting with suitable metrics and tolerances, and at least annual incident exercises involving relevant internal and external stakeholders.[18]
@@ -31,7 +31,7 @@ That is a useful way to frame the ask: fund outcomes and evidence, not a collect
 
 For a multinational service provider, regulation needs the same discipline. Bring a short jurisdiction-by-jurisdiction view of applicable duties, reporting thresholds, accountable owners and dates. Separate binding requirements from consultations or emerging guidance. TRAI’s October 2026 AI guidelines are a draft consultation, not a final rule.[9]
 The draft offers a telecom-specific governance signal: it proposes board approval of an internal AI policy and a board-approved committee to oversee implementation for covered entities.[9] That proposal is not a current obligation for every operator. It does sharpen a useful board question: which existing body owns AI-related service risk, and what evidence does it review?
-Tell directors that a regulator requires something only when the rule is in force and applies to that entity. They need to know what is binding, what is changing, and who is tracking the difference.
+Describe something as a regulatory requirement only when it is in force and applies to the entity. Directors need to know what is binding, what is changing, and who is tracking the difference.
 
 ## Bring evidence the board can test
 
@@ -43,13 +43,15 @@ Next, report the access boundaries. Which priority identities are separate from 
 
 Then report what the exercise revealed. Did the SOC know who could revoke the identity? Did the NOC know what service might lose visibility? Could the operator move to an alternative mode? Were legal, customer and supplier contacts available? Report decision gaps and whether owners closed them. An exercise without corrective action is an event, not assurance.
 
-Finally, set out the roadmap and its constraints. Security work competes for engineers, maintenance windows and supplier capacity. Put those dependencies beside the milestone. If a control must wait for a platform upgrade, state the interim measure and who accepts the remaining risk. If a regulatory deadline changes the sequence, show the date and accountable owner.
+Finally, set out the roadmap and its constraints. Security work competes for engineers, maintenance windows and supplier capacity. Put those dependencies beside the milestone. If a control must wait for a platform upgrade, state the interim measure and who accepts the remaining risk.
 
-Do not bring a dashboard of unexplained red, amber and green indicators. Define each measure and the decision it should trigger. Measures should show whether exposure is better controlled: named owners for priority uses, successful access-revocation and fallback tests, and overdue remediation or risks past their review date. More deployments do not mean better security.
+For a critical workflow that depends on a metered AI service, show how token consumption could affect cost, performance and availability.[21] State what fallback remains if the service is degraded or unavailable. If a regulatory deadline changes the sequence, show the date and accountable owner.
+
+A red, amber and green dashboard is useful only if each measure is defined and linked to a decision. Measures should show whether exposure is better controlled: named owners for priority uses, successful access-revocation and fallback tests, and overdue remediation or risks past their review date. More deployments do not mean better security.
 
 ## Ask for decisions, not general support
 
-“Please support our cybersecurity program” is not a decision. Ask for the choices the board can actually make.
+“Continued support” is not a decision request. Put a specific choice in front of the board.
 
 1. **Approve the priorities.** Confirm the three or four outcomes the operator will pursue over the next twelve months, starting with services and workflows that carry the greatest consequence.
 2. **Name accountable owners.** Give each move an executive sponsor and an operational lead across security, network, IT, procurement or service continuity as required.
@@ -58,7 +60,7 @@ Do not bring a dashboard of unexplained red, amber and green indicators. Define 
 
 The investment case should state what the money buys. It cannot guarantee that an incident will not happen. It should improve the operator’s ability to see consequential uses, restrict unnecessary authority, respond safely, meet applicable duties and restore services. Some costs are people and change capacity, not software. Directors should understand both the risk the plan is meant to reduce and the work it will displace.
 
-If Finance and Operations can substantiate a loss range, show the assumptions. If they cannot, say so and explain the service impact, response dependency and regulatory exposure without assigning them a false price. The decision remains real: invest now, accept the residual risk, or choose a different sequence.
+If Finance and Operations can substantiate a loss range, show the assumptions. If they cannot, say so and explain the service impact, response dependency and regulatory exposure without putting an unsupported monetary value on them. The decision remains real: invest now, accept the residual risk, or choose a different sequence.
 
 ## A composite board illustration
 
@@ -72,7 +74,7 @@ The following is a composite illustration, not a real board exchange. A provider
 
 The exchange gives the board evidence, a decision and a point at which to check progress, without promising zero risk or predicting an outage.
 
-## Language that weakens the case
+## Keep the case defensible
 
 Do not treat compliance as proof that a service will recover, or request a platform without naming the control gap it would close. “Zero risk” and “future-proof” are not credible commitments for networks that depend on legacy systems, suppliers and continuous service.
 
