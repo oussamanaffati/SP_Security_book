@@ -1,6 +1,6 @@
 # Chapter 4: Four Moves for Service Providers in the Next 12 Months
 
-AI changes the risk. Agents can add new authority inside the operator, while some threats may move faster than a provider can safely respond. Leaders must reduce that exposure without putting service continuity at risk.
+AI changes the risk. Agents can add new authority inside the operator, while some threats may move faster than a provider can safely respond. The task is to reduce that exposure while preserving service continuity.
 
 An entirely separate AI security program may not be needed. Existing security, network, architecture, supplier and change processes cover much of this work. The key questions are where AI can act, what authority it needs, how teams will rehearse a response and what gaps remain.
 
@@ -10,7 +10,7 @@ No sequence will eliminate risk. The aim is to test controls and make residual r
 
 A model list does not show what the system can do. AI may arrive as a feature in a network-management product, customer-service platform or supplier portal. The feature may use a supplier identity to read service data or trigger a workflow. The product may keep the same name.
 
-Two questions frame the work: **Where can AI reach our systems or data? What actions can it take?** A review can draw on Network Operations, IT, security, architecture, customer care, procurement, privacy and key suppliers. Its scope can include pilots, SaaS features and automation, even when no one calls them AI.
+Two questions frame the work: where can AI reach the operator’s systems or data, and what actions can it take? A review can draw on Network Operations, IT, security, architecture, customer care, procurement, privacy and key suppliers. Its scope can include pilots, SaaS features and automation, even when no one calls them AI.
 
 Potential starting points include OSS/BSS, service assurance, network management, customer identity, field operations, cloud control planes and supplier access. The priority depends on the services at risk. A customer-care summary tool has a different service impact from an assistant that can reach network configuration or subscriber records.
 
@@ -23,9 +23,9 @@ The document is a consultation draft, not a final rule.[9]
 
 The draft does not prescribe a global inventory. It highlights a practical gap: supplier features and product capabilities can escape the project register. Legal and Compliance can confirm what applies in each market.
 
-Start by reviewing uses that could affect a critical service or sensitive data. Project, procurement, cloud and supplier records can help identify them. Workflow owners can fill in the gaps.
+One practical starting point is to review uses that could affect a critical service or sensitive data. Project, procurement, cloud and supplier records can help identify them. Workflow owners can clarify the gaps.
 
-**Composite scenario: supplier feature.** A network-management supplier enables an AI diagnostic feature during a routine update. It is missing from the operator’s project list, but can read topology and propose actions. A review links the feature to its contract, service domain, identity and change process. The first decision need not be to ban it. The team needs a clear owner and evidence about its reach.
+**Composite scenario: supplier feature.** A network-management supplier enables an AI diagnostic feature during a routine update. It is missing from the operator’s project list, but can read topology and propose actions. A review links the feature to its contract, service domain, identity and change process. Before deciding whether to restrict or retain it, the team establishes a clear owner and evidence about its reach.
 
 Seeing an important use tells the team where to focus. It does not show whether the agent has more authority than its task requires.
 
@@ -35,7 +35,7 @@ A system that summarizes public guidance is not the same as an agent that can re
 
 The boundary comes down to three things: the data an agent can read, the actions it can take, and how to stop it without stopping the surrounding service.
 
-Where the platform allows it, the agent can use a dedicated identity rather than an employee account or broad shared-service permissions. Access can be limited to the data and tools needed for the task. Time-bounded credentials may help. Logs should show which identity acted, what tool it called and what happened.
+Where the platform allows it, the agent can use a dedicated identity rather than an employee account or broad shared-service permissions. Access can be limited to the data and tools needed for the task. Short-lived or just-in-time credentials may help. Logs should show which identity acted, what tool it called and what happened.
 
 The control matters only if it works in practice. Can the team trace activity and revoke access without disrupting monitoring or service assurance? These are tests of control effectiveness, not questions answered by policy wording.
 
@@ -77,7 +77,7 @@ Assurance means showing that controls work under the operator’s service condit
 
 Regulation belongs in this roadmap, but it need not delay action. Legal and Compliance can track binding obligations by market and separate them from consultation drafts. Where duties overlap with identity, supplier assurance, incident reporting or continuity, existing governance may be enough. A separate AI approval board is not always needed.
 
-**At an executive review,** the CISO and CTO can present the priorities, owners, service constraints and evidence gaps. The request might be funding for an identity boundary, time for a continuity test, and regular review of outcomes and residual risk. The paper can make clear what risk leadership accepts until later work is complete.
+**At an executive review,** the CISO and CTO can present the priorities, owners, service constraints and evidence gaps. The request might be funding for an identity boundary, time for a continuity test, and regular review of outcomes and residual risk. The paper should identify which accountable service executive accepts the remaining risk until later work is complete.
 
 **Composite scenario: funding decision.** An exercise finds that a supplier identity can reach two operational domains and that one service fallback is untested. The supplier’s patch schedule delays the permanent fix until an agreed window. The CISO and CTO present linked choices: fund an interim identity boundary, test continuity with Network Operations, and name who accepts the residual risk until then. The board sees the trade-off, not just a product request.
 
