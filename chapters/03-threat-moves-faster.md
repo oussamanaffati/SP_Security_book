@@ -18,7 +18,7 @@ The bulletin is not telecom-specific. It shows how quickly an adversary may move
 CERT-In reported a related pattern in October 2026. In a financially motivated campaign against Indian entities, the agency said agentic tooling compressed the time from initial access to impact from days to a few hours. It also reported parallel agent operations and repeat attacks within days when remediation was incomplete.[11]
 These observations do not establish a universal attacker timeline. They do show why waiting for the next maintenance window may be unsafe when exploitation is confirmed.
 
-The important point is not simply faster scanning. It is the shrinking interval between one step and the next. A stolen identity can be reused. A tool can search broadly. A partial fix can leave another route open. When the attacker can repeat actions quickly, defenders may need to contain first and understand fully in parallel.
+The important point is not simply faster scanning. It is the shrinking interval between one step and the next. A stolen identity can be reused. A tool can search broadly. A partial fix can leave another route open. When an attacker can repeat actions quickly, responders may need to contain the immediate path while continuing to investigate.
 
 Detection and response are different capabilities. A dashboard can show an event, but people still need authority and context to decide whether to revoke an identity, isolate a host, block a supplier connection or keep a service running in reduced mode.
 
@@ -72,13 +72,13 @@ A prepared organization does not ask the SOC analyst to resolve this alone. The 
 
 The first action might be to revoke a scoped token and pause the affected automation, not shut down an entire management environment. If that is not enough, a defined escalation path can authorize a broader isolation and the corresponding service fallback. The decision, evidence and service impact are logged. The NOC confirms what continues to work. The SOC checks whether the hostile activity has stopped and whether another identity or path remains active.
 
-No playbook can answer every incident. Pre-agreed choices can speed the first decision while accounting for availability. Actions must reflect the operator’s architecture and service obligations; another company’s playbook cannot tell it which system is safe to stop.
+Pre-agreed choices cannot cover every incident, but they can speed the first decision without ignoring availability. Actions must reflect the operator’s architecture and service obligations. A playbook from another company cannot identify which local system is safe to stop.
 
 ## Use automation where its impact is bounded
 
 AI can help defenders assemble incident context and identify relevant systems, runbooks and teams. These tasks can save time without granting authority to make a network-impacting decision.
 
-Some actions can be automated when their scope is narrow, their effect is understood, and they can be reversed or recovered. For example, an operator might pre-authorize revocation of a short-lived credential tied to one agent run, with a NOC alert and a recorded reason. A named owner should decide actions that could affect customers or network continuity. Automated actions should stay within limits the operator has tested and accepted.
+Some actions can be automated when their scope is narrow, their effect is understood, and they can be reversed or recovered. For example, an operator might pre-authorize revocation of a short-lived credential tied to one agent run, with a NOC alert and a recorded reason. A named service owner should decide actions that could affect customers or network continuity, and accept any temporary service impact. Automated actions should stay within tested limits that leadership has accepted.
 
 Defenders do not need proof that a specific intrusion used AI before preparing for shorter timelines. Response plans should reflect what the activity can do, how quickly it can move, and what the operator must keep running.
 
