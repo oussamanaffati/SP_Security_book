@@ -8,8 +8,8 @@ Chapter 2 asked where exposure can enter and spread. This chapter asks a differe
 
 ## The clock is getting shorter, but not every attack is autonomous
 
-AI has made some parts of cyber operations easier.[14]
-It can help search for exposed systems, test credentials, explore access and coordinate tasks.[14]
+AI has already made it easier to find weaknesses, develop malicious code and target many organizations at once.[14]
+Agentic AI goes further by linking separate stages of an attack with less human direction.[14]
 That does not mean every attacker is using an agent, or that every attack now unfolds at machine speed.[14]
 We need to be precise.
 
@@ -50,7 +50,7 @@ That is a reporting timeline, not a measurement of how long the company took to 
 Establishing the full scope took sustained work across the operator and government investigators.
 
 The customer response had its own operational demands. In its preliminary findings, the Ministry encouraged subscribers to replace their USIM cards or use a protection service, and urged the operator to expand service channels and add a reservation system so more customers could be protected promptly.[16]
-This was a data breach, not an example of a network outage. It shows how an incident can create a second workload: protecting customers, handling enquiries and changing business operations while the technical investigation is still under way.
+These reports are useful here for their breach-response timeline, not as an example of a network outage. They show how an incident can create a second workload: protecting customers, handling enquiries and changing business operations while the technical investigation is still under way.
 
 There is no single clock. The initial signal, statutory notification, technical scoping and customer protection each have different owners and deadlines. If those responsibilities are not connected before an incident, the organization may be trying to create a response structure at the same time it is trying to contain an attacker.
 
