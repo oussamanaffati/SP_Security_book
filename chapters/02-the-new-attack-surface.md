@@ -1,8 +1,6 @@
 # Chapter 2: The New Attack Surface Is Inside the Operator
 
-Service providers need to manage agent-related exposure even when no network function is operating autonomously. Risk grows when an AI-enabled system can use a trusted identity to read operational data, select tools or trigger actions.
-
-The model is only one part of the assessment. The AI-enabled system’s identity, data access, tools and supplier dependencies determine what it can affect if it is misused, manipulated or fails.
+Service providers need to manage agent-related exposure even when no network function is operating autonomously. Risk grows when an AI-enabled system can use a trusted identity to read operational data, select tools or trigger actions. Identity, accessible data, connected tools and supplier dependencies shape what the system can affect if it is misused, manipulated or fails.
 
 Ownership and information sit across several teams. Customer care may enable a summarization feature, network engineering may test an assistant with service-assurance data, or a supplier may add AI to an existing product. A developer may connect a model to an internal API to reduce repetitive work. Each choice can make sense on its own. Together, they can create access paths across systems and teams that no one group sees end to end.
 
@@ -72,7 +70,11 @@ Now imagine the bulletin contains hostile instructions embedded in otherwise pla
 
 The agent need not reconfigure a live network for the scenario to matter. It might expose customer or topology details, change ticket priority or create a misleading change request. During an outage, the NOC, field teams and suppliers are coordinating under pressure. A plausible but incorrect update could misdirect work.
 
-Controls should match the task and service impact. A short-lived identity and access limited to relevant alarms, service records and ticket data reduce unnecessary reach. Tool calls can pass through an approved gateway. Low-impact ticket updates may be allowed within tested limits; changes that can affect network state should follow the normal change process. Logs should identify the agent and its tool calls, supplier content should remain separate from trusted instructions, and access should be revocable without disrupting assurance. A service exercise can verify this: trace a sample action from identity to tool and result, revoke access, then confirm the fallback still works. Residual risk remains: incorrect data or a missed safeguard could still mislead operators. The executive accountable for the service should accept that risk against the operator’s appetite only after tests show the controls work and recovery is within service tolerance.
+Controls must match the task and service impact. Use a short-lived identity with access only to relevant alarms, service records and ticket data. Route tool calls through an approved gateway. Tested low-impact ticket updates may be allowed; changes that affect network state should remain in the normal change process. Log the agent identity and its tool calls. Keep supplier content separate from trusted instructions, and test that access can be revoked without disrupting service assurance.
+
+A service exercise can check the full path: trace an action from identity through tool call to result, revoke access, then confirm that the fallback still works.
+
+Residual risk remains. Incorrect data or a missed safeguard can still mislead operators. The executive accountable for the service should accept that risk against the operator’s appetite only after tests show that the controls work and recovery meets service tolerance.
 
 ## Establish visibility and ownership
 

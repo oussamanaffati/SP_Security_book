@@ -24,6 +24,8 @@ This cycle searched for evidence published in the previous 12 months (13 Novembe
 - Evidence limits: recent public evidence for operator-specific agent security is still thinner than general agentic-AI guidance. The TRAI paper is draft consultation text, the CERT-In cases are not identified as telecom incidents, and TM Forum’s operator descriptions are reported examples. The chapter states these limits where relevant and avoids claiming universal maturity or current incident patterns.
 - Cycle 4 research (13 Nov 2026): searched current official guidance and found the December 2025 CISA/ASD/partner OT integration principles. Added it only to support the scoped point about human oversight, existing security processes and fail-safes when an operator system is within the OT domain. The source is less than 12 months old; it is not applied as a blanket rule to telecom networks.
 - Cycle 4 edits: removed the repeated attack-surface summary from the opening, clarified that agent risk exists without autonomous network operations, and added the OT-scope caveat and relevant fail-safe guidance.
+- Cycle 7 review (13 Nov 2026): searched current official and telecom sources; no new primary item materially improved the chapter’s inventory, identity, data and tool argument. Existing sources remain within the 12-month window or are explicitly marked as current consultation material.
+- Cycle 7 edits: tightened the opening by removing a repeated model/identity sentence and split the composite scenario’s dense control paragraph into clear controls, exercise verification and residual-risk ownership. Grok’s claims that February/October 2026 sources were future-dated were checked against the review date and source pages; they are not future-dated.
 
 ## Self-critique
 
