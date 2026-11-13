@@ -1,6 +1,6 @@
 # Chapter 5: Board Decisions Before the Next Incident
 
-A CISO does not earn board support by saying AI is important. Directors need to set priorities, name accountable owners, fund the work and decide what residual risk they are prepared to accept while the network continues to change.
+Board decisions are practical: which service-risk work comes first, who owns it, what capacity it needs and what residual risk directors are prepared to accept while the network changes.
 
 This is a business and service-continuity discussion, not a technology pitch. The board needs to understand possible effects on services, customers and regulatory obligations; what is known and unknown; and which decisions can reduce exposure over the next twelve months.
 
@@ -8,8 +8,8 @@ Chapter 4 set out four moves: identify AI-enabled workflows with material access
 
 ## Speak in service-provider consequences
 
-Start with the service, not the tool. A network operator may support emergency communications, payment services, public agencies, hospitals, major enterprises and consumers. The UK Cyber Governance Code notes that cyber incidents can disrupt business continuity and damage customer trust.[18]
-The exact dependency varies by country and operator. Do not claim national impact just because a network is important. Identify which service or customer group depends on the system in question, and how an incident could affect them.
+A stronger board conversation starts with the service, not the tool. A network operator may support emergency communications, payment services, public agencies, hospitals, major enterprises and consumers. The UK Cyber Governance Code notes that cyber incidents can disrupt business continuity and damage customer trust.[18]
+The exact dependency varies by country and operator. Base any claim of national impact on specific service dependencies and likely consequences; network criticality alone does not establish it.
 
 A useful board statement covers five points: the service at stake; the system or workflow that could affect it; current access and controls; the proposed action; and the residual risk afterward. If information is incomplete, say so and name the next step to close the gap. Do not make uncertainty sound more dramatic than the evidence supports.
 
@@ -30,7 +30,8 @@ CISA describes the goals as a baseline for guiding investment, benchmarking prog
 That is a useful way to frame the ask: fund outcomes and evidence, not a collection of AI-branded products.
 
 For a multinational service provider, regulation needs the same discipline. Bring a short jurisdiction-by-jurisdiction view of applicable duties, reporting thresholds, accountable owners and dates. Separate binding requirements from consultations or emerging guidance. TRAI’s October 2026 AI guidelines are a draft consultation, not a final rule.[9]
-Do not tell the board “the regulator requires this” unless the requirement is in force and applies to that entity. The board needs to know what is binding, what is changing, and who is tracking the difference.
+The draft offers a telecom-specific governance signal: it proposes board approval of an internal AI policy and a board-approved committee to oversee implementation for covered entities.[9] That proposal is not a current obligation for every operator. It does sharpen a useful board question: which existing body owns AI-related service risk, and what evidence does it review?
+Tell directors that a regulator requires something only when the rule is in force and applies to that entity. They need to know what is binding, what is changing, and who is tracking the difference.
 
 ## Bring evidence the board can test
 
@@ -57,17 +58,17 @@ Do not bring a dashboard of unexplained red, amber and green indicators. Define 
 
 The investment case should state what the money buys. It cannot guarantee that an incident will not happen. It should improve the operator’s ability to see consequential uses, restrict unnecessary authority, respond safely, meet applicable duties and restore services. Some costs are people and change capacity, not software. Directors should understand both the risk the plan is meant to reduce and the work it will displace.
 
-Never invent a financial loss estimate to make the case sound stronger. If Finance and Operations can substantiate a range, show the assumptions. If they cannot, explain the service impact, response dependency and regulatory exposure without pretending those have a precise price. The decision is still real: invest now, accept the residual risk, or choose a different sequence.
+If Finance and Operations can substantiate a loss range, show the assumptions. If they cannot, say so and explain the service impact, response dependency and regulatory exposure without assigning them a false price. The decision remains real: invest now, accept the residual risk, or choose a different sequence.
 
 ## A composite board illustration
 
 The following is a composite illustration, not a real board exchange. A provider has reviewed several AI-enabled workflows. One assistant can read service alarms and draft recommendations. It cannot apply network changes, but it uses a supplier connection that has not yet been tested for isolation. A tabletop also shows that the NOC and SOC do not share a clear after-hours decision owner.
 
-**CEO:** “Are you telling us an AI agent will take down the network?”
+**CEO:** “If we isolate this supplier link during a fault, what operational visibility could we lose, and who can authorize the decision after hours?”
 
-**CISO:** “No. We have no evidence to make that claim. We have evidence that this workflow can read operational data, and we have not proved that its supplier path can be isolated without affecting visibility. Our exercise found a gap in who can authorize that step at night.”
+**CISO:** “We have not tested that isolation path. The assistant can read alarms and service data, but it cannot change network configuration. The exercise also found no clear after-hours decision owner. We will map the fallback and validate the isolation path before recommending a boundary.”
 
-**CTO:** “We are asking you to approve the first phase: assign the decision owner, test isolation and fallback in a controlled window, and fund the access review for the other high-impact workflows. At the next quarterly review, we will report the test result, the remaining risk and the next service domain in sequence.”
+**CTO:** “We need agreement on the decision owner and capacity for a controlled isolation and fallback test. We will also review the other high-impact workflows. At the next quarterly review, we can report the test result, remaining risk and proposed next priority.”
 
 That answer is credible because it is bounded. It does not promise zero risk or predict an outage. It gives the board evidence, a decision and a point at which to check progress.
 
