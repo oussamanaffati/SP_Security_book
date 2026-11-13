@@ -15,6 +15,8 @@ This cycle searched the previous 12 months (13 November 2025–13 November 2026)
 4. **MSIT, “MSIT Releases First Investigation Results on SKT Data Breach” (29 April 2025).** Primary preliminary government update. The Ministry encouraged customers to replace their USIM cards or use a protection service and urged SKT to expand service channels and add reservations so more customers could receive protection promptly. This is used to show the customer-facing and operational work that accompanies technical response, not to claim a service outage. Source [16]: https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1111&pageIndex=&sCode=eng&searchOpt=ALL&searchTxt=.
 5. **CERT-In Advisory CIAD-2026-0058, “Escalation of AI-Driven Attacks on BFSI Entities by Threat Actor ‘CRAFTY FALCON’” (original issue date 4 November 2026).** Primary CERT-In/CSIRT-Fin advisory update concerning Indian banking, financial services and insurance entities. It reports attacks timed to weekends, holidays and other low-monitoring windows, and re-targeting after incomplete remediation. The chapter uses only the off-hours point to frame a response-planning question; the campaign is not a telecom incident. Source [20]: https://cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0058&pageid=PUBVLNOTES02.
 
+6. **CISA, FBI and international partners, “Communicating Under Pressure: Best Practices for Service Providers” (published 2 September 2026).** Official guidance for service providers and critical-infrastructure operators. It recommends planning clear, timely, accurate and audience-appropriate outage communications while aligning messages with operational security, legal requirements, law-enforcement coordination and containment. It warns that service changes during an outage or defensive isolation require transparent communications, and that operators should plan backup communications if telecommunications become unreliable. The chapter uses it as response guidance, not as an incident report. Source [22]: https://www.cisa.gov/resources-tools/resources/communicating-under-pressure-best-practices-service-providers.
+
 ## Draft decisions and boundaries
 
 - Reframed response speed as an operating-model issue, not merely SOC alerting. The chapter separates detection, decision, safe action, continuity and recovery clocks.
@@ -25,6 +27,8 @@ This cycle searched the previous 12 months (13 November 2025–13 November 2026)
 - The chapter ends by moving from the problem of time and authority to Chapter 4’s four practical moves. Chapter 4 was not drafted.
 - Cycle 6 research (13 Nov 2026): checked current official incident guidance and added CERT-In Advisory CIAD-2026-0058 [20] for its reported weekend/holiday timing of an AI-assisted campaign against BFSI entities. Its scope is financial services, not telecom; no telco incident is inferred.
 - Cycle 6 edits: linked this evidence to off-hours authority and escalation, while keeping the reported October attack-speed evidence and its limitations distinct.
+- Cycle 10 research (13 Nov 2026): found and checked CISA/FBI/partner service-provider guidance published 2 September 2026. Added [22] for its direct advice on transparent outage communications, operational security and backup communication planning. It is guidance, not an incident report.
+- Cycle 10 edit: connected the customer-response timeline to a separate outage-communications workstream, explicitly noting that the CISA document does not describe the SK Telecom breach.
 
 ## Self-critique
 

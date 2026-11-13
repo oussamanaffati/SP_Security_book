@@ -1,6 +1,6 @@
 # Chapter 3: The Threat Moves Faster Than the Operator Can Respond
 
-An attacker does not need to defeat every security tool. It may be enough to move faster than the operator can authorize and carry out effective containment.
+The response gap is not only detection. An attacker can keep moving while the operator works out who may contain it without disrupting service.
 
 That is the challenge for a service provider. The SOC may see an alert, the NOC may know a planned change is underway, IAM may be able to revoke a credential, and a supplier may hold platform details. If no one knows who can authorize containment, time is lost while the network remains in service and the attacker may continue.
 
@@ -13,7 +13,7 @@ AI can support tasks such as finding weaknesses and targeting organizations. Age
 The Canadian Centre for Cyber Security’s October 2026 bulletin says attacks are not yet fully autonomous. Humans still choose targets, set objectives and oversee operations, while machines handle more work between those decisions. It describes activity attributed to Storm-0940 moving from target selection to privileged cloud access in under three hours.[14]
 This is not telecom-specific evidence. It shows how quickly an adversary can move through familiar weaknesses; it does not show that a telco has been attacked this way.
 
-CERT-In reported a related pattern in October 2026. In a financially motivated campaign against Indian entities, the agency said agentic tooling compressed the time from initial access to impact from days to a few hours. It also reported parallel agent operations and repeat attacks within days when remediation was incomplete.[11]
+CERT-In reported a related pattern in October 2026. In a financially motivated campaign against Indian entities, which the advisory does not identify as telecom operators, the agency said agentic tooling compressed the time from initial access to impact from days to a few hours. It also reported parallel agent operations and repeat attacks within days when remediation was incomplete.[11]
 
 On 4 November, CERT-In’s finance-sector response team said an AI-assisted campaign had timed attacks to weekends, holidays and other low-monitoring windows.[20] The advisory concerns financial services, not telecom, but supports testing off-hours decision authority and escalation.
 
@@ -29,14 +29,14 @@ Incident response is often described as a technical sequence: detect, investigat
 
 At the same time, the network cannot wait for every team to finish its analysis. Nor can the operator treat every system as disposable. A management platform may support several network domains. An identity may be shared across automation jobs. A supplier connection may be needed to restore a service even as the supplier helps investigate it. Availability changes the containment decision.
 
-A useful way to think about the gap is to separate four clocks:
+Separate four clocks:
 
 - **Detection:** How long before someone recognizes that the event may be malicious?
 - **Decision:** How long before an authorized person chooses a containment action?
 - **Action:** How long before teams execute it safely and confirm the result?
 - **Continuity and recovery:** How long before affected services can run safely again?
 
-A fast SOC does not guarantee a fast response if approval is slow. Quick isolation is not success if it breaks a critical workflow or removes telemetry needed to understand the incident. For each exercise, record time to detect, authorize, execute safely and restore service.
+A fast SOC does not guarantee a fast response if approval is slow. Quick isolation is not success if it breaks a critical workflow or removes telemetry needed to understand the incident. For each exercise, record time to detect, authorize, execute safely and restore service. The service owner should set tolerances for each clock before the exercise, based on continuity needs, safe containment options and applicable notification deadlines. One threshold will not fit every service domain.
 
 This is where NOC and SOC coordination matters. The SOC understands the evidence and the likely attack path. The NOC understands which systems are carrying live operations, what maintenance is in progress, and what a particular isolation could do to service. Neither view is sufficient alone. Each needs a clear route to the other, with someone empowered to decide when there is no time for a long discussion.
 
@@ -49,6 +49,8 @@ Establishing the full scope took sustained work across the operator and governme
 
 The customer response had its own operational demands. In its preliminary findings, the Ministry encouraged subscribers to replace their USIM cards or use a protection service, and urged the operator to expand service channels and add a reservation system so more customers could be protected promptly.[16]
 These reports describe a breach-response timeline, not a network outage. They show how an incident can create a second workload: protecting customers, handling enquiries and changing business operations while the technical investigation continues.
+
+For response planning, CISA, the FBI and international partners published service-provider guidance in September 2026 on clear, timely outage communications that preserve operational security and containment.[22] The guidance is not an incident report; it is relevant when containment itself changes service availability.
 
 There is no single clock. The initial signal, statutory notification, technical scoping and customer protection each have different owners and deadlines. If those responsibilities are not connected before an incident, the organization may be trying to create a response structure at the same time it is trying to contain an attacker.
 
@@ -84,7 +86,7 @@ Defenders do not need proof that a specific intrusion used AI before preparing f
 
 ## The question for leadership
 
-A CISO or CTO should be able to answer a few questions without assembling a committee during an incident. Who can authorize account, application or supplier isolation at night? Which actions are pre-approved? What service dependencies must be checked first? Who has authority to accept a temporary reduction in service? Who notifies regulators and customers while technical scoping continues? When was the fallback last tested?
+A CISO or CTO should be able to answer a few questions without assembling a committee during an incident. Which containment actions are pre-approved, and who can authorize a broader action after hours? Which service dependencies must be checked before isolating an identity or supplier connection? If isolation reduces service, who accepts that impact and sets the return-to-service criteria? Who handles regulator and customer notifications while technical scoping continues? When was the fallback last exercised?
 
 The answers show whether response speed is only a SOC metric or a capability across the operating model. Repeated debate about roles, service impact and approval will create avoidable delay. But a team acting without understanding what it may interrupt can turn containment into a service incident.
 
