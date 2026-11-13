@@ -1,25 +1,23 @@
 # Chapter 3: The Threat Moves Faster Than the Operator Can Respond
 
-The response gap is not only the time to detect an intrusion. It is the time needed to authorize a containment action without disrupting service.
+The response gap is not just detection time. It is also the time needed to authorize containment without disrupting service.
 
-The SOC may see an alert, the NOC may know a planned change is underway, IAM may be able to revoke a credential, and a supplier may hold platform details. These facts sit with different teams. Without a clear decision path, the attacker may retain access while the operator assesses service impact.
+The SOC may see an alert, the NOC may know a planned change is underway, IAM may be able to revoke a credential, and a supplier may hold platform details. Each team holds part of the picture. Without a clear decision path, the attacker may retain access while the operator assesses service impact.
 
 Chapter 2 mapped where exposure can enter and spread. The operator needs to detect activity, decide and act before the attacker reaches its next objective, without creating a second incident through unsafe containment.
 
 ## Threat activity can accelerate without being fully autonomous
 
-AI can support tasks such as finding weaknesses and targeting organizations. Agentic systems can link attack stages with less human direction.[14] That does not mean every attacker uses an agent or every attack unfolds at machine speed.
+AI can support tasks such as finding weaknesses and targeting organizations. AI agents can link attack stages with less human direction.[14] That does not mean every attacker uses an agent or every attack unfolds at machine speed.
 
 The Canadian Centre for Cyber Security’s October 2026 bulletin says attacks are not yet fully autonomous. Humans still choose targets, set objectives and oversee operations, while machines handle more work between those decisions. It describes activity attributed to Storm-0940 moving from target selection to privileged cloud access in under three hours.[14]
 This is not telecom-specific evidence. It shows how quickly an adversary can move through familiar weaknesses; it does not show that a telco has been attacked this way.
 
 CERT-In reported a related pattern in October 2026. In a financially motivated campaign against Indian entities, which the advisory does not identify as telecom operators, the agency said agentic tooling compressed the time from initial access to impact from days to a few hours. It also reported parallel agent operations and repeat attacks within days when remediation was incomplete.[11]
 
-On 4 November, CERT-In’s finance-sector response team said an AI-assisted campaign had timed attacks to weekends, holidays and other low-monitoring windows.[20] The advisory concerns financial services, not telecom, but supports testing off-hours decision authority and escalation.
+In a separate 4 November advisory, CERT-In’s finance-sector response team said an AI-assisted campaign had timed attacks to weekends, holidays and other low-monitoring windows.[20] The advisory concerns financial services, not telecom, but supports testing off-hours decision authority and escalation.
 
 These reports do not set a universal attacker timeline. When exploitation is confirmed, the operator should not assume it can wait for the next routine maintenance window; it needs a tested emergency path to a safe containment decision.
-
-The reported campaigns show that different stages can unfold within hours.[14][11] For an operator, compromised credentials or incomplete remediation can leave access open while teams scope the incident and authorize safe containment.
 
 Detection and response are different capabilities. A dashboard can show an event, but people still need authority and context to decide whether to revoke an identity, isolate a host, block a supplier connection or keep a service running in reduced mode.
 
@@ -38,11 +36,13 @@ Measure four response intervals:
 
 A fast SOC does not guarantee a fast response if approval is slow. Quick isolation is not success if it breaks a critical workflow or removes telemetry needed to understand the incident. For each exercise, record time to detect, authorize, execute safely and restore service. The service owner should set tolerances for each interval before the exercise, based on continuity needs, safe containment options and applicable notification deadlines. One threshold will not fit every service domain.
 
+CERT-In’s April 2026 advisory recommends tabletop exercises for five simultaneous incidents rather than a single incident, explicitly modelling AI-driven scenarios.[28] That recommendation is Indian cross-sector guidance, not a telco standard or universal target. For an operator, the test is whether NOC, SOC, IAM and service teams can still make timely, service-safe decisions when their attention is split.
+
 This is where NOC and SOC coordination matters. The SOC understands the evidence and the likely attack path. The NOC understands which systems are carrying live operations, what maintenance is in progress, and what a particular isolation could do to service. Neither view is sufficient alone. Each needs a clear route to the other, with someone empowered to decide when there is no time for a long discussion.
 
 ## The SK Telecom breach shows separate timelines
 
-The South Korean Ministry of Science and ICT’s investigation into the 2025 SK Telecom breach is a useful reminder that response includes more than containment. MSIT reports that SK Telecom detected abnormally large outbound traffic at 11:20 p.m. on 18 April 2025 and notified KISA at 4:46 p.m. on 20 April; the Ministry said this exceeded the statutory 24-hour reporting window.[15]
+The South Korean Ministry of Science and ICT’s investigation into the 2025 SK Telecom breach illustrates that response includes more than containment. MSIT reports that SK Telecom detected abnormally large outbound traffic at 11:20 p.m. on 18 April 2025 and notified KISA at 4:46 p.m. on 20 April; the Ministry said this exceeded the statutory 24-hour reporting window.[15]
 
 That is a reporting timeline, not a measurement of how long the company took to contain the intrusion. The distinction matters. The government’s public-private investigation team was established on 23 April and conducted forensic inspections across all 42,605 SK Telecom servers through 27 June. Its final findings identified 28 infected servers.[15]
 Establishing the full scope took sustained work across the operator and government investigators.
@@ -70,7 +70,7 @@ Consider a composite scenario, not a reported incident. During a planned mainten
 
 The threat is uncertain. The service impact is not. The operator now has to choose between waiting for more evidence, revoking the identity, or isolating the integration path and accepting reduced visibility while the incident is investigated. If the identity is compromised, each minute before revocation may leave an unauthorized access path open. If the operator disables too much, the response itself could hide faults or interfere with planned work.
 
-The SOC validates the evidence and identifies the access path. The NOC explains service dependencies and available fallback. The incident lead uses pre-agreed criteria to choose a bounded action. IAM or platform operations carries it out. The supplier provides technical facts, but does not make the operator’s risk decision. Customer, legal and regulatory leads work in parallel on impact and notification, rather than waiting for the forensic picture to be complete.
+The SOC validates the evidence and identifies the access path, while the NOC explains service dependencies and available fallback. The incident lead uses pre-agreed criteria to choose a bounded action; IAM or platform operations carries it out. The supplier provides technical facts but does not make the operator’s risk decision. Customer, legal and regulatory teams work in parallel on impact and notification, before the forensic picture is complete.
 
 The first action might be to revoke a scoped token and pause the affected automation, not shut down an entire management environment. If that is not enough, a defined escalation path can authorize a broader isolation and the corresponding service fallback. The decision, evidence and service impact are logged. The NOC confirms what continues to work. The SOC checks whether the hostile activity has stopped and whether another identity or path remains active.
 
