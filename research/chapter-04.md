@@ -14,6 +14,8 @@ Chapter 4 turns the book’s earlier findings into a sequenced, operator-owned 1
 
 4. **Canadian Centre for Cyber Security, “Cyber threat bulletin: Agentic artificial intelligence is accelerating cyber attacks” (date modified 26 October 2026).** Primary government guidance. It recommends practising for incidents that unfold within hours rather than days. Its critical-infrastructure advice includes pre-authorized isolation procedures, identifying essential functions, and testing safe manual or alternative operation. The chapter applies these recommendations to service-provider rehearsal while retaining local network authority and continuity constraints. The bulletin is not a telco incident report. Source [14]: https://www.cyber.gc.ca/en/guidance/cyber-threat-bulletin-agentic-artificial-intelligence-accelerating-cyber-attacks.
 
+5. **CISA, FBI and international partners, “Communicating Under Pressure: Best Practices for Service Providers” (published 2 September 2026).** Official service-provider guidance. It calls for clear, timely, accurate and audience-appropriate communications during IT/OT outages, aligned with operational security, legal requirements, law-enforcement coordination and containment. It notes that isolation or other availability changes require ongoing communication, and that critical-infrastructure operators should plan backup communications if telecommunications are disrupted or unreliable. The chapter uses it to reinforce communication roles in a response exercise, not as an incident report. Source [22]: https://www.cisa.gov/resources-tools/resources/communicating-under-pressure-best-practices-service-providers.
+
 ## Chapter decisions and boundaries
 
 - Sequenced the four moves as visibility, authority reduction, rehearsal, and funded governance. The order makes each move produce evidence the next can use, but obvious excess access should be reduced immediately rather than waiting for a complete inventory.
@@ -28,6 +30,8 @@ Chapter 4 turns the book’s earlier findings into a sequenced, operator-owned 1
 - Cycle 5 edits: made the process-integration point concrete by asking where agent identities, tools or supplier features fall outside current controls; merged repeated access-tracing and revocation guidance into one test; tightened the Move 1-to-Move 2 transition; and removed slide-like bolding from an executive-review sentence.
 - Cycle 8 review (13 Nov 2026): current-source search found no new primary guidance that materially changes the four moves. Rechecked the disputed TRAI date against the regulator's press release and consultation entry: both give 30 October 2026, before the 13 November review date; the document remains clearly labeled as a draft.
 - Cycle 8 edits: made live-service/network-domain impact the explicit first sorting criterion in Move 1 and converted the Move 4 roadmap list into shorter decisions about accountable owners, milestones, dependencies, maintenance limits and the required leadership decision.
+- Cycle 12 research (13 Nov 2026): rechecked current service-provider guidance and used CISA/FBI/partner “Communicating Under Pressure” (2 Sep 2026) to ground outage communications during containment as a separate exercise workstream. Added [22], already used by Chapter 3, with the same source URL.
+- Cycle 12 edits: connected Move 3 to Chapter 3’s service-specific response tolerances, requiring service-owner agreement and recording elapsed time against the tolerances; added the communication decision when containment changes service availability.
 
 ## Self-critique
 

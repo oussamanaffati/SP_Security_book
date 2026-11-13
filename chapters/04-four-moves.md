@@ -1,6 +1,6 @@
 # Chapter 4: Four Moves for Service Providers in the Next 12 Months
 
-An agent can link an OSS query, a service ticket and an operational action through one identity. That changes how far a mistake or compromised tool can travel before a person intervenes. AI can also compress parts of an attacker’s workflow.[14] For a service provider, the challenge is to contain both risks without disrupting service.
+An agent can link an OSS query, a service ticket and an operational action through one identity. That changes how far a mistake or compromised tool can travel before a person intervenes. AI may shorten parts of an attacker’s workflow.[14] For a service provider, the challenge is to contain both risks without disrupting service.
 
 Extend existing security, network, architecture, supplier and change processes where they cover the function. Check for gaps where agent identities, tools or supplier features fall outside their controls. Then ask which identities can reach which data or tools, which actions need approval, how NOC and SOC teams will rehearse a response, and what remains uncovered.
 
@@ -54,7 +54,9 @@ Possible scenarios include a supplier feature misusing an agent identity, a thre
 
 The Canadian Centre for Cyber Security recommends practising for incidents that may unfold within hours, with isolation steps approved in advance and manual alternatives tested for critical functions.[14] Joint Australian and international guidance warns that external content can carry instructions designed to steer an agent. This is known as indirect prompt injection.[13] These are general recommendations. Operators can test them against their own systems and response roles.
 
-Test a short rehearsal around one critical service domain, separate from live production changes. Record each decision, owner, service impact, missing information and fallback; the next review can check whether those gaps have closed.
+CISA, FBI and international partners’ September 2026 guidance for service providers emphasizes clear, timely outage communications that preserve operational security and containment.[22] Test who approves an update, when it is sent and which backup channel remains if containment changes service availability.
+
+Test a short rehearsal around one critical service domain, separate from live production changes. Agree service-specific response and recovery tolerances with the service owner before the exercise; one target will not fit every service. Record decisions, elapsed time against each tolerance, service impact, missing information and fallback. The next review can check whether those gaps have closed.
 
 **Composite scenario: response exercise.** During a planned maintenance window, an assistant reads hostile instructions in a supplier bulletin while analyzing alarms. It proposes a change that could remove visibility from a network domain. The SOC and NOC decide whether the proposed change is approved and who can stop the assistant. They also consider how to preserve the bulletin and logs, and what monitoring remains if they isolate the connector. The same questions apply to a compromised integration or service account.
 
