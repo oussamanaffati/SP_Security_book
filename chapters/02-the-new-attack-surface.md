@@ -1,12 +1,10 @@
 # Chapter 2: The New Attack Surface Is Inside the Operator
 
-Service-provider security teams must manage agent-related risk well before a network is fully autonomous. Exposure begins when an AI-enabled system can read operational data, select a tool and act through a trusted identity.
+Service providers need to manage agent-related exposure even when no network function is operating autonomously. Risk grows when an AI-enabled system can use a trusted identity to read operational data, select tools or trigger actions.
 
-The model is only one part of the assessment. The AI-enabled system’s identity, data access, tools and supplier dependencies determine what it can affect if it makes an error.
+The model is only one part of the assessment. The AI-enabled system’s identity, data access, tools and supplier dependencies determine what it can affect if it is misused, manipulated or fails.
 
 Ownership and information sit across several teams. Customer care may enable a summarization feature, network engineering may test an assistant with service-assurance data, or a supplier may add AI to an existing product. A developer may connect a model to an internal API to reduce repetitive work. Each choice can make sense on its own. Together, they can create access paths across systems and teams that no one group sees end to end.
-
-The attack surface is not only the model. It includes the identities, data, tools, workflows and supplier access connected to it.
 
 ## The operator is a connected operating environment
 
@@ -14,7 +12,7 @@ A service provider’s estate is not one neat enterprise network. OSS and BSS su
 
 That map is hard to keep current. A circuit, customer or service may appear differently across inventory, assurance, planning and billing. Essential legacy systems can take years to replace safely. Suppliers may support a component while the operator owns the service impact. Production changes must fit maintenance windows and established controls.
 
-These constraints make it important to understand how far an AI system can reach. An agent can retrieve information in one system and use it in another. Work that once required an employee to switch tools and make a decision may become a sequence of tool calls.
+These constraints make it important to trace an agent’s identity through the systems and tools it can reach. It may retrieve information in one system and use it in another. Work that once required an employee to switch tools and make a decision can become a sequence of tool calls.
 
 In February 2026, TM Forum described telecom operators experimenting with agent frameworks that connect to business and network systems.[12]
 It reported that Vodafone uses a catalogue of trusted Model Context Protocol (MCP) servers and a gateway so agent access can be controlled and audited, rather than allowing agents to connect directly to external servers.[12]
@@ -52,6 +50,8 @@ An agent that recommends an action creates a different risk from one that execut
 
 The May 2026 guidance highlights privilege creep, identity, accountability and obscured event records as risks. It also recommends starting with lower-risk tasks and incorporating agent security into the organization’s existing security model.[10] That is a practical starting point for an operator: give an agent read access only where it needs to understand, allow it to draft rather than execute where impact is high, and use a controlled broker for any tool that can change a service or expose sensitive data.
 
+Multi-agency OT guidance released in December 2025 recommends integrating AI into existing security frameworks, retaining human oversight over critical OT actions and building failsafes.[17] It applies to OT systems, not every telco network domain; operators should establish which of their systems fall within that scope.
+
 ## Suppliers can introduce a new path without a new project
 
 AI may arrive through a service-desk upgrade, cloud feature, network-management platform, customer-service system or supplier portal. The product name may stay the same while its data flows, model provider or tools change.
@@ -66,7 +66,7 @@ The inventory should not stop at models bought by a central AI team. It should i
 
 ## A service-assurance example
 
-Consider a composite scenario, not a real incident. During a fiber disruption, an assistant reads alarms, service inventory, a supplier bulletin and the incident ticket. It matches affected circuits, summarizes impact and drafts an update, saving the team time assembling context.
+This is a composite scenario, not a reported incident. During a fiber disruption, an assistant reads alarms, service inventory, a supplier bulletin and the incident ticket. It matches affected circuits, summarizes impact and drafts an update, saving the team time assembling context.
 
 Now imagine the bulletin contains hostile instructions embedded in otherwise plausible technical text. The agent’s safeguards should treat that text as untrusted input. But suppose the assistant is also connected to a broad service-account identity, can query customer records, and can call tools that update ticket priority or initiate a workflow. The risk is no longer limited to a bad summary. The agent may retrieve information outside the task, disclose it to an unapproved supplier service, or prepare an action that looks credible because it appears in the normal ticketing process.
 
@@ -77,7 +77,5 @@ Controls should match the task and service impact. A short-lived identity and ac
 ## Establish visibility and ownership
 
 A service provider does not need a perfect diagram of every AI component before acting. It does need clear answers to a smaller set of questions: which AI-enabled systems can access network operations, OSS/BSS, customer data or supplier systems? Which identities do they use? What can they retrieve, change or trigger? Who owns the use and its risk? How can access be stopped or revoked?
-
-TRAI’s draft points toward a telecom-specific inventory and supplier review. CISA’s guidance explains why tool, data and identity connections matter. CERT-In’s advisory shows how exposed credentials and broad permissions can be used by agents. A useful first step is to record, for each consequential use, its owner, identity, accessible data, callable tools, permitted actions and recovery path. This gives leaders a basis for judging control effectiveness and accepting or reducing residual risk.
 
 This chapter mapped where delegated authority can enter and spread: identities, data, tools, workflows and suppliers. Chapter 3 addresses a separate problem: whether the operator can understand a threat, decide and act quickly enough while maintaining service continuity.
