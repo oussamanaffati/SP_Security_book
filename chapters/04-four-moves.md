@@ -4,7 +4,7 @@ An agent can link an OSS query, a service ticket and an operational action throu
 
 Extend existing security, network, architecture, supplier and change processes where they cover the function. Check for gaps where agent identities, tools or supplier features fall outside their controls. Then ask which identities can reach which data or tools, which actions need approval, how NOC and SOC teams will rehearse a response, and what remains uncovered.
 
-No sequence will eliminate risk. The four moves help test controls and make residual risk visible against the operator’s risk appetite. They are a guide, not a reason to delay action: broad production access can be restricted while the wider review continues.
+No sequence will eliminate risk. The four moves help test controls and make residual risk visible against the operator’s risk appetite.
 
 ## Move 1: Visibility means more than an AI inventory
 
@@ -15,6 +15,8 @@ Two questions frame the work: where can AI reach the operator’s systems or dat
 Prioritize by the live services and network domains an AI use can affect, not by model type. Potential starting points include OSS/BSS, service assurance, network management, customer identity, field operations, cloud control planes and supplier access. A customer-care summary tool has a different service impact from an assistant that can reach network configuration or subscriber records.
 
 A short record can capture the owner and purpose, model or supplier, identity, data and tools. It can also note affected services, available logs, fallback, relevant markets and who can suspend the use. Record unresolved questions rather than marking them complete.
+
+The Australian Cyber Security Centre’s guidance says asset identification should include AI services, agents, connectors and unsanctioned applications.[25] Supplier review should establish where prompts and outputs are retained, whether customer data is used for training and which regions process it.[25] This is cross-sector guidance; local legal duties still need review.
 
 In October 2026, TRAI, India’s telecom regulator, published draft guidelines on AI use in telecommunications. The consultation proposal calls for an inventory of active, inactive and decommissioned systems, with each system’s source, purpose and risk classification, and due diligence before third-party AI is acquired or used.[9] The document is a consultation draft, not a final rule.
 
@@ -28,13 +30,13 @@ Inventory shows where to look. Access review shows whether an agent has more aut
 
 ## Move 2: Match authority to the task
 
-A system that summarizes public guidance has a different risk from an agent that can read subscriber records, open a change request or reach a network-management API. A useful first review focuses on identities and tools with the greatest potential service impact.
+The first review should start with high-impact identities and tools. An agent that can read subscriber records, open a change request or reach a network-management API needs tighter control than a system limited to public guidance.
 
-The boundary comes down to three things: the data an agent can read, the actions it can take, and how to stop it without stopping the surrounding service.
+Review three boundaries: which data can the agent read, which actions can it take, and can access be stopped without stopping the surrounding service?
 
-Where the platform allows it, the agent can use a dedicated identity rather than an employee account or broad shared-service permissions. Access can be limited to the data and tools needed for the task. Short-lived or just-in-time credentials may help. Logs should show which identity acted, what tool it called and what happened.
+Where the platform allows it, the agent can use a dedicated identity rather than an employee account or broad shared-service permissions. Access can be limited to the data and tools needed for the task. Short-lived credentials issued only when needed may help. Logs should show which identity acted, what tool it called and what happened.
 
-Policy does not prove that a permission boundary works under service conditions. For one or two high-impact uses, trace the identity and tool path, check whether permissions fit the task and where human approval is needed, then test revocation without disrupting monitoring or service assurance.
+Policy does not prove that a permission boundary works under service conditions. For one or two high-impact uses, follow the agent from its identity to the tools it calls, check that permissions fit the task and verify where a person must approve an action. Then test revocation without disrupting monitoring or service assurance.
 
 Separate “read,” “recommend” and “execute.” Read-only access is often a sensible start. A low-impact, reversible action may fit within clear limits and monitoring. Actions that could change production, affect customers or interrupt an essential workflow should follow the operator’s normal authorization and change process. An agent can prepare a change; an authorized person approves and validates it.
 
@@ -70,7 +72,7 @@ A 12-month roadmap is easier to govern with three or four priorities. For each, 
 
 Measures should show whether risk is changing, not how many tools were purchased. Useful indicators include named owners and data paths for high-impact uses, tested access revocation, clear containment authority, exercised service alternatives and closed exercise findings. A tool count can rise while access and response stay the same.
 
-Assurance means showing that controls work under the operator’s service conditions, not only that a policy exists. For high-impact uses, an independent review can add confidence, especially when tests reflect real service pressure. Leaders need to see residual risk, compare it with risk appetite, know who accepts it and understand what would trigger review. The aim is to show which controls work, where risk remains and whether it fits the agreed appetite.
+A policy is not proof. For high-impact uses, show that controls work under live-service conditions; an independent review can add confidence. The board needs the evidence, the service impact if controls fail, the accountable executive and the conditions that reopen the decision. Keep acceptance within the operator’s approved risk appetite.
 
 Regulation belongs in this roadmap, but it need not delay action. Legal and Compliance can track binding obligations by market and separate them from consultation drafts. Where duties overlap with identity, supplier assurance, incident reporting or continuity, existing governance may be enough; a separate AI approval board is not always needed.
 
@@ -80,8 +82,4 @@ At an executive review, the CISO and CTO can present the priorities, owners, ser
 
 ## Keep the sequence, adjust the pace
 
-Visibility guides access limits, and rehearsals expose gaps that may need funding. If a supplier-connected agent already has broad production access, restricting it need not wait for the wider review.
-
-In the near term, providers can map high-impact uses, review priority identities, rehearse a service scenario and bring a clear choice to executives. Over the coming year, they can extend controls, close exercise gaps and test service alternatives. Leaders should see what changed, what risk remains and who owns it.
-
-Take the four moves to the board with named owners, service constraints, tested controls and an explicit residual-risk decision. Chapter 5 explains how to make that case and secure the decisions needed to act.
+At the end, the CISO and CTO should be able to show a service-linked inventory, tested access limits, exercise evidence of decisions and gaps, and a funded plan with named owners for residual risk. Restrict excessive production access as soon as the risk is clear; the wider review need not wait. Chapter 5 turns those findings into an executive decision.
