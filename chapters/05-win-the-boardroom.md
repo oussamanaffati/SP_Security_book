@@ -9,13 +9,13 @@ Chapter 4 set out four moves: identify AI-enabled workflows with material access
 ## Speak in service-provider consequences
 
 A stronger board conversation starts with the service, not the tool. A network operator may support emergency communications, payment services, public agencies, hospitals, major enterprises and consumers. The UK Cyber Governance Code notes that cyber incidents can disrupt business continuity and damage customer trust.[18]
-The exact dependency varies by country and operator. Base any claim of national impact on specific service dependencies and likely consequences; network criticality alone does not establish it.
+Network criticality alone does not prove national impact. Name the services affected, their dependencies and likely consequences, and make clear where evidence is incomplete.
 
-A useful board statement covers five points: the service at stake; the system or workflow that could affect it; current access and controls; the proposed action; and the residual risk afterward. If information is incomplete, say so and name the next step to close the gap. Do not make uncertainty sound more dramatic than the evidence supports.
+Make the board statement concrete: name the service at stake, the system or workflow that could affect it, current access and controls, the proposed action and residual risk. If information is incomplete, say so and name the next step to close the gap. Do not make uncertainty sound more dramatic than the evidence supports.
 
-For example, “AI is a major new threat” does not tell the board what to decide. “This service-assurance workflow can read alarms and subscriber-linked service data. It cannot change network configuration today. We have not yet proved that we can isolate its supplier connection without losing operational visibility. We will assess the dependency and agree a safe test plan before the next change window” gives directors a service, a control boundary, a gap and a next step without implying that isolation is simple.
+For example, “AI is a major new threat” gives the board no decision. A service-based account is more useful: the service-assurance workflow can read alarms and subscriber-linked service data, but cannot change network configuration. The service owner and supplier manager can map the dependency and agree a safe isolation test before the next change window.
 
-Avoid presenting every possible harm as if it is equally likely. Put the most important service dependencies first. If the operator relies on a legacy management platform, an external supplier, or a narrow maintenance window, explain how that changes the response plan. A broad statement about “the network” is less useful than a clear account of which domain, service and recovery path are involved.
+If the operator relies on a legacy management platform, an external supplier or a narrow maintenance window, explain how that changes the response plan. A broad statement about “the network” is less useful than a clear account of which domain, service and recovery path are involved.
 
 ## Show why the board is part of the operating model
 
@@ -35,17 +35,17 @@ Tell directors that a regulator requires something only when the rule is in forc
 
 ## Bring evidence the board can test
 
-A board pack should be short enough to discuss and specific enough to challenge. Four types of information make the four moves tangible.
+A board pack should be short enough to discuss and specific enough to challenge. For each move, give directors evidence they can test and a decision they can make.
 
-First, show the AI-enabled workflows with the greatest potential service impact and what each can read, change or trigger. Include the owner, supplier, identity, affected service, logging and who can suspend it. Report gaps as gaps, not as green status.
+Start with the AI-enabled workflows that could have the greatest service impact. Show what each can read, change or trigger, who owns it, which supplier and identity are involved, what service is affected, what is logged and who can suspend it. Report gaps as gaps, not as green status.
 
-Second, show changes to access. Which priority identities are separate from shared accounts? Which tools are read-only? Which actions follow the normal network change process? Has revocation been tested? Counting AI systems does not prove that their authority is controlled.
+Next, report the access boundaries. Which priority identities are separate from shared accounts? Which tools are read-only? Which actions follow the normal network change process? Has revocation been tested? Counting AI systems does not prove that their authority is controlled.
 
-Third, report what the exercise revealed. Did the SOC know who could revoke the identity? Did the NOC know what service might lose visibility? Could the operator move to an alternative mode? Were legal, customer and supplier contacts available? Report decision gaps and whether owners closed them. An exercise without corrective action is an event, not assurance.
+Then report what the exercise revealed. Did the SOC know who could revoke the identity? Did the NOC know what service might lose visibility? Could the operator move to an alternative mode? Were legal, customer and supplier contacts available? Report decision gaps and whether owners closed them. An exercise without corrective action is an event, not assurance.
 
-Fourth, show the roadmap and its constraints. Security work competes for engineers, maintenance windows and supplier capacity. Put those dependencies beside the milestone. If a control must wait for a platform upgrade, state the interim measure and who accepts the remaining risk. If a regulatory deadline changes the sequence, show the date and accountable owner.
+Finally, set out the roadmap and its constraints. Security work competes for engineers, maintenance windows and supplier capacity. Put those dependencies beside the milestone. If a control must wait for a platform upgrade, state the interim measure and who accepts the remaining risk. If a regulatory deadline changes the sequence, show the date and accountable owner.
 
-Do not bring a dashboard of unexplained red, amber and green indicators. Define each measure and the decision it should trigger. Measures should show whether exposure is better controlled: priority uses with named owners, tested access revocation, exercised service alternatives, overdue remediation or risks past their review date. More deployments do not mean better security.
+Do not bring a dashboard of unexplained red, amber and green indicators. Define each measure and the decision it should trigger. Measures should show whether exposure is better controlled: named owners for priority uses, successful access-revocation and fallback tests, and overdue remediation or risks past their review date. More deployments do not mean better security.
 
 ## Ask for decisions, not general support
 
@@ -54,7 +54,7 @@ Do not bring a dashboard of unexplained red, amber and green indicators. Define 
 1. **Approve the priorities.** Confirm the three or four outcomes the operator will pursue over the next twelve months, starting with services and workflows that carry the greatest consequence.
 2. **Name accountable owners.** Give each move an executive sponsor and an operational lead across security, network, IT, procurement or service continuity as required.
 3. **Protect capacity.** Approve the staff time, planned change windows and supplier engagement needed to deliver the first tranche. If the board will not fund everything, show what moves later and what risk stays open.
-4. **Set the assurance cadence.** Agree what evidence returns each quarter, what triggers an earlier escalation, and which executive owns acceptance of residual risk.
+4. **Set assurance and residual-risk acceptance.** Agree what evidence returns each quarter, what triggers an earlier escalation, and which executive accepts the remaining risk.
 
 The investment case should state what the money buys. It cannot guarantee that an incident will not happen. It should improve the operator’s ability to see consequential uses, restrict unnecessary authority, respond safely, meet applicable duties and restore services. Some costs are people and change capacity, not software. Directors should understand both the risk the plan is meant to reduce and the work it will displace.
 
@@ -70,17 +70,17 @@ The following is a composite illustration, not a real board exchange. A provider
 
 **CTO:** “We need agreement on the decision owner and capacity for a controlled isolation and fallback test. We will also review the other high-impact workflows. At the next quarterly review, we can report the test result, remaining risk and proposed next priority.”
 
-That answer is credible because it is bounded. It does not promise zero risk or predict an outage. It gives the board evidence, a decision and a point at which to check progress.
+The exchange gives the board evidence, a decision and a point at which to check progress, without promising zero risk or predicting an outage.
 
 ## Language that weakens the case
 
-Unsupported claims weaken the case. A prediction of a national outage needs evidence for that scenario; compliance does not prove a service will recover; a platform request needs to identify the control gap it would close. “Zero risk” and “future-proof” are not credible commitments for networks that depend on legacy systems, suppliers and continuous service.
+Do not treat compliance as proof that a service will recover, or request a platform without naming the control gap it would close. “Zero risk” and “future-proof” are not credible commitments for networks that depend on legacy systems, suppliers and continuous service.
 
 Use language the operator can support with evidence: name the service, access path, test results, unresolved questions and decision needed. That is more useful than a dramatic claim.
 
 ## The next twelve months
 
-The board need not wait for a major incident to create urgency. In an initial phase, the CISO and CTO can agree priority services, name owners, bring findings to the risk committee and schedule an exercise. Later milestones can narrow access, test service alternatives, close exercise gaps and return with decisions about remaining risk.
+The first phase can begin without waiting for a major incident. The CISO and CTO can agree priority services, name owners, bring findings to the risk committee and schedule an exercise. Later milestones can narrow access, test service alternatives, close exercise gaps and return with decisions about remaining risk.
 
 At the end of the year, leadership should be able to identify the AI-enabled uses with material access to services, name their owners, describe what response has been tested and state what risk remains and who accepts it.
 

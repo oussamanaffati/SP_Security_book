@@ -24,6 +24,8 @@ The NIS2 Directive was reviewed as a possible example of board responsibility. T
 - Included one clearly labeled composite board dialogue. It is constructed; no customer, board member or private operator conversation is represented as real.
 - Added explicit language to avoid: unsupported claims of an AI-caused national outage, compliance-as-proof-of-safety, zero-risk promises, tool-first pitches and unsubstantiated financial loss estimates.
 - Ended with a non-hype 12-month call to action. The chapter is the final chapter; no further chapter transition is added.
+- Cycle 3 verification (13 Nov 2026): confirmed CISA CPG 2.0’s 11 Dec 2025 release on CISA’s official page and TRAI’s 30 Oct 2026 publication date in the official consultation PDF. Both dates precede the review date. No new primary source materially improved the board argument, so the existing citations were retained.
+- Cycle 3 edits: Reworked the example so it no longer presents an invented multi-sentence, first-person board statement; tightened repeated cautions about unsupported impact claims; named service-owner and supplier-manager roles for a safe isolation test; shortened the board metrics list; elevated residual-risk acceptance into the fourth explicit board decision; and varied the evidence-section transitions.
 
 ## Self-critique
 
