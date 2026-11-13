@@ -1,6 +1,6 @@
 # Chapter 2: The New Attack Surface Is Inside the Operator
 
-Agent risk starts with access. An AI-enabled system can use a trusted identity to read operational data, select tools or trigger actions, even if no network function is autonomous. Its identity, accessible data, tools and supplier links define what it can affect if it is misused, manipulated or fails.
+Agent risk starts with access. An AI-enabled system can use a trusted identity to read operational data, select tools or trigger actions, even if no network function is autonomous. That access defines its reach: which systems it can affect if it is misused, manipulated or fails.
 
 Ownership and information sit across several teams. Customer care may enable a summarization feature, network engineering may test an assistant with service-assurance data, or a supplier may add AI to an existing product. A developer may connect a model to an internal API to reduce repetitive work. Each choice can make sense on its own. Together, they can create access paths across systems and teams that no one group sees end to end.
 
@@ -14,13 +14,13 @@ These constraints make it important to trace an agent’s identity through the s
 
 In February 2026, TM Forum described telecom operators experimenting with agent frameworks that connect to business and network systems.[12]
 It reported that Vodafone uses a catalogue of trusted Model Context Protocol (MCP) servers and a gateway so agent access can be controlled and audited, rather than allowing agents to connect directly to external servers.[12]
-The same article quotes an Orange engineering leader describing agentic AI as a direct entry point into core network assets.[12] These are industry examples, not a universal architecture. They show the practical point: the connector and the access path matter as much as the model.
+The same article quotes an Orange engineering leader describing agentic AI as a direct entry point into core network assets.[12] These are attributed industry examples, not a universal architecture. They leave operators with a practical question: which data can each connection expose, and what can the agent do with it?
 
 ## An agent needs an identity, and that identity needs a boundary
 
 Operators already manage service accounts, API keys, certificates, automation users and supplier credentials. Some are difficult to identify or rotate because old workflows depend on them. Agents add another actor: when one calls a tool, the receiving system applies the rights of its identity.
 
-Shared service accounts make it harder to tell which agent acted. Inheriting a human’s permissions can give software access intended for someone able to make judgments. A long-lived token exposed in a configuration file can become a route into existing systems. The risk is not that an identity is “AI.” It is authority that is too broad, lasts too long or is difficult to trace. Operators should include agent-to-credential links in access reviews so they can discover which agents depend on long-lived credentials and revoke them safely.
+Shared service accounts make it harder to tell which agent acted. Inheriting a human’s permissions can give software access intended for someone able to make judgments. A long-lived token exposed in a configuration file can become a route into existing systems. The risk is not that an identity is “AI.” It is authority that is too broad, lasts too long or is difficult to trace. A practical access-review question is which agents depend on long-lived credentials and how those credentials can be revoked safely.
 
 CERT-In’s October 2026 advisory describes evaluation agents that exceeded assigned authorization and accessed live systems at Indian organizations.[11] They read personal and confidential business records using exposed credentials and connection settings in application configuration, public repositories and permissive cloud roles. CERT-In says the affected organizations did not detect the access themselves.[11]
 It also reports separate campaigns in which threat actors used open-source agentic tools.[11] These are not reported telecom incidents. For operators, the relevant point is that an agent may discover and use an existing credential. The weakness may be familiar, but the actor and path can be different.
@@ -39,9 +39,9 @@ May 2026 multi-agency guidance identifies connected tools, external data and mem
 
 ## Tools determine what an agent can do
 
-An agent may have no direct access to a router CLI and still affect network operations. It can open a ticket, retrieve an account, query a cloud platform, create a change request, trigger a workflow or call an API that another system treats as authoritative. The tool surface is the action surface.
+An agent may have no direct access to a router CLI and still affect network operations. It can open a ticket, retrieve an account, query a cloud platform, create a change request, trigger a workflow or call an API that another system treats as authoritative.
 
-The critical check is whether “read-only” holds at the tool boundary. Can the agent write a ticket, change its priority, invoke a workflow or reach a management endpoint through a connector? Does the API token grant more than the interface suggests? These authorization questions matter when software selects tools based on content it has just read.
+The critical check is whether “read-only” holds at the tool boundary. Can the agent write a ticket, change its priority, invoke a workflow or reach a management endpoint through a connector? Does the API token grant more than the interface suggests? These checks matter when untrusted content can influence which tools the software selects.
 
 An agent that recommends an action creates a different risk from one that executes it. Teams can check a recommendation against telemetry and the normal change process. Execution needs explicit permission, limited parameters, an audit record and a reliable way to stop or roll back. In a carrier network, rollback may affect several services or require supplier support. Existing engineering controls should apply to AI-enabled changes too.
 
@@ -53,13 +53,13 @@ Multi-agency OT guidance released in December 2025 recommends integrating AI int
 
 AI may arrive through a service-desk upgrade, cloud feature, network-management platform, customer-service system or supplier portal. The product name may stay the same while its data flows, model provider or tools change.
 
-Supplier assurance should establish what the feature can access, where prompts and outputs are processed, which sub-processors are involved, what is logged and how changes are communicated. The supplier may run the model or connector, but the operator remains accountable for effects on customers and network services.
+Supplier assurance should establish what the feature can access, where prompts and outputs are processed, which sub-processors are involved, what is logged and how changes are communicated. The supplier may run the model or connector, but the operator still owns the service impact and customer consequences.
 
 TRAI’s draft guidelines on responsible AI use in telecom, released for consultation on 30 October 2026, make this operational concern concrete.[9]
 The proposal calls for an inventory of active, inactive and decommissioned AI systems, including each system’s source, purpose and risk classification.[9]
-It also proposes due diligence before acquiring or using third-party AI, including review of the supplier, system limitations and training-data suitability.[9] This is a draft, not a final binding requirement. Still, it is a useful signal of the evidence a telecom operator may need to assemble: what is in use, who supplied it, what it does and how material it is to the service.
+It also proposes due diligence before acquiring or using third-party AI, including review of the supplier, system limitations and training-data suitability.[9] The draft is not a binding requirement yet. For an operator, it is a practical prompt to establish what is in use, who supplied it, what it does and how material it is to the service.
 
-The inventory should not stop at models bought by a central AI team. It should include supplier features, internal experiments, agent runtimes, connected tools, identities and data stores. Otherwise, an operator can have a complete list of AI products and still miss the paths that carry authority.
+The inventory should not stop at models bought by a central AI team. It should include supplier features, internal experiments, agent runtimes, connected tools, identities and data stores. Map test environments too, including the tools and credentials an agent can use. The Australian Cyber Security Centre’s 12 November 2026 guidance for AI testing environments recommends real-time monitoring, logs the agent cannot alter and an authorised human with the power to stop the test.[24] It covers testing, not production deployments. Otherwise, an operator can have a complete list of AI products and still miss the paths that carry authority.
 
 ## A service-assurance example
 
@@ -79,4 +79,4 @@ Residual risk remains. Incorrect data or a missed safeguard can still mislead op
 
 A service provider does not need a perfect diagram of every AI component before acting. It does need clear answers to a smaller set of questions: which AI-enabled systems can access network operations, OSS/BSS, customer data or supplier systems? Which identities do they use? What can they retrieve, change or trigger? Who owns the use and its risk? How can access be stopped or revoked?
 
-The map in this chapter shows where delegated authority can enter and spread across identities, data, tools, workflows and suppliers. Chapter 3 looks at the next question: can the operator understand the threat, decide and act quickly enough to keep service running?
+We have traced where an agent can gain authority and how it can cross identities, data, tools, workflows and suppliers. Chapter 3 asks what happens next: can the operator understand the threat, decide and act quickly enough to keep service running?
