@@ -1,10 +1,10 @@
 # Chapter 4: Four Moves for Service Providers in the Next 12 Months
 
-AI changes the risk. Agents can add new authority inside the operator, while some threats may move faster than a provider can safely respond. The task is to reduce that exposure while preserving service continuity.
+An agent can link an OSS query, a service ticket and an operational action through one identity. That changes how far a mistake or compromised tool can travel before a person intervenes. AI can also compress parts of an attacker’s workflow.[14] For a service provider, the challenge is to contain both risks without disrupting service.
 
-An entirely separate AI security program may not be needed. Existing security, network, architecture, supplier and change processes cover much of this work. The key questions are where AI can act, what authority it needs, how teams will rehearse a response and what gaps remain.
+Operators can often extend existing security, network, architecture, supplier and change processes rather than create a separate AI program. The practical questions are which identities can reach which data or tools, which actions need approval, how NOC and SOC teams will rehearse a response, and what gaps remain.
 
-No sequence will eliminate risk. The aim is to test controls and make residual risk clear, so leaders can judge it against their risk appetite. The sequence is a guide, not a reason to delay action. If an agent already has broad production access, the operator can restrict it while the wider review continues.
+No sequence will eliminate risk. The four moves help test controls and make residual risk visible against the operator’s risk appetite. They are a guide, not a reason to delay action: broad production access can be restricted while the wider review continues.
 
 ## Move 1: Visibility means more than an AI inventory
 
@@ -16,22 +16,19 @@ Potential starting points include OSS/BSS, service assurance, network management
 
 A short record can capture the owner and purpose, model or supplier, identity, data and tools. It can also note affected services, available logs, fallback, relevant markets and who can suspend the use. Record unresolved questions rather than marking them complete.
 
-In October 2026, TRAI, India’s telecom regulator, published draft guidelines on AI use in telecommunications.[9]
-The proposal calls for an inventory of active, inactive and decommissioned systems, with each system’s source, purpose and risk classification.[9]
-It also proposes due diligence before third-party AI is acquired or used.[9]
-The document is a consultation draft, not a final rule.[9]
+In October 2026, TRAI, India’s telecom regulator, published draft guidelines on AI use in telecommunications. The consultation proposal calls for an inventory of active, inactive and decommissioned systems, with each system’s source, purpose and risk classification, and due diligence before third-party AI is acquired or used.[9] The document is a consultation draft, not a final rule.
 
 The draft does not prescribe a global inventory. It highlights a practical gap: supplier features and product capabilities can escape the project register. Legal and Compliance can confirm what applies in each market.
 
-One practical starting point is to review uses that could affect a critical service or sensitive data. Project, procurement, cloud and supplier records can help identify them. Workflow owners can clarify the gaps.
+A first pass should focus on uses that could affect a critical service or sensitive data. Project, procurement, cloud and supplier records can help find them; workflow owners can clarify the gaps.
 
-**Composite scenario: supplier feature.** A network-management supplier enables an AI diagnostic feature during a routine update. It is missing from the operator’s project list, but can read topology and propose actions. A review links the feature to its contract, service domain, identity and change process. Before deciding whether to restrict or retain it, the team establishes a clear owner and evidence about its reach.
+**Composite scenario: supplier feature.** A network-management supplier enables an AI diagnostic feature during a routine update. It is missing from the operator’s project list, but can read topology and propose actions. The team assigns an owner, then checks the feature’s contract, service domain, identity and change process. Evidence about its reach supports the decision to restrict or retain it.
 
 Seeing an important use tells the team where to focus. It does not show whether the agent has more authority than its task requires.
 
 ## Move 2: Match authority to the task
 
-A system that summarizes public guidance is not the same as an agent that can read subscriber records, open a change request or reach a network-management API. Begin with identities and tools that could have the greatest service impact.
+A system that summarizes public guidance has a different risk from an agent that can read subscriber records, open a change request or reach a network-management API. A useful first review focuses on identities and tools with the greatest potential service impact.
 
 The boundary comes down to three things: the data an agent can read, the actions it can take, and how to stop it without stopping the surrounding service.
 
@@ -53,13 +50,13 @@ Permissions matter only if teams can contain a failure without losing the surrou
 
 A policy alone may not tell the night shift who can revoke a compromised identity. A tabletop can expose that gap before an incident does. Its value is in testing decisions and service impact, not demonstrating an AI product.
 
-A focused exercise can bring together the SOC and NOC, identity and platform owners, service assurance, change management and business continuity. Legal, communications, procurement and a supplier contact can join when the scenario needs them. A useful scenario centers on a decision that could affect a service.
+Bring the SOC and NOC, identity and platform owners, service assurance, change management and business continuity into the exercise. Legal, communications, procurement and a supplier contact can join when the scenario needs them. Center it on a decision that could affect a service.
 
 Possible scenarios include a supplier feature misusing an agent identity, a threat actor steering an assistant through hostile content, or an agent changing a service workflow during a network event. The team can test when to declare an incident, who can revoke access and what evidence to preserve. It can identify which service may lose visibility, what fallback exists and who can authorize an emergency change. Teams can also clarify who handles regulatory and customer notifications while the scope is uncertain.
 
 The Canadian Centre for Cyber Security recommends practising for incidents that may unfold within hours, with isolation steps approved in advance and manual alternatives tested for critical functions.[14] Joint Australian and international guidance warns that external content can carry instructions designed to steer an agent. This is known as indirect prompt injection.[13] These are general recommendations. Operators can test them against their own systems and response roles.
 
-A short rehearsal around one critical service domain can be a low-risk start. It stays separate from live production changes. A note of decisions, owners, missing information and service impact gives the next review something concrete to check.
+Test a short rehearsal around one critical service domain, separate from live production changes. Record each decision, owner, service impact, missing information and fallback; the next review can check whether those gaps have closed.
 
 **Composite scenario: response exercise.** During a planned maintenance window, an assistant reads hostile instructions in a supplier bulletin while analyzing alarms. It proposes a change that could remove visibility from a network domain. The SOC and NOC decide whether the proposed change is approved and who can stop the assistant. They also consider how to preserve the bulletin and logs, and what monitoring remains if they isolate the connector. The same questions apply to a compromised integration or service account.
 
@@ -75,7 +72,7 @@ Measures should show whether risk is changing, not how many tools were purchased
 
 Assurance means showing that controls work under the operator’s service conditions, not only that a policy exists. For high-impact uses, an independent review can add confidence, especially when tests reflect real service pressure. Leaders need to see residual risk, compare it with risk appetite, know who accepts it and understand what would trigger review. The aim is to show which controls work, where risk remains and whether it fits the agreed appetite.
 
-Regulation belongs in this roadmap, but it need not delay action. Legal and Compliance can track binding obligations by market and separate them from consultation drafts. Where duties overlap with identity, supplier assurance, incident reporting or continuity, existing governance may be enough. A separate AI approval board is not always needed.
+Regulation belongs in this roadmap, but it need not delay action. Legal and Compliance can track binding obligations by market and separate them from consultation drafts. Where duties overlap with identity, supplier assurance, incident reporting or continuity, existing governance may be enough; a separate AI approval board is not always needed.
 
 **At an executive review,** the CISO and CTO can present the priorities, owners, service constraints and evidence gaps. The request might be funding for an identity boundary, time for a continuity test, and regular review of outcomes and residual risk. The paper should identify which accountable service executive accepts the remaining risk until later work is complete.
 
@@ -83,7 +80,7 @@ Regulation belongs in this roadmap, but it need not delay action. Legal and Comp
 
 ## Keep the sequence, adjust the pace
 
-The moves reinforce one another: visibility guides access limits, and rehearsals expose gaps that may need funding. If a supplier-connected agent already has broad production access, restrict it while the wider review continues.
+Visibility guides access limits, and rehearsals expose gaps that may need funding. If a supplier-connected agent already has broad production access, restricting it need not wait for the wider review.
 
 In the near term, providers can map high-impact uses, review priority identities, rehearse a service scenario and bring a clear choice to executives. Over the coming year, they can extend controls, close exercise gaps and test service alternatives. Leaders should see what changed, what risk remains and who owns it.
 

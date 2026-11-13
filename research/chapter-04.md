@@ -22,6 +22,8 @@ Chapter 4 turns the book’s earlier findings into a sequenced, operator-owned 1
 - Added one clearly labeled composite illustration to each move. The examples are constructed; none is presented as an operator incident or private customer conversation.
 - Explicitly covered legacy limitations, existing change processes, NOC/SOC and other team coordination, jurisdiction-specific regulatory duties, maintenance windows and service continuity.
 - Closed with a transition to Chapter 5’s board-level case. Chapter 5 was not drafted or edited.
+- Cycle 2 review (13 Nov 2026): checked recent public developments; no new primary source materially improved this chapter, so existing citations were retained. Kept the Canadian Cyber Centre source [14] for the evidence that AI can accelerate cyber activity and for its response-practice recommendations; this general guidance is not presented as a telco incident.
+- Cycle 2 edits: made the opening more concrete about the path from OSS query to operational action, specified identity/data/tool and approval questions, varied repetitive sentence openings, and moved ownership ahead of the supplier-feature decision. Consolidated the TRAI draft citation without changing its consultation-only status.
 
 ## Self-critique
 
