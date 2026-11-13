@@ -1,12 +1,12 @@
 # Chapter 3: The Threat Moves Faster Than the Operator Can Respond
 
-The response gap is not only detection. An attacker can keep moving while the operator works out who may contain it without disrupting service.
+The response gap is not only the time to detect an intrusion. It is the time needed to authorize a containment action without disrupting service.
 
-That is the challenge for a service provider. The SOC may see an alert, the NOC may know a planned change is underway, IAM may be able to revoke a credential, and a supplier may hold platform details. If no one knows who can authorize containment, time is lost while the network remains in service and the attacker may continue.
+The SOC may see an alert, the NOC may know a planned change is underway, IAM may be able to revoke a credential, and a supplier may hold platform details. These facts sit with different teams. Without a clear decision path, the attacker may retain access while the operator assesses service impact.
 
-Chapter 2 mapped where exposure can enter and spread. This chapter asks whether the operator can detect activity, decide and act before the attacker reaches its next objective, without creating a second incident through unsafe containment.
+Chapter 2 mapped where exposure can enter and spread. The operator needs to detect activity, decide and act before the attacker reaches its next objective, without creating a second incident through unsafe containment.
 
-## The clock is getting shorter, but not every attack is autonomous
+## Threat activity can accelerate without being fully autonomous
 
 AI can support tasks such as finding weaknesses and targeting organizations. Agentic systems can link attack stages with less human direction.[14] That does not mean every attacker uses an agent or every attack unfolds at machine speed.
 
@@ -17,32 +17,32 @@ CERT-In reported a related pattern in October 2026. In a financially motivated c
 
 On 4 November, CERT-In’s finance-sector response team said an AI-assisted campaign had timed attacks to weekends, holidays and other low-monitoring windows.[20] The advisory concerns financial services, not telecom, but supports testing off-hours decision authority and escalation.
 
-These observations do not establish a universal attacker timeline. They do show why waiting for the next maintenance window may be unsafe when exploitation is confirmed.
+These reports do not set a universal attacker timeline. When exploitation is confirmed, the operator should not assume it can wait for the next routine maintenance window; it needs a tested emergency path to a safe containment decision.
 
-The important point is not simply faster scanning. It is the shrinking interval between one step and the next. A stolen identity can be reused. A tool can search broadly. A partial fix can leave another route open. When an attacker can repeat actions quickly, responders may need to contain the immediate path while continuing to investigate.
+The reported campaigns show that different stages can unfold within hours.[14][11] For an operator, compromised credentials or incomplete remediation can leave access open while teams scope the incident and authorize safe containment.
 
 Detection and response are different capabilities. A dashboard can show an event, but people still need authority and context to decide whether to revoke an identity, isolate a host, block a supplier connection or keep a service running in reduced mode.
 
-## The operator has more than one clock
+## Response runs on several timelines
 
 Incident response is often described as a technical sequence: detect, investigate, contain, recover. In practice, those activities overlap. The NOC may be confirming whether an alarm matches a real network change. The SOC may be deciding whether the activity is malicious. IAM may need to disable an account. Service assurance may be estimating which customers or services could be affected. Legal, regulatory and communications teams may already be working against notification deadlines.
 
 At the same time, the network cannot wait for every team to finish its analysis. Nor can the operator treat every system as disposable. A management platform may support several network domains. An identity may be shared across automation jobs. A supplier connection may be needed to restore a service even as the supplier helps investigate it. Availability changes the containment decision.
 
-Separate four clocks:
+Measure four response intervals:
 
 - **Detection:** How long before someone recognizes that the event may be malicious?
 - **Decision:** How long before an authorized person chooses a containment action?
 - **Action:** How long before teams execute it safely and confirm the result?
 - **Continuity and recovery:** How long before affected services can run safely again?
 
-A fast SOC does not guarantee a fast response if approval is slow. Quick isolation is not success if it breaks a critical workflow or removes telemetry needed to understand the incident. For each exercise, record time to detect, authorize, execute safely and restore service. The service owner should set tolerances for each clock before the exercise, based on continuity needs, safe containment options and applicable notification deadlines. One threshold will not fit every service domain.
+A fast SOC does not guarantee a fast response if approval is slow. Quick isolation is not success if it breaks a critical workflow or removes telemetry needed to understand the incident. For each exercise, record time to detect, authorize, execute safely and restore service. The service owner should set tolerances for each interval before the exercise, based on continuity needs, safe containment options and applicable notification deadlines. One threshold will not fit every service domain.
 
 This is where NOC and SOC coordination matters. The SOC understands the evidence and the likely attack path. The NOC understands which systems are carrying live operations, what maintenance is in progress, and what a particular isolation could do to service. Neither view is sufficient alone. Each needs a clear route to the other, with someone empowered to decide when there is no time for a long discussion.
 
-## A telecom breach has several timelines
+## The SK Telecom breach shows separate timelines
 
-The South Korean Ministry of Science and ICT’s investigation into the 2025 SK Telecom breach is a useful reminder that the response clock includes more than containment. MSIT reports that SK Telecom detected abnormally large outbound traffic at 11:20 p.m. on 18 April 2025 and notified KISA at 4:46 p.m. on 20 April; the Ministry said this exceeded the statutory 24-hour reporting window.[15]
+The South Korean Ministry of Science and ICT’s investigation into the 2025 SK Telecom breach is a useful reminder that response includes more than containment. MSIT reports that SK Telecom detected abnormally large outbound traffic at 11:20 p.m. on 18 April 2025 and notified KISA at 4:46 p.m. on 20 April; the Ministry said this exceeded the statutory 24-hour reporting window.[15]
 
 That is a reporting timeline, not a measurement of how long the company took to contain the intrusion. The distinction matters. The government’s public-private investigation team was established on 23 April and conducted forensic inspections across all 42,605 SK Telecom servers through 27 June. Its final findings identified 28 infected servers.[15]
 Establishing the full scope took sustained work across the operator and government investigators.
@@ -52,7 +52,7 @@ These reports describe a breach-response timeline, not a network outage. They sh
 
 For response planning, CISA, the FBI and international partners published service-provider guidance in September 2026 on clear, timely outage communications that preserve operational security and containment.[22] The guidance is not an incident report; it is relevant when containment itself changes service availability.
 
-There is no single clock. The initial signal, statutory notification, technical scoping and customer protection each have different owners and deadlines. If those responsibilities are not connected before an incident, the organization may be trying to create a response structure at the same time it is trying to contain an attacker.
+The initial signal, statutory notification, technical scoping and customer protection each have different owners and deadlines. If those responsibilities are not connected before an incident, the organization may be trying to create a response structure at the same time it is trying to contain an attacker.
 
 ## Containment is a service decision
 
@@ -68,21 +68,21 @@ Translate the guidance into criteria for evidence, service impact, authority and
 
 Consider a composite scenario, not a reported incident. During a planned maintenance window, the SOC sees unusual privileged calls from an identity used by a network-management integration. The calls are consistent with the work in progress, but the volume and destinations are not. The NOC confirms that a change is active and warns that disabling the shared identity could interrupt monitoring for more than one network domain. A supplier says a software update may explain the behavior, but cannot confirm that immediately.
 
-The threat is uncertain. The service impact is not. The operator now has to choose between waiting for more evidence, revoking the identity, or isolating the integration path and accepting reduced visibility while the incident is investigated. If the identity is compromised, each minute of delay may give the attacker more reach. If the operator disables too much, the response itself could hide faults or interfere with planned work.
+The threat is uncertain. The service impact is not. The operator now has to choose between waiting for more evidence, revoking the identity, or isolating the integration path and accepting reduced visibility while the incident is investigated. If the identity is compromised, each minute before revocation may leave an unauthorized access path open. If the operator disables too much, the response itself could hide faults or interfere with planned work.
 
-A prepared organization does not ask the SOC analyst to resolve this alone. The SOC validates the evidence and identifies the access path. The NOC explains service dependencies and available fallback. The incident lead uses pre-agreed criteria to choose a bounded action. IAM or platform operations carries it out. The supplier provides technical facts, but does not make the operator’s risk decision. Customer, legal and regulatory leads work in parallel on impact and notification, rather than waiting for the forensic picture to be complete.
+The SOC validates the evidence and identifies the access path. The NOC explains service dependencies and available fallback. The incident lead uses pre-agreed criteria to choose a bounded action. IAM or platform operations carries it out. The supplier provides technical facts, but does not make the operator’s risk decision. Customer, legal and regulatory leads work in parallel on impact and notification, rather than waiting for the forensic picture to be complete.
 
 The first action might be to revoke a scoped token and pause the affected automation, not shut down an entire management environment. If that is not enough, a defined escalation path can authorize a broader isolation and the corresponding service fallback. The decision, evidence and service impact are logged. The NOC confirms what continues to work. The SOC checks whether the hostile activity has stopped and whether another identity or path remains active.
 
-Pre-agreed choices cannot cover every incident, but they can speed the first decision without ignoring availability. Actions must reflect the operator’s architecture and service obligations. A playbook from another company cannot identify which local system is safe to stop.
+Pre-agreed choices will not cover every incident. They can shorten the first decision while keeping service impact within agreed limits. Actions must reflect the operator’s architecture and service obligations. A playbook from another company cannot identify which local system is safe to stop.
 
 ## Use automation where its impact is bounded
 
-AI can help defenders assemble incident context and identify relevant systems, runbooks and teams. These tasks can save time without granting authority to make a network-impacting decision.
+AI can help defenders assemble incident context and identify relevant systems, runbooks and teams. These tasks can save time without granting authority to make a network-impacting decision. For AI agents used in cyber-security testing, the Australian Cyber Security Centre recommends real-time monitoring, logs the agent cannot alter and an authorised human who can pause or stop the test.[24] Its 12 November 2026 guidance covers testing environments, not production deployments.
 
-Some actions can be automated when their scope is narrow, their effect is understood, and they can be reversed or recovered. For example, an operator might pre-authorize revocation of a short-lived credential tied to one agent run, with a NOC alert and a recorded reason. A named service owner should decide actions that could affect customers or network continuity, and accept any temporary service impact. Automated actions should stay within tested limits that leadership has accepted.
+Some actions can be automated when their scope is narrow, their effect is understood, and they can be reversed or recovered. For example, an operator might pre-authorize revocation of a short-lived credential tied to one agent run, with a NOC alert and a recorded reason. The owner accountable for an affected service should decide actions that could affect customers or network continuity, and accept any temporary service impact. Automated actions should stay within tested limits that leadership has accepted.
 
-Defenders do not need proof that a specific intrusion used AI before preparing for shorter timelines. Response plans should reflect what the activity can do, how quickly it can move, and what the operator must keep running.
+The operator does not need to establish that an intrusion used AI before preparing for shorter response windows. Plans should reflect what an attacker can do, how quickly it may act, and which services the operator must keep running.
 
 ## The question for leadership
 
