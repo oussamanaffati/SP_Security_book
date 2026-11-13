@@ -10,13 +10,13 @@ No sequence will eliminate risk. The four moves help test controls and make resi
 
 A model list does not show what the system can do. AI may arrive as a feature in a network-management product, customer-service platform or supplier portal. The feature may use a supplier identity to read service data or trigger a workflow. The product may keep the same name.
 
-Two questions frame the work: where can AI reach the operator’s systems or data, and what actions can it take? A review can draw on Network Operations, IT, security, architecture, customer care, procurement, privacy and key suppliers. Its scope can include pilots, SaaS features and automation, even when no one calls them AI.
+Two questions frame the work: where can AI reach the operator’s systems or data, and what actions can it take? A joint review can bring together Network Operations, IT, security, architecture, customer care, procurement, privacy and key suppliers. Its scope can include pilots, SaaS features and automation, even when no one calls them AI.
 
 Prioritize by the live services and network domains an AI use can affect, not by model type. Potential starting points include OSS/BSS, service assurance, network management, customer identity, field operations, cloud control planes and supplier access. A customer-care summary tool has a different service impact from an assistant that can reach network configuration or subscriber records.
 
 A short record can capture the owner and purpose, model or supplier, identity, data and tools. It can also note affected services, available logs, fallback, relevant markets and who can suspend the use. Record unresolved questions rather than marking them complete.
 
-The Australian Cyber Security Centre’s guidance says asset identification should include AI services, agents, connectors and unsanctioned applications.[25] Supplier review should establish where prompts and outputs are retained, whether customer data is used for training and which regions process it.[25] This is cross-sector guidance; local legal duties still need review.
+An official ACSC page summary of its October 2026 guidance lists AI services, agents, connectors and unsanctioned applications as items to include in asset identification.[25] It also recommends checking what providers retain in prompts and outputs, whether they use customer data to train models, and where processing occurs.[25] This is cross-sector guidance; local legal duties still need review.
 
 In October 2026, TRAI, India’s telecom regulator, published draft guidelines on AI use in telecommunications. The consultation proposal calls for an inventory of active, inactive and decommissioned systems, with each system’s source, purpose and risk classification, and due diligence before third-party AI is acquired or used.[9] The document is a consultation draft, not a final rule.
 
@@ -55,6 +55,8 @@ Bring the SOC and NOC, identity and platform owners, service assurance, change m
 Possible scenarios include a supplier feature misusing an agent identity, a threat actor steering an assistant through hostile content, or an agent changing a service workflow during a network event. The team can test when to declare an incident, who can revoke access and what evidence to preserve. It can identify which service may lose visibility, what fallback exists and who can authorize an emergency change. Teams can also clarify who handles regulatory and customer notifications while the scope is uncertain.
 
 The Canadian Centre for Cyber Security recommends practising for incidents that may unfold within hours, with isolation steps approved in advance and manual alternatives tested for critical functions.[14] Joint Australian and international guidance warns that external content can carry instructions designed to steer an agent. This is known as indirect prompt injection.[13] These are general recommendations. Operators can test them against their own systems and response roles.
+
+A separate CISA CI Fortify tabletop package presents a hypothetical telecommunications outage and asks teams to examine isolation, third-party dependencies and manual operations.[29] It is a U.S. critical-infrastructure exercise template, not an AI-specific scenario or a reported incident.[29] Operators can add an agent identity or tool failure to test those continuity decisions.
 
 CISA, FBI and international partners’ September 2026 guidance for service providers emphasizes clear, timely outage communications that preserve operational security and containment.[22] Test who approves an update, when it is sent and which backup channel remains if containment changes service availability.
 
