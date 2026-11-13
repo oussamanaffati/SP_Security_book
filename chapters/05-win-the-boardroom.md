@@ -21,11 +21,10 @@ If the operator relies on a legacy management platform, an external supplier or 
 
 The board’s role is to set direction, risk appetite, ownership and assurance, not select a model or approve a firewall rule. The CISO and CTO should equip directors to ask whether controls match the operator’s service obligations.
 
-The UK government’s Cyber Governance Code of Practice recommends that boards agree senior ownership of cyber risks, align them with enterprise risk management, define risk appetite and gain assurance that resources address those risks.[18]
-The Code also recommends at least quarterly formal reporting with suitable metrics and tolerances, and at least annual incident exercises involving relevant internal and external stakeholders.[18]
+The UK Cyber Governance Code calls for senior ownership of cyber risk, integration with enterprise risk management, a defined risk appetite and assurance that resources address those risks.[18] It also recommends formal reporting at least quarterly with metrics and tolerances, and at least annual exercises with relevant internal and external stakeholders.[18]
 It is UK guidance, not a universal legal requirement. Its value here is the operating principle: cyber risk belongs in existing governance, with visible owners and a reporting cadence.
 
-A guide published by the Australian Cyber Security Centre on 8 September 2026, in partnership with the Australian Institute of Company Directors, asks boards whether frontier AI changes assumptions about attack speed, supplier risk and the ability to keep critical services operating.[26] It is cross-sector guidance, not telco-specific law or evidence of an operator incident. For a service provider, translate those questions into named services, supplier paths and tested fallback.
+An official summary from the Australian Cyber Security Centre and the Australian Institute of Company Directors asks whether frontier AI changes attack-speed assumptions and supplier risk.[26] It also asks whether an operator could keep its most important services running during a serious incident.[26] This is cross-sector guidance, not telco-specific law or evidence of an operator incident. For a service provider, translate those questions into named services, supplier paths and tested fallback.
 
 CISA’s Cross-Sector Cybersecurity Performance Goals 2.0, released in December 2025 for critical-infrastructure owners and operators, adds governance, accountability and risk management to its measurable, outcome-oriented baseline.[19]
 CISA describes the goals as a baseline for guiding investment, benchmarking progress and reducing risk measurably across IT and OT environments.[19]
@@ -84,4 +83,4 @@ Compliance does not prove that a service will recover, and a platform request ne
 
 Start with priority services, named owners and an exercise. Bring initial findings to the risk committee; quarterly reviews should show which access limits and service alternatives were tested, what gaps remain and who owns the risk.
 
-By year-end, leaders should know which AI-enabled uses can affect service, what response has been tested, and what residual risk remains and who accepts it. Fund the work to improve those answers. No plan can promise an invulnerable network. The credible commitment is to know which systems can act, limit their authority and test how services continue and recover when a safeguard fails.
+By year-end, leaders should know which AI-enabled uses can affect services, which response controls have been tested, what residual risk remains, and who accepts it. Fund the work to improve those answers. No plan can promise an invulnerable network. The credible commitment is to know which systems can act, limit their authority and test how services continue and recover when a safeguard fails.
