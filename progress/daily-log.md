@@ -106,6 +106,7 @@
 - Removed the Sources block; inline references remain and the source URLs are retained in `research/chapter-05.md`. Self-critique: direct board decisions, resource trade-offs and residual risk are clear; the illustrative dialogue may still sound slightly scripted and should be tuned by Oussama. The final commitment is measured, not a promise of zero incidents.
 - Telegram remains waived. All five chapter revision cycles are complete; run final cross-chapter and repository checks, then push to `origin/main` as authorized.
 
+
 ## 2026-11-13 — Follow-up revision, Chapter 1
 - Verified the live GitHub `main` files against the current task: Chapters 1–5 have no `## Sources` heading. Chapter 5 still contains “In the next 90 days”; address that in its chapter cycle. The current request’s report that Sources remain on all chapters does not match the remote files fetched during this cycle.
 - Primary revision and critique: `gpt-6-luna`. Removed a familiar resilience slogan, sharpened the explanation of AI access and action, added practical assurance tests (permissions, tool-call logs and revocation), identified the accountable service executive for residual-risk acceptance, and cut meta-commentary from the ending.
@@ -130,3 +131,9 @@
 - Full revised chapter second look: Grok `grok-4.20-0309-non-reasoning`. Adopted its suggestions to clarify the framing questions and specify short-lived or just-in-time credentials. Declined its assertion that the October 2026 TRAI consultation is future-dated: review date is 13 Nov 2026 and the date is verified in `research/chapter-04.md`. Kept citation markers near individual claims rather than consolidating them in a way that could obscure source support.
 - No Sources block is present; inline references remain mapped in the chapter’s research file. No new factual claims or sources were added. Self-critique: tone is more collaborative and risk acceptance more concrete; the sequence and repeated composite scenarios remain purposefully structured and could still feel like a playbook.
 - Next: commit Chapter 4, then revise Chapter 5, including replacing its fixed 90-day start with a flexible first-phase formulation.
+
+## 2026-11-13 — Follow-up revision, Chapter 5
+- Primary revision and critique: `gpt-6-luna`. Replaced the fixed “In the next 90 days” milestone with an initial-phase sequence and later milestones; reframed the prescriptive “Avoid” list as a concise credibility principle.
+- Full revised chapter second look: Grok `grok-4.20-0309-non-reasoning`. It confirmed the timeline is now flexible and retained the CISO/CTO board focus. Adopted its useful feedback on reducing formulaic presentation. Declined fabricated specificity suggested in the critique (for example, made-up network engineering overcommitment percentages) and did not soften necessary evidence boundaries. Existing CISA/TRAI publication dates are documented in `research/chapter-05.md` and were not changed.
+- Confirmed the chapter has no Sources block; inline citations remain tied to source URLs in the research file. Self-critique: the flexible schedule avoids an arbitrary 90-day commitment and the board decision points are clear. Four numbered asks and the composite dialogue remain intentionally structured and may still sound polished; no real board exchange is claimed.
+- Next: run full manuscript/source/phrase checks, commit Chapter 5, then push all follow-up commits and verify `origin/main` by git log and changed-file blobs.

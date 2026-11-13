@@ -73,13 +73,13 @@ That answer is credible because it is bounded. It does not promise zero risk or 
 
 ## Language that weakens the case
 
-Avoid “AI will cause a national outage.” It is an unsupported prediction unless the evidence establishes that specific scenario. Avoid “we are compliant, so we are safe.” Compliance is not a substitute for knowing what an agent can access or how a service will recover. Avoid “we need a platform” before explaining the control gap it would close. Avoid “zero risk” and “future-proof”; neither is an honest commitment in a network that depends on legacy systems, suppliers and continuous service.
+Unsupported claims weaken the case. A prediction of a national outage needs evidence for that scenario; compliance does not prove a service will recover; a platform request needs to identify the control gap it would close. “Zero risk” and “future-proof” are not credible commitments for networks that depend on legacy systems, suppliers and continuous service.
 
 Use language the operator can support with evidence: name the service, access path, test results, unresolved questions and decision needed. That is more useful than a dramatic claim.
 
 ## The next twelve months
 
-The board need not wait for a major incident to create urgency. In the next 90 days, the CISO and CTO can agree priority services, name owners, bring initial findings to the risk committee and schedule an exercise. In later quarters, they can narrow access, test service alternatives, close exercise gaps and return with decisions about remaining risk.
+The board need not wait for a major incident to create urgency. In an initial phase, the CISO and CTO can agree priority services, name owners, bring findings to the risk committee and schedule an exercise. Later milestones can narrow access, test service alternatives, close exercise gaps and return with decisions about remaining risk.
 
 At the end of the year, leadership should be able to identify the AI-enabled uses with material access to services, name their owners, describe what response has been tested and state what risk remains and who accepts it.
 
