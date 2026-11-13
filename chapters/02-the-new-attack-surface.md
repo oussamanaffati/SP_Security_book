@@ -61,7 +61,7 @@ It also proposes due diligence before acquiring or using third-party AI, includi
 
 The inventory should not stop at models bought by a central AI team. Include supplier features, internal experiments, agent runtimes, connected tools, identities and data stores. An official page summary of the Australian Cyber Security Centre’s October 2026 guidance calls for asset identification to include AI services, agents, connectors and unsanctioned applications.[25] It also recommends checking what providers retain in prompts and outputs, whether they use customer data to train models, and where processing occurs.[25] This is cross-sector guidance, not a telco-specific requirement.
 
-Map test environments too, including the tools and credentials an agent can use. A separate ACSC guide on AI testing environments was published on 12 November 2026.[24] It recommends real-time monitoring, logs the agent cannot alter and an authorised human with the power to stop the test.[24] The guide covers testing, not production deployments.[24] Otherwise, an operator can have a complete list of AI products and still miss the paths that carry authority.
+Map test environments too, including the tools and credentials an agent can use. A separate ACSC guide on AI testing environments was published on 12 November 2026.[24] It recommends real-time monitoring, logs the agent cannot alter and an authorized human with the power to stop the test.[24] The guide covers testing, not production deployments.[24] Otherwise, an operator can have a complete list of AI products and still miss the paths that carry authority.
 
 ## A service-assurance example
 

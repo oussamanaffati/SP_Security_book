@@ -78,7 +78,7 @@ Pre-agreed choices will not cover every incident. They can shorten the first dec
 
 ## Use automation where its impact is bounded
 
-AI can help defenders assemble incident context and identify relevant systems, runbooks and teams. These tasks can save time without granting authority to make a network-impacting decision. For AI agents used in cyber-security testing, the Australian Cyber Security Centre recommends real-time monitoring, logs the agent cannot alter and an authorised human who can pause or stop the test.[24] Its 12 November 2026 guidance covers testing environments, not production deployments.
+AI can help defenders assemble incident context and identify relevant systems, runbooks and teams. These tasks can save time without granting authority to make a network-impacting decision. For AI agents used in cyber-security testing, the Australian Cyber Security Centre recommends real-time monitoring, logs the agent cannot alter and an authorized human who can pause or stop the test.[24] Its 12 November 2026 guidance covers testing environments, not production deployments.
 
 Some actions can be automated when their scope is narrow, their effect is understood, and they can be reversed or recovered. For example, an operator might pre-authorize revocation of a short-lived credential tied to one agent run, with a NOC alert and a recorded reason. The owner accountable for an affected service should decide actions that could affect customers or network continuity, and accept any temporary service impact. Automated actions should stay within tested limits that leadership has accepted.
 
