@@ -1,18 +1,84 @@
 # Chapter 1 — The Risk Has Changed—and Service Providers Feel It First
 
-## Chapter job
-Establish why AI changes the nature of security risk for operators—not simply the efficiency of existing security—and why the service-provider context makes the shift consequential.
+A cyber incident at a service provider is never just an IT problem. When a mobile network, a core system, or a trusted digital service fails, the consequences can travel far beyond the operator’s balance sheet. Customers lose connectivity. Businesses lose the systems they use to trade. Public services may lose a channel they rely on. Regulators ask what happened, whether obligations were met, and what will prevent a repeat. The operator has to restore service while it is still learning what the attacker did.
 
-## Argument spine
-1. Essential connectivity and digital services make service-provider failures consequential beyond the company itself.
-2. Regulation, national criticality, continuity duties, legacy estates, and commercial constraints limit the operator's room to react.
-3. AI-enabled systems and autonomous agents introduce new ways for actions to be taken at scale and speed.
-4. Treating AI only as a detection upgrade leaves the strategic change unaddressed.
+That is a demanding reality even before artificial intelligence enters the picture. AI changes the question from “Can we detect this faster?” to a harder one: “What new actors can now take action in our environment, at what speed, with whose authority—and can we still keep essential services safe?”
 
-## Evidence and examples to develop
-- Use dated, verifiable regulatory or national-resilience evidence relevant to service providers.
-- Develop a concrete operator scenario showing how legacy and availability constraints shape an AI-era security decision.
-- Distinguish documented events from illustrative scenarios; do not imply a hypothetical is a real incident.
+For service-provider leaders, this is not a forecast about a distant, fully autonomous network. It is a decision about how to introduce systems that can interpret instructions, use tools, retrieve information and, increasingly, act on behalf of people. These systems may begin in customer care or office productivity. The pressure to extend them into network operations, service assurance, fraud management and internal workflows will follow. In an operator, those functions are connected to the machinery of a business whose product is continuity.
 
-## Reader decision
-What makes AI-era risk materially different for this operator, and which executive owns the answer?
+The central argument of this book is simple: **AI is not merely another security tool. It changes the shape of risk inside the operator, while giving adversaries new ways to increase the pace and scale of their activity.** An operator that treats AI only as a better detector may improve one part of its security operation and still miss the strategic change happening around it.
+
+## The operator is part of the country’s operating system
+
+Service providers are unusual businesses. They run commercial operations, but the infrastructure they own or operate has public consequences. A network can carry emergency calls, coordinate logistics, support payment systems, connect hospitals and underpin government services. The degree of dependence varies by country and service, but the direction is clear: when connectivity is disrupted, effects can propagate to organizations that the operator does not control.
+
+In its 2026 assessment of sectors covered by NIS2, ENISA places telecommunications among the EU’s most mature and most critical sectors. Its analysis treats criticality in terms that matter to an operator: the socio-economic impact of disruption, interdependence with other sectors, and how quickly consequences are felt. It also describes persistent challenges beneath the sector’s strong baseline, including uneven follow-through on identified risks, legacy-related delays in vulnerability remediation, and the need for more consistent exercising of response and recovery arrangements.[2] High maturity is not immunity. It means the sector has experience, investment and governance structures to build on; it does not mean every dependency is understood or every risk can be removed on schedule.
+
+The economics make this harder. A service provider cannot replace an entire estate whenever a security principle changes. Network equipment, operational support systems, billing platforms and customer systems have long lifecycles and complex dependencies. They may be supplied by different vendors, managed by different teams, and connected through interfaces that evolved over many years. A planned change can require a maintenance window, a rollback plan and coordination across engineering, operations, security, vendors and customer-facing teams. “Patch it now” may be the right security answer and still be operationally incomplete.
+
+At the same time, the business must invest in capacity, coverage, customer experience, spectrum, cloud, fiber and modernization. Security competes for time, people and capital with work whose benefits are easier to see on a commercial dashboard. A security leader must connect resilience and risk to those business choices without reducing the issue to a list of controls or an undefined cost.
+
+This is why the service-provider context belongs in every discussion of AI security. A control that is sensible for a small office workflow may be inadequate for an agent connected to a production support process. The relevant questions are what it can see, what it can change, how reversible those changes are, and what happens to customers if the system fails.
+
+## A warning from the network floor—not an AI story
+
+In February 2026, Singapore’s Cyber Security Agency and Infocomm Media Development Authority disclosed a sustained campaign against all four of the country’s major telecommunications operators. The authorities said the threat actor used a zero-day exploit to bypass a perimeter firewall in one instance, and rootkits and other advanced techniques to maintain access and evade detection in another. The campaign led to a coordinated national response that lasted more than eleven months and involved over 100 cyber defenders across government agencies and operators. The authorities reported limited access to parts of telco networks, including limited access to critical systems in one case, but no evidence at that point of customer-record exfiltration or disruption to telecommunications services.[1]
+
+This is a documented example of the environment operators already inhabit: determined adversaries, complex networks, stealthy persistence and a response that crosses the boundary between company and state. It is **not** evidence that the campaign used AI. The distinction matters. We should not attach an AI label to every sophisticated attack simply because AI is now prominent. The lesson is more useful: the operator already has to defend a large, interconnected, difficult-to-change environment against actors prepared to invest time and capability. The arrival of AI does not erase that reality; it adds new decisions to it.
+
+The Singapore response also illustrates why resilience is not a single product or control. The operators detected activity and notified authorities; government and industry then coordinated containment, investigation and monitoring. This kind of cooperation depends on relationships, clear escalation paths, shared situational awareness and decisions made under uncertainty. Those capabilities take time to develop. They cannot be purchased at the moment an incident begins.
+
+## AI changes who—or what—can act
+
+Traditional security programs are built around assets, users, applications, vendors and processes. AI systems introduce familiar components—software, infrastructure, data and external services—but can combine them into a new kind of operational actor. An agent may interpret a goal, retrieve internal material, call tools, delegate subtasks and take actions without a person approving every step. The key change is not that the system is intelligent in a human sense. It is that it can exercise delegated authority across connected systems.
+
+For an operator, imagine an assistant first introduced to summarize a service-assurance ticket. If it can also query network-management data, open a vendor case, recommend a configuration change and trigger an automation workflow, it is no longer just a writing aid. It sits in a chain of permissions and decisions. A mistake in a summary may be inconvenient. A mistaken action against a production workflow may have a different blast radius. The example is illustrative, not a report of an actual incident; its purpose is to show why leaders must distinguish access to information from authority to change service.
+
+Joint guidance published in May 2026 by Australia’s cyber security center and partner agencies, including CISA, NSA and the UK NCSC, warns that agentic AI systems can introduce privilege, identity, structural and accountability risks. It recommends treating these systems within established cybersecurity frameworks, starting with low-risk tasks, avoiding broad or unrestricted access to critical systems, and maintaining oversight and visibility.[3] These recommendations are not telecom-specific. They are especially consequential in telecom because the same organization may operate customer-facing digital services alongside network and operational processes where the cost of an incorrect action is measured in service impact, regulatory scrutiny and public trust.
+
+## The speed gap is a leadership risk
+
+The outside threat picture is also changing. AI can lower the effort required for some activities, help adversaries produce convincing content, or increase the pace at which they explore options. It would be careless to claim that every attacker is already operating an autonomous campaign or that AI alone explains the rise of cyber incidents. The more durable strategic concern is an asymmetry of adaptation: an adversary may experiment quickly, while an operator must test changes against a complicated estate, preserve service, coordinate multiple teams and satisfy obligations across jurisdictions.
+
+ENISA’s 2026 assessment is a useful corrective to simplistic narratives. It finds that telecommunications remains a high-maturity, high-criticality sector, while also noting that maturity and remediation are uneven. Its evidence points to legacy constraints in patching and to gaps in risk follow-through and routine response-and-recovery exercises.[2] That is not a claim that operators are unprepared. It is a reminder that even strong organizations face structural limits on how quickly they can close every gap. AI can increase the pressure on those limits; it does not make them disappear.
+
+The uncomfortable board-level question is therefore not “Will AI replace our security team?” It is “Could the pace of hostile activity, combined with new autonomous capabilities inside our own environment, outstrip the way we currently approve, deploy, monitor and contain change?” This question connects technology to operating model. It asks whether Security, Network, IT, Operations, Procurement, Legal and business leaders can make decisions together before a high-impact system is involved—not only after an incident forces them to.
+
+## Regulation is a floor, not the whole strategy
+
+Service providers already operate under a dense set of obligations: cybersecurity and privacy laws, communications-sector rules, resilience expectations, incident-reporting duties, contractual commitments and, in some markets, national-security requirements. In Europe, NIS2 brings electronic communications providers into a common framework for cybersecurity risk management and incident reporting, implemented through national law.[4] The details vary by jurisdiction and service, so a multinational operator cannot rely on one generic compliance answer.
+
+But compliance alone cannot answer every AI-era question. A regulation may establish who must manage risk and report an incident; it cannot, by itself, decide which agent should be allowed to change a network configuration, what evidence is sufficient before autonomy is expanded, or which executive accepts the residual risk when a supplier’s AI feature reaches a critical workflow. Those are operational and governance decisions. They require the same discipline as security controls, but they also require a clear business owner and a decision record.
+
+This is where leaders can make a mistake in either direction. One response is to treat AI as an exception, creating a separate governance process that duplicates existing risk committees and slows low-risk experiments without controlling high-impact deployments. The opposite response is to assume that existing policy automatically covers every new capability. A better starting point is to extend established security, architecture, change-management and supplier-risk processes so they explicitly account for machine identities, delegated authority, data access, autonomy and reversibility.
+
+That approach is not glamorous. It is credible. It recognizes that operators cannot pause the business until every uncertainty is resolved, but they also cannot scale autonomy on trust alone. The goal is not to prohibit every new use. It is to know which uses matter, who owns them, what they can affect, and what conditions must be met before their authority grows.
+
+## The decision is not “AI or no AI”
+
+There is a commercial reason not to frame this as a choice between innovation and security. Operators face sustained pressure to improve customer experience, automate repetitive work and run complex networks more efficiently. AI may help. Competitors and suppliers will continue to move. A policy of “wait until everything is settled” can leave the organization behind—and push experimentation into less visible channels.
+
+But moving quickly without a clear view of authority creates a different risk: capabilities can scale before leadership understands the dependencies or the consequences of failure. The prudent choice is neither blanket approval nor blanket prohibition. It is deliberate sequencing: start where the task is bounded and low impact; understand the data, identity and tools involved; define when a person must approve; observe what the system actually does; and make access reversible. The 2026 multi-agency guidance supports this cautious progression, particularly for sensitive data and critical systems.[3]
+
+For a service provider, “low risk” must be judged in context. A process may be low-risk in a general enterprise and consequential in an operator because it touches subscriber identity, network configuration, emergency communications, billing, or a supplier with privileged access. Equally, some uses can be valuable and comparatively contained: summarizing public information, drafting a non-binding internal report, or helping an analyst organize evidence without direct authority to modify systems. The point is not to prescribe one universal list. It is to make the operator’s own impact model explicit.
+
+Leaders should also resist a comforting but misleading division between “AI for the business” and “AI for security.” An agent introduced for customer operations can become a security concern through the data and systems it touches. A security copilot can itself be manipulated or over-privileged. A network-optimization assistant can alter the conditions under which security controls operate. Ownership cannot stop at the team that purchased the feature. It must follow the system’s access and impact across organizational boundaries.
+
+## What must change in the next twelve months
+
+This opening chapter does not ask a CISO or CTO to solve every technical problem at once. It asks for a strategic shift in how the organization sees risk. Three conclusions follow.
+
+First, **AI capability is part of the attack surface and the operating model.** The relevant unit is not only the model. It is the full chain: identity, data, tools, supplier, human owner and permitted action. An organization that cannot say where consequential AI is being used cannot make a confident decision about where to expand or restrict it.
+
+Second, **service continuity changes the meaning of control.** For an operator, the safest action during an incident may not be the fastest action available. Containment, rollback, customer impact and regulatory notification may pull in different directions. The response has to be designed around the service, not just the system under investigation.
+
+Third, **accountability must keep pace with autonomy.** If software can take consequential actions, leaders need to know who approved the use, who owns the risk, what limits apply, and how the organization will detect and reverse an unsafe action. A vendor’s assurance or an AI policy statement does not replace that ownership.
+
+The book’s practical promise is that readers will leave able to choose three or four priorities for the next twelve months and explain them credibly to a CEO and board. The next chapter starts with the first question they need to answer: **where, inside the operator, can this new authority enter and spread?** Before a service provider can decide how much autonomy to allow, it needs a grounded view of the people, systems, suppliers and workflows that an agent could reach.
+
+## Sources
+
+[1] https://www.csa.gov.sg/news-events/press-releases/largest-multi-agency-cyber-operation-mounted-to-counter-threat-posed-by-advanced-persistent-threat--apt--actor-unc3886-to-singapore-s-telecommunications-sector — Operation CYBER GUARDIAN: Singapore CSA and IMDA, 9 February 2026
+[2] https://www.enisa.europa.eu/sites/default/files/2026-05/ENISA%20NIS360%202026.pdf — ENISA NIS360 2026
+[3] https://www.cyber.gov.au/business-government/secure-design/artificial-intelligence/careful-adoption-of-agentic-ai-services — Careful adoption of agentic AI services, 1 May 2026 (ASD ACSC and partners)
+[4] https://digital-strategy.ec.europa.eu/en/policies/nis2-directive — European Commission: NIS2 Directive
