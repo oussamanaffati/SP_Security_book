@@ -1,0 +1,28 @@
+# Chapter 3 research notes — 13 November 2026
+
+## Search window and question
+
+This cycle searched the previous 12 months (13 November 2025–13 November 2026), plus 2025 operator incident records that remain within the requested research period. The question was how adversary activity can outrun detection, decision-making and safe action, especially when a provider must preserve service continuity. The chapter distinguishes threat speed from response latency and avoids claiming that all attacks use AI.
+
+## Sources used
+
+1. **Canadian Centre for Cyber Security, “Cyber threat bulletin: Agentic artificial intelligence is accelerating cyber attacks” (date modified 26 October 2026).** Primary government guidance. It states that attacks are not yet fully autonomous: humans still choose targets, set objectives and oversee operations, while more intervening work can be delegated to machines. It reports that Storm-0940 used an agentic framework and that, in some cases, activity moved from target selection to privileged cloud access in less than three hours. The bulletin also recommends deciding in advance who may isolate accounts, applications, networks or services, and practising for incidents that unfold within hours rather than days. This is not a telecom-specific incident report. Source [14]: https://www.cyber.gc.ca/en/guidance/cyber-threat-bulletin-agentic-artificial-intelligence-accelerating-cyber-attacks.
+
+2. **CERT-In Advisory CIAD-2026-0049 (15 October 2026).** Primary national cyber-advisory. It reports that agentic tooling in a financially motivated campaign against Indian entities compressed the time from initial access to impact from days to a few hours; it also reports parallel activity and repeat attacks within days when fixes were incomplete. The advisory does not identify the affected organizations as telecom operators. The chapter therefore attributes the observations to CERT-In and does not present them as telco incidents. Source [11]: https://cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0049&pageid=PUBVLNOTES02.
+
+3. **Republic of Korea Ministry of Science and ICT (MSIT), “MSIT Releases Final Investigation Results on SK Telecom Data Breach” (published 10 July 2025).** Primary government investigation. MSIT reports that SK Telecom detected abnormally large outbound traffic at 11:20 p.m. on 18 April 2025 and notified KISA at 4:46 p.m. on 20 April, beyond the statutory 24-hour reporting window. A public-private investigation team was established on 23 April and conducted forensic inspections of all 42,605 SKT servers through 27 June; the final investigation identified 28 infected servers. The time pair documents detection and reporting, not time to containment or the start of the intrusion. This was a data breach, not evidence of a network outage, and it was not attributed to AI. Source [15]: https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&nttSeqNo=1139.
+
+4. **MSIT, “MSIT Releases First Investigation Results on SKT Data Breach” (29 April 2025).** Primary preliminary government update. The Ministry encouraged customers to replace their USIM cards or use a protection service and urged SKT to expand service channels and add reservations so more customers could receive protection promptly. This is used to show the customer-facing and operational work that accompanies technical response, not to claim a service outage. Source [16]: https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1111&pageIndex=&sCode=eng&searchOpt=ALL&searchTxt=.
+
+## Draft decisions and boundaries
+
+- Reframed response speed as an operating-model issue, not merely SOC alerting. The chapter separates detection, decision, safe action, continuity and recovery clocks.
+- Used the Canadian bulletin and CERT-In for recent evidence of compressed attack stages, with explicit attribution and caveats that neither source describes a telecom-specific attack.
+- Used the SK Telecom case to ground the difference between detection, statutory reporting, forensic scoping and customer protection. It is not framed as AI-enabled or as a network-availability incident. The report’s reporting delay is not described as the full containment delay.
+- Added a clearly labeled composite NOC/SOC scenario involving a suspicious network-management identity during an approved maintenance window. It is a constructed example, not a reported event. It illustrates how SOC evidence, NOC service knowledge, IAM actions, supplier input and decision authority must work together.
+- The action model favors bounded, pre-authorized, reversible containment; service-impacting actions retain a named human decision owner and a tested fallback. The exact controls must be adapted to the operator’s architecture.
+- The chapter ends by moving from the problem of time and authority to Chapter 4’s four practical moves. Chapter 4 was not drafted.
+
+## Self-critique
+
+The chapter has a clear boundary from Chapter 2 and treats continuity as part of containment, not an afterthought. The strongest concrete material is the distinction between the SKT reporting timeline and technical containment, and the composite maintenance-window scenario. The principal limitation is that no public source here establishes an AI-driven attack against a telecom operator; the draft is explicit about that. Some of the response-model discussion is prescriptive rather than drawn from a named telco’s internal playbook, so Oussama should test whether the composite scenario rings true to NOC/SOC practice. The prose is direct and varied, but the four-clock framework and several questions for leadership may still feel a little structured. No private conversation or operator experience has been invented.
