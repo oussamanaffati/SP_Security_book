@@ -2,7 +2,7 @@
 
 An agent can link an OSS query, a service ticket and an operational action through one identity. That changes how far a mistake or compromised tool can travel before a person intervenes. AI can also compress parts of an attacker’s workflow.[14] For a service provider, the challenge is to contain both risks without disrupting service.
 
-Operators can often extend existing security, network, architecture, supplier and change processes rather than create a separate AI program. The practical questions are which identities can reach which data or tools, which actions need approval, how NOC and SOC teams will rehearse a response, and what gaps remain.
+Extend existing security, network, architecture, supplier and change processes where they cover the function. Check for gaps where agent identities, tools or supplier features fall outside their controls. Then ask which identities can reach which data or tools, which actions need approval, how NOC and SOC teams will rehearse a response, and what remains uncovered.
 
 No sequence will eliminate risk. The four moves help test controls and make residual risk visible against the operator’s risk appetite. They are a guide, not a reason to delay action: broad production access can be restricted while the wider review continues.
 
@@ -24,7 +24,7 @@ A first pass should focus on uses that could affect a critical service or sensit
 
 **Composite scenario: supplier feature.** A network-management supplier enables an AI diagnostic feature during a routine update. It is missing from the operator’s project list, but can read topology and propose actions. The team assigns an owner, then checks the feature’s contract, service domain, identity and change process. Evidence about its reach supports the decision to restrict or retain it.
 
-Seeing an important use tells the team where to focus. It does not show whether the agent has more authority than its task requires.
+Inventory shows where to look. Access review shows whether an agent has more authority than its task requires.
 
 ## Move 2: Match authority to the task
 
@@ -34,13 +34,11 @@ The boundary comes down to three things: the data an agent can read, the actions
 
 Where the platform allows it, the agent can use a dedicated identity rather than an employee account or broad shared-service permissions. Access can be limited to the data and tools needed for the task. Short-lived or just-in-time credentials may help. Logs should show which identity acted, what tool it called and what happened.
 
-The control matters only if it works in practice. Can the team trace activity and revoke access without disrupting monitoring or service assurance? These are tests of control effectiveness, not questions answered by policy wording.
+Policy does not prove that a permission boundary works under service conditions. For one or two high-impact uses, trace the identity and tool path, check whether permissions fit the task and where human approval is needed, then test revocation without disrupting monitoring or service assurance.
 
 Separate “read,” “recommend” and “execute.” Read-only access is often a sensible start. A low-impact, reversible action may fit within clear limits and monitoring. Actions that could change production, affect customers or interrupt an essential workflow should follow the operator’s normal authorization and change process. An agent can prepare a change; an authorized person approves and validates it.
 
 CISA and its international partners advise limiting agent access to sensitive data and critical systems, and starting with low-risk uses.[10] This is general guidance, not a telco control standard. Legacy platforms and supplier connections matter as much as modern APIs. If a legacy system cannot support a separate identity, a controlled gateway may help. Until then, read-only access may be safer.
-
-For one or two high-impact uses, trace the identity and tool path. Check whether permissions fit the task, which actions need human approval, and who can revoke access. Test revocation without disrupting NOC or service-assurance work.
 
 **Composite scenario: legacy access.** A service-assurance assistant on a legacy OSS platform reads alarms and drafts a maintenance recommendation. The platform cannot issue a separate identity for the assistant. An access gateway limits its read path to one service domain, while write actions stay in the existing change process. Until activity can be traced and revoked, the assistant remains read-only. If it is unavailable, engineers use normal monitoring and approvals. No new failover is introduced during live service.
 
@@ -74,7 +72,7 @@ Assurance means showing that controls work under the operator’s service condit
 
 Regulation belongs in this roadmap, but it need not delay action. Legal and Compliance can track binding obligations by market and separate them from consultation drafts. Where duties overlap with identity, supplier assurance, incident reporting or continuity, existing governance may be enough; a separate AI approval board is not always needed.
 
-**At an executive review,** the CISO and CTO can present the priorities, owners, service constraints and evidence gaps. The request might be funding for an identity boundary, time for a continuity test, and regular review of outcomes and residual risk. The paper should identify which accountable service executive accepts the remaining risk until later work is complete.
+At an executive review, the CISO and CTO can present the priorities, owners, service constraints and evidence gaps. The request might be funding for an identity boundary, time for a continuity test, and regular review of outcomes and residual risk. The paper should identify which accountable service executive accepts the remaining risk until later work is complete.
 
 **Composite scenario: funding decision.** An exercise finds that a supplier identity can reach two operational domains and that one service fallback is untested. The supplier’s patch schedule delays the permanent fix until an agreed window. The CISO and CTO present linked choices: fund an interim identity boundary, test continuity with Network Operations, and name who accepts the residual risk until then. The board sees the trade-off, not just a product request.
 
