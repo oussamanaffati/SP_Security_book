@@ -1,0 +1,30 @@
+# Chapter 5 research notes — 13 November 2026
+
+## Scope and source window
+
+Chapter 5 turns the four moves into a board decision: service consequence, evidence, proposed action, resource choice and residual risk. Recent source work focused on board governance and critical-infrastructure investment guidance, with a current telecom-regulatory signal. The CISA source is within the rolling 12-month window; TRAI’s consultation is current. The UK Cyber Governance Code was published on 8 April 2025, outside the rolling 12-month window. It is used as an extant government governance reference, not described as a new development or universal requirement.
+
+## Sources used
+
+1. **UK Department for Science, Innovation and Technology / NCSC, Cyber Governance Code of Practice (published 8 April 2025).** Official UK government board guidance. It says cyber incidents can disrupt business continuity and damage customer trust. Its actions cover critical services, senior risk ownership, risk appetite, supplier risk, resource allocation, annual exercises, quarterly reporting with metrics and tolerances, and awareness of relevant regulatory obligations. The chapter describes it as UK guidance, not binding law for every operator. Source [18]: https://www.gov.uk/government/publications/cyber-governance-code-of-practice/cyber-governance-code-of-practice.
+
+2. **CISA, Cybersecurity Performance Goals 2.0 for Critical Infrastructure (released 11 December 2025).** Official U.S. critical-infrastructure guidance. CISA describes the goals as measurable, outcome-oriented protections for IT and OT, with a governance component focused on accountability and risk management; it presents them as a baseline for investment and measurable progress. The chapter uses this to support outcome-based assurance, not as a mandatory framework for all service providers. Source [19]: https://www.cisa.gov/news-events/alerts/2025/12/11/cybersecurity-performance-goals-20-critical-infrastructure.
+
+3. **TRAI, Draft Guidelines on Responsible Use of AI in Telecommunication Networks (published for consultation 30 October 2026).** Current telecom-regulator proposal. The draft remains a consultation, not a final rule. The chapter uses it to illustrate why board papers should distinguish binding requirements from proposed guidance and identify applicability by market. Source [9]: https://trai.gov.in/sites/default/files/2026-10/Draft_CP_30102026.pdf.
+
+## Considered but not used for article-level legal claims
+
+The NIS2 Directive was reviewed as a possible example of board responsibility. The chapter does not make a specific NIS2 Article 20 claim because the audience is multinational and scope, national transposition and legal consequences require jurisdiction-specific validation. It instead advises the CISO/CTO to bring a market-by-market list of duties, owners and deadlines, and to have Legal confirm applicability.
+
+## Draft decisions and boundaries
+
+- The board conversation follows a repeatable sequence: service at stake → system/workflow → evidence and uncertainty → action → residual risk → explicit decision.
+- Reframed the four moves as board decisions about priorities, accountable owners, protected capacity and quarterly assurance, rather than a technology purchase request.
+- Made board evidence concrete: consequential AI-enabled workflows, access boundaries, exercise findings, service fallback, regulatory obligations and roadmap dependencies.
+- Included one clearly labeled composite board dialogue. It is constructed; no customer, board member or private operator conversation is represented as real.
+- Added explicit language to avoid: unsupported claims of an AI-caused national outage, compliance-as-proof-of-safety, zero-risk promises, tool-first pitches and unsubstantiated financial loss estimates.
+- Ended with a non-hype 12-month call to action. The chapter is the final chapter; no further chapter transition is added.
+
+## Self-critique
+
+The chapter gives a CISO/CTO specific board asks and a defensible evidence path. It avoids claiming that AI guarantees an outage and treats residual risk as a choice to own. The composite dialogue is short and bounded, but it may still sound scripted; Oussama should adapt it to his natural boardroom voice. The public governance guidance is cross-sector rather than telco-specific, and no private board exchange or real operator case was available for this chapter. The prose is direct, avoids hype and em dashes, and closes the book with action rather than prediction.
