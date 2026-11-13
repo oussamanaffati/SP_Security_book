@@ -8,14 +8,15 @@ Chapter 2 mapped where exposure can enter and spread. This chapter asks whether 
 
 ## The clock is getting shorter, but not every attack is autonomous
 
-AI can support tasks such as finding weaknesses and targeting organizations. Agentic systems can link attack stages with less human direction.[14] That does not mean every attacker uses an agent or that every attack unfolds at machine speed.
+AI can support tasks such as finding weaknesses and targeting organizations. Agentic systems can link attack stages with less human direction.[14] That does not mean every attacker uses an agent or every attack unfolds at machine speed.
 
-In an October 2026 bulletin, the Canadian Centre for Cyber Security says attacks are not yet fully autonomous. Humans still choose targets, set objectives and oversee the operation, while more work between those decisions can be delegated to machines.[14]
-
-The same bulletin describes activity attributed to Storm-0940 using an agentic framework. In some cases, the activity moved from target selection to privileged access to cloud systems in less than three hours.[14]
-The bulletin is not telecom-specific. It shows how quickly an adversary may move through familiar weaknesses; it does not show that a telco has been attacked this way.
+The Canadian Centre for Cyber Security’s October 2026 bulletin says attacks are not yet fully autonomous. Humans still choose targets, set objectives and oversee operations, while machines handle more work between those decisions. It describes activity attributed to Storm-0940 moving from target selection to privileged cloud access in under three hours.[14]
+This is not telecom-specific evidence. It shows how quickly an adversary can move through familiar weaknesses; it does not show that a telco has been attacked this way.
 
 CERT-In reported a related pattern in October 2026. In a financially motivated campaign against Indian entities, the agency said agentic tooling compressed the time from initial access to impact from days to a few hours. It also reported parallel agent operations and repeat attacks within days when remediation was incomplete.[11]
+
+On 4 November, CERT-In’s finance-sector response team said an AI-assisted campaign had timed attacks to weekends, holidays and other low-monitoring windows.[20] The advisory concerns financial services, not telecom, but supports testing off-hours decision authority and escalation.
+
 These observations do not establish a universal attacker timeline. They do show why waiting for the next maintenance window may be unsafe when exploitation is confirmed.
 
 The important point is not simply faster scanning. It is the shrinking interval between one step and the next. A stolen identity can be reused. A tool can search broadly. A partial fix can leave another route open. When an attacker can repeat actions quickly, responders may need to contain the immediate path while continuing to investigate.
@@ -35,13 +36,13 @@ A useful way to think about the gap is to separate four clocks:
 - **Action:** How long before teams execute it safely and confirm the result?
 - **Continuity and recovery:** How long before affected services can run safely again?
 
-A fast SOC does not guarantee a fast response if approval is slow. Quick isolation is not success if it breaks a critical workflow or removes telemetry needed to understand the incident. Measure detection, decision, action and recovery together.
+A fast SOC does not guarantee a fast response if approval is slow. Quick isolation is not success if it breaks a critical workflow or removes telemetry needed to understand the incident. For each exercise, record time to detect, authorize, execute safely and restore service.
 
 This is where NOC and SOC coordination matters. The SOC understands the evidence and the likely attack path. The NOC understands which systems are carrying live operations, what maintenance is in progress, and what a particular isolation could do to service. Neither view is sufficient alone. Each needs a clear route to the other, with someone empowered to decide when there is no time for a long discussion.
 
 ## A telecom breach has several timelines
 
-The South Korean Ministry of Science and ICT’s investigation into the 2025 SK Telecom breach is a useful reminder that the response clock includes more than containment. The Ministry reports that SK Telecom detected abnormally large outbound traffic at 11:20 p.m. on 18 April 2025, then notified KISA at 4:46 p.m. on 20 April, beyond the statutory 24-hour reporting window.[15]
+The South Korean Ministry of Science and ICT’s investigation into the 2025 SK Telecom breach is a useful reminder that the response clock includes more than containment. MSIT reports that SK Telecom detected abnormally large outbound traffic at 11:20 p.m. on 18 April 2025 and notified KISA at 4:46 p.m. on 20 April; the Ministry said this exceeded the statutory 24-hour reporting window.[15]
 
 That is a reporting timeline, not a measurement of how long the company took to contain the intrusion. The distinction matters. The government’s public-private investigation team was established on 23 April and conducted forensic inspections across all 42,605 SK Telecom servers through 27 June. Its final findings identified 28 infected servers.[15]
 Establishing the full scope took sustained work across the operator and government investigators.
@@ -55,10 +56,9 @@ There is no single clock. The initial signal, statutory notification, technical 
 
 For an ordinary office system, “isolate it” may sound straightforward. In a provider environment, the same action can have different consequences depending on the system’s role. Cutting a compromised supplier connection may slow recovery. Disabling a shared identity may stop a legitimate monitoring workflow. Isolating a management host may reduce an attacker’s access but also remove a source of operational visibility.
 
-That does not mean the operator should wait. It means the available actions should be designed and authorized in advance. The Canadian Cyber Centre recommends deciding ahead of time who can isolate an account, application, network or service, and practising for incidents that unfold within hours rather than days.[14]
-For critical infrastructure, it also recommends identifying the minimum functions that must continue, defining pre-authorized isolation steps, and testing safe manual or alternative operation.[14]
+That does not mean the operator should wait. It means the available actions should be designed and authorized in advance. The Canadian Cyber Centre recommends deciding in advance who may isolate an account, application, network or service, then practising for incidents that unfold within hours rather than days. For critical infrastructure, it also recommends identifying essential functions, defining pre-authorized isolation steps and testing safe manual or alternative operation.[14]
 
-For a telco, the practical questions are specific. Which identities can the SOC revoke without NOC approval? Which systems can be isolated while the network remains stable? What fallback is available if a supplier connection must be stopped? Who can authorize an emergency change and record the decision? Which services must continue, and what reduced mode is acceptable?
+Translate the guidance into criteria for evidence, service impact, authority and fallback. For a telco, the questions are specific: which identities can the SOC revoke without NOC approval? Which systems can be isolated while the network remains stable? What fallback is available if a supplier connection must be stopped? Who can authorize an emergency change and record the decision? Which services must continue, and what reduced mode is acceptable?
 
 “Call the incident commander” is not enough if the commander has no authority to act. “Follow the change process” is not enough if the process assumes there is time to schedule a meeting. The emergency route has to be legitimate, documented and rehearsed. It should preserve the evidence and service context needed for the next decision.
 
