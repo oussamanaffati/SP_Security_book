@@ -55,6 +55,17 @@ Before onboarding or renewal, Procurement and Legal can seek material-change not
 
 The entry stays open until the operator verifies the identity, reach, independent disablement and a service fallback; when a bounded test is used, retain its expected and observed results before marking the boundary verified.
 
+**Illustrative supplier data-flow decision: diagnostic feature.** The supplied case establishes that the feature reads topology and proposes actions. It does not establish whether topology leaves the operator’s environment, where processing occurs, or whether prompts and outputs are retained or used for training. Keep those facts unknown until evidence closes them.
+
+| Decision question | Evidence to request or verify | If the answer remains unknown |
+|---|---|---|
+| What enters the feature? | Identify topology fields, identifiers and context sent with a request; compare them with the enabled configuration and the task’s need. | Restrict the available data if the boundary is independently enforceable. Do not describe the feature as least-privilege based only on its intended purpose. |
+| Where is it processed and kept? | Record processing location, prompt/output retention, training use and deletion terms. Distinguish contractual or supplier assurance from settings the operator can inspect. | Do not assume data stays local or leaves the environment. Treat destination and retention as assurance gaps; request evidence or delay enablement. |
+| Who can access it? | Establish supplier support access, any subprocessors in the processing path, and what access or activity records can be reviewed. | Keep the access path unresolved. Ask whether the feature can be disabled separately and what product or service function that would affect. |
+| What is the safe operating choice? | Compare a verified restriction, independent disablement or deferred enablement with the diagnostic benefit, manual workload, supplier dependency and supported change path. | If no restriction or fallback can be evidenced, the accountable service executive decides whether to defer or accept the residual exposure within delegated authority and appetite; otherwise escalate. |
+
+A product description does not prove the deployed data path. Configuration and operator-visible logs can establish some boundaries; supplier evidence or contractual commitments may be the only basis for others, and that is a different assurance level from a direct test. If a restriction is selected, verify its effect and the service fallback before counting it as risk reduction. The decision record should show both the exposure left open and the cost of slower diagnostics or manual work.
+
 Inventory shows where to look. Access review shows whether an agent has more authority than its task requires.
 
 ## Move 2: Match authority to the task
