@@ -61,17 +61,11 @@ For a provider, translate that guidance into clear criteria: what evidence is en
 
 The emergency route needs a real mandate, service context and a record of the decision. An incident-commander title cannot substitute for authority, just as a change process built for scheduled work cannot handle every urgent isolation.
 
-## A composite NOC/SOC scenario
+## The NOC assistant makes authority visible
 
-Consider a composite scenario, not a reported incident. During a planned maintenance window, the SOC sees unusual privileged calls from an identity used by a network-management integration. The calls are consistent with the work in progress, but the volume and destinations are not. The NOC confirms that a change is active and warns that disabling the shared identity could interrupt monitoring for more than one network domain. A supplier says a software update may explain the behavior, but cannot confirm that immediately.
+Chapter 1 described the assistant test: it read alarms and drafted ticket updates, and summarization worked. The risk changed when it used a broader service account that could also open vendor cases. In a simulated incident, it pulled data from a neighboring domain and proposed a change that would have reduced NOC visibility. This was a test, not a production incident.
 
-The threat is uncertain. The service impact is not. The operator must choose: wait for more evidence, revoke the identity, or isolate the integration path and accept reduced visibility. If compromised, the identity may leave an access path open until revoked; isolate too much, and containment may hide faults or disrupt planned work.
-
-The SOC validates the evidence and identifies the access path, while the NOC explains service dependencies and available fallback. The incident lead uses pre-agreed criteria to choose a proportionate first action; IAM or platform operations carries it out. The supplier provides technical facts but does not make the operator’s risk decision. Customer, legal and regulatory teams work in parallel on impact and notification, before the forensic picture is complete.
-
-The first action might be to revoke a scoped token and pause the affected automation, not shut down an entire management environment. If that is not enough, a defined escalation path can authorize a broader isolation and the corresponding service fallback. The decision, evidence and service impact are logged. The NOC confirms what continues to work. The SOC checks whether the hostile activity has stopped and whether another identity or path remains active.
-
-Pre-agreed choices will not cover every incident. They can shorten the first decision while keeping service impact within agreed limits. Actions must reflect the operator’s architecture and service obligations. A playbook from another company cannot identify which local system is safe to stop.
+That result turns a general response question into a practical one. Can the team identify which identity enabled the access, revoke it without losing essential monitoring, and keep any proposed change inside the normal approval process? The answer depends on the service, the identity design and the after-hours decision path. Those are the points a rehearsal can test before an incident.
 
 ## Use automation where its impact is limited
 
