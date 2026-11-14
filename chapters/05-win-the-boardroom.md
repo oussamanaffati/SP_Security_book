@@ -129,7 +129,7 @@ The dashboard below rolls these service decisions up for portfolio review.
 | Supplier control | Notice route and material-change triggers recorded. | Operator verification covers data, retention, supplier access, action limits and memory scope; keep supplier assurance separate. | Contract terms alone do not prove isolation or deletion; missing evidence or usable restriction remains open. |
 | Residual-risk governance | Decision records and review dates are current. | Each open exception shows decision state, conditions, expiry and trigger. | Triggered or expired exceptions return to management. |
 
-A dashboard should show **[operator threshold]**, trend and affected service. Do not average away a high-consequence exception: completed actions can rise while reach stays unchanged. Report delivery and evidence that exposure or response dependency changed.
+Keep delegated-authority exposure and response capacity as separate dashboard signals. For authority, show verified read/change reach and where the target enforces the boundary. For response, show time to detect, decide, contain and restore against local service tolerances, with impact and fallback. A tight boundary does not guarantee fast recovery; fast response does not reduce an agent’s reach. Show trends by priority service. Do not roll both into one AI risk score or let delivery progress hide a high-consequence exception. Where evidence is missing, state the decision it blocks.
 
 ## Board challenge: deferred patch window
 
