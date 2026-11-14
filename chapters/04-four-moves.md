@@ -206,6 +206,8 @@ Reopen the choice if the deployed version or reachable path changes, a restricti
 
 Before agreeing a stage, estimate network and identity engineering, NOC/SOC backfill, supplier work, test environments and change windows. Show the estimate basis and which work would move; if unknown, mark it pending rather than inventing a budget or implying that the work costs nothing.
 
+**Decide how to handle work that displaces the plan.** A roadmap that assumes every engineering hour and supplier window will remain available is not credible in a live network. One option is to protect capacity for incident-driven work and supplier escalations; another is to schedule fully and agree in advance which roadmap item slips when urgent work consumes that capacity. A reserve has an opportunity cost. Full utilization can delay a control change and extend exposure. Use local evidence: on-call load, maintenance windows, supplier lead times and the history of work displaced by urgent changes. Do not invent a universal reserve percentage. Name the stage that pauses, its interim treatment and the service condition that requires escalation. Revisit the choice when a dependency or service condition changes.
+
 Reopen a stage when a dependency fails, access expands, a test fails or service conditions change. Shared identities or supplier paths that cross service domains need a decision at the authority boundary; escalate when delegated authority does not cover the full impact.
 
 ## Keep the sequence, adjust the pace
