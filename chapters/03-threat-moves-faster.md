@@ -67,9 +67,9 @@ The emergency route needs a real mandate, service context and a record of the de
 
 ## The NOC assistant makes authority visible
 
-The Chapter 1 NOC-assistant composite sets up this response question: can the operator stop an overly broad action identity without losing essential visibility? It is illustrative, not a production incident.
+The Chapter 1 NOC-assistant composite sets up this response question: can the operator disable the assistant’s broad service account without losing essential visibility? It is illustrative, not a production incident.
 
-Before an incident, rehearse whether the action identity can be revoked without losing the alarm visibility or supplier handling the NOC needs. Confirm the fallback, the authority to use it and the person who owns any temporary exposure. A network change still follows normal change control.
+Before an incident, verify whether action rights can be stopped independently of alarm reads and vendor-case handling. Name the fallback, who can invoke it, and who owns any temporary exposure. A network change still follows normal change control.
 
 **Illustrative live-incident decision card: NOC assistant.** Adapt this to the operator’s incident authority and map the role names to local equivalents before use. It is not an authorization by itself, and a tabletop cannot prove that its technical steps work.
 
