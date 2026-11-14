@@ -80,9 +80,7 @@ In May 2026, CISA and the Australian Signals Directorate’s Australian Cyber Se
 
 Those concerns apply where a provider’s customer services meet network and operational processes. An agent may act faster than the review process around it. It may inherit a service account’s permissions or use a supplier tool whose risk has changed. Without reliable logs, its actions may look routine. For high-impact uses, assurance should establish whether permissions match the task, logs capture tool calls, and access can be revoked without interrupting service.
 
-**Composite scenario: supplier diagnostic feature.** A supplier enables an AI diagnostic feature through a routine update to a network-management product. The feature is absent from the operator’s AI project register; it can read topology and propose actions. It enters through an existing product update, not a separately registered AI project.
-
-This does not make “stop every update” the answer. The operator needs advance notice of material capability changes and a way to decide whether product release and feature activation can be separated. If they can, verify the feature’s identity and reach before activation. If they cannot, compare the service cost of delaying the release with the residual risk of enabling an unverified action path. Ownership of the product and ownership of the affected service may sit in different teams; both need to be represented before a decision is made.
+**Composite scenario: supplier diagnostic feature.** The case examined in Chapter 4 matters here because the capability arrives through a routine product update, not a separately registered AI project. The executive question is whether to fund verification and, if release and activation are coupled, how to compare the service cost of delay with the exposure of enabling an unverified identity or action path.
 
 ## Two risk questions, not one
 
