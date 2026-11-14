@@ -1,5 +1,7 @@
 # Chapter 1: The Risk Has Changed. Service Providers Feel It First.
 
+An alarm summary becomes a different security problem when the same service account can also reach neighboring-domain data, open vendor cases and propose a change that would reduce NOC visibility. This is the supplied composite NOC scenario, not a production incident. It gives this book its central question: as software gains access to operator workflows, do boundaries and decision authority keep pace with the consequences for service?
+
 A cyber incident at a service provider can become a service incident quickly. When a mobile network, core platform or management system is affected, customers may lose connectivity, businesses may lose services they depend on, and public services may lose an important channel. The operator has to restore service while it is still establishing what happened and how far the impact reaches.
 
 That responsibility is familiar. What has changed is how many systems can act, how quickly activity can move between them, and whether decision authority still matches ownership of the service.
@@ -72,7 +74,7 @@ For each AI-enabled use, the operator needs to understand what the system can ac
 
 AI systems still depend on software, infrastructure, data and suppliers. An agent can go further: interpret a goal, retrieve information, call tools, hand off work and take action without a person approving every step. The change is delegated authority across connected systems.
 
-**Composite scenario: NOC assistant.** In the supplied composite, a NOC assistant summarizes alarms and drafts ticket updates. A broader service account can also open vendor cases and read neighboring-domain data; the assistant proposes a change that would reduce NOC visibility. The decision is not whether an AI assistant is inherently unsafe. It is whether read and act share authority, and how the normal change process continues to govern network changes.
+The NOC composite at the opening makes the distinction concrete: read access and authority to act should not share a service identity simply because one assistant performs both tasks. A proposed network change remains within the normal change process.
 
 In May 2026, CISA and the Australian Signals Directorate’s Australian Cyber Security Centre (ASD ACSC), alongside other U.S. and international partners, published a joint guide to securing agentic AI.[3] It identifies four risks: a larger attack surface, privilege creep, behavior that departs from intended goals, and event records that are hard to interpret.[3] The guide recommends starting with low-risk, non-sensitive use cases, avoiding broad access to sensitive data or critical systems, and accounting for agentic AI in the organization’s security model and risk posture.[3] It addresses cross-sector critical-infrastructure risks, not a telco-specific standard.[3]
 
