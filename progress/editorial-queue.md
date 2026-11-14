@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 20,260 words after the first structural/expansion pass; 19,740 words remain to the 40,000-word lower target and 24,740 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 20,238 words after the first structural/expansion pass and whole-book rebalance; 19,762 words remain to the 40,000-word lower target and 24,762 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -23,6 +23,10 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 1. **Supplier diagnostic feature (Chapter 4):** expanded from known topology-read/action-proposal facts and unknown identity, data destination/retention, write path, disablement and fallback into a conditional choice. Retain or restrict only with tested limits; otherwise pause/rollback or escalate. Do not imply a supplier commitment, test result, measured benefit or cost.
 2. **Deferred patch window (Chapter 4):** expanded into a decision that separates threat/reach evidence from change readiness; compares earlier supported change, waiting with verified controls, and restricting affected access; weighs continuity, staff, supplier and effort costs; states recommendation triggers and post-change verification. No local threat, version, control effectiveness or price is assumed.
 
+## Whole-book review after first pass
+
+Chapter roles and tool homes are distinct. The recurring NOC assistant, supplier feature and patch-window threads serve different decisions, not repeated paragraphs. Exact duplicate paragraphs were not found; reader-facing internal labels, numeric citations and Sources headings are absent. Table column shapes are consistent, but long cells remain in Chapters 2–4 and need another readability pass. Removed a generic risk disclaimer from Chapter 4’s opening; Chapter 5 remains the home for executive risk decisions.
+
 ## Next sequence
 
-Current next action: run a whole-book review after the five-chapter first pass. Recheck primary homes, repeated conclusions, worked-decision completeness, table readability, source/cross-reference consistency and voice; then select the next substantive expansion cycle. Do not treat the remaining 19,740-word gap as permission to pad.
+Chapter 4, Move 3: clarify how to choose a tabletop, technical validation or integrated rehearsal from the unresolved decision, the evidence needed, service risk and staff/supplier effort. Use only the existing scenario; do not prescribe a universal timeline. Continue the chapter-by-chapter expansion after this section.

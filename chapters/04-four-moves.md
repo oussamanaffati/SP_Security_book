@@ -6,8 +6,6 @@ Existing security, network, architecture, supplier and change processes provide 
 
 The sequence is useful because each move answers a different question. Visibility shows where authority exists. Access review tests whether it matches the task. Rehearsal reveals whether the operator can contain failure and maintain service. The roadmap gives owners and resources to close the gaps. These activities can overlap. Where excessive access is already evident, there is little value in waiting for the full inventory before considering a proportionate restriction.
 
-No sequence will eliminate risk. The four moves help test controls and make residual risk visible against the operator’s risk appetite.
-
 ## Move 1: Visibility means more than an AI inventory
 
 Two questions frame the work: where can AI reach the operator’s systems or data, and what actions can it take? A joint review can bring together Network Operations, IT, security, architecture, customer care, procurement, privacy and key suppliers. Its scope can include pilots, SaaS features and automation, even when no one calls them AI.
