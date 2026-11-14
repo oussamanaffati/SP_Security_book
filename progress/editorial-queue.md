@@ -25,4 +25,4 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Next sequence
 
-After the Chapter 1 opening, expand in this order: Chapter 4 worked decisions and roadmap; Chapter 5 board paper; Chapter 2 boundary decisions; Chapter 1 priority choice; Chapter 3 live response. For each section, add only material that changes a choice, evidence requirement, trade-off or trigger for revisiting it. Recount all five chapters after each committed cycle. Keep this queue below 800 words and update its exact next action when work pauses.
+Current next action: Chapter 4—turn the deferred patch-window situation into a complete conditional decision, keeping threat/reach evidence separate from change readiness and testing; compare earlier supported change, waiting with verified interim controls and a narrower operating mode where feasible; account for service continuity, staffing, supplier effort and displaced work; state the recommendation and evidence that would change it. Then move to Chapter 5’s board paper and define residual-risk authority once.
