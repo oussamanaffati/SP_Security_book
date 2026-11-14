@@ -25,4 +25,4 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Next sequence
 
-Current next action: continue Chapter 4’s edge-access, exercise and roadmap sections—remove repeated acceptance endings and trim long table cells without weakening decisions or losing owner, dependency, cost or verification evidence. Then apply the same repetition check to Chapter 5, run the final whole-book review, and resume substantive expansion in Chapter 4.
+Current next action: Chapter 4 Move 3 and Move 4—remove repeated acceptance-role language from exercise and roadmap passages, and shorten long roadmap-table cells without losing stages, dependencies, cost or evidence. Then reduce Chapter 5 role repetition, run the final whole-book review, and resume substantive expansion in Chapter 4.
