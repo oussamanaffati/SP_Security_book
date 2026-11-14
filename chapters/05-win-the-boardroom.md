@@ -17,7 +17,7 @@ A generic statement such as “AI is a major new threat” gives the board no de
 
 That choice also has a capacity cost. Reassigning engineers and supplier time to identity separation may delay other network work; not protecting that capacity leaves the broader access in place. The service executive owns any interim residual exposure within delegated authority. The board can resource the decision without taking over acceptance.
 
-The worked board paper below compares retaining broad access, restricting or pausing the action path, and separating identities. Each option is paired with its service cost and the evidence needed before calling the boundary effective.
+The worked board paper later in this chapter compares those choices against service cost and evidence, rather than asking for open-ended support.
 
 If the operator relies on a legacy management platform, an external supplier or a narrow maintenance window, explain how that changes the response plan. A broad statement about “the network” is less useful than a clear account of which domain, service and recovery path are involved.
 
@@ -25,11 +25,11 @@ The supplier-enabled diagnostic in Chapter 4 offers a board-level test: who revi
 
 ## Show why the board is part of the operating model
 
-The board’s role is to set direction, risk appetite, ownership and assurance, not select a model or approve a firewall rule. The CISO and CTO should equip directors to ask whether controls match the operator’s service obligations.
+The board’s role is to set direction, risk appetite, ownership and assurance, not select a model or approve a firewall rule. The CISO and CTO should equip directors to test whether controls match service obligations and management has evidence to support its choices.
 
-That separation matters when residual risk remains. A service executive with delegated authority owns acceptance within the approved appetite. If the exposure falls outside that boundary, it should be escalated with treatment options and the service consequences of each, not treated as accepted because it appears in a report. The board’s oversight is to test whether appetite, escalation thresholds, resources and assurance are adequate, without taking over routine engineering decisions.
+That separation matters when residual risk remains. A service executive with delegated authority owns acceptance within approved appetite; exposure outside it must be escalated with treatment options and service consequences. The board challenges whether appetite, escalation thresholds, resources and assurance are adequate without taking over routine engineering decisions.
 
-Risk appetite becomes usable only when management translates it into service-level decision rights. A board statement cannot by itself tell an executive which exposures can be accepted, which must be escalated, or what evidence supports the decision. The board should challenge whether those boundaries reflect different service consequences and whether they leave room for safe operational change. A decision to fund one priority before another sets a sequence; it does not, on its own, mean that every deferred exposure has been accepted. The accountable service executive still owns each residual risk within delegated authority.
+Risk appetite becomes usable when management translates it into service-level decision rights: what can be accepted, what must be escalated and what evidence supports each decision. The board should challenge whether those boundaries reflect different service consequences and leave room for safe operational change. Funding one priority sets a sequence; it does not itself accept every deferred exposure. Each residual risk still needs an authorized service owner.
 
 Acceptance describes a specific set of conditions, not indefinite permission. A material change in a supplier feature’s reach, a failed revocation test, new threat evidence or a maintenance window that slips can reopen the decision. The record should say who can reassess it and when exposure must be escalated beyond delegated authority. The board needs to see material exceptions and trends, not approve each operational review.
 
