@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 20,421 words after the first structural/expansion pass and whole-book rebalance; 19,579 words remain to the 40,000-word lower target and 24,579 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 20,414 words after the first structural/expansion pass and whole-book rebalance; 19,586 words remain to the 40,000-word lower target and 24,586 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -25,8 +25,8 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Whole-book review after first pass
 
-Chapter roles and tool homes are distinct. The recurring NOC assistant, supplier feature and patch-window threads serve different decisions, not repeated paragraphs. Exact duplicate paragraphs were not found; reader-facing internal labels, numeric citations and Sources headings are absent. Table column shapes are consistent, but long cells remain in Chapters 2–4 and need another readability pass. Removed a generic risk disclaimer from Chapter 4’s opening; Chapter 5 remains the home for executive risk decisions.
+Chapter roles and tool homes are distinct. The recurring NOC assistant, supplier feature and patch-window threads serve different decisions, not repeated paragraphs. Exact duplicate paragraphs were not found; reader-facing internal labels, numeric citations and Sources headings are absent. Table column shapes are consistent. Long cells remain in Chapter 3’s containment card; source-contract/containment tables in Chapter 2 and supplier, edge-access and roadmap tables in Chapter 4 have been shortened.
 
 ## Next sequence
 
-Chapter 2: shorten the source-contract and containment table cells while keeping data-owner meaning, service-owner fitness and the evidence contributors clear.
+Chapter 1: deepen the investment choice among AI detection, limiting internal agent authority and response capability. Keep it strategic and distinct from Chapter 4’s implementation roadmap and Chapter 5’s funding mechanics; use existing cases only.
