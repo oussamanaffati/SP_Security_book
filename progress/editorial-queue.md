@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 20,212 words after the first structural/expansion pass and whole-book rebalance; 19,788 words remain to the 40,000-word lower target and 24,788 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 20,346 words after the first structural/expansion pass and whole-book rebalance; 19,654 words remain to the 40,000-word lower target and 24,654 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter roles and tool homes are distinct. The recurring NOC assistant, supplier
 
 ## Next sequence
 
-Chapter 5: develop the board-level funding decision for the existing shared edge/core account. Keep the focus on protected capacity, service impact, supplier dependence, displacement and evidence; do not repeat Chapter 4’s implementation gate or invent costs.
+Chapter 5: sharpen the board dashboard so delegated-authority exposure and response capacity remain separate service-level signals, not one AI risk score. Keep thresholds local and use Chapter 4’s evidence levels.
