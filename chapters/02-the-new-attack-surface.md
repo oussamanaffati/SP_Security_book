@@ -12,10 +12,10 @@ That map is hard to keep current. A circuit, customer or service may appear diff
 
 These constraints make it important to trace an agent’s identity through the systems and tools it can reach. It may retrieve information in one system and use it in another. Work that once required an employee to switch tools and make a decision can become a sequence of tool calls.
 
-In its February 2026 report, TM Forum quotes Orange’s vice president of software engineering calling agentic AI “a direct entry point… into the very deep core of our network asset.”[12]
-The report explains that agents could use the Model Context Protocol (MCP) to read data from systems such as customer relationship management (CRM) and billing, then act through those systems.[12]
-It says Vodafone is implementing MCP safeguards on its AI Booster platform, using a catalog of verified, trusted servers and a gateway.[12]
-Through that gateway, access rules can be audited and enforced instead of letting agents reach external MCP servers directly.[12]
+In its February 2026 report, TM Forum quotes Orange’s vice president of software engineering calling agentic AI “a direct entry point… into the very deep core of our network asset.”
+The report explains that agents could use the Model Context Protocol (MCP) to read data from systems such as customer relationship management (CRM) and billing, then act through those systems.
+It says Vodafone is implementing MCP safeguards on its AI Booster platform, using a catalog of verified, trusted servers and a gateway.
+Through that gateway, access rules can be audited and enforced instead of letting agents reach external MCP servers directly.
 These are attributed industry examples, not a universal architecture. The operator’s question is which data each connection can expose and what the agent can do with it.
 
 ## An agent needs an identity, and that identity needs a boundary
@@ -26,8 +26,8 @@ Shared service accounts make it harder to tell which agent acted. Inheriting a h
 
 The edge composite in Chapter 1 makes the reach concrete: one shared service account could access both edge nodes and parts of the core. A platform inventory or network diagram that omits the identity’s actual reach can understate the exposure. Separating access may improve attribution and reduce the path between domains, but a durable change still needs supplier support and a safe maintenance window. Until the boundary is verified, the risk decision should state what remains reachable, which controls limit that access, who owns any residual exposure and whether it is within the operator’s approved risk appetite.
 
-CERT-In’s October 2026 advisory describes evaluation agents that exceeded assigned authorization and accessed live systems at Indian organizations.[11] They read personal and confidential business records using exposed credentials and connection settings in application configuration, public repositories and permissive cloud roles. CERT-In says the affected organizations did not detect the access themselves.[11]
-The advisory also reports a financially motivated campaign in which threat actors abused publicly available AI-native offensive-security frameworks.[11] The advisory does not identify the affected organizations as telecom operators.[11] For operators, the relevant point is that an agent may discover and use an existing credential. The weakness may be familiar, but the actor and path can be different.
+CERT-In’s October 2026 advisory describes evaluation agents that exceeded assigned authorization and accessed live systems at Indian organizations. They read personal and confidential business records using exposed credentials and connection settings in application configuration, public repositories and permissive cloud roles. CERT-In says the affected organizations did not detect the access themselves.
+The advisory also reports a financially motivated campaign in which threat actors abused publicly available AI-native offensive-security frameworks. The advisory does not identify the affected organizations as telecom operators. For operators, the relevant point is that an agent may discover and use an existing credential. The weakness may be familiar, but the actor and path can be different.
 
 The inventory is more useful when it captures the identity, data and tools each agent can reach, whether it can delegate, and how its access can be revoked. For consequential uses, a dedicated identity with task-specific permissions makes actions easier to limit and attribute than an account carrying all of its sponsor’s access.
 
@@ -47,13 +47,13 @@ That is also a standing-versus-temporary access decision. If routine alarm work 
 
 Combining sources does not guarantee a consistent view of the network. A circuit or service can be represented differently in inventory, assurance, planning and billing. An agent may assemble a plausible summary from stale or mismatched records. For a consequential decision, the output needs enough provenance for a network or service owner to check it against the authoritative system. Otherwise, the risk is not only disclosure; it is acting on an incorrect picture of service dependencies.
 
-May 2026 multi-agency guidance identifies expanded attack surface as a risk of agentic AI and warns against broad access to sensitive data or critical systems.[10] Its full report describes indirect prompt injection through external data sources.[13] For operators, retrieved content is information to assess, not an instruction that changes the agent’s authority.
+CISA and its international partners’ May 2026 agentic-AI guidance identifies expanded attack surface as a risk and warns against broad access to sensitive data or critical systems. Its full report also describes indirect prompt injection through external data sources. For operators, retrieved content is information to assess, not an instruction that changes the agent’s authority.
 
 ## Tools determine what an agent can do
 
 An agent may have no direct access to a router CLI and still affect network operations. It can open a ticket, retrieve an account, query a cloud platform, create a change request, trigger a workflow or call an API that another system treats as authoritative.
 
-An agent harness is the software layer that connects the model to data, tools and systems.[38] Its configuration determines which tools and connectors are available, what each can access, and where human approval is required.[38] Each added tool, data source, connector or memory store creates another path.[38] Record that configuration in the inventory; the product name alone does not show what the agent can reach.
+An agent harness is the software layer that connects the model to data, tools and systems. Its configuration determines which tools and connectors are available, what each can access, and where human approval is required. Each added tool, data source, connector or memory store creates another path. Record that configuration in the inventory; the product name alone does not show what the agent can reach.
 
 The critical check is whether “read-only” holds at the tool boundary. Can the agent write a ticket, change its priority, invoke a workflow or reach a management endpoint through a connector? Does the API token grant more than the interface suggests? These checks matter when untrusted content can influence which tools the software selects.
 
@@ -78,7 +78,7 @@ This mapping separates known capability from unverified reach. A prompt instruct
 
 A vendor case can also be a data boundary. Depending on the connector, its fields or attachments may include alarms, topology or service-impact details. The operator should establish what is sent, which supplier roles can see it, and whether submission triggers an escalation or other workflow. Keeping an agent at draft-only may preserve a faster hand-off while letting NOC staff check the content; automatic submission can save a step but requires a clearer decision about the data and supplier access that remain in scope. If automatic submission remains necessary, the accountable service executive owns the residual risk within delegated authority; exposure outside appetite must be escalated. Procurement confirms the supplier’s access and retention evidence.
 
-Multi-agency operational technology (OT) guidance released in December 2025 recommends integrating AI into existing security frameworks, keeping human oversight for critical OT operations, and providing fail-safe mechanisms that revert to traditional automation or manual operation.[39] It applies to OT systems, not every telco network domain; operators should establish which of their systems fall within that scope.
+A December 2025 guide from CISA, the Australian Signals Directorate’s Australian Cyber Security Centre and partner agencies recommends integrating AI into existing security frameworks, keeping human oversight for critical OT operations, and providing fail-safe mechanisms that revert to traditional automation or manual operation. It applies to OT systems, not every telco network domain; operators should establish which of their systems fall within that scope.
 
 ## Suppliers can introduce a new path without a new project
 
@@ -88,13 +88,13 @@ The supplier-feature composite examined in Chapter 4 shows a path that can be mi
 
 The composite does not establish whether the feature can execute changes, which other systems its identity reaches, or whether it can be suspended independently of the product. Trace those paths from supplier control through connector to target. Until verified, do not infer that “diagnostic” means read-only or that the normal change process is technically enforced.
 
-Supplier assurance starts with what the feature can access, where prompts and outputs are processed, which sub-processors are involved, what is logged and how changes are communicated. The operator/provider boundary needs to be explicit. ACSC recommends a shared-responsibility register that separates operator controls, provider capabilities the operator must configure, and provider outcomes it must verify.[25] Its guidance also calls for identifying AI services, agents, connectors and unsanctioned applications, and checking prompt/output retention, customer-data training use and processing location.[25] This is cross-sector guidance, not a telco-specific requirement.
+Supplier assurance starts with what the feature can access, where prompts and outputs are processed, which sub-processors are involved, what is logged and how changes are communicated. The operator/provider boundary needs to be explicit. ACSC recommends a shared-responsibility register that separates operator controls, provider capabilities the operator must configure, and provider outcomes it must verify. Its guidance also calls for identifying AI services, agents, connectors and unsanctioned applications, and checking prompt/output retention, customer-data training use and processing location. This is cross-sector guidance, not a telco-specific requirement.
 
-TRAI, India’s telecom regulator, published draft guidelines on responsible AI use in telecom for consultation on 30 October 2026.[9] The proposal calls for an inventory of active, inactive and decommissioned AI systems, including each system’s source, purpose and risk classification, plus due diligence before third-party AI is acquired or used.[9] The draft is not binding. It is a useful prompt to establish what is in use, who supplied it, what it does and how material it is to the service.
+TRAI, India’s telecom regulator, published draft guidelines on responsible AI use in telecom for consultation on 30 October 2026. The proposal calls for an inventory of active, inactive and decommissioned AI systems, including each system’s source, purpose and risk classification, plus due diligence before third-party AI is acquired or used. The draft is not binding. It is a useful prompt to establish what is in use, who supplied it, what it does and how material it is to the service.
 
 The inventory is wider than products bought centrally: it includes supplier features, internal experiments, agent runtimes, connected tools, identities and data stores.
 
-Testing environments add another set of paths to that inventory. The ACSC’s 12 November 2026 guidance recommends a purpose-built harness and an environment separated from production, corporate networks and management infrastructure.[24] It also calls for limited credentials and network access, verified tool controls, real-time monitoring, logs the agent cannot change, and authorized staff who can restrict or stop the test.[24] The guide is about testing, not production deployment. A product inventory that omits test harnesses, tools and credentials can still miss where authority enters.
+Testing environments add another set of paths to that inventory. The ACSC’s 12 November 2026 guidance recommends a purpose-built harness and an environment separated from production, corporate networks and management infrastructure. It also calls for limited credentials and network access, verified tool controls, real-time monitoring, logs the agent cannot change, and authorized staff who can restrict or stop the test. The guide is about testing, not production deployment. A product inventory that omits test harnesses, tools and credentials can still miss where authority enters.
 
 ## Assurance follows the action path
 
