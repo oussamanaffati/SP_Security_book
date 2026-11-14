@@ -3,9 +3,9 @@
 Older cycle history is preserved in `progress/archive/daily-log-before-compaction-2026-11-14.md` and earlier archives under `progress/archive/`.
 
 ## Current status
-- Repository: `/data/SP_Security_book`, branch `main`; latest local commit before this log cleanup: `9100bce`.
+- Repository: `/data/SP_Security_book`, branch `main`; local commits remain unpushed.
 - Push authentication previously failed. The last read remote `main` was `bd32ad4`; do not retry unchanged credentials. Local work remains unpushed.
-- Manuscript: 20,213 words (Ch1 4,030; Ch2 4,244; Ch3 2,662; Ch4 6,049; Ch5 3,228), versus the 40,000–45,000-word target. Gap to the lower target: 19,787 words.
+- Manuscript: 20,212 words (Ch1 4,030; Ch2 4,244; Ch3 2,662; Ch4 6,048; Ch5 3,228), versus the 40,000–45,000-word target. Gap to the lower target: 19,788 words.
 - First structural/expansion pass and whole-book review are complete. Chapter homes are distinct; no exact duplicate paragraphs or reader-facing internal labels, numeric citations or Sources headings were found. Some table cells in Chapters 2–4 still need shortening. The generic Chapter 4 risk disclaimer was removed; Chapter 5 remains the home for executive risk decisions.
 - Four existing scenarios only. No operator outcomes, quotes, costs or test results were invented. Editorial score 7.6/10 is provisional and self-assessed; 9/10 is not defensible yet. Primary model: gpt-6-luna. Grok was skipped under the local-first waiver; no new source claims were added or re-fetched.
 
@@ -19,6 +19,7 @@ Older cycle history is preserved in `progress/archive/daily-log-before-compactio
 - 2026-11-14 | Chapter 4 edge-access change gate | 20,231 words | Shortened the four gate rows while retaining service impact, supplier readiness, allowed/denied-path proof, rollback and review trigger. Critique: the table is easier to scan without weakening the migration decision. `git diff --check` and counts passed.
 - 2026-11-14 | Chapter 4 roadmap table | 20,220 words | Shortened the stage/lead/evidence cells and kept the four implementation gates, support dependencies, capacity and proof. Critique: the roadmap scans more easily; detailed effort and displacement remain in the accompanying prose. `git diff --check` and counts passed.
 - 2026-11-14 | Chapter 4 supplier feature tables | 20,213 words | Shortened the register’s stop/fallback cell and the operating-choice row; retained independent disablement, product impact, NOC effort, supplier support and escalation. Critique: the decision remains explicit while the table scans faster. `git diff --check` and counts passed.
+- 2026-11-14 | Chapter 4 roadmap evidence cell | 20,212 words | Reduced the last long roadmap cell while retaining configuration review, allow/deny testing, attributable logs, revocation and interim treatment when safe testing is unavailable. Critique: the final Chapter 4 cell over 150 characters is gone without losing its decision rule. `git diff --check` and counts passed.
 
 ## Next
-Chapter 4, Move 4: shorten the final long roadmap-table cell while preserving the allowed/denied tests, attribution, revocation and interim-treatment rule.
+Chapter 5: develop the board-level funding decision for the existing shared edge/core account. Focus on protected capacity, service impact, supplier dependence, displacement and evidence; do not repeat Chapter 4’s implementation gate or invent costs.

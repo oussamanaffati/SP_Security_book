@@ -198,7 +198,7 @@ Reopen the choice if the deployed version or reachable path changes, a restricti
 | Stage | Lead, decision and dependency | Evidence required to proceed or close |
 |---|---|---|
 | **Establish the baseline** | Security and service/platform teams map supplier-feature, NOC-assistant and edge-account paths; gather supplier, product and identity records. | Known/unknown identity, data, actions and reach; flag immediate restriction needs. A baseline is not proof of control. |
-| **Before widening authority** | Identity/platform, Network Engineering, NOC and supplier plan boundaries and edge migration; confirm test capacity and a supported window. | Configuration review, allowed/denied tests, attributable logs and revocation. Without safe testing, mark the boundary unverified and keep treatment interim. |
+| **Before widening authority** | Identity/platform, Network Engineering, NOC and supplier plan boundaries and edge migration; confirm test capacity and a supported window. | Configuration review, allow/deny tests, attributable logs, revocation. Without safe testing, retain interim controls and mark the boundary unverified. |
 | **Before relying on containment** | Incident-response lead with SOC/NOC, service assurance, change management and supplier rehearses the NOC assistant and fallback; map identities first. | Local decision/timing results plus technical revocation and visibility tests. Keep tabletop claims separate from technical evidence. |
 | **At portfolio review** | CTO/CISO sponsors and resource leads sequence work and capacity; patch and edge migration need supported windows. | Separate delivery from tested risk reduction; report impact, tests, dependencies and triggers. Count patching after effectiveness checks. |
 
