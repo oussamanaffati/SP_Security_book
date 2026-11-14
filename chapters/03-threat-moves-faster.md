@@ -46,7 +46,7 @@ The SOC assesses the evidence and likely attack path; the NOC knows which system
 The South Korean Ministry of Science and ICT (MSIT) investigation into SK Telecom’s 2025 breach shows that response includes more than containment. MSIT reports that SK Telecom detected abnormally large outbound traffic at 11:20 p.m. on 18 April 2025 and notified KISA at 4:46 p.m. on 20 April; the Ministry said this exceeded the statutory 24-hour reporting window.[15]
 
 That is a reporting timeline, not a measure of containment time. The public-private investigation team was established on 23 April and inspected all 42,605 SK Telecom servers through 27 June; its final findings identified 28 infected servers.[15]
-Establishing the full scope took sustained work across the operator and government investigators.
+The inspection end date is not a containment timeline. Keep initial notification, containment and forensic scoping as separate measures; the public findings do not make them interchangeable.
 
 The customer response had its own operational demands. In its preliminary findings, the Ministry encouraged subscribers to replace their USIM cards or use a protection service, and urged the operator to expand service channels and add a reservation system so more customers could be protected promptly.[16]
 These reports describe a breach-response timeline, not a network outage. They show how an incident can create a second workload: protecting customers, handling enquiries and changing business operations while the technical investigation continues.
