@@ -49,11 +49,11 @@ Before onboarding or renewal, Procurement and Legal can seek material-change not
 | Owner | Operational feature owner: **not identified**. Supplier contact: **to be recorded**. Accountable service executive: **to be named before acceptance**. |
 | Identity and path | Identity, connector and target-system permissions: **not yet verified**. Trace them end to end before treating the boundary as known. |
 | Authority boundary | Proposal is subject to the existing change process, but whether configuration or workflow technically enforces that boundary is **unverified**. |
-| Evidence and control state | Supplier documentation may describe design; deployed identity, data scope, action limits and logs still require configuration review or a bounded test. For a feature that proposes actions, test whether it can invoke a downstream write without normal approval, using Move 2’s recommendation-level check; no test result is assumed here. |
+| Evidence and control state | Supplier documentation may describe design; deployed identity, data scope, action limits and logs still require configuration review or a bounded test. For a feature that proposes actions, test whether it can invoke a downstream write without normal approval, using Move 2’s recommendation-level check and its safe-environment or supported-window guidance. Record expected and observed target-system behavior and attribution; no test result is assumed here. |
 | Stop and fallback | Independent feature disablement, effect on the rest of the product, and the operational fallback are **not established**. Confirm before deciding whether restriction is safe. |
 | Decision and residual risk | Retain only under evidenced limits, restrict/disable if limits cannot be established, or defer enablement pending supplier evidence. If use continues with an assurance gap, name the accountable service executive who accepts the residual risk within delegated authority, the conditions and the reassessment trigger; escalate exposure outside appetite. |
 
-The entry stays open until the operator verifies the identity, reach, independent disablement and a service fallback.
+The entry stays open until the operator verifies the identity, reach, independent disablement and a service fallback; when a bounded test is used, retain its expected and observed results before marking the boundary verified.
 
 Inventory shows where to look. Access review shows whether an agent has more authority than its task requires.
 
