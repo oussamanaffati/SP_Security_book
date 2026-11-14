@@ -405,3 +405,9 @@
 - Score: **8.7/10**. Current scores: Ch1 8.6, Ch2 8.7, Ch3 8.6, Ch4 8.5, Ch5 8.5. Next weakest tie: Chapters 4 and 5; Chapter 4 is older-revised and selected next.
 - Publication: pending commit, push and remote readback.
 - Next: publish Chapter 2, verify the remote ref and changed-file blobs, then continue with Chapter 4.
+
+## 2026-11-14 — Offline local cycle: Chapter 1
+- Local-only work as requested; no authentication checks or push attempts. The Chapter 1 file already contained the prior local draft. Ran an additional full editorial pass in the available model (`gpt-6-luna`): focused on simpler language, a less formulaic opening, clear distinctions among delegated authority, service ownership, and incident impact, and alignment with the four supplied composite examples. No Grok review was run; provider availability is not a blocker under the author’s offline instructions.
+- Retained and refined only author-supplied examples: edge shared account reaching edge/core, a three-week patch window with service-level residual-risk acceptance, and the NOC assistant test involving neighboring-domain data and reduced visibility. No additional incident detail or customer identity added. No Sources section; existing inline citations retained and mapped to `research/chapter-01.md`.
+- Self-critique: clearer opening and more natural progression from operator constraints to delegated authority; still has a deliberately structured three-priority close, and the total manuscript remains far short of the 200-page ambition. Source claims were not re-verified during this offline style pass.
+- Self-score: **9.0/10** (editorial judgment; no independent Grok score). Next: commit locally, then revise Chapter 2.
