@@ -49,11 +49,11 @@ Before onboarding or renewal, Procurement and Legal can seek material-change not
 | Owners and contacts | Operational feature owner: **not identified**. Supplier contact: **to be recorded**. Service-impact owner: **to be confirmed**. |
 | Identity and path | Identity, connector and target-system permissions: **not yet verified**. Trace them end to end before treating the boundary as known. |
 | Authority boundary | Proposal is subject to the existing change process, but whether configuration or workflow technically enforces that boundary is **unverified**. |
-| Evidence and control state | Record the level, claim supported, scope, result, limitations and next evidence. Use Move 2’s safe-environment or supported-window guidance for a bounded write-path test. No test result is assumed here. |
+| Evidence and control state | Record evidence level, claim, scope, result and limitation. Use a safe test or supported window for write-path checks; no result is assumed. |
 | Stop and fallback | Independent feature disablement, effect on the rest of the product, and the operational fallback are **not established**. Confirm before deciding whether restriction is safe. |
-| Decision and acceptance record | Retain only under evidenced limits, restrict/disable if limits cannot be established, or defer enablement pending supplier evidence. Link any continuing-exposure decision to Chapter 5’s residual-risk record; no acceptance or authority is assumed here. |
+| Decision and acceptance record | Retain under evidenced limits, restrict/disable if limits are unknown, or defer. Link continuing exposure to Chapter 5’s decision record. |
 
-The entry stays open until the operator verifies the identity, reach, independent disablement and a service fallback; when a bounded test is used, retain its expected and observed results before marking the boundary verified.
+Do not close the entry on documentation alone. Require a verified boundary and fallback; retain expected and observed test results.
 
 **Supplier data-flow decision.** The known facts are that the feature reads topology and proposes actions. The available information does not establish whether topology leaves the operator’s environment, where processing occurs, or whether prompts and outputs are retained or used for training. Keep those facts unknown until evidence closes them.
 

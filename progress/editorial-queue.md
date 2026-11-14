@@ -25,4 +25,4 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Next sequence
 
-Current next action: shorten the remaining dense Chapter 4 supplier-register cells, then rerun whole-book counts, table shape/density, repetition and cross-reference checks before resuming substantive expansion in Chapter 4.
+Current next action: rerun whole-book counts, table shape/density, repeated endings, internal-label and cross-reference checks after these fixes. Then begin substantive Chapter 4 expansion toward the 40,000–45,000-word target.
