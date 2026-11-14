@@ -94,6 +94,17 @@ Use the response-gap review earlier in this chapter after an exercise or inciden
 
 A proposed change is not evidence that the target system acted. If only the proposal is known, preserve it and verify whether a downstream call occurred before broad revocation; where unauthorized execution is confirmed, use the pre-authorized stop. This distinction can avoid losing service visibility in response to an output that has not changed network state.
 
+**Illustrative restoration gate: NOC assistant.** The composite is not a reported incident. Use this gate before restoring the contained capability; a quiet alert stream or a completed revocation is not, by itself, a reason to restore the former access.
+
+| Recovery check | Evidence before restoring service | If the evidence is missing |
+|---|---|---|
+| Containment and target state | SOC/IAM confirm which principal and sessions were stopped; the platform or target-system owner checks whether a proposed action reached its destination and what state changed. | Keep the affected action path suspended while preserving the records needed to investigate. Do not infer “no change” from an assistant log alone. |
+| Operational visibility | NOC/service assurance demonstrate that essential alarms and manual or alternate monitoring remain available; the service owner confirms the local service tolerance. | Keep or establish the fallback and make its workload and service limits visible. Do not restore broad access merely to recover a convenient view. |
+| Minimum safe capability | Where supported, reintroduce only the required read/draft function under a separately scoped identity. Test allowed and denied paths, attribution and downstream behavior; keep network changes within normal change control. | If the read/action boundary cannot be separated or verified, retain the restriction or pause the capability until a supported test or change can establish it. |
+| Authority and stop condition | The accountable service executive with delegated authority over every affected service records the residual exposure, conditions for restoration and event that will stop or reopen the use. | Escalate absent authority or exposure outside appetite. An incident commander can coordinate restoration but does not accept service risk without delegation. |
+
+Reintroduce in stages and monitor the target-system result and NOC visibility at each step. The control operator records what was enabled and the evidence; the service owner confirms impact and restoration; the authorized executive owns residual risk. If a step fails, return to the last verified state rather than broadening access to meet a schedule.
+
 The options are not equivalent. Broad revocation may cut off an unwanted path quickly but also remove monitoring or supplier handling. A narrower control preserves more service function only if it is independently enforced and tested. Continued use avoids that immediate operational change but leaves authority active. The decision record should say which option was chosen, what evidence was missing, who accepted the service impact or residual exposure, and what event requires a new decision. This is how the response clock is shortened without pretending that all services can be safely isolated in the same way.
 
 ## Use automation where its impact is limited
