@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 24,824 words after the first structural/expansion pass and current rebalance; 15,176 words remain to the 40,000-word lower target and 20,176 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 25,006 words after the first structural/expansion pass and current rebalance; 14,994 words remain to the 40,000-word lower target and 19,994 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 5: expand the board’s decision on one enterprise appetite versus service-specific tolerances. Preserve board appetite/resources/assurance authority and management’s operational decision; use the existing operator scenarios to show the trade-off.
+Chapter 2: verify whether data, identity, source-contract and memory sections still have a distinct service-provider decision gap; avoid expanding the already complete source-contract test. If no new trade-off remains, proceed to Chapter 1.
