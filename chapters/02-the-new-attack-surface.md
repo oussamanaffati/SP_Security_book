@@ -27,7 +27,7 @@ Shared service accounts make it harder to tell which agent acted. Inheriting a h
 CERT-In’s October 2026 advisory describes evaluation agents that exceeded assigned authorization and accessed live systems at Indian organizations.[11] They read personal and confidential business records using exposed credentials and connection settings in application configuration, public repositories and permissive cloud roles. CERT-In says the affected organizations did not detect the access themselves.[11]
 The advisory also reports a financially motivated campaign in which threat actors abused publicly available AI-native offensive-security frameworks.[11] The advisory does not identify the affected organizations as telecom operators.[11] For operators, the relevant point is that an agent may discover and use an existing credential. The weakness may be familiar, but the actor and path can be different.
 
-An inventory entry saying “AI assistant” does not explain its access. For each agent, record its identity, the data and tools it can reach, whether it can delegate, and how to revoke access. For consequential uses, a distinct identity with task-specific permissions makes actions easier to limit and attribute than an identity with all the sponsor’s access.
+The inventory is more useful when it captures the identity, data and tools each agent can reach, whether it can delegate, and how its access can be revoked. For consequential uses, a dedicated identity with task-specific permissions makes actions easier to limit and attribute than an account carrying all of its sponsor’s access.
 
 ## Data becomes a route, not just a repository
 
@@ -49,13 +49,15 @@ The critical check is whether “read-only” holds at the tool boundary. Can th
 
 An agent that recommends an action creates a different risk from one that executes it. Teams can check a recommendation against telemetry and the normal change process. Execution needs explicit permission, limited parameters, an audit record and a reliable way to stop or roll back. In a carrier network, rollback may affect several services or require supplier support. Existing engineering controls should apply to AI-enabled changes too.
 
-The same guidance highlights privilege creep, identity, accountability and obscured event records as risks. It also recommends starting with lower-risk tasks and incorporating agent security into the organization’s existing security model.[10] For an operator, a practical starting point is to give an agent only the read access it needs, let it draft rather than execute where impact is high, and use a controlled broker for tools that can change a service or expose sensitive data.
+A sensible starting point is to let the agent read only the information its task requires, and to use a controlled broker for tools that can change a service or expose sensitive data. Low-impact ticket updates may be tested within explicit limits; actions that affect network state remain subject to the normal change process. Tool calls need an audit record and a reliable way to stop or roll back. Before expanding execution authority, the operator can verify that stop and rollback paths work with the teams and suppliers responsible for service dependencies.
 
 Multi-agency operational technology (OT) guidance released in December 2025 recommends integrating AI into existing security frameworks, keeping human oversight for critical OT operations, and providing fail-safe mechanisms that revert to traditional automation or manual operation.[39] It applies to OT systems, not every telco network domain; operators should establish which of their systems fall within that scope.
 
 ## Suppliers can introduce a new path without a new project
 
-AI may arrive through a service-desk upgrade, cloud feature, network-management platform, customer-service system or supplier portal. The product name may stay the same while its data flows, model provider or tools change.
+AI may arrive through a service-desk upgrade, cloud feature, network-management platform, customer-service system or supplier portal. The product name may stay the same while its data flows, model provider or available tools change. A feature can therefore alter the operator’s exposure without triggering a new AI project or security review.
+
+In a composite scenario, a supplier enables an AI diagnostic feature during a routine software update. The feature is absent from the operator’s AI project register, yet it can read topology and propose actions. The operator first needs to establish who owns the capability, which identity it uses, and whether any proposed action remains inside the existing change process. Discovering the feature after deployment is better than missing it altogether, but the review is slower and more difficult once it is already in use.
 
 Supplier assurance should establish what the feature can access, where prompts and outputs are processed, which sub-processors are involved, what is logged and how changes are communicated. The boundary between operator controls and provider duties needs to be explicit. For cloud AI, the Australian Cyber Security Centre (ACSC) recommends a shared responsibility register that distinguishes operator controls, provider capabilities the operator must configure, and provider outcomes it must verify.[25]
 
