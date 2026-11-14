@@ -54,3 +54,5 @@ The NIS2 Directive was reviewed as a possible example of board responsibility. T
 ## Self-critique
 
 The chapter gives the CISO and CTO specific board asks and a defensible evidence path. It avoids claiming that AI guarantees an outage and treats residual risk as a choice to own. Cycle 23 improves attribution and readability but does not add direct telco AI evidence; [26] remains supported only by official search summaries. The worked decision paper is useful but form-heavy; operators must replace placeholders with service, authority, cost and evidence they can substantiate. No private board exchange or real operator case is presented. The prose is direct, avoids hype and em dashes, and closes the book with action rather than prediction.
+
+- 14 November 2026 whole-book follow-up: compared the patch-window passage with Chapter 4’s operational decision. Condensed repeated timeline/control detail to emphasize board challenge, service evidence, capacity and acceptance boundaries. No new source or scenario was added.

@@ -126,11 +126,9 @@ A dashboard should show **[operator threshold]**, trend and affected service for
 
 ## The decision behind an accepted patch window
 
-Chapter 1’s patch-window composite is the board test: the fixed version is available, but the next safe window is three weeks away and residual risk is accepted and reviewed.
+Chapter 4 works through the operational choice in the supplied patch-window composite: a fixed version exists, but the next safe change window is three weeks away. The board’s role is to challenge the decision, not to set a patch date or accept risk for management. Ask which service carries the exposure; what evidence shows actual reach and interim-control effectiveness; what engineering or supplier capacity could bring a supported change forward; and who owns acceptance in the meantime.
 
-The board does not need to direct the engineering change. It does need to understand which service carries the exposure, who owns the acceptance, how the decision fits the operator’s risk appetite, and when it will be reviewed. If the residual risk is outside that appetite, the executive discussion turns to what capacity or supplier engagement could change the timetable. The decision is about service risk and ownership, not a generic demand to “patch faster.”
-
-That review should distinguish the vulnerability’s presence from the operator’s actual exposure and from control effectiveness during the wait. If those facts are unknown, management should say so rather than describing the risk as controlled. A board asking for faster remediation should ask what engineering capacity and supplier confirmation would make a safe window possible, not treat a changed date as a control. If management proposes a temporary restriction, it should show evidence that the restriction reduces exposure and explain the service effect. The board can resource or prioritize the work; the service executive remains accountable for acceptance within delegated authority. Exposure outside appetite must be escalated, not carried forward by default.
+If those facts are incomplete, management should say so. If it proposes a temporary restriction, it should show evidence that the restriction reduces exposure and explain what service work or visibility it may affect. A changed target date is not a control. The service executive remains accountable for residual-risk acceptance within delegated authority; exposure outside appetite must be escalated.
 
 ## Keep the case defensible
 
