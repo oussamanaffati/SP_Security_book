@@ -38,20 +38,20 @@ That makes inventory a lifecycle control, not a one-time audit. The supplier rel
 
 Before onboarding or renewal, Procurement and Legal can seek material-change notice and evidence commitments tied to those triggers, where commercially feasible. If a supplier cannot provide them, assess whether an operator-verifiable restriction or delayed enablement is feasible. Compare the service dependencies and diagnostic benefits each option affects, and estimate the transition effort. If notice is late or absent, record the assurance gap, affected service and event that will force reassessment; a stable product name is not evidence that its authority has stayed the same.
 
-**Worked register: supplier diagnostic feature.** “Unknown” is a valid register value; it marks a decision the available evidence cannot yet support.
+**Worked register: supplier diagnostic feature.** The scenario does not identify the feature owner, supplier contact, tested identity path, disablement behavior or fallback. The entries below use clearly labeled educational assumptions to complete the decision; they are not case facts and must be replaced with local roles and evidence. “Unknown” remains valid wherever evidence has not closed the question.
 
 | Field | Illustrative entry |
 |---|---|
 | Capability and trigger | AI diagnostic feature enabled through a routine update to a network-management product; absent from the AI project register. |
 | Purpose and known reach | Reads topology and proposes actions. No wider data access or direct execution is established by the scenario. |
-| Owners and contacts | Operational feature owner: **not identified**. Supplier contact: **to be recorded**. Service-impact owner: **to be confirmed**. |
-| Identity and path | Identity, connector and target-system permissions: **not yet verified**. Trace them end to end before treating the boundary as known. |
+| Owners and contacts | **Educational assumption:** Operations Engineering manages the feature; a supplier product-support lead is the contact; the network-domain service owner supplies impact and tolerance evidence. Replace these roles with local names. |
+| Identity and path | **Educational assumption:** supplier design material names a product service identity for topology reads. Connector permissions and target-system behavior remain unverified; direct execution is not established by the scenario. |
 | Authority boundary | Proposal is subject to the existing change process, but whether configuration or workflow technically enforces that boundary is **unverified**. |
-| Evidence and control state | Record evidence level, claim, scope, result and limitation. Use a safe test or supported window for write-path checks; no result is assumed. |
-| Stop and fallback | Independent disablement, product impact and fallback are **unknown**; verify whether the feature can stop without affecting the release. |
-| Decision and acceptance record | Retain under evidenced limits, restrict/disable if limits are unknown, or defer. Link continuing exposure to Chapter 5’s decision record. |
+| Evidence and control state | **Educational assumption:** Level 1 supplier design documentation is available; no Level 2 configuration review or Level 3 test has been completed. Record claim, scope and limitation for each item. |
+| Stop and fallback | **Educational assumption:** a feature setting appears separate from the release, but runtime disablement is untested. Manual NOC diagnosis remains possible only with planned staff backfill. |
+| Decision and acceptance record | **Conditional educational recommendation:** disable the feature pending proof; retain the product release only if separation and rollback are verified. Reassess if the release cannot be separated or manual fallback strains service capacity. |
 
-Do not close the entry on documentation alone. Require a verified boundary and fallback; retain expected and observed test results.
+Under these assumptions, ask Operations Engineering and the supplier to disable the feature independently while the product release remains in place, then verify the switch at runtime. A configuration label is not enough. If disablement holds and the release remains supportable, keep the product update and leave the feature off while completing the Level 2 review and Level 3 test. If the feature cannot be stopped without reversing the release, compare the service value of that release with supported rollback, delayed capability and the NOC work needed for manual diagnosis. Supplier and engineering capacity, the next safe window and any displaced change belong in that comparison. Reopen the choice when tests show the actual data path, denied write behavior, attribution, revocation and NOC fallback. These are educational assumptions and a conditional decision, not reported operator outcomes.
 
 **Supplier data-flow decision.** The known facts are that the feature reads topology and proposes actions. The available information does not establish whether topology leaves the operator’s environment, where processing occurs, or whether prompts and outputs are retained or used for training. Keep those facts unknown until evidence closes them.
 
