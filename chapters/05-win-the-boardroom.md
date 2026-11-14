@@ -13,11 +13,11 @@ Network criticality alone does not prove national impact. Describe affected serv
 
 Put the service at stake, the relevant system or workflow, its current access and controls, the proposed action and residual risk into the board statement. If information is incomplete, state what is missing and who will close the gap. Avoid dramatizing uncertainty beyond the evidence.
 
-A generic statement such as “AI is a major new threat” gives the board no decision. The NOC assistant test described in Chapter 1 is more useful: summarization worked, but a broader service account could open vendor cases, pull data from a neighboring domain and propose a change that would reduce NOC visibility. The board discussion can then focus on ownership, identity boundaries and whether the normal change process still applies.
+A generic statement such as “AI is a major new threat” gives the board no decision. The NOC composite introduced in Chapter 1 connects an alarm-summary task to cross-domain data, supplier cases and NOC visibility. The board question is whether to protect capacity for a safer authority boundary, not which model to buy.
 
-The board-level question is whether the operator has capacity to separate the identities and test how containment affects NOC visibility. If that work cannot happen immediately, the service executive needs to own the residual exposure, with a clear review condition. The requested decision is about service impact, delivery capacity and risk ownership, not model selection.
+That choice also has a capacity cost. Reassigning engineers and supplier time to identity separation may delay other network work; not protecting that capacity leaves the broader access in place. The service executive owns any interim residual exposure within delegated authority. The board can resource the decision without taking over acceptance.
 
-The interim option has to be described in operating terms. If the read path can be separated, restricting execution and vendor-case access may preserve alarm summarization while moving case opening and change approval back to NOC staff. That protects authority but consumes staff capacity and may slow supplier escalation. If the paths cannot be separated, continued access retains more function and more exposure. The board can decide whether to protect capacity for separation and testing; the service executive owns any residual risk while the broader identity remains.
+The worked board paper below compares retaining broad access, restricting or pausing the action path, and separating identities. Each option is paired with its service cost and the evidence needed before calling the boundary effective.
 
 If the operator relies on a legacy management platform, an external supplier or a narrow maintenance window, explain how that changes the response plan. A broad statement about “the network” is less useful than a clear account of which domain, service and recovery path are involved.
 
@@ -89,7 +89,7 @@ The following paper uses the existing composite NOC-assistant situation. It is a
 
 **Decision sought.** Protect engineering and supplier capacity to separate the assistant’s read path from its authority to open vendor cases or propose changes. Approve a bounded interim use only if its restrictions can be tested. This asks the board to set priority and capacity, not to accept service-level residual risk on behalf of management.
 
-**Service and exposure.** The assistant summarizes alarms and drafts ticket updates. In the composite test, its broader service account could also reach neighboring-domain data, open vendor cases and propose a change that would reduce NOC visibility. The affected service domain is **[name and dependency]**. The deployed identity path, current scope and ability to disable actions are **[evidence status]**. No outcome beyond those stated facts is assumed.
+**Service and exposure.** The assistant summarizes alarms and drafts ticket updates. In the supplied composite, its broader service account can also reach neighboring-domain data, open vendor cases and propose a change that would reduce NOC visibility. The affected service domain is **[name and dependency]**. The deployed identity path, current scope and ability to disable actions are **[evidence status]**. No outcome beyond those stated facts is assumed.
 
 **Options.**
 
