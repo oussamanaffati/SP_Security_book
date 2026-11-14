@@ -30,7 +30,7 @@
 ### 4. Four Moves for Service Providers in the Next 12 Months
 - **Move 1 — Establish a view of consequential AI and agent use.** Commission a joint security, network, IT, and business review; identify agents, owners, data, access, and suppliers; prioritize use touching network operations, OSS/BSS, and sensitive data.
 - **Move 2 — Reduce excessive access before scaling deployment.** Define who can authorize an agent, limit permissions to necessary tasks, require human approval for high-impact actions, and ensure access can be revoked.
-- **Move 3 — Rehearse AI-accelerated incidents without endangering service.** Select plausible operator scenarios—internal agent misuse, supplier compromise, or disruption to critical functions—and exercise decisions, roles, escalation, and containment consistent with continuity needs.
+- **Move 3 — Rehearse AI-accelerated incidents without endangering service.** Use the supplied NOC-assistant and patch-window composites to exercise decisions, roles, escalation, containment and continuity without inventing a new operator incident.
 - **Move 4 — Secure executive sponsorship for a funded roadmap.** Take prioritized risks, owners, 12-month milestones, requested decisions, and resilience-, regulatory-, and exposure-related measures to the CEO and board.
 - **AI/agentic angle:** The four moves treat AI as a transformation of attack surface and operating model, not just a detection-tool purchase.
 
