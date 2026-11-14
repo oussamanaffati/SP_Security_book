@@ -50,7 +50,7 @@ On 8 November, Malbear Labs published its account of an exposed operational work
 
 CISA’s 10 November KEV entry cites evidence of active exploitation; Cisco’s 13 November advisory says Cisco has no direct evidence of active exploitation. These are separate statements about the vulnerability, not confirmation of Malbear Labs’ claimed link to its intrusion. The victim is unnamed, and public sources reviewed here do not independently confirm every reported outcome.
 
-The vulnerability remains relevant as a patchable weakness in a carrier platform. Each operator must establish whether its version is affected, what exposure remains, and what service impact a response could create.
+The KEV entry is evidence of exploitation somewhere, not proof that a particular operator runs an affected release or exposes a reachable path. The local decision needs four facts: deployed version, reachable exposure, effectiveness of any interim controls, and the earliest supported fix with rollback. Security and platform teams establish the first two; control owners evidence the interim measures; engineering and the supplier confirm safe change conditions. The accountable service owner then decides whether any remaining exposure can be carried within appetite. A KEV listing warrants action, not an unsupported live-core change.
 
 In Singapore, the response began when telcos notified IMDA and CSA, then continued through a joint effort to contain the breach and expand monitoring. Notification paths and escalation relationships are easier to use when they are clear before an incident. They are difficult to improvise while technical teams are trying to preserve service and establish scope.
 
