@@ -89,6 +89,19 @@ Separating that access may improve attribution and limit the path between edge a
 
 The edge fix is a migration, not just an access edit. Before the maintenance window, identify workflows that still depend on the shared account, agree the supplier change and rollback boundary, and define what evidence will show that the new identity reaches only its intended systems. During the change, verify service monitoring and confirm that the old account no longer reaches the core. If rollback restores broad access, record it as a temporary residual-risk exception with an owner and review trigger; do not mark the boundary complete.
 
+**Illustrative change gate: edge access.** Use this record to decide whether the identity migration is ready, not as a substitute for the operator’s change process. Values marked for local confirmation are not established by the composite.
+
+| Gate | What the team must establish | Decision if evidence is missing |
+|---|---|---|
+| Service and dependency scope | Name the affected edge and core services, workflows using the shared account, monitoring dependencies, technical owner and accountable service executive. | Do not assume the account can be removed without service impact. Map the dependencies before selecting the change scope. |
+| Current-state evidence | Record which targets the old identity can reach, how access is logged, and what service-health signals and operational views are available. | Treat unknown reach as unresolved exposure. Do not use a supplier description alone as proof of deployed permissions. |
+| Supplier and change readiness | Confirm the supported configuration steps, required supplier participation, test or maintenance window, implementation effort, and the exact condition for reverting. | If the supplier cannot confirm a safe supported path, keep the work open and compare a later window with a verified interim restriction. |
+| Go/no-go and service threshold | The service owner sets the service-health measures, observation period and authority to pause. The change lead confirms staff, communications and rollback access are available. | If the threshold or stop authority is unclear, delay the change rather than improvising during the window. The risk owner must review the exposure of waiting. |
+| Post-change proof | From the new identity, verify the required edge path; test that the old identity is denied access to the core; confirm attributable logs, monitoring and essential workflows. | A completed ticket or successful configuration push is not proof. Failed or inconclusive checks leave the boundary unverified. |
+| Rollback and residual risk | Confirm rollback restores service safely and record whether it also restores broad access. Name who can authorize rollback, who owns that exposure, and what event or date reopens the decision. | If rollback reintroduces the shared path, record it as an exception with a review trigger; do not describe the migration as complete. |
+
+This gate makes the cost visible without inventing a budget: supplier engineering, network and identity work, test capacity, NOC backfill and the maintenance window all need an estimate and basis. Compare that effort with the operational cost of continuing broad access and the service consequences of a failed change. If the permanent fix cannot proceed, a narrower interim treatment is useful only when its boundary and service effect can be evidenced. The accountable service executive decides whether the remaining exposure is within delegated authority; the change team supplies the evidence, but does not accept service risk by default.
+
 Permissions matter only if teams can contain a failure without losing the surrounding service. That takes rehearsal.
 
 ## Move 3: Rehearsal tests the response before an incident
