@@ -493,3 +493,10 @@
 - Primary critique/revision: `gpt-6-luna`. Grok was not run under the local-only workflow; no authentication or push was attempted.
 - Hard self-critique: the chapter more clearly separates board appetite and assurance from operational ownership, and connects assurance asks to real service constraints. The four board decisions remain intentionally structured, and the existing cross-sector board guidance [26] is still based on official-page summaries rather than direct retrieval. No new telco-AI evidence or anecdote was added.
 - Self-score: **9.5/10** (editorial judgment, not an independent review). The five chapters now total 12,271 words by the same count method. No Sources section, fixed “90 days” language or em dash; existing inline citations remain mapped to `research/chapter-05.md`.
+
+## 2026-11-14 — Second expansion pass: Chapter 1
+- Expanded Chapter 1 from 3,311 to 3,455 words (+144; counted with the same local word-count script). Added no source, citation or anecdote; the existing patch-window situation remains the only story anchor in these additions.
+- Clarified how board-level risk appetite translates into delegated decision rights and escalation for service-level exposure. Connected security funding to displaced engineering work, service-level residual-risk ownership and the distinction between deferring investment and formally accepting risk.
+- Primary critique/revision: `gpt-6-luna`. Grok was not run under the local-only workflow; no authentication or push was attempted.
+- Hard self-critique: the additions sharpen board accountability without asking directors to approve maintenance decisions. The risk-appetite and funding discussion overlaps with Chapter 5 by design; future edits should keep Chapter 1 focused on why the strategic risk changed and Chapter 5 on the board’s evidence and decisions. Existing source claims were not re-fetched externally.
+- Self-score: **9.5/10** (editorial judgment, not an independent review). The five chapters now total 12,415 words by the same count method. No Sources section, fixed “90 days” language or em dash; existing inline citations remain mapped to `research/chapter-01.md`.
