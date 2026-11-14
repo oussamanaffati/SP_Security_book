@@ -40,7 +40,7 @@ In February 2026, Singapore’s CSA and IMDA disclosed a campaign against all fo
 
 The actor reached parts of the telco networks, with limited access to critical systems in one case. The operation also involved exfiltration of a small amount of primarily network-related technical data. Authorities reported no evidence at that point that sensitive or personal customer data had been accessed or exfiltrated, or that service had been disrupted.
 
-That distinction matters. Network information, customer data, service availability and operational control are separate risk dimensions. “No evidence of customer-data access or service disruption” does not erase the confirmed theft of technical data. A board update is more useful when it states what is known and what remains unknown.
+For leadership, keep the impact categories separate: network information, customer data, service availability and operational control. Confirmed exfiltration of technical data remains material even though authorities reported no evidence of customer-data access or service disruption. State both the finding and the limits of the investigation.
 
 The disclosure illustrates the demands operators already face: persistent adversaries, complex networks, stealthy access and response involving both companies and government. It does not report AI use. Calling every sophisticated attack “AI-powered” would overstate the evidence. The confirmed activity is serious on its own.
 
@@ -48,9 +48,9 @@ A separate set of public claims from November 2026 needs the same care. On 10 No
 
 On 8 November, Malbear Labs published its account of an exposed operational workspace. The researchers describe a largely autonomous, AI-enabled intrusion lasting more than two weeks against an unnamed European telecom provider and organizations it hosts. They report a custom harness using a jailbroken DeepSeek model and say the agent exploited the BroadWorks flaw, adapted when tools were blocked, and continued with limited operator check-ins.
 
-Cisco’s 13 November advisory says Cisco has no direct evidence of active exploitation. Malbear Labs links exploitation of the vulnerability to the intrusion it describes, but neither official notice confirms that connection. The victim is unnamed, and public sources reviewed here do not independently confirm every reported outcome. The vulnerability itself remains relevant to operators: a known, patchable weakness in a carrier platform can create an entry point.
+CISA’s 10 November KEV entry cites evidence of active exploitation; Cisco’s 13 November advisory says Cisco has no direct evidence of active exploitation. These are separate statements about the vulnerability, not confirmation of Malbear Labs’ claimed link to its intrusion. The victim is unnamed, and public sources reviewed here do not independently confirm every reported outcome.
 
-These distinctions matter. The researchers’ account may be important, but it should not be presented as an independently confirmed telecom incident or proof that AI was responsible for every reported action. The Singapore disclosure, meanwhile, offers a documented example of sustained response without an AI claim. Both cases support disciplined preparation, not inflated conclusions.
+The vulnerability remains relevant as a patchable weakness in a carrier platform. Each operator must establish whether its version is affected, what exposure remains, and what service impact a response could create.
 
 In Singapore, the response began when telcos notified IMDA and CSA, then continued through a joint effort to contain the breach and expand monitoring. Notification paths and escalation relationships are easier to use when they are clear before an incident. They are difficult to improvise while technical teams are trying to preserve service and establish scope.
 
