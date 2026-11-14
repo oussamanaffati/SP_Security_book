@@ -549,3 +549,10 @@
 - Primary critique/revision: `gpt-6-luna`. Grok was not run in this local-only cycle; no credential checks, remote operations or push were attempted.
 - Hard self-critique: the new material extends the existing attack-surface argument into NOC triage and supplier hand-off consequences without repeating the incident. The temporary-access pattern is explicitly conditional on platform support; vendor-case contents are framed as items to verify, not as claims about a specific supplier. The chapter remains far below its 9,000-word target.
 - Self-score: **9.5/10** (editorial judgment, not an independent review). The five chapters now total 14,475 words by the same count method. No Sources section, fixed “90 days” language or em dash; inline citations remain mapped to `research/chapter-02.md`.
+
+## 2026-11-14 — Further expansion pass: Chapter 4
+- Expanded Chapter 4 from 3,613 to 3,790 words (+177; same local word-count method). No sources or citations were added; existing claims remain supported by `research/chapter-04.md`.
+- Added a pre-authorized containment boundary for dedicated versus shared identities, with the NOC visibility and supplier-workflow trade-off; distinguished threat urgency from live-core change readiness and clarified when verified interim controls or narrower access may be needed. Used only the four existing composite situations.
+- Primary critique/revision: `gpt-6-luna`. Grok was not run in this local-only cycle; no credential checks, remote operations or push were attempted.
+- Hard self-critique: the additions sharpen who can act during containment and who owns resulting service risk, while keeping the patch choice balanced between threat exposure and safe change. This is a focused increment, not a large move toward 11,000; further expansion should deepen a distinct decision gap rather than repeat the same four situations.
+- Self-score: **9.5/10** (editorial judgment, not an independent review). The five chapters now total 14,652 words by the same count method. No Sources section, fixed “90 days” language or em dash; inline citations remain mapped to `research/chapter-04.md`.
