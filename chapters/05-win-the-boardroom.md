@@ -58,11 +58,7 @@ Board reports should say what “tested” means. A document review, configurati
 
 Security work competes for engineers, maintenance windows and supplier capacity. If a control must wait for a platform upgrade, state the interim measure and who accepts the remaining risk. CISA and the Canadian Centre for Cyber Security’s guidance on metered AI services notes that token consumption can affect cost, performance and availability. For a critical workflow that depends on such a service, include the exposure and the fallback if service is degraded or unavailable. If a regulatory deadline changes the sequence, show the date and accountable owner.
 
-A red, amber and green dashboard is useful only when each measure is defined and linked to a decision. Named owners for priority uses, successful access-revocation and fallback tests, and overdue remediation or risks past review date can show whether exposure is better controlled. More deployments do not mean better security.
-
-One distinction is easy to lose in a dashboard: a residual risk accepted within appetite is not the same as an untested control or an exposure with no owner. Acceptance should remain visible against the service, accountable executive, rationale, supporting assurance and conditions for review. A failed test or changed threat picture can reopen the decision; a named owner should not turn an unresolved control gap green by itself.
-
-Aggregation helps directors see patterns, but it can hide a material exception on one service. Report trends at a useful level, while preserving service-level exposures that exceed appetite, lack an owner or depend on untested controls. A board should be able to distinguish accepted risk, work in progress and assurance still missing without reviewing every technical finding. The point of the summary is to make escalation and resource choices possible, not to make unlike risks look uniform.
+A green status must not collapse work in progress, an untested control, residual risk accepted within delegated appetite, and exposure with no authorized owner. The worked dashboard below keeps these states distinct; an owner or completion marker alone is not proof of control effectiveness.
 
 ## Ask for decisions, not general support
 
@@ -116,7 +112,7 @@ The following paper uses the existing composite NOC-assistant situation. It is a
 
 The value of this record is not the form. It forces a choice between keeping capability with proven limits, restricting it at an operational cost, or accepting a defined exposure for a stated period. The board can challenge whether the delegated boundary and resources are adequate; management remains accountable for the service-level decision.
 
-**Compact dashboard: distinguish delivery from risk reduction.** Report a delivery measure beside the evidence that the control changed exposure. Set thresholds locally; the examples below are not industry benchmarks.
+**Compact dashboard: distinguish delivery from risk reduction.** Set thresholds locally; the examples below are not industry benchmarks.
 
 | Outcome | Delivery progress | Demonstrated risk reduction | Limitation or decision trigger |
 |---|---|---|---|
