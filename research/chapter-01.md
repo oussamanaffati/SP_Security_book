@@ -97,3 +97,6 @@ This cycle treated “recent” as the previous 12 months (13 November 2025–13
 - [7] Cisco PSIRT BroadWorks advisory — https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt
 - [8] Malbear Labs Operation Snowball — https://malbearlabs.com/posts/operation-snowball-inside-an-autonomous-ai-intrusion-campaign
 - [14] Canadian Centre for Cyber Security, “Cyber threat bulletin: Agentic artificial intelligence is accelerating cyber attacks” (26 October 2026) — https://www.cyber.gc.ca/en/guidance/cyber-threat-bulletin-agentic-artificial-intelligence-accelerating-cyber-attacks
+
+### Editorial decisions
+- 2026-11-14 persistent-memory handoff: the strategic shift now asks whether task context persists into later runs. Chapter 2 carries the detailed memory-scope and synthetic-marker guidance, avoiding duplication in this executive chapter. This is a cross-reference to author-derived analysis supported by ACSC harness guidance [38] in Chapter 2 research; no new factual claim, citation or composite was added.

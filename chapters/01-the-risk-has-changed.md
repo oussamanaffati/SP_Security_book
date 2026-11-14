@@ -129,7 +129,7 @@ A bounded task with limited service impact can be a sensible place to start. The
 
 The next-year discussion does not need to settle every technical question. It can focus on three shifts within the operator’s existing plans.
 
-**Treat AI as part of the attack surface and operating model.** For consequential uses, know the identity, data, tools, supplier, owner and actions involved. If the operator does not know where a capability is used, it cannot make a grounded decision about how much authority it should have.
+**Treat AI as part of the attack surface and operating model.** For consequential uses, know the identity, data, tools, supplier, owner and actions involved, including whether task context persists into later runs. If the operator does not know where a capability is used, it cannot make a grounded decision about how much authority it should have.
 
 **Design for service continuity.** Containment, rollback, customer impact and regulatory notification can pull in different directions. Response plans should reflect the service and its dependencies, not only the system under investigation.
 
