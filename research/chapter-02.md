@@ -55,6 +55,7 @@ This cycle searched for evidence published in the previous 12 months (13 Novembe
 - Source-scope guardrails remain: TRAI [9] is a consultation draft, CERT-In [11] is not identified as telecom, TM Forum [12] is attributed reporting, and ACSC [24]/[25]/[38] plus CISA/ASD [39] are not telco-specific requirements. The composite outage scenario remains explicitly illustrative.
 - Telegram summary remains waived under the project’s standing instruction.
 - 2026-11-14 editorial pass: added a source-contract decision aid for high-consequence joined data, covering task scope, field authority, provenance/freshness, permitted joins, conflict handling and separate data/service ownership. This is an author-derived recommendation, not a cited control standard; no source claims or citations changed and no external retrieval was performed.
+- 2026-11-14 second editorial pass: added an evidence-owner column to the NOC-assistant authority-path map, separating IAM/platform, connector, NOC/change, data-owner and service-executive responsibilities. This is an operational design recommendation derived from the supplied composite, not new incident evidence or a sourced standard.
 
 ## Self-critique
 
