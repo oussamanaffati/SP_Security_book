@@ -37,6 +37,17 @@ It helps to separate four response intervals:
 
 A fast SOC does not guarantee a fast response if approval is slow. Quick isolation is not success if it breaks a critical workflow or removes telemetry needed to understand the incident. An exercise is more informative when it compares the time to detect, authorize, act safely and restore service with tolerances agreed in advance by the service owner. Those tolerances depend on continuity needs, available containment options and applicable notification deadlines; one target will not fit every service domain. Record the service impact and the reason for each delay as well as elapsed time. Otherwise, one overall response figure cannot show whether the constraint is missing evidence, unclear authority, a supplier dependency or an untested fallback.
 
+**Illustrative response-gap review.** Use this after an exercise or incident review to link a delay to a fix. The table sets no universal time target.
+
+| Interval | Diagnostic question | Evidence needed before closing the gap |
+|---|---|---|
+| Detection | Did the right team receive a usable alert with the identity, source and affected service visible? | Trace a representative event from source to SOC/NOC; record where context or routing was missing and confirm the corrected alert path. |
+| Decision | Was the delay caused by missing service context, unclear authority or no agreed containment trigger? | Name the decision owner and conditions; exercise the choice with the service impact and available options in view. A procedure or tabletop alone does not prove technical containment. |
+| Action | Did permissions, an existing session, supplier access or a supported change window delay the chosen action? | Verify the action and revocation path end to end in a safe test or supported window; record supplier and engineering dependencies, plus rollback evidence. |
+| Continuity and recovery | Did containment remove monitoring, a supplier workflow or another path needed to restore service? | Have NOC/service assurance demonstrate the fallback and service owner compare restoration evidence with the locally agreed tolerance. |
+
+For every gap, assign an owner, interim treatment, required supplier or engineering effort, and a retest. A response target that rewards speed alone can encourage unsafe isolation. If no tested option meets the service tolerance, show the trade-off to the accountable service executive and record the residual risk rather than marking the response “on target.”
+
 CERT-In’s April 2026 advisory recommends tabletop exercises for five simultaneous incidents rather than a single incident, explicitly modelling AI-driven scenarios. That recommendation is Indian cross-sector guidance, not a telco standard or universal target. For an operator, the test is whether NOC, SOC, IAM and service teams can still make timely, service-safe decisions when their attention is split.
 
 The SOC assesses the evidence and likely attack path; the NOC knows which systems carry live operations, what maintenance is under way, and what isolation could do to service. Agree who resolves a conflict between those views and who can authorize the next step when there is no time for a long discussion.
