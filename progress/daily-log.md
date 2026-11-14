@@ -507,3 +507,10 @@
 - Primary critique/revision: `gpt-6-luna`. Grok was not run under the local-only workflow; no authentication or push was attempted.
 - Hard self-critique: the additions make inventory, approval, rehearsal and risk-roadmap decisions more testable under live-service constraints. Supplier and patch-window discussions overlap with other chapters, so this chapter focuses on inventory/change governance and on how evidence changes the move sequence. No new factual source claims were added.
 - Self-score: **9.5/10** (editorial judgment, not an independent review). No Sources section, fixed “90 days” language or em dash; existing inline citations remain mapped to `research/chapter-04.md`.
+
+## 2026-11-14 — Further expansion pass: Chapter 2
+- Expanded Chapter 2 from 2,374 to 2,703 words (+329; counted with the same local word-count script). No new sources, citations or anecdotes were introduced; existing evidence limits remain in `research/chapter-02.md`.
+- Added end-to-end identity attribution across connectors, the service risk of stale or mismatched operational data, the broker’s availability/fail-open trade-off, and the effect of change requests or vendor cases as indirect paths into service operations. Kept the chapter focused on where authority and exposure enter, rather than repeating Chapter 3’s response model.
+- Primary critique/revision: `gpt-6-luna`. Grok was not run under the local-only workflow; no authentication or push was attempted.
+- Hard self-critique: the additions make identity, information quality and tool boundaries more operationally concrete, with residual-risk consequences tied to NOC services. The new ideas are analysis rather than new evidence; the public examples remain cross-sector or attributed reporting, not proof of broad production-agent deployment at telcos.
+- Self-score: **9.5/10** (editorial judgment, not an independent review). The five chapters now total 13,041 words by the same count method. No Sources section, fixed “90 days” language or em dash; existing inline citations remain mapped to `research/chapter-02.md`.
