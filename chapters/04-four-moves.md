@@ -22,7 +22,7 @@ An inventory becomes useful when it links a capability to its service owner, dat
 
 The Australian Cyber Security Centre’s October 2026 guidance calls for AI asset identification to include services, agents, connectors and unsanctioned applications. It also recommends checking what providers retain in prompts and outputs, whether customer data is used to train models, and where processing occurs. This is cross-sector guidance; local legal duties still need review.
 
-In October 2026, TRAI, India’s telecom regulator, published draft guidelines on AI use in telecommunications. The consultation proposal calls for an inventory of active, inactive and decommissioned systems, with each system’s source, purpose and risk classification, and due diligence before third-party AI is acquired or used. The document is a consultation draft, not a final rule.
+In October 2026, TRAI, India’s telecom regulator, published draft guidelines on AI use in telecommunications. They also propose an AI inventory and third-party due diligence, as discussed in Chapter 2. The document remains a consultation draft, not a final rule.
 
 The draft does not prescribe a global inventory. It highlights a practical gap: supplier features and product capabilities can escape the project register. Legal and Compliance can confirm what applies in each market.
 
