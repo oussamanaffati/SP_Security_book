@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 21,889 words after the first structural/expansion pass and current rebalance; 18,111 words remain to the 40,000-word lower target and 23,111 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 22,114 words after the first structural/expansion pass and current rebalance; 17,886 words remain to the 40,000-word lower target and 22,886 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 1: identify a distinct investment-priority decision after checking the existing prose. Focus on how service evidence changes the choice; avoid repeating Chapter 4’s implementation roadmap or Chapter 5’s funding paper.
+Chapter 3: select a distinct containment or continuity decision under pressure after checking the current chapter; add service-specific alternatives and evidence without repeating Chapter 2 access limits.
