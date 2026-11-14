@@ -18,6 +18,8 @@ Neither report establishes an operator response deadline. Faster adversary activ
 
 Chapter 1’s patch-window composite supplies a second clock: the fixed version is known, but the live-core change is three weeks away. That is the supplied scenario’s interval, not a universal patching benchmark. In a response review, separate time to confirm affected services and interim protections from the lead time for a supported production change; they call for different actions. If exposure changes, the service owner should reopen the residual-risk decision, but an unsupported emergency change is not automatically safer.
 
+During an active review, keep four tracks moving in parallel. Security and platform owners verify the deployed version, reachable path and affected services. The control owner and NOC/service assurance verify any interim restriction and its effect on monitoring, supplier access and customer work. Engineering and the supplier confirm the fixed release, earliest supported window, testing and rollback. The service owner supplies impact evidence; the authorized service executive decides whether the remaining exposure stays within appetite. Each track has separate closure evidence. A window date is not mitigation, and a known fixed version does not prove local exposure. Reopen if threat, reach, control result or service conditions change.
+
 Detection and response are different capabilities. A dashboard can show an event, but people still need authority and context to decide whether to revoke an identity, isolate a host, block a supplier connection or keep a service running in reduced mode.
 
 ## Response runs on several timelines
