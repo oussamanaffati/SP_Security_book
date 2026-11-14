@@ -10,21 +10,17 @@ No sequence will eliminate risk. The four moves help test controls and make resi
 
 ## Move 1: Visibility means more than an AI inventory
 
-A model list does not show what the system can do. AI may arrive as a feature in a network-management product, customer-service platform or supplier portal. The feature may use a supplier identity to read service data or trigger a workflow. The product may keep the same name.
-
 Two questions frame the work: where can AI reach the operator’s systems or data, and what actions can it take? A joint review can bring together Network Operations, IT, security, architecture, customer care, procurement, privacy and key suppliers. Its scope can include pilots, SaaS features and automation, even when no one calls them AI.
 
 A service-first review is more useful than a model-first list. The relevant areas include OSS/BSS, service assurance, network management, customer identity, field operations, cloud control planes and supplier access. A customer-care summary tool has a different service impact from an assistant that can reach network configuration or subscriber records.
 
 A concise record can capture the owner and purpose, model or supplier, identity, data and tools, affected services, available logs, fallback, relevant markets and who can suspend the use. Open questions should remain visible rather than being marked complete.
 
-An inventory becomes useful when it links a capability to its service owner, data, identity and available actions. A product count alone will not show that. A supplier feature may change through an update even when the product name stays the same. Release notices, procurement reviews and architecture changes can feed the same inventory, so the register remains useful after the initial discovery. When the supplier cannot explain the feature’s identity or reach, that uncertainty is a risk to resolve or explicitly accept, not a reason to mark the entry complete.
+An inventory becomes useful when it links a capability to its service owner, data, identity and available actions. Release notices, procurement reviews and architecture changes can feed the same inventory, so the register remains useful after the initial discovery. When the supplier cannot explain the feature’s identity or reach, record the assurance gap and its owner rather than marking the entry complete.
 
 The Australian Cyber Security Centre’s October 2026 guidance calls for AI asset identification to include services, agents, connectors and unsanctioned applications. It also recommends checking what providers retain in prompts and outputs, whether customer data is used to train models, and where processing occurs. This is cross-sector guidance; local legal duties still need review.
 
-In October 2026, TRAI, India’s telecom regulator, published draft guidelines on AI use in telecommunications. They also propose an AI inventory and third-party due diligence, as discussed in Chapter 2. The document remains a consultation draft, not a final rule.
-
-The draft does not prescribe a global inventory. It highlights a practical gap: supplier features and product capabilities can escape the project register. Legal and Compliance can confirm what applies in each market.
+Chapter 2 discusses TRAI’s telecom consultation draft. It is not binding; Legal and Compliance should confirm which inventory and third-party due-diligence duties apply in each market.
 
 Many operators can make the first pass manageable by focusing on uses that could affect a critical service or sensitive data. Project, procurement, cloud and supplier records can help surface them; workflow owners can clarify what remains uncertain.
 

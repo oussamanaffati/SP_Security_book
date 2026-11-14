@@ -49,3 +49,7 @@ Chapter 4 turns the book’s earlier findings into a sequenced, operator-owned 1
 ## Self-critique
 
 The revision keeps the four moves and four clearly labeled composite scenarios while replacing fixed 90-day urgency with a measured near-term sequence. The CISA [29] template adds a concrete continuity and recovery prompt, though it is U.S. critical-infrastructure material and not AI-specific. Risk appetite, control effectiveness, residual risk and assurance are explicit; independent review is presented as advice, not a cited requirement. Only the TRAI consultation is telecom-specific. ACSC [25] remains limited to its official page summary. The four-move structure and scenario labels may still feel formulaic, and the composites remain illustrative rather than reported operator incidents. No private conversation or personal experience is presented as fact.
+
+## 14 November 2026 — Whole-book editorial review
+
+- Audited normalized composite labels across the five chapters and confirmed the four approved situations: supplier diagnostic feature, shared edge/core account, NOC assistant and live-core patch window. A paragraph-overlap scan found repeated supplier-feature setup and TRAI draft summary in Chapters 2 and 4; Chapter 4 now opens Move 1 with its practical review questions and points back to Chapter 2 for the consultation details. No source claims changed or were re-fetched.
