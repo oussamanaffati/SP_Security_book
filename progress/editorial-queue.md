@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 19,651 words after structural repair, four Chapter 4 expansion cycles, three Chapter 5 cycles and four Chapter 2 cycles; target 40,000–45,000 words of decision-useful substance. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 19,914 words after structural repair and first expansion cycles in Chapters 4, 5, 2 and 1; target 40,000–45,000 words of decision-useful substance. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -25,4 +25,4 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Next sequence
 
-Current next action: Chapter 2's first pass now covers processing boundary, per-hop identity/revocation, broker failure and vendor-case handoff. Proceed to Chapter 1 for stakes, investment choices and the NOC-assistant decision, then Chapter 3. Keep the four existing scenarios; do not invent operator outcomes.
+Current next action: Chapter 1's first strategic expansion pass is complete, including the trade-off between faster threats and safe containment and the distinction between a good pilot and the highest-risk path. Proceed to Chapter 3's response-speed and continuity decisions; then recount and rebalance all five chapters before choosing any further expansion.
