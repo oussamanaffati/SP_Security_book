@@ -90,7 +90,7 @@ Chapters 2 and 3 treat those questions separately.
 
 ## Response speed is part of the risk
 
-The Canadian Centre for Cyber Security’s 26 October 2026 bulletin on agentic AI reports that, in some cases, activity moved from target selection to privileged access to cloud systems in less than three hours. It cautions that cyber attacks are not yet fully autonomous: humans still choose targets, set objectives and oversee operations. The bulletin is cross-sector; it does not connect its findings to either telecom case described above.
+The Canadian Centre for Cyber Security’s cross-sector evidence on attack speed reinforces the risk, but it is not a telecom incident or an operator response target. Chapter 3 examines what the bulletin reports and how the operator should translate that signal into response readiness.
 
 The operator’s concern is not a universal response clock. It is the time available to make a safe decision while limiting service impact. Teams still need to preserve service, test changes across complex estates, coordinate with suppliers and meet local obligations. Legacy systems can slow remediation, and response exercises need to test how teams work together. No operator can close every gap at once.
 
