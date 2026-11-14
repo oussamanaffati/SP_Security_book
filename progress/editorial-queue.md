@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 2: check the NOC assistant’s source-integrity decision for an unaddressed trade-off in stale or conflicting operational records. Expand only if it adds a distinct operator choice beyond the existing source-contract test.
+Chapter 1: expand the executive choice between security review before platform selection and funded retrofit after selection, using the shared edge/core account case. Focus on option value, leverage, lifecycle cost and evidence gates, distinct from Chapter 4’s migration procedure.
