@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 20,414 words after the first structural/expansion pass and whole-book rebalance; 19,586 words remain to the 40,000-word lower target and 24,586 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 20,440 words after the first structural/expansion pass and whole-book rebalance; 19,560 words remain to the 40,000-word lower target and 24,560 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter roles and tool homes are distinct. The recurring NOC assistant, supplier
 
 ## Next sequence
 
-Chapter 1: deepen the investment choice among AI detection, limiting internal agent authority and response capability. Keep it strategic and distinct from Chapter 4’s implementation roadmap and Chapter 5’s funding mechanics; use existing cases only.
+Chapter 3: shorten the live containment card cells without losing scope, service impact, authority and verification. Then complete the second response/continuity pass and run the next whole-book review.
