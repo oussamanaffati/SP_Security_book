@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 20,440 words after the first structural/expansion pass and whole-book rebalance; 19,560 words remain to the 40,000-word lower target and 24,560 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 20,428 words after the first structural/expansion pass and whole-book rebalance; 19,572 words remain to the 40,000-word lower target and 24,572 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -25,7 +25,7 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Whole-book review after first pass
 
-Chapter roles and tool homes are distinct. The recurring NOC assistant, supplier feature and patch-window threads serve different decisions, not repeated paragraphs. Exact duplicate paragraphs were not found; reader-facing internal labels, numeric citations and Sources headings are absent. Table column shapes are consistent. Long cells remain in Chapter 3’s containment card; source-contract/containment tables in Chapter 2 and supplier, edge-access and roadmap tables in Chapter 4 have been shortened.
+Chapter roles and tool homes are distinct. The recurring NOC assistant, supplier feature and patch-window threads serve different decisions, not repeated paragraphs. Exact duplicate paragraphs were not found; reader-facing internal labels, numeric citations and Sources headings are absent. Table column shapes remain consistent; Chapter 3’s containment-card rows are shorter. The source-contract/containment tables in Chapter 2 and supplier, edge-access and roadmap tables in Chapter 4 were also shortened.
 
 ## Next sequence
 
