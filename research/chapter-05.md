@@ -57,3 +57,4 @@ The chapter gives the CISO and CTO specific board asks and a defensible evidence
 
 - 14 November 2026 whole-book follow-up: compared the patch-window passage with Chapter 4’s operational decision. Condensed repeated timeline/control detail to emphasize board challenge, service evidence, capacity and acceptance boundaries. No new source or scenario was added.
 - 2026-11-14 evidence-follow-up pass: added a narrow board evidence cross-reference to Chapter 2’s source-contract check, with explicit limits on what provenance/conflict results demonstrate. No source, composite or new control claim was added.
+- 2026-11-14 whole-book ownership review: revised the dashboard paragraph to name the authorized service executive and distinguish approved appetite from delegated authority, consistent with Chapters 1 and 4. No source or composite changed.

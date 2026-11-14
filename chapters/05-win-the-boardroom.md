@@ -60,7 +60,7 @@ Board reports should say what “tested” means. A document review, configurati
 
 Security work competes for engineers, maintenance windows and supplier capacity. If a control must wait for a platform upgrade, state the interim measure and who accepts the remaining risk. CISA and the Canadian Centre for Cyber Security’s guidance on metered AI services notes that token consumption can affect cost, performance and availability. For a critical workflow that depends on such a service, include the exposure and the fallback if service is degraded or unavailable. If a regulatory deadline changes the sequence, show the date and accountable owner.
 
-A green status must not collapse work in progress, an untested control, residual risk accepted within delegated appetite, and exposure with no authorized owner. The worked dashboard below keeps these states distinct; an owner or completion marker alone is not proof of control effectiveness.
+A green status must not collapse work in progress, an untested control, residual risk accepted by an authorized service executive within approved appetite and delegated authority, and exposure with no authorized owner. The worked dashboard below keeps these states distinct; an owner or completion marker alone is not proof of control effectiveness.
 
 ## Ask for decisions, not general support
 
