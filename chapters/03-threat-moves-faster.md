@@ -16,9 +16,7 @@ A separate 4 November advisory from CERT-In’s finance-sector incident-response
 
 Neither report establishes an operator response deadline. Faster adversary activity does not make every emergency change safe on a live service.
 
-Chapter 1’s composite patch-window scenario shows the second clock. Security has the advisory and fixed version, but the network team needs a maintenance window, rollback plan and supplier confirmation. The next available window is three weeks away; the residual risk is accepted at the service level, documented and reviewed. Waiting leaves the vulnerability in scope for longer. Changing a live core platform without the required support and rollback conditions could create service risk of its own.
-
-Speed alone is not the measure. The operator needs a clear view of the threat and exposure, which controls remain effective while the change is prepared, who owns residual risk and what evidence would reopen the decision. The planned date should be reviewed if threat or exposure changes, while any emergency change still needs a supported rollback and service-impact assessment.
+Chapter 1’s patch-window composite supplies a second clock: the fixed version is known, but the live-core change is three weeks away. That is the supplied scenario’s interval, not a universal patching benchmark. In a response review, separate time to confirm affected services and interim protections from the lead time for a supported production change; they call for different actions. If exposure changes, the service owner should reopen the residual-risk decision, but an unsupported emergency change is not automatically safer.
 
 Detection and response are different capabilities. A dashboard can show an event, but people still need authority and context to decide whether to revoke an identity, isolate a host, block a supplier connection or keep a service running in reduced mode.
 
