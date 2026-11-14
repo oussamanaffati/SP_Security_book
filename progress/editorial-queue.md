@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 21,115 words after the first structural/expansion pass and current rebalance; 18,885 words remain to the 40,000-word lower target and 23,885 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 21,388 words after the first structural/expansion pass and current rebalance; 18,612 words remain to the 40,000-word lower target and 23,612 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 2: expand a distinct service-provider decision on where operational data may be processed or retained, and how to weigh supplier assurance against operator-verifiable controls. Use existing research and no new composite.
+Chapter 2: expand a distinct multi-market decision on where NOC-assistant prompts, outputs, logs, support access, backups and retained data may cross market boundaries. Build on existing processing-boundary guidance without repeating the cross-domain access decision; label assumptions and use existing research.
