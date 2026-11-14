@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 23,939 words after the first structural/expansion pass and current rebalance; 16,061 words remain to the 40,000-word lower target and 21,061 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 24,281 words after the first structural/expansion pass and current rebalance; 15,719 words remain to the 40,000-word lower target and 20,719 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 5: choose what to fund when exercises reveal a response gap: additional after-hours operator cover, supplier standby or broader automation. Tie the choice to evidence on whether delay came from staffing, authority or an unverified control.
+Chapter 3: expand the post-containment choice to restore or quarantine the NOC assistant’s persistent context. Keep forensic preservation separate from operational reuse; compare clean task-scoped operation, memory rebuild and manual fallback with explicit evidence gates.
