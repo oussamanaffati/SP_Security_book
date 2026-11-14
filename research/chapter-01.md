@@ -100,3 +100,4 @@ This cycle treated “recent” as the previous 12 months (13 November 2025–13
 
 ### Editorial decisions
 - 2026-11-14 persistent-memory handoff: the strategic shift now asks whether task context persists into later runs. Chapter 2 carries the detailed memory-scope and synthetic-marker guidance, avoiding duplication in this executive chapter. This is a cross-reference to author-derived analysis supported by ACSC harness guidance [38] in Chapter 2 research; no new factual claim, citation or composite was added.
+- 2026-11-14 chapter-roadmap pass: revised the closing paragraph to map the three risk shifts into Chapters 2–5 and connect their work to the operator’s service/change capacity. This is a structural handoff, not a new evidence claim.
