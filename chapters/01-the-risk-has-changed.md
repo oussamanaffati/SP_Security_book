@@ -18,11 +18,17 @@ Those findings should not be read as a claim that every operator has the same ri
 
 A security control reduces risk; it does not remove all of it. The relevant service or process owner needs to understand the residual risk, how it compares with the operator’s risk appetite, and what assurance supports the decision. This is not a paperwork exercise. It is how security, engineering and operations make an explicit choice while keeping the network in service.
 
-Consider patching a live core platform. “Patch it now” may be the right security instinct, but it is not always an operational plan. Security may have the advisory and the fixed version. The network team still needs a maintenance window, a rollback plan and supplier confirmation that the change is supported. In one case, the next suitable window was three weeks away. The residual risk was accepted at the service level, documented and reviewed. The useful conversation was not a generic demand to patch faster. It was about the exposure during that interval, the compensating measures, the service impact of an emergency change, and who owned the decision to wait.
+That choice is rarely a simple contest between “secure” and “available.” A change can reduce the chance of compromise while increasing the chance of an outage during implementation. A shared identity can simplify support while making attribution and containment harder. The useful decision is which treatment is proportionate to the service risk, what residual exposure remains, and who has the authority and evidence to accept it.
+
+Consider patching a live core platform. “Patch it now” may be the right security instinct, but it is not always an operational plan. Security may have the advisory and the fixed version. The network team still needs a maintenance window, a rollback plan and supplier confirmation that the change is supported. In one case, the next suitable window was three weeks away. The residual risk was accepted at the service level, documented and reviewed. The useful conversation was not a generic demand to patch faster. It was about the exposure during that interval, the service impact of an emergency change, what interim controls were available, if any, and who owned the decision to wait.
+
+Good risk acceptance is not a declaration that a system is safe. It records the service and exposure, the controls in place and the assurance behind them, who accepts the residual risk, and what event will reopen the decision. Here, a confirmed maintenance window, supplier support, or a material change in exploitation evidence could alter the balance. Review should follow the service and threat, not an arbitrary patch deadline.
 
 That is a more credible basis for board oversight than a single remediation target applied to every system. The board should understand which service is exposed, what the plausible consequences are, what can be done before the permanent fix, and when the decision will be reviewed. Service-specific outage limits and a path for systems that are no longer supported matter as much as the patch itself.
 
 Operators are also investing in coverage, capacity, spectrum, cloud, fiber and customer experience. Security competes for the same people, time and budget. The CISO and CTO need to make the trade-off visible: which service is at risk, what could happen, what evidence is available, and what needs to be funded or changed. A list of controls alone rarely answers those questions.
+
+Technical severity is one input to prioritization, not the decision by itself. A weakness affecting a service with limited dependencies may call for a different treatment from the same weakness in a platform that supports several customer-facing services. The operator has to consider the threat, the exposure, the service impact, existing control effectiveness and the cost and risk of remediation. The result may be a change, a stronger interim control, a reduced use of the affected capability, or a documented acceptance of residual risk within appetite. Those choices should have an accountable service owner and a review point.
 
 For an AI-enabled process that can affect a live service, the business case should include testing, monitoring and a safe way to pause or reverse actions. Otherwise, the apparent efficiency gain leaves out a material continuity cost.
 
@@ -31,6 +37,8 @@ For an AI-enabled process that can affect a live service, the business case shou
 In February 2026, Singapore’s CSA and IMDA disclosed a campaign against all four major telcos.[1] In one instance, the actor used a zero-day exploit to bypass a perimeter firewall; in another, it used rootkits to maintain access and evade detection.[1] The whole-of-government response, conducted in partnership with the telcos, lasted more than eleven months and involved over 100 cyber defenders across agencies.[1]
 
 The actor reached parts of the telco networks, with limited access to critical systems in one case. The operation also involved exfiltration of a small amount of primarily network-related technical data.[1] Authorities reported no evidence at that point that sensitive or personal customer data had been accessed or exfiltrated, or that service had been disrupted.[1]
+
+That distinction matters. Network information, customer data, service availability and operational control are separate risk dimensions. “No evidence of customer-data access or service disruption” does not erase the confirmed theft of technical data. A board update is more useful when it states what is known and what remains unknown.[1]
 
 The disclosure illustrates the demands operators already face: persistent adversaries, complex networks, stealthy access and response involving both companies and government. It does not report AI use.[1] Calling every sophisticated attack “AI-powered” would overstate the evidence. The confirmed activity is serious on its own.
 
@@ -52,6 +60,8 @@ In one engagement, the network team had already chosen an edge platform when a r
 
 A timely map would not have removed every constraint, but it could have made the options clearer before deployment: which identities needed access, which paths were essential, which should be separated, and how to roll back safely if the change affected service. This is a useful pattern across cloud and edge programs. The earlier identity and operational dependencies are understood, the less painful it is to narrow access or reverse a decision later.
 
+The decision is not simply whether the edge platform is “secure.” It is which identities must cross which boundaries, how the access will be attributed, and what happens if the shared path needs to be suspended. Separation can add engineering and supplier work; leaving a broad identity in place leaves a wider path to manage. Those costs should be compared before rollout, when the architecture still offers choices. If the shared access remains, its owner, control effectiveness and review conditions should be explicit.
+
 For each AI-enabled use, the operator needs to understand what the system can access and change, whether an unsafe action can be stopped, and how the service continues during containment. A summarization tool presents a different risk profile from an agent that can call tools, alter records or trigger a workflow. In service assurance, access to alarms and tickets is not the same as authority to change a network configuration.
 
 ## AI changes who can act
@@ -66,13 +76,19 @@ Those concerns apply where a provider’s customer services meet network and ope
 
 A supplier feature or software update can introduce an AI capability outside a project labeled “AI.” An operator may not know that a network-management product can now read topology or propose actions. The important questions are practical: who owns the feature, which identity does it use, what data can it reach, and do proposed actions stay inside the existing change process? Visibility after the fact is better than none, but it is slower and more expensive than understanding the capability before it is enabled.
 
+## Two risk questions, not one
+
+AI changes risk along two tracks, and each needs different evidence. The first is internal authority: what an AI-enabled system can read, change or trigger through the identities and tools it has been given. That risk exists even if no attacker uses AI. The second is response speed: whether a threat can move from access to impact faster than the operator can detect it, agree a proportionate response and act without causing unacceptable service disruption.
+
+An inventory can help expose delegated authority, but it does not prove that response is fast enough. A threat-intelligence report may describe compressed attack stages, but it does not show whether a particular operator can safely contain them. These questions meet when an external actor reaches an identity or workflow that already has broad authority. The security program needs visibility into both the path that can be abused and the service’s ability to interrupt it. Chapters 2 and 3 treat those questions separately.
+
 ## Response speed is part of the risk
 
 The Canadian Centre for Cyber Security’s 26 October 2026 bulletin on agentic AI reports that, in some cases, activity moved from target selection to privileged access to cloud systems in less than three hours.[14] It cautions that cyber attacks are not yet fully autonomous: humans still choose targets, set objectives and oversee operations.[14] The bulletin is cross-sector; it does not connect its findings to either telecom case described above.[14][1][8]
 
 The operator’s concern is not a universal response clock. It is the time available to make a safe decision while limiting service impact. Teams still need to preserve service, test changes across complex estates, coordinate with suppliers and meet local obligations. Legacy systems can slow remediation, and response exercises need to test how teams work together.[2] No operator can close every gap at once.
 
-If an external threat or internal agent can change a critical workflow faster than normal approvals, the CISO and CTO should be able to explain how quickly the operator can detect and contain it, and what service might be affected by containment. Who can stop the change? Can the team do so without losing the visibility needed to manage the network? Security, Network, IT, Operations, Procurement, Legal and business leaders may all hold part of the answer.
+When an external threat or internal agent can change a critical workflow faster than normal approvals, the executive discussion needs to cover how quickly the operator can detect and contain it, and what service could be affected by containment. Who can stop the change? Can the team do so without losing the visibility needed to manage the network? Security, Network, IT, Operations, Procurement, Legal and business leaders may each hold part of the answer.
 
 ## Regulation does not replace operational ownership
 
@@ -80,7 +96,7 @@ Service providers face cybersecurity and privacy laws, communications-sector rul
 
 Compliance does not decide which agent may change a network configuration, what evidence is needed before its authority expands, or who accepts the residual risk when a supplier’s AI feature reaches a critical workflow. The executive accountable for the affected service should own that decision, with input from the workflow owner and CISO. The rationale, safeguards and review conditions should be recorded against the operator’s stated risk appetite.
 
-A practical way forward is to extend existing security, architecture, change and supplier-risk reviews. Include each machine identity, the data it can reach, the actions it can take, and how those actions can be reversed. Operators do not need perfect certainty before they begin. They can identify the owner and service impact of each consequential use, then define what evidence is needed before its authority expands.
+Existing security, architecture, change and supplier-risk reviews are usually the simplest place to start. Those reviews can account for each machine identity, the data it can reach, the actions it can take and how those actions can be reversed. Operators do not need perfect certainty before they begin. They can identify the owner and service impact of each consequential use, then define what evidence is needed before its authority expands.
 
 ## Set boundaries before expanding use
 
@@ -90,9 +106,9 @@ A bounded task with limited service impact can be a sensible place to start. The
 
 “Low risk” depends on the operator and service. A workflow may touch subscriber identity, billing, network configuration, emergency communications or a privileged supplier. Other uses, such as summarizing public information or helping an analyst organize evidence without system access, may be easier to contain. The operator’s existing risk governance can set the boundary, monitor the use and require stronger assurance as authority grows.
 
-## What must change in the next twelve months
+## Three shifts for the next twelve months
 
-A CISO or CTO does not need to settle every technical question at once. The useful starting point is to make three shifts visible in the operator’s existing plans.
+The next-year discussion does not need to settle every technical question. It can focus on three shifts within the operator’s existing plans.
 
 **Treat AI as part of the attack surface and operating model.** For consequential uses, know the identity, data, tools, supplier, owner and actions involved. If the operator does not know where a capability is used, it cannot make a grounded decision about how much authority it should have.
 

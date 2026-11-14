@@ -458,3 +458,10 @@
 - Final self-scores (editorial judgments, not independent review): Ch1 **9.0**, Ch2 **9.1**, Ch3 **9.1**, Ch4 **9.1**, Ch5 **9.1**.
 - Book-wide changes: simplified prose and softened checklist language; strengthened service, ownership, risk appetite, residual-risk and control-effectiveness framing; aligned examples with the four supplied composite situations; retained inline citations and research notes; all five chapters have no Sources section, em dashes or fixed “90 days” wording. Chapter 4 retains its four moves and four scenario anchors.
 - Final local text totals approximately 10,041 words. This remains a concise working manuscript, well short of the ~200-page goal; that needs a deliberate evidence-led expansion phase, not padding. All commits are local and unpublished.
+
+## 2026-11-14 — Expansion pass: Chapter 1
+- Expanded Chapter 1 from 2,779 to 3,311 words (+532; counted with the same local word-count script). No new sources or incident claims were introduced. Rechecked the local research note for [1] against the Singapore impact distinctions; no external research or fetch was performed.
+- Added operator decision context around security-versus-change risk, service-level residual-risk acceptance, service criticality and control effectiveness. Expanded the edge identity trade-off, removed repetition in the Singapore case, and separated internal delegated authority from external threat-response speed.
+- Primary critique/revision: `gpt-6-luna`. Grok was not run under the local-only workflow; no authentication or push was attempted.
+- Hard self-critique: the chapter is more explicit about operator trade-offs and clearer about what evidence supports separate risk decisions. The new distinction between internal authority and response speed risks repeating Chapters 2–3, so their later expansion should preserve the chapter boundary. Existing cited claims were not re-fetched from external sources.
+- Self-score: **9.5/10** (editorial judgment, not an independent review). No Sources section, fixed “90 days” language or em dash; existing inline citations remain mapped to `research/chapter-01.md`.
