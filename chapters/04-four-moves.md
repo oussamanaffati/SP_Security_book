@@ -26,6 +26,8 @@ Many operators can make the first pass manageable by focusing on uses that could
 
 The evidence behind an inventory entry also matters. A product description or supplier statement can explain intended behavior, but may not show the identity and access paths actually deployed. Record whether a claim comes from documentation, configuration review or an operator test. That distinction helps the owner decide whether the assurance is proportionate to the service consequence, and prevents an unknown from quietly becoming a verified control.
 
+For workflows that join operational records, use Chapter 2’s source-contract check to test whether the output preserves provenance and surfaces conflicts. It supports that data-quality decision, not a claim that the agent is generally accurate or secure.
+
 Ownership is often split. The platform team may administer the feature, Procurement may hold the supplier relationship, and a service executive may carry the impact if it fails. A single “owner” field can hide those differences. Record who can change or suspend the capability, who can provide evidence, and who can accept the service-level residual risk. If that last role is unknown, the exposure is unowned, not accepted.
 
 **Composite scenario: supplier diagnostic feature.** A supplier enables an AI diagnostic feature in a network-management product during a routine software update. It is absent from the operator’s AI project register, yet it can read topology and propose actions. The immediate questions are who owns the feature, which identity it uses, and whether proposed actions remain inside the existing change process. This is the difference between counting AI products and understanding their authority.
