@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 20,231 words after the first structural/expansion pass and whole-book rebalance; 19,769 words remain to the 40,000-word lower target and 24,769 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 20,220 words after the first structural/expansion pass and whole-book rebalance; 19,780 words remain to the 40,000-word lower target and 24,780 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter roles and tool homes are distinct. The recurring NOC assistant, supplier
 
 ## Next sequence
 
-Chapter 4, Move 4: shorten the roadmap table cells while preserving stages, owners, dependencies, evidence and service consequences. Then return to substantive expansion.
+Chapter 4, Move 1: shorten the remaining long supplier-feature table cells while leaving the detailed decision reasoning in prose. Then return to substantive expansion.

@@ -197,10 +197,10 @@ Reopen the choice if the deployed version or reachable path changes, a restricti
 
 | Stage | Lead, decision and dependency | Evidence required to proceed or close |
 |---|---|---|
-| **Establish the baseline** | Security lead with service/platform teams maps the supplier diagnostic, NOC assistant and edge-account paths; obtain supplier, product and identity records. | Known/unknown identities, data, actions and reach; identify gaps needing immediate restriction. A baseline is not proof of control effectiveness. |
-| **Before widening authority** | Identity/platform, Network Engineering, NOC and supplier plan read/action boundaries and edge migration; test capacity and a supported window are prerequisites. | Configuration review, allowed/denied tests, attributable logs and revocation result. Without safe testing, keep treatment interim and mark the boundary unverified. |
+| **Establish the baseline** | Security and service/platform teams map supplier-feature, NOC-assistant and edge-account paths; gather supplier, product and identity records. | Known/unknown identity, data, actions and reach; flag immediate restriction needs. A baseline is not proof of control. |
+| **Before widening authority** | Identity/platform, Network Engineering, NOC and supplier plan boundaries and edge migration; confirm test capacity and a supported window. | Configuration review, allowed/denied tests, attributable logs and revocation. Without safe testing, mark the boundary unverified and keep treatment interim. |
 | **Before relying on containment** | Incident-response lead with SOC/NOC, service assurance, change management and supplier rehearses the NOC assistant and fallback; map identities first. | Local decision/timing results plus technical revocation and visibility tests. Keep tabletop claims separate from technical evidence. |
-| **At portfolio review** | CTO/CISO sponsors and resource leads sequence work, dependencies and capacity; patch and edge migration need supported windows. | Separate delivery from tested risk reduction; report service impact, test results, dependencies and triggers. Count patching after effectiveness checks. |
+| **At portfolio review** | CTO/CISO sponsors and resource leads sequence work and capacity; patch and edge migration need supported windows. | Separate delivery from tested risk reduction; report impact, tests, dependencies and triggers. Count patching after effectiveness checks. |
 
 Before agreeing a stage, estimate network and identity engineering, NOC/SOC backfill, supplier work, test environments and change windows. Show the estimate basis and which work would move; if unknown, mark it pending rather than inventing a budget or implying that the work costs nothing.
 
