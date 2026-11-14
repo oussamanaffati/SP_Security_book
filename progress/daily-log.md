@@ -4,7 +4,7 @@ Detailed history is preserved in `progress/archive/daily-log-before-structural-p
 
 ## Current status
 - Repository: `/data/SP_Security_book`, branch `main`. A prior push was rejected for invalid credentials; continue local work and retry only after the configured credential is corrected.
-- Manuscript: 18,474 words (Ch1 3,767; Ch2 3,874; Ch3 2,316; Ch4 5,735; Ch5 2,782), versus the 40,000–45,000-word target. Editorial score remains provisional at 7.6/10; self-assessed, not independently reviewed.
+- Manuscript: 18,664 words (Ch1 3,767; Ch2 3,874; Ch3 2,316; Ch4 5,925; Ch5 2,782), versus the 40,000–45,000-word target. Editorial score remains provisional at 7.6/10; self-assessed, not independently reviewed.
 - Full pre-compaction log archived byte-for-byte; SHA-256 matched.
 
 ## Recent cycles
@@ -12,6 +12,7 @@ Detailed history is preserved in `progress/archive/daily-log-before-structural-p
 - 2026-11-14 | Whole-book rebalance | Corrected Chapter 1’s patch wording so a scheduled window is not implicit acceptance; shortened the Chapter 2 source-contract row, Chapter 3 containment choice and Chapter 4 supplier register. Diff checks and table-shape checks passed. Critique: cleaner structure, but several long cells remain in Chapter 3 and Chapter 4; these need one more pass before expansion. No new facts. Primary model: gpt-6-luna; Grok not run under the author’s local-first waiver.
 - 2026-11-14 | Whole-book rebalance: Chapter 3 containment card | 18,558 words | Shortened scope, authority/service and verification cells; largest remaining row cell is 200 characters. Critique: reduced table density while preserving incident decision, service impact and proof; no new facts. Primary model: gpt-6-luna; Grok not run under local-first waiver. `git diff --check` and counts passed. Next: Chapter 4 authority matrix and final book-wide checks.
 - 2026-11-14 | Whole-book rebalance: Chapter 4 authority matrix | 18,474 words | Shortened Read/Recommend/Execute cells while retaining target-side limits, evidence checks, operator decision and service fallback. Critique: materially more scannable without changing its boundaries or making untested claims; no new facts. Primary model: gpt-6-luna; Grok not run under local-first waiver. `git diff --check`, counts and table shape passed. Next: final whole-book structural checks, then Chapter 4 expansion.
+- 2026-11-14 | Chapter 4 shared edge/core decision expansion | 18,664 words | Developed retain/restrict/separate choices into a conditional recommendation with recommendation-changing evidence; added supplier/engineering effort, NOC backfill, test-window, rollback, monitoring and cost uncertainty. Critique: substantive, service-provider grounded and fact-bounded, with no invented figures or outcomes. Primary model: gpt-6-luna; Grok not run under local-first waiver. `git diff --check` and word counts passed. Next: continue Chapter 4 implementation expansion.
 
 ## Next
-Rerun whole-book format, table-density, repetition and cross-reference checks, then begin substantive Chapter 4 expansion toward the word target.
+Continue substantive Chapter 4 expansion, then complete the remaining chapters in the requested order; update counts and commit after each section-sized cycle.

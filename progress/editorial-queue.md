@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 18,474 words after structural compression; target 40,000–45,000 words of decision-useful substance. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 18,664 words after structural compression and the first Chapter 4 expansion cycle; target 40,000–45,000 words of decision-useful substance. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -25,4 +25,4 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Next sequence
 
-Current next action: rerun whole-book word counts, table shape/density, repeated-ending, internal-label and cross-reference checks after the Chapter 3/4 table edits. Then begin substantive expansion in Chapter 4 toward the 40,000–45,000-word target.
+Current next action: continue substantive Chapter 4 expansion. Add implementation depth on cross-functional sequencing, supplier/change-window dependencies, staffing and service fallback without repeating the shared-account or patch decisions. Then move to Chapter 5, Chapter 2, Chapter 1 and Chapter 3, recounting all chapters after each pass.
