@@ -67,7 +67,7 @@ The emergency route needs a real mandate, service context and a record of the de
 
 ## The NOC assistant makes authority visible
 
-Chapter 1’s supplied NOC composite describes an assistant that summarizes alarms and drafts ticket updates. A broader service account can also open vendor cases and read neighboring-domain data; the assistant proposes a change that would reduce NOC visibility. This is an illustrative situation, not a production incident.
+The Chapter 1 NOC-assistant composite sets up this response question: can the operator stop an overly broad action identity without losing essential visibility? It is illustrative, not a production incident.
 
 Before an incident, rehearse whether the action identity can be revoked without losing the alarm visibility or supplier handling the NOC needs. Confirm the fallback, the authority to use it and the person who owns any temporary exposure. A network change still follows normal change control.
 
