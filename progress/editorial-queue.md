@@ -25,4 +25,4 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Next sequence
 
-Current next action: Chapter 5—make the board decision paper the primary home for residual-risk ownership, delegated authority and the residual-risk record. State once who supplies service-impact/fallback evidence, who accepts exposure within delegation and appetite, and what triggers escalation. Audit the NOC-assistant board decision for realistic alternatives, evidence gaps, continuity/staff/supplier costs, conditional recommendation and evidence that would change it; remove repeated ownership endings without duplicating Chapter 4’s technical tests.
+Current next action: Chapter 5—complete the NOC-assistant board paper. Remove “composite/supplied” labels; compress the acceptance record without losing alternatives, costs, service impact, delegated authority, conditions or triggers; point to Chapter 4’s evidence levels instead of redefining them. Then check Chapter 5’s paragraph endings for repeated ownership formulas and keep the board’s role distinct from service-level acceptance.
