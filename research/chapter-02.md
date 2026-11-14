@@ -54,6 +54,7 @@ This cycle searched for evidence published in the previous 12 months (13 Novembe
 - **Grok second look:** `grok-4.20-0309-non-reasoning`, full revised Chapter 2, score 8.7/10. Adopted the clearer Orange attribution, more explicit date phrasing, and a reduction in repeated supplier-responsibility wording. Verified rather than accepted its reviewer hypotheses: the February 2026 and December 2025 sources predate the UTC review date, 13 November 2026; the ACSC source is dated 12 November and is explicitly attributed by date; the agent-harness definition is not duplicated in the other chapters; and the cited “long” sentences in the operating-environment section are already short. No substantive factual error was found by the reviewer. The inline-citation/no-`## Sources` format remains intentional.
 - Source-scope guardrails remain: TRAI [9] is a consultation draft, CERT-In [11] is not identified as telecom, TM Forum [12] is attributed reporting, and ACSC [24]/[25]/[38] plus CISA/ASD [39] are not telco-specific requirements. The composite outage scenario remains explicitly illustrative.
 - Telegram summary remains waived under the project’s standing instruction.
+- 2026-11-14 editorial pass: added a source-contract decision aid for high-consequence joined data, covering task scope, field authority, provenance/freshness, permitted joins, conflict handling and separate data/service ownership. This is an author-derived recommendation, not a cited control standard; no source claims or citations changed and no external retrieval was performed.
 
 ## Self-critique
 

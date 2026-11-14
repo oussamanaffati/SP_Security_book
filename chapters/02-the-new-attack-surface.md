@@ -43,6 +43,18 @@ That is also a standing-versus-temporary access decision. If routine alarm work 
 
 Combining sources does not guarantee a consistent view of the network. A circuit or service can be represented differently in inventory, assurance, planning and billing. An agent may assemble a plausible summary from stale or mismatched records. For a consequential decision, the output needs enough provenance for a network or service owner to check it against the authoritative system. Otherwise, the risk is not only disclosure; it is acting on an incorrect picture of service dependencies.
 
+A small source contract can keep an agent from turning conflicting records into a confident service-impact statement. Before a high-consequence workflow relies on joined data, the data owner and workflow owner can agree what the agent may use and how uncertainty is handled.
+
+| Field | What the operator records | If it is unknown or cannot be verified |
+|---|---|---|
+| Task and minimum data | The decision the summary supports and the data fields needed for that task. | Remove fields without a clear purpose; do not grant broad context merely because it is available. |
+| Source and authority | The system treated as authoritative for each field and the person or team that owns its meaning. | Keep the field marked unknown until the owner confirms the source; do not let the model choose between systems. |
+| Provenance and freshness | Source, timestamp and any transformation applied before the output. Set an operator-defined freshness limit where age affects the decision. | Show the age or missing provenance and require a qualified person to verify the data before relying on it. |
+| Join and destination | Permitted combinations, approved output destination, and the downstream system that receives the result. | Narrow the join or destination until the data path is understood; do not send an unapproved combined view to an external service. |
+| Conflict and decision | How contradictory records are shown, who resolves them, and which decisions require that validation. The data owner validates meaning; the accountable service owner decides whether the output is fit for the service decision. | Surface the conflict and stop short of a service-impact recommendation or action until the authorized owner resolves it. |
+
+This contract does not repair inconsistent inventories or assure the agent’s reasoning. It makes the data boundary and the human decision visible, so teams can test whether the output contains enough context without exposing every record. If the source or freshness cannot be verified, restrict the use to displaying attributed records rather than treating a joined summary as a reliable service view.
+
 CISA and its international partners’ May 2026 agentic-AI guidance identifies expanded attack surface as a risk and warns against broad access to sensitive data or critical systems. Its full report also describes indirect prompt injection through external data sources. For operators, retrieved content is information to assess, not an instruction that changes the agent’s authority.
 
 ## Tools determine what an agent can do
