@@ -106,7 +106,7 @@ The operator does not need to establish that an intrusion used AI before prepari
 
 ## The question for leadership
 
-A useful executive discussion settles who may use pre-approved containment, who can authorize a broader action after hours, and which service dependencies could be affected by isolating an identity or supplier connection. It also assigns customer and regulator communications while the technical scope is uncertain. The accountable owner for each affected service decides whether temporary impact fits the operator’s risk appetite and what conditions allow restoration.
+A useful executive discussion settles who may use pre-approved containment, who can authorize a broader action after hours, and which service dependencies could be affected by isolating an identity or supplier connection. It also assigns customer and regulator communications while technical scope is uncertain. The accountable service executive accepts residual risk and service impact only within approved appetite and delegated authority; the service owner provides impact evidence and agrees restoration conditions with the control operator. Escalate exposure or impact outside either boundary.
 
 These decisions depend on the service, not a generic organization chart. If ownership or the safe next step is unclear, teams will debate roles and impact while the incident unfolds. Containment without service context can create a second service incident.
 
