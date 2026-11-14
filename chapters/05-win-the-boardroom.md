@@ -13,7 +13,7 @@ Network criticality alone does not prove national impact. Describe affected serv
 
 Put the service at stake, the relevant system or workflow, its current access and controls, the proposed action and residual risk into the board statement. If information is incomplete, state what is missing and who will close the gap. Avoid dramatizing uncertainty beyond the evidence.
 
-A generic statement such as “AI is a major new threat” gives the board no decision. A service-based account is more useful: a service-assurance workflow might read alarms and subscriber-linked service data, but cannot change network configuration. The service owner and supplier manager can map the dependency and agree a safe isolation test before the next change window.
+A generic statement such as “AI is a major new threat” gives the board no decision. The NOC assistant test described in Chapter 1 is more useful: summarization worked, but a broader service account could open vendor cases, pull data from a neighboring domain and propose a change that would reduce NOC visibility. The board discussion can then focus on ownership, identity boundaries and whether the normal change process still applies.
 
 If the operator relies on a legacy management platform, an external supplier or a narrow maintenance window, explain how that changes the response plan. A broad statement about “the network” is less useful than a clear account of which domain, service and recovery path are involved.
 
@@ -36,44 +36,36 @@ Describe something as a regulatory requirement only when it is in force and appl
 
 ## Bring evidence the board can test
 
-A board pack should be short enough to discuss and specific enough to challenge. For each move, give directors evidence they can test and a decision they can make.
+A board paper needs enough detail to support challenge, without making directors reconstruct the whole architecture. For each move, show the evidence and the decision it is meant to support.
 
-Start with the AI-enabled workflows that could have the greatest service impact. Show what each can read, change or trigger, who owns it, which supplier and identity are involved, what service is affected, what is logged and who can suspend it. Report gaps as gaps, not as green status.
+The starting point is the set of AI-enabled workflows with the greatest potential service impact. For each, the paper can show what it can read, change or trigger, who owns it, which supplier and identity are involved, what is logged, what service is affected and who can suspend it. Gaps should be reported as gaps, not as green status.
 
-Next, report the access boundaries. Which priority identities are separate from shared accounts? Which tools are read-only? Which actions follow the normal network change process? Has revocation been tested? Counting AI systems does not prove that their authority is controlled.
+The access review should make authority visible: which priority identities are separate from shared accounts, which tools are read-only, which actions remain in normal network change control, and whether revocation has been tested. A count of AI systems cannot show whether their authority is controlled.
 
-Then report what the exercise revealed. Did the SOC know who could revoke the identity? Did the NOC know what service might lose visibility? Could the operator move to an alternative mode? Were legal, customer and supplier contacts available? Report decision gaps and whether owners closed them. A June 2026 cross-sector statement by Five Eyes cyber-agency leaders says boards should ensure controls work under incident pressure, not merely exist.[23] An exercise without corrective action is an event, not assurance.
+Exercise results add another kind of evidence. Did the SOC know who could revoke the identity? Did the NOC know what service might lose visibility? Could the operator move to an alternative mode? Were legal, customer and supplier contacts available? Report which decisions were unclear and whether owners closed the gaps. A June 2026 cross-sector statement by Five Eyes cyber-agency leaders says boards should ensure controls work under incident pressure, not merely exist.[23] An exercise without corrective action is an event, not assurance.
 
-Finally, set out the roadmap and its constraints. Security work competes for engineers, maintenance windows and supplier capacity. Put those dependencies beside the milestone. If a control must wait for a platform upgrade, state the interim measure and who accepts the remaining risk.
+The roadmap should show its dependencies as well as its milestones. Security work competes for engineers, maintenance windows and supplier capacity. If a control must wait for a platform upgrade, state the interim measure and who accepts the remaining risk. For a critical workflow that depends on a metered AI service, include the possible effects of token consumption on cost, performance and availability, and the fallback if the service is degraded or unavailable.[21] If a regulatory deadline changes the sequence, show the date and accountable owner.
 
-For a critical workflow that depends on a metered AI service, show how token consumption could affect cost, performance and availability.[21] State what fallback remains if the service is degraded or unavailable. If a regulatory deadline changes the sequence, show the date and accountable owner.
-
-A red, amber and green dashboard is useful only if each measure is defined and linked to a decision. Measures should show whether exposure is better controlled: named owners for priority uses, successful access-revocation and fallback tests, and overdue remediation or risks past their review date. More deployments do not mean better security.
+A red, amber and green dashboard is useful only when each measure is defined and linked to a decision. Named owners for priority uses, successful access-revocation and fallback tests, and overdue remediation or risks past review date can show whether exposure is better controlled. More deployments do not mean better security.
 
 ## Ask for decisions, not general support
 
-“Continued support” is not a decision request. Put a specific choice in front of the board.
+A request for “continued support” leaves the choice unclear. A board paper is stronger when it puts a specific decision in front of directors.
 
-1. **Approve the priorities.** Confirm the three or four outcomes the operator will pursue over the next twelve months, starting with services and workflows that carry the greatest consequence.
-2. **Assign accountable owners.** Give each move an executive sponsor and an operational lead across security, network, IT, procurement or service continuity as required.
-3. **Protect capacity.** Approve the staff time, planned change windows and supplier engagement needed to deliver the first tranche. If the board will not fund everything, show what moves later and what risk stays open.
-4. **Set assurance and residual-risk acceptance.** Agree what evidence returns each quarter, what triggers an earlier escalation, and which executive owns acceptance of residual risk within the approved appetite.
+1. **Set priority outcomes.** The first decision is which three or four outcomes the operator will pursue over the next twelve months, beginning with services and workflows whose consequences are greatest.
+2. **Make ownership explicit.** Each move needs an executive sponsor and operational lead across security, network, IT, procurement or service continuity as required.
+3. **Protect delivery capacity.** Staff time, planned change windows and supplier engagement all compete with other operational work. If the board will not fund everything, it should see what moves later and what risk remains open.
+4. **Agree assurance and residual-risk acceptance.** The board can set what evidence returns each quarter, what triggers earlier escalation, and which executive owns residual-risk acceptance within the approved appetite.
 
 The investment case should state what the money buys. It cannot guarantee that an incident will not happen. It should improve the operator’s ability to identify consequential uses, restrict unnecessary authority, contain an incident while maintaining service through a tested fallback, meet applicable duties and restore services. Some costs are people and change capacity, not software. Directors should understand both the risk the plan is meant to reduce and the work it will displace.
 
 If Finance and Operations can substantiate a loss range, show the assumptions. If they cannot, say so and explain the service impact, response dependency and regulatory exposure without putting an unsupported monetary value on them. The decision remains real: invest now, accept the residual risk within the stated appetite, or choose a different sequence.
 
-## A composite board illustration
+## The decision behind an accepted patch window
 
-The following is a composite illustration, not a real board exchange. A provider has reviewed several AI-enabled workflows. One assistant can read service alarms and draft recommendations. It cannot apply network changes, but it uses a supplier connection that has not yet been tested for isolation. A tabletop also shows that the NOC and SOC do not share a clear after-hours decision owner.
+Chapter 4 describes a live core platform with a fixed version available, but a safe change still depends on a maintenance window, a rollback plan and supplier confirmation. The next window is three weeks away. At the service level, the residual risk is accepted, documented and reviewed.
 
-**CEO:** “If we isolate this supplier link during a fault, what operational visibility could we lose, and who can authorize the decision after hours?”
-
-**CISO:** “We have not tested that isolation path. The assistant can read alarms and service data, but it cannot change network configuration. The exercise also found no clear after-hours decision owner. We will map the fallback and validate the isolation path before recommending a boundary.”
-
-**CTO:** “We need agreement on the decision owner and capacity for a controlled isolation and fallback test. We will also review the other high-impact workflows. At the next quarterly review, we can report the test result, remaining risk and proposed next priority.”
-
-The exchange gives the board evidence, a decision and a point at which to check progress, without promising zero risk or predicting an outage.
+The board does not need to direct the engineering change. It does need to understand which service carries the exposure, who owns the acceptance, how the decision fits the operator’s risk appetite, and when it will be reviewed. If the residual risk is outside that appetite, the executive discussion turns to what capacity or supplier engagement could change the timetable. The decision is about service risk and ownership, not a generic demand to “patch faster.”
 
 ## Keep the case defensible
 
