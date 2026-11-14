@@ -25,4 +25,4 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Next sequence
 
-Current next action: run the whole-book structural review across all five chapters: repeated authority/evidence endings, internal labels, chapter-to-chapter repetition, table shape/density and cross-references. Then resume substantive expansion in Chapter 4; structural compression is complete enough to move on but the 40,000–45,000-word target is not yet met.
+Current next action: resolve whole-book findings—correct Chapter 1’s patch-window description so it does not imply acceptance without an authorized decision; shorten the dense Chapter 2 source-contract, Chapter 3 containment and Chapter 4 supplier-register cells. Then rerun the whole-book checks and resume substantive expansion in Chapter 4.
