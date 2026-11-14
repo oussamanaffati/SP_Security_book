@@ -32,6 +32,8 @@ Many operators can make the first pass manageable by focusing on uses that could
 
 The decision is not automatically “disable” or “trust the supplier.” If the feature’s access can be bounded, its actions traced and proposals kept within the established change process, the operator may have a basis to retain it with defined conditions. If those controls cannot be evidenced, restricting or disabling the feature may be the more defensible treatment, even if that delays the diagnostic benefit. The accountable service owner should understand the residual risk and when the decision will be revisited.
 
+That makes inventory a lifecycle control, not a one-time audit. The supplier release path, cloud service terms and product change notices determine whether an operator learns about a new capability before or after it enters service. Procurement and technical owners can agree which changes require reassessment, particularly changes to identity, accessible data, connected tools or the ability to propose or trigger actions. If notice is late or absent, record the assurance gap and its owner; a stable product name is not evidence that its authority has stayed the same.
+
 Inventory shows where to look. Access review shows whether an agent has more authority than its task requires.
 
 ## Move 2: Match authority to the task
@@ -46,6 +48,8 @@ Policy does not prove that a permission boundary works under service conditions.
 
 It helps to distinguish read, recommend and execute. Read-only access is often a sensible start. A low-impact, reversible action may fit within clear limits and monitoring. Actions that could change production, affect customers or interrupt an essential workflow should remain within the operator’s normal authorization and change process. An agent can prepare a change; an authorized person approves and validates it.
 
+A human approval step is effective only if the reviewer can see the evidence behind the recommendation, understand the affected service and decline the action. If the reviewer sees only a generated summary or a pre-filled change request, the approval may become procedural. Control effectiveness depends on whether the person has enough context and authority to make a different decision, not on how many approval boxes appear in the workflow.
+
 CISA and its international partners advise limiting agent access to sensitive data and critical systems, and starting with low-risk uses.[10] This is general guidance, not a telco control standard. Legacy platforms and supplier connections matter as much as modern APIs. If a legacy system cannot support a separate identity, a controlled gateway may help. Until then, read-only access may be safer.
 
 **Composite scenario: edge access.** In an engagement, the network team had already chosen an edge platform when a review found a shared service account that could reach both edge nodes and parts of the core. Fixing the access required a maintenance window and a supplier configuration change. Mapping identity and tool access earlier could have made the available rollback options clearer before deployment.
@@ -57,6 +61,8 @@ Permissions matter only if teams can contain a failure without losing the surrou
 ## Move 3: Rehearsal tests the response before an incident
 
 A policy alone may not tell the night shift who can revoke a compromised identity. A tabletop can expose that gap before an incident does. Its value is in testing decisions and service impact, not demonstrating an AI product.
+
+A tabletop does not prove that a technical control works. It can establish who has authority, what information is needed and which services may be affected. A bounded technical validation is still needed to confirm that revocation blocks the relevant tool paths and that monitoring remains available. That test belongs in a suitable test environment or supported change window, not as an unplanned experiment on a live core. If the operator cannot test safely, the assurance limitation should remain visible in the risk decision.
 
 Bring the SOC and NOC, identity and platform owners, service assurance, change management and business continuity into the exercise. Legal, communications, procurement and a supplier contact can join when the scenario needs them. Center it on a decision that could affect a service.
 
@@ -95,6 +101,8 @@ At an executive review, the CISO and CTO can present the priorities, owners, ser
 **Composite scenario: patch window.** Security has the advisory and fixed version for a live core platform, but the network team needs a maintenance window, rollback plan and supplier confirmation. The next available window is three weeks away. The residual risk is accepted at the service level, documented and reviewed. The roadmap makes that decision visible, including who owns it and when it will be revisited, rather than promising a patch date that operations cannot safely meet.
 
 That decision has two sides. Applying the fix sooner may shorten exposure, while changing a live platform outside its planned window may create service risk. Waiting preserves the planned maintenance and rollback conditions but leaves the vulnerability in scope for longer. The decision record should explain the service impact, the evidence about the threat, what controls (if any) remain effective during the wait, and what would cause the owner to reconsider. The security team identifies and advises on risk; the accountable service executive owns acceptance of the residual risk within appetite.
+
+A roadmap should distinguish delivery status from risk status. Booking a maintenance window is not remediation; the exposure remains until the supported change is applied and its effectiveness is checked. If the window slips or the threat evidence changes, the service owner needs to revisit acceptance rather than carrying it forward automatically.
 
 ## Keep the sequence, adjust the pace
 

@@ -500,3 +500,10 @@
 - Primary critique/revision: `gpt-6-luna`. Grok was not run under the local-only workflow; no authentication or push was attempted.
 - Hard self-critique: the additions sharpen board accountability without asking directors to approve maintenance decisions. The risk-appetite and funding discussion overlaps with Chapter 5 by design; future edits should keep Chapter 1 focused on why the strategic risk changed and Chapter 5 on the board’s evidence and decisions. Existing source claims were not re-fetched externally.
 - Self-score: **9.5/10** (editorial judgment, not an independent review). The five chapters now total 12,415 words by the same count method. No Sources section, fixed “90 days” language or em dash; existing inline citations remain mapped to `research/chapter-01.md`.
+
+## 2026-11-14 — Further expansion pass: Chapter 4
+- Expanded Chapter 4 from 2,642 to 2,939 words (+297; counted with the same local word-count script). No new sources, citations or anecdotes were introduced; existing evidence and scope notes remain in `research/chapter-04.md`.
+- Deepened the four moves with practical decisions: supplier change notices as part of inventory lifecycle; meaningful human approval versus a procedural gate; the assurance limits of tabletops versus bounded technical validation; and the difference between a scheduled change and reduced residual risk. Kept all four supplied situations as the only composite anchors.
+- Primary critique/revision: `gpt-6-luna`. Grok was not run under the local-only workflow; no authentication or push was attempted.
+- Hard self-critique: the additions make inventory, approval, rehearsal and risk-roadmap decisions more testable under live-service constraints. Supplier and patch-window discussions overlap with other chapters, so this chapter focuses on inventory/change governance and on how evidence changes the move sequence. No new factual source claims were added.
+- Self-score: **9.5/10** (editorial judgment, not an independent review). No Sources section, fixed “90 days” language or em dash; existing inline citations remain mapped to `research/chapter-04.md`.
