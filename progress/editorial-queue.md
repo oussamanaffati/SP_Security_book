@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 27,499 words after the first structural/expansion pass and current rebalance; 12,501 words remain to the 40,000-word lower target and 17,501 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 27,730 words after the first structural/expansion pass and current rebalance; 12,270 words remain to the 40,000-word lower target and 17,270 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 1: add an executive decision on role-based readiness capability versus generic AI awareness. Tie investment to exercised NOC/SOC/IAM/service-owner gaps and shift coverage; avoid promising outcomes from training alone.
+Chapter 3: deepen an incident decision not already covered by safe-containment objectives, customer communications, supplier isolation, memory recovery, staged restoration or command model. Add only if a distinct service-provider trade-off remains.
