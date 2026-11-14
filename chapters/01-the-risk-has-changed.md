@@ -1,6 +1,6 @@
 # Chapter 1: The Risk Has Changed. Service Providers Feel It First.
 
-An alarm summary becomes a different security problem when the same service account can also reach neighboring-domain data, open vendor cases and propose a change that would reduce NOC visibility. This is the supplied composite NOC scenario, not a production incident. It gives this book its central question: as software gains access to operator workflows, do boundaries and decision authority keep pace with the consequences for service?
+An alarm summary becomes a different security problem when the same service account can also reach neighboring-domain data, open vendor cases and propose a change that would reduce visibility in the network operations center (NOC). This is the supplied composite NOC scenario, not a production incident. It gives this book its central question: as software gains access to operator workflows, do boundaries and decision authority keep pace with the consequences for service?
 
 A cyber incident at a service provider can become a service incident quickly. When a mobile network, core platform or management system is affected, customers may lose connectivity, businesses may lose services they depend on, and public services may lose an important channel. The operator has to restore service while it is still establishing what happened and how far the impact reaches.
 
