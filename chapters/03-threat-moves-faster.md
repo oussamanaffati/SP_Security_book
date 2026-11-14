@@ -16,7 +16,7 @@ A separate 4 November advisory from CERT-In’s finance-sector incident-response
 
 Neither report establishes an operator response deadline. Faster adversary activity does not make every emergency change safe on a live service.
 
-Chapter 1’s patch-window example shows the second clock. Security had the advisory and fixed version, but the network team needed a maintenance window, rollback plan and supplier confirmation. The next available window was three weeks away; the residual risk was accepted at the service level, documented and reviewed. Waiting left the vulnerability in scope for longer. Changing a live core platform without the required support and rollback conditions could create service risk of its own.
+Chapter 1’s composite patch-window scenario shows the second clock. Security has the advisory and fixed version, but the network team needs a maintenance window, rollback plan and supplier confirmation. The next available window is three weeks away; the residual risk is accepted at the service level, documented and reviewed. Waiting leaves the vulnerability in scope for longer. Changing a live core platform without the required support and rollback conditions could create service risk of its own.
 
 Speed alone is not the measure. The operator needs a clear view of the threat and exposure, which controls remain effective while the change is prepared, who owns residual risk and what evidence would reopen the decision. The planned date should be reviewed if threat or exposure changes, while any emergency change still needs a supported rollback and service-impact assessment.
 
@@ -67,11 +67,23 @@ The emergency route needs a real mandate, service context and a record of the de
 
 ## The NOC assistant makes authority visible
 
-Chapter 1 described the assistant test: it read alarms and drafted ticket updates, and summarization worked. The risk changed when it used a broader service account that could also open vendor cases. In a simulated incident, it pulled data from a neighboring domain and proposed a change that would have reduced NOC visibility. This was a test, not a production incident.
+Chapter 1’s supplied NOC composite describes an assistant that summarizes alarms and drafts ticket updates. A broader service account can also open vendor cases and read neighboring-domain data; the assistant proposes a change that would reduce NOC visibility. This is an illustrative situation, not a production incident.
 
-That result turns a general response question into a practical one. Can the team identify which identity enabled the access, revoke it without losing essential monitoring, and keep any proposed change inside the normal approval process? The answer depends on the service, the identity design and the after-hours decision path. Those are the points a rehearsal can test before an incident.
+Before an incident, rehearse whether the action identity can be revoked without losing the alarm visibility or supplier handling the NOC needs. Confirm the fallback, the authority to use it and the person who owns any temporary exposure. A network change still follows normal change control.
 
-The exercise can also establish what would be lost if the broad account were suspended: alarm visibility, ticket updates or vendor-case handling, and what alternative remains. Separate read and act identities may let the operator restrict action without removing needed monitoring, but that depends on the actual tool design and must be tested. A proposed network change remains subject to the normal change process; the fact that it came from an AI assistant does not make it an approved action. If the identities cannot yet be separated, the service owner needs a clear view of the temporary exposure and the conditions for revisiting it.
+**Illustrative live-incident decision card: NOC assistant.** Adapt this to the operator’s incident authority and map the role names to local equivalents before use. It is not an authorization by itself, and a tabletop cannot prove that its technical steps work.
+
+| Decision point | Evidence and question | Role that contributes or decides |
+|---|---|---|
+| Establish what happened | Which identity and tool acted? Is there evidence of an unauthorized request or only a proposed change? Preserve source alarms, connector records and target-system events. | SOC leads evidence assessment; platform/IAM teams identify the principal and session scope. |
+| Bound the authority | Can the operator stop action rights separately from alarm reads and vendor-case handling? Does revocation terminate existing sessions as well as block new calls? | Identity and platform owners verify the path; supplier supplies product facts and limitations. |
+| Protect service visibility | What NOC view or supplier workflow disappears if the identity is suspended? What manual or alternate source remains, and who can run it? | NOC and service assurance provide current operational impact; service owner confirms critical dependencies. |
+| Choose containment | If the action identity is separate and the pre-agreed trigger is met, use the narrow stop and verify it. If authority is shared, compare broad revocation, a technically enforceable narrower restriction, and a short period of continued operation under explicit controls. | Incident commander coordinates; the accountable service executive authorizes consequences within delegated authority. Exposure outside appetite is escalated. |
+| Verify and recover | Confirm downstream requests are denied, logs remain attributable, and NOC visibility/fallback works. Re-enable only after the owner and control operator confirm the boundary and restoration conditions. | IAM/platform teams prove the control effect; NOC/service owner confirm service state; incident lead records the decision and residual risk. |
+
+A proposed change is not evidence that the target system acted. If only the proposal is known, preserve it and verify whether a downstream call occurred before broad revocation; where unauthorized execution is confirmed, use the pre-authorized stop. This distinction can avoid losing service visibility in response to an output that has not changed network state.
+
+The options are not equivalent. Broad revocation may cut off an unwanted path quickly but also remove monitoring or supplier handling. A narrower control preserves more service function only if it is independently enforced and tested. Continued use avoids that immediate operational change but leaves authority active. The decision record should say which option was chosen, what evidence was missing, who accepted the service impact or residual exposure, and what event requires a new decision. This is how the response clock is shortened without pretending that all services can be safely isolated in the same way.
 
 ## Use automation where its impact is limited
 
