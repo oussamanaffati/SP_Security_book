@@ -465,3 +465,10 @@
 - Primary critique/revision: `gpt-6-luna`. Grok was not run under the local-only workflow; no authentication or push was attempted.
 - Hard self-critique: the chapter is more explicit about operator trade-offs and clearer about what evidence supports separate risk decisions. The new distinction between internal authority and response speed risks repeating Chapters 2–3, so their later expansion should preserve the chapter boundary. Existing cited claims were not re-fetched from external sources.
 - Self-score: **9.5/10** (editorial judgment, not an independent review). No Sources section, fixed “90 days” language or em dash; existing inline citations remain mapped to `research/chapter-01.md`.
+
+## 2026-11-14 — Expansion pass: Chapter 4
+- Expanded Chapter 4 from 2,010 to 2,642 words (+632; counted with the same local word-count script). No new sources or anecdotes were introduced. The five chapters now total 11,396 words by that script, still well short of the ~200-page target and requiring further substantive expansion. Existing source scope and inline citation mappings remain in `research/chapter-04.md`.
+- Added operator trade-offs to each move: supplier-feature visibility and conditional use, the lifecycle cost of separating edge identities, NOC/SOC assurance and fallback during containment, and the competing service and exposure risks in the three-week patch-window decision. Softened checklist-like imperatives and made service ownership and residual-risk acceptance more explicit.
+- Primary critique/revision: `gpt-6-luna`. Grok was not run under the local-only workflow; no authentication or push was attempted.
+- Hard self-critique: the four moves now connect discovery to authority, rehearsal and funded risk treatment, with operator constraints and existing governance kept central. The move-by-move structure is still deliberate and the examples remain composites, not field evidence. Existing sources were not re-fetched externally.
+- Self-score: **9.5/10** (editorial judgment, not an independent review). No Sources section, fixed “90 days” language or em dash; existing inline citations remain mapped to `research/chapter-04.md`.
