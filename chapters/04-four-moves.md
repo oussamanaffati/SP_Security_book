@@ -1,8 +1,8 @@
 # Chapter 4: Four Moves for Service Providers in the Next 12 Months
 
-An agent can link an OSS query, a service ticket and an operational action through one identity. That changes how far a mistake or compromised tool can travel before a person intervenes. AI may shorten parts of an attacker’s workflow.[14] For a service provider, the challenge is to contain both risks without disrupting service.
+The same identity may connect an OSS query, a service ticket and an operational action. That shortens the path between information and change, but it can also let a mistake or compromised tool travel farther before a person intervenes. Some cross-sector evidence suggests AI can shorten parts of an attacker’s workflow.[14] For a service provider, the task is to contain both risks without putting continuity at odds with security.
 
-Extend existing security, network, architecture, supplier and change processes where they cover the function. Check for gaps where agent identities, tools or supplier features fall outside their controls. Then ask which identities can reach which data or tools, which actions need approval, how NOC and SOC teams will rehearse a response, and what remains uncovered.
+Existing security, network, architecture, supplier and change processes provide a natural starting point. The review is about where agent identities, tools or supplier features fall outside them: which identities can reach which data or tools, which actions need approval, how NOC and SOC teams will rehearse a response, and what remains uncovered.
 
 No sequence will eliminate risk. The four moves help test controls and make residual risk visible against the operator’s risk appetite.
 
@@ -14,9 +14,9 @@ Two questions frame the work: where can AI reach the operator’s systems or dat
 
 Prioritize by the live services and network domains an AI use can affect, not by model type. Potential starting points include OSS/BSS, service assurance, network management, customer identity, field operations, cloud control planes and supplier access. A customer-care summary tool has a different service impact from an assistant that can reach network configuration or subscriber records.
 
-A short record can capture the owner and purpose, model or supplier, identity, data and tools. It can also note affected services, available logs, fallback, relevant markets and who can suspend the use. Record unresolved questions rather than marking them complete.
+A concise record can capture the owner and purpose, model or supplier, identity, data and tools, affected services, available logs, fallback, relevant markets and who can suspend the use. Open questions should remain visible rather than being marked complete.
 
-An official ACSC page summary of its October 2026 guidance lists AI services, agents, connectors and unsanctioned applications as items to include in asset identification.[25] It also recommends checking what providers retain in prompts and outputs, whether they use customer data to train models, and where processing occurs.[25] This is cross-sector guidance; local legal duties still need review.
+The Australian Cyber Security Centre’s October 2026 guidance calls for AI asset identification to include services, agents, connectors and unsanctioned applications.[25] It also recommends checking what providers retain in prompts and outputs, whether customer data is used to train models, and where processing occurs.[25] This is cross-sector guidance; local legal duties still need review.
 
 In October 2026, TRAI, India’s telecom regulator, published draft guidelines on AI use in telecommunications. The consultation proposal calls for an inventory of active, inactive and decommissioned systems, with each system’s source, purpose and risk classification, and due diligence before third-party AI is acquired or used.[9] The document is a consultation draft, not a final rule.
 
@@ -24,25 +24,25 @@ The draft does not prescribe a global inventory. It highlights a practical gap: 
 
 A first pass should focus on uses that could affect a critical service or sensitive data. Project, procurement, cloud and supplier records can help find them; workflow owners can clarify the gaps.
 
-**Composite scenario: supplier feature.** A network-management supplier enables an AI diagnostic feature during a routine update. It is missing from the operator’s project list, but can read topology and propose actions. The team assigns an owner, then checks the feature’s contract, service domain, identity and change process. Evidence about its reach supports the decision to restrict or retain it.
+**Composite scenario: supplier feature.** A supplier enables an AI diagnostic feature in a network-management product during a routine software update. It is absent from the operator’s AI project register, yet it can read topology and propose actions. The operator needs to identify who owns the feature, which identity it uses, and whether proposed actions remain inside the existing change process. This is the difference between counting AI products and understanding their authority.
 
 Inventory shows where to look. Access review shows whether an agent has more authority than its task requires.
 
 ## Move 2: Match authority to the task
 
-The first review should start with high-impact identities and tools. An agent that can read subscriber records, open a change request or reach a network-management API needs tighter control than a system limited to public guidance.
+The review can start with identities and tools that have the greatest potential service impact. An assistant that can read subscriber records, open a change request or reach a network-management API deserves closer scrutiny than one limited to public guidance.
 
-Review three boundaries: which data can the agent read, which actions can it take, and can access be stopped without stopping the surrounding service?
+The core questions are what data the agent can read, what actions it can take, and whether its access can be stopped without disabling a surrounding service.
 
 Where the platform allows it, the agent can use a dedicated identity rather than an employee account or broad shared-service permissions. Access can be limited to the data and tools needed for the task. Short-lived credentials issued only when needed may help. Logs should show which identity acted, what tool it called and what happened.
 
 Policy does not prove that a permission boundary works under service conditions. For one or two high-impact uses, follow the agent from its identity to the tools it calls, check that permissions fit the task and verify where a person must approve an action. Then test revocation without disrupting monitoring or service assurance.
 
-Separate “read,” “recommend” and “execute.” Read-only access is often a sensible start. A low-impact, reversible action may fit within clear limits and monitoring. Actions that could change production, affect customers or interrupt an essential workflow should follow the operator’s normal authorization and change process. An agent can prepare a change; an authorized person approves and validates it.
+It helps to distinguish read, recommend and execute. Read-only access is often a sensible start. A low-impact, reversible action may fit within clear limits and monitoring. Actions that could change production, affect customers or interrupt an essential workflow should remain within the operator’s normal authorization and change process. An agent can prepare a change; an authorized person approves and validates it.
 
 CISA and its international partners advise limiting agent access to sensitive data and critical systems, and starting with low-risk uses.[10] This is general guidance, not a telco control standard. Legacy platforms and supplier connections matter as much as modern APIs. If a legacy system cannot support a separate identity, a controlled gateway may help. Until then, read-only access may be safer.
 
-**Composite scenario: legacy access.** A service-assurance assistant on a legacy OSS platform reads alarms and drafts a maintenance recommendation. The platform cannot issue a separate identity for the assistant. An access gateway limits its read path to one service domain, while write actions stay in the existing change process. Until activity can be traced and revoked, the assistant remains read-only. If it is unavailable, engineers use normal monitoring and approvals. No new failover is introduced during live service.
+**Composite scenario: edge access.** In an engagement, the network team had already chosen an edge platform when a review found a shared service account that could reach both edge nodes and parts of the core. Fixing the access required a maintenance window and a supplier configuration change. Mapping identity and tool access earlier could have made the available rollback options clearer before deployment.
 
 Permissions matter only if teams can contain a failure without losing the surrounding service. That takes rehearsal.
 
@@ -62,7 +62,7 @@ CISA, FBI and international partners’ September 2026 guidance for service prov
 
 Test a short rehearsal around one critical service domain, separate from live production changes. Agree service-specific response and recovery tolerances with the service owner before the exercise; one target will not fit every service. Record decisions, elapsed time against each tolerance, service impact, missing information and fallback. The next review can check whether those gaps have closed.
 
-**Composite scenario: response exercise.** During a planned maintenance window, an assistant reads hostile instructions in a supplier bulletin while analyzing alarms. It proposes a change that could remove visibility from a network domain. The SOC and NOC decide whether the proposed change is approved and who can stop the assistant. They also consider how to preserve the bulletin and logs, and what monitoring remains if they isolate the connector. The same questions apply to a compromised integration or service account.
+**Composite scenario: NOC assistant.** The test described in Chapter 1 shows how a summarization task can become an authority question: a broader service account let the assistant open vendor cases, read neighboring-domain data and propose a change that would reduce NOC visibility. The rehearsal can test separate identities for reading and acting, and confirm that any network change remains in the normal approval process.
 
 The rehearsal shows the CISO and CTO what worked, what was unclear and which service alternative remains untested. That is a stronger basis for funding than a list of tools.
 
@@ -80,7 +80,7 @@ Regulation belongs in this roadmap, but it need not delay action. Legal and Comp
 
 At an executive review, the CISO and CTO can present the priorities, owners, service constraints and evidence gaps. The request might be funding for an identity boundary, time for a continuity test, and regular review of outcomes and residual risk. The paper should identify which accountable service executive accepts the remaining risk until later work is complete.
 
-**Composite scenario: funding decision.** An exercise finds that a supplier identity can reach two operational domains and that one service fallback is untested. The supplier’s patch schedule delays the permanent fix until an agreed window. The CISO and CTO present linked choices: fund an interim identity boundary, test continuity with Network Operations, and name who accepts the residual risk until then. The board sees the trade-off, not just a product request.
+**Composite scenario: patch window.** Security has the advisory and fixed version for a live core platform, but the network team needs a maintenance window, rollback plan and supplier confirmation. The next available window is three weeks away. The residual risk is accepted at the service level, documented and reviewed. The roadmap makes that decision visible, including who owns it and when it will be revisited, rather than promising a patch date that operations cannot safely meet.
 
 ## Keep the sequence, adjust the pace
 
