@@ -25,4 +25,4 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Next sequence
 
-Current next action: Chapter 4 Move 3 and Move 4—remove repeated acceptance-role language from exercise and roadmap passages, and shorten long roadmap-table cells without losing stages, dependencies, cost or evidence. Then reduce Chapter 5 role repetition, run the final whole-book review, and resume substantive expansion in Chapter 4.
+Current next action: Chapter 4 Move 4—remove repeated role/acceptance endings and simplify the roadmap/portfolio tables while preserving priorities, dependencies, resources, evidence and decision triggers. Then de-duplicate Chapter 5, run the final whole-book review, and resume substantive expansion in Chapter 4.
