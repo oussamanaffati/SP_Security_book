@@ -59,33 +59,19 @@ AI may arrive through a service-desk upgrade, cloud feature, network-management 
 
 In a composite scenario, a supplier enables an AI diagnostic feature during a routine software update. The feature is absent from the operator’s AI project register, yet it can read topology and propose actions. The operator first needs to establish who owns the capability, which identity it uses, and whether any proposed action remains inside the existing change process. Discovering the feature after deployment is better than missing it altogether, but the review is slower and more difficult once it is already in use.
 
-Supplier assurance should establish what the feature can access, where prompts and outputs are processed, which sub-processors are involved, what is logged and how changes are communicated. The boundary between operator controls and provider duties needs to be explicit. For cloud AI, the Australian Cyber Security Centre (ACSC) recommends a shared responsibility register that distinguishes operator controls, provider capabilities the operator must configure, and provider outcomes it must verify.[25]
+Supplier assurance starts with what the feature can access, where prompts and outputs are processed, which sub-processors are involved, what is logged and how changes are communicated. The operator/provider boundary needs to be explicit. ACSC recommends a shared-responsibility register that separates operator controls, provider capabilities the operator must configure, and provider outcomes it must verify.[25] Its guidance also calls for identifying AI services, agents, connectors and unsanctioned applications, and checking prompt/output retention, customer-data training use and processing location.[25] This is cross-sector guidance, not a telco-specific requirement.
 
-The Telecom Regulatory Authority of India (TRAI) released draft guidelines on responsible AI use in telecom for consultation on 30 October 2026.[9]
-The proposal calls for an inventory of active, inactive and decommissioned AI systems, including each system’s source, purpose and risk classification.[9]
-It also proposes due diligence before acquiring or using third-party AI, including review of the supplier, system limitations and training-data suitability.[9] The draft is not a binding requirement yet. For an operator, it is a practical prompt to establish what is in use, who supplied it, what it does and how material it is to the service.
+TRAI, India’s telecom regulator, published draft guidelines on responsible AI use in telecom for consultation on 30 October 2026.[9] The proposal calls for an inventory of active, inactive and decommissioned AI systems, including each system’s source, purpose and risk classification, plus due diligence before third-party AI is acquired or used.[9] The draft is not binding. It is a useful prompt to establish what is in use, who supplied it, what it does and how material it is to the service.
 
-The inventory should not stop at models bought by a central AI team. Include supplier features, internal experiments, agent runtimes, connected tools, identities and data stores. October 2026 guidance from the ACSC calls for AI asset identification to include services, agents, connectors and unsanctioned AI applications.[25] It also recommends checking what providers retain in prompts and outputs, whether they use customer data to train models, and where processing occurs.[25] This is cross-sector guidance, not a telco-specific requirement.
+The inventory is wider than products bought centrally: it includes supplier features, internal experiments, agent runtimes, connected tools, identities and data stores.
 
-Map test environments too, including their harnesses, tools and credentials.
-The ACSC guidance published on 12 November 2026 recommends a purpose-built harness and test environment separated from production, corporate networks and management infrastructure.[24]
-It also recommends limiting the test agent’s credentials and network access, verifying tool and network controls before testing, monitoring agents in real time, and storing logs on a system the agent cannot access or modify.[24]
-It calls for authorized staff with the ability to restrict or terminate testing.[24]
-The guide does not cover production deployments.[24] Otherwise, an operator can have a complete list of AI products and still miss the paths that carry authority.
+Testing environments add another set of paths to that inventory. The ACSC’s 12 November 2026 guidance recommends a purpose-built harness and an environment separated from production, corporate networks and management infrastructure.[24] It also calls for limited credentials and network access, verified tool controls, real-time monitoring, logs the agent cannot change, and authorized staff who can restrict or stop the test.[24] The guide is about testing, not production deployment. A product inventory that omits test harnesses, tools and credentials can still miss where authority enters.
 
-## A service-assurance example
+## Assurance follows the action path
 
-This is a composite scenario, not a reported incident. During a fiber disruption, an assistant reads alarms, service inventory, a supplier bulletin and the incident ticket. It matches affected circuits, summarizes impact and drafts an update, saving the team time assembling context.
+An inventory describes potential reach; assurance tests what happens in practice. For a consequential workflow, trace a request from the agent’s identity through each data source and tool to the system that receives its output. Confirm that task-specific permissions do not expose adjacent domains, that a tool cannot silently expand the agent’s authority, and that any output affecting service remains within the normal approval process.
 
-Now imagine the bulletin contains hostile instructions embedded in otherwise plausible technical text. The agent’s safeguards should treat that text as untrusted input. But suppose the assistant is also connected to a broad service-account identity, can query customer records, and can call tools that update ticket priority or initiate a workflow. The risk is no longer limited to a bad summary. The agent may retrieve information outside the task, disclose it to an unapproved third-party service, or prepare an action that looks credible because it appears in the normal ticketing process.
-
-The agent need not reconfigure a live network for the scenario to matter. It might expose customer or topology details, change ticket priority or create a misleading change request. During an outage, the network operations center (NOC), field teams and suppliers are coordinating under pressure. A plausible but incorrect update could misdirect work.
-
-Controls must match the task and service impact. Use a short-lived identity with access only to relevant alarms, service records and ticket data. Route tool calls through an approved gateway. Tested low-impact ticket updates may be allowed; changes that affect network state should remain in the normal change process. Log the agent identity and its tool calls. Keep supplier content separate from trusted instructions, and test that access can be revoked without disrupting service assurance.
-
-A service exercise can check the full path: trace an action from identity through tool call to result, revoke access, then confirm that the fallback still works.
-
-Residual risk remains. Incorrect data or a missed safeguard can still mislead operators. The executive accountable for the service should accept that risk against the operator’s appetite only after tests show that the controls work and recovery meets service tolerance.
+Revocation and continuity also need testing. If suspending a connector removes visibility needed by the NOC, that dependency belongs in the service risk assessment alongside the fallback and recovery path. The service owner then has evidence about control effectiveness, not only a diagram of intended access.
 
 ## Establish visibility and ownership
 

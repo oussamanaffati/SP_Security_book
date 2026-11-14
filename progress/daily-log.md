@@ -437,7 +437,13 @@
 - Self-score: **9.1/10** (editorial judgment; no independent Grok score). Chapter 5 committed locally with this progress entry; no push attempted.
 
 ## 2026-11-14 — Offline local pass summary
-- Completed local editorial revisions for Chapters 1–5 with local commits; all work remains unpublished by design. Available model: `gpt-6-luna`; no Grok reviews or authentication/push attempts under the offline instruction.
-- Self-scores (editorial judgments): Ch1 9.0; Ch2 9.0; Ch3 9.0; Ch4 9.1; Ch5 9.1. Every chapter has a clearly identified remaining weakness in its chapter entry; the scores are not independent review scores.
+- Completed first local editorial revisions for Chapters 1–5 with local commits; all work remains unpublished by design. Available model: `gpt-6-luna`; no Grok reviews or authentication/push attempts under the offline instruction.
+- First-pass self-scores (editorial judgments): Ch1 9.0; Ch2 9.0; Ch3 9.0; Ch4 9.1; Ch5 9.1. Scores are not independent review scores.
 - Cross-book changes: maintained the progression from changed risk, to exposure, response, operating moves and board decisions; used only the four author-supplied composite situations; retained minimal inline citations and chapter research notes; no chapter Sources sections or fixed 90-day language.
-- Remaining gap: the manuscript is still a concise working draft and needs substantial, evidence-led expansion toward the ~200-page target. Next pass will target Chapter 2 for density and readability, then record the revised score.
+- Remaining gap: the manuscript is still a concise working draft and needs substantial, evidence-led expansion toward the ~200-page target.
+
+## 2026-11-14 — Second pass: Chapter 2
+- Selected Chapter 2 because its supplier and governance section carried the most repetition and information density in the first pass. Local-only GPT editorial pass (`gpt-6-luna`); no Grok review, authentication check or push attempt.
+- Consolidated repeated ACSC inventory guidance with the supplier-assurance explanation while preserving the shared-responsibility details; combined the TRAI draft points into a clearer paragraph; simplified the test-environment guidance and clarified that it applies to testing, not production. Removed the prior fiber-outage composite because it was not one of the four author-supplied scenarios; replaced it with a non-anecdotal control-effectiveness test of identity-to-tool paths, revocation and continuity. No new source or anecdote added.
+- Self-critique: the supplier/governance transition avoids repeating inventory items and distinguishes operator controls, provider configuration and provider assurance. Identity, data and tool concepts remain technical; source claims were not independently re-verified during this style pass.
+- Self-score: **9.1/10** (editorial judgment; no independent Grok score). Next: local checks and commit this pass.
