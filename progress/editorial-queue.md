@@ -25,4 +25,4 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Next sequence
 
-Current next action: de-duplicate Chapter 5—remove repeated authority, evidence and board-paper explanations; compact the board decision paper and residual-risk record without redefining Chapter 4’s evidence levels. Then run the whole-book review (repetition, internal labels, table shape and counts) and resume substantive expansion in Chapter 4.
+Current next action: Chapter 5 evidence and board tools—remove duplicate evidence/authority explanations from the board paper, residual-risk record and dashboard while keeping the worked NOC decision complete. Then review Chapter 5’s patch challenge and close, run whole-book repetition/table/cross-reference checks, and resume substantive expansion in Chapter 4.

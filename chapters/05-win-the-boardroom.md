@@ -9,27 +9,23 @@ Chapter 4 set out the operating moves. This chapter turns their evidence into ch
 Board conversations are more effective when they begin with the service, not the tool. Depending on the operator and market, services may support emergency communications, payment services, public agencies, hospitals, enterprises and consumers. The UK Cyber Governance Code notes that cyber incidents can disrupt business continuity and damage customer trust.
 Network criticality alone does not prove national impact. Describe affected services, their dependencies and likely consequences; state where evidence is incomplete.
 
-Put the service at stake, the relevant system or workflow, its current access and controls, the proposed action and residual risk into the board statement. If information is incomplete, state what is missing and who will close the gap. Avoid dramatizing uncertainty beyond the evidence.
+State the service at stake, relevant workflow, current access, proposed action and remaining exposure. Mark missing facts and the evidence needed to close each gap; do not dramatize uncertainty.
 
 A generic statement such as “AI is a major new threat” gives the board no decision. The NOC assistant described in Chapter 1 links alarm summaries to neighboring-domain data, supplier cases and NOC visibility. The board question is whether to protect capacity for a safer authority boundary, not which model to buy.
 
-That choice has a capacity cost. Reassigning engineers and supplier time to identity separation may delay other network work; leaving capacity unprotected keeps the broader access in place. The board can decide whether to resource the work, but the service-risk decision remains with management under the authority described below.
-
-The worked board paper later in this chapter compares those choices against service cost and evidence, rather than asking for open-ended support.
+That choice has a capacity cost. Identity separation uses engineering and supplier time that may displace other network work; leaving capacity unprotected maintains broader access. The board can protect delivery capacity; management applies the authority model below to any continuing exposure.
 
 If the operator relies on a legacy management platform, an external supplier or a narrow maintenance window, explain how that changes the response plan. A broad statement about “the network” is less useful than a clear account of which domain, service and recovery path are involved.
 
-The supplier-enabled diagnostic in Chapter 4 offers a board-level test: who reviews new capabilities, and what evidence confirms the feature’s identity, data reach and action limits? Ask what enters and leaves the feature, where processing occurs, whether prompts or outputs are retained or used for training, and who can access them. Distinguish operator-verified configuration or test results from contractual terms and supplier assurances. Directors can ask which changes require notice: a new model provider, data access, retention or training use, processing location, or supplier access. Can the operator verify or restrict a change without disrupting a needed service function? If notice or restrictions are unavailable, management should state which evidence and service/dependency trade-offs remain; the service-level decision follows the authority model below.
+Chapter 4’s supplier-feature review gives the board a focused test: what changes when the model provider, data access, retention, processing location or supplier access changes? Can the operator verify or restrict each change without disrupting a needed service? Separate operator-tested boundaries from supplier assurances, and state the service trade-off where notice or restriction is unavailable.
 
 ## Show why the board is part of the operating model
 
 The board sets risk appetite, resources and assurance expectations. It does not select a model, approve a firewall rule or accept operational service risk. Management owns those choices. The service owner supplies impact, tolerance, dependencies and fallback evidence; Security, Engineering, Procurement and Legal provide threat, technical, supplier, cost and regulatory evidence as relevant. The service executive with delegated authority across all affected services accepts residual service risk only within approved appetite. If no such authority exists, or exposure is outside appetite, escalate rather than treating it as accepted.
 
-Translate that authority into service-specific thresholds: which impacts require escalation, what evidence supports a decision and which conditions reopen it. The board should challenge whether these boundaries reflect different service consequences and allow safe operational change, without approving each review.
+Translate these boundaries into service-specific thresholds: which impacts require escalation, what evidence supports a decision and what changes reopen it. A supplier reach change, failed revocation test, new threat evidence or slipped window can trigger a review. Directors should challenge whether thresholds reflect service consequences without approving each operational recheck.
 
 Funding one priority sets a sequence; it does not settle the exposures deferred to a later cycle. Management should show which services remain affected, what treatment is feasible and when the evidence or service conditions require a new decision.
-
-An acceptance applies only under recorded conditions, not indefinitely. A change in supplier reach, failed revocation test, new threat evidence or a slipped maintenance window can reopen the decision. Record the review trigger and evidence needed; bring material exceptions and trends to the board without asking directors to approve each operational recheck.
 
 The UK Cyber Governance Code calls for senior ownership of cyber risk, integration with enterprise risk management, a defined risk appetite and assurance that resources address those risks. It also recommends formal reporting at least quarterly with metrics and tolerances, and at least annual exercises with relevant internal and external stakeholders.
 It is UK guidance, not a universal legal requirement. Its value here is the operating principle: cyber risk belongs in existing governance, with visible owners and a reporting cadence.
