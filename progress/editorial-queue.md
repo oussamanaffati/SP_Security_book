@@ -25,4 +25,4 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Next sequence
 
-Current next action: Chapter 3—review response speed, containment and continuity for distinct decision logic; remove repeated authority/evidence endings without weakening service-specific choices. Preserve existing claims and source boundaries. Then run the five-chapter whole-book review and rebalance before resuming substantive expansion at Chapter 4.
+Current next action: whole-book review across all five chapters—check primary homes, repeated endings, internal labels, table density and cross-references; then rebalance. Resume substantive expansion in Chapter 4, adding only decision-useful material and tracking the 40,000–45,000-word target without padding.
