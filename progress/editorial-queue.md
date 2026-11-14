@@ -25,4 +25,4 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Next sequence
 
-Current next action: Chapter 5—complete the NOC-assistant board paper. Remove “composite/supplied” labels; compress the acceptance record without losing alternatives, costs, service impact, delegated authority, conditions or triggers; point to Chapter 4’s evidence levels instead of redefining them. Then check Chapter 5’s paragraph endings for repeated ownership formulas and keep the board’s role distinct from service-level acceptance.
+Current next action: Chapter 2—structural pass on identity, data, connectors and target-enforced boundaries. Remove internal scenario labels and repeated ownership/evidence endings only where they do not change the decision; keep the source-contract and memory-scope tests in Chapter 2 as primary homes. Refer to Chapter 4’s evidence levels instead of redefining them. After this focused pass, continue in order to Chapter 1, then Chapter 3, and run a whole-book rebalance.
