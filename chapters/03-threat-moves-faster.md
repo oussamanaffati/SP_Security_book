@@ -2,7 +2,7 @@
 
 The response gap is not one clock. It includes detection, decision, safe action and restoration. An operator can identify an event quickly and still lose time resolving who can authorize containment without disrupting service.
 
-The SOC may see an alert while the NOC sees a planned change. Identity and access management (IAM) may be able to revoke a credential, and a supplier may hold platform details. Without a clear decision path, an attacker may retain access while the operator assesses service impact.
+The security operations center (SOC) may see an alert while the NOC sees a planned change. Identity and access management (IAM) may be able to revoke a credential, and a supplier may hold platform details. Without a clear decision path, an attacker may retain access while the operator assesses service impact.
 
 Chapter 2 mapped where exposure can enter and spread. The operator needs to detect activity, decide and act before the attacker reaches its next objective, without creating a second incident through unsafe containment.
 
