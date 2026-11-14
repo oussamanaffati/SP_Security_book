@@ -472,3 +472,10 @@
 - Primary critique/revision: `gpt-6-luna`. Grok was not run under the local-only workflow; no authentication or push was attempted.
 - Hard self-critique: the four moves now connect discovery to authority, rehearsal and funded risk treatment, with operator constraints and existing governance kept central. The move-by-move structure is still deliberate and the examples remain composites, not field evidence. Existing sources were not re-fetched externally.
 - Self-score: **9.5/10** (editorial judgment, not an independent review). No Sources section, fixed “90 days” language or em dash; existing inline citations remain mapped to `research/chapter-04.md`.
+
+## 2026-11-14 — Expansion pass: Chapter 2
+- Expanded Chapter 2 from 2,032 to 2,374 words (+342; counted with the same local word-count script). No sources, citations or anecdotes were added; the existing evidence scope remains documented in `research/chapter-02.md`.
+- Used the supplied edge-access situation to explain identity reach across network domains and the residual risk while a supplier-supported change awaits a safe window. Added the diagnostic-quality versus data-exposure trade-off, supplier-feature retain/restrict decisions, and assurance questions around revocation, connected tools and NOC visibility.
+- Primary critique/revision: `gpt-6-luna`. Grok was not run under the local-only workflow; no authentication or push was attempted.
+- Hard self-critique: the additions make attack-surface mapping more service-specific and distinguish intended boundaries from verified control effectiveness. The edge and supplier examples also appear elsewhere in the book; Chapter 2 uses them to examine reach and exposure, but later edits should avoid retelling them at length. Existing cited claims were not re-fetched externally.
+- Self-score: **9.5/10** (editorial judgment, not an independent review). No Sources section, fixed “90 days” language or em dash; existing inline citations remain mapped to `research/chapter-02.md`.
