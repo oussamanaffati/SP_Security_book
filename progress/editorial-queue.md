@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 19,158 words after structural repair, four Chapter 4 expansion cycles and two Chapter 5 cycles; target 40,000–45,000 words of decision-useful substance. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 19,281 words after structural repair, four Chapter 4 expansion cycles and three Chapter 5 cycles; target 40,000–45,000 words of decision-useful substance. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -25,4 +25,4 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Next sequence
 
-Current next action: continue Chapter 5 by comparing a dedicated AI oversight committee with integration into existing cyber/enterprise-risk governance. Then finish the funding and assurance pass; continue with Chapter 2, Chapter 1 and Chapter 3. Do not repeat authority definitions; add substance only where it changes an executive decision.
+Current next action: Chapter 5's first board-governance/funding pass is complete. Proceed to Chapter 2 for identity, data, connector and enforceable-boundary expansion, then Chapter 1 and Chapter 3. After the requested five-chapter pass, recount and rebalance the whole book; return to any earlier chapter only for a specific material gap, not filler.
