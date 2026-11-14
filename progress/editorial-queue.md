@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 20,632 words after the first structural/expansion pass and current rebalance; 19,368 words remain to the 40,000-word lower target and 24,368 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 20,756 words after the first structural/expansion pass and current rebalance; 19,244 words remain to the 40,000-word lower target and 24,244 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -25,8 +25,8 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Whole-book review after first pass
 
-Chapter roles and tool homes are distinct. The recurring NOC assistant, supplier feature and patch-window threads serve different decisions, not repeated paragraphs. Exact duplicate paragraphs and repeated endings were not found; reader-facing internal labels, numeric citations and Sources headings are absent. Table shapes are consistent and no cell exceeds 150 characters after the Chapter 2, 3 and 5 trims; Chapter 4 tables were also shortened.
+Chapter 4’s roadmap already covers protected capacity, displaced work and supplier availability; the added sequencing paragraph addresses the distinct combine-versus-separate window decision. Chapter roles remain distinct. Exact duplicate paragraphs and repeated endings were not found; reader-facing internal labels, numeric citations and Sources headings are absent. Table shapes are consistent and no cell exceeds 150 characters after the Chapter 2, 3 and 5 trims; Chapter 4 tables were also shortened.
 
 ## Next sequence
 
-Chapter 4: review the implementation roadmap for a distinct capacity decision about protected control work versus competing operational backlog and supplier availability. Keep it separate from Chapter 5’s funding mechanics and use only existing operator scenarios.
+Chapter 5: review executive funding and oversight for one decision gap not already covered by the shared-account paper or authority model; preserve chapter homes and expand only if it changes an executive choice.
