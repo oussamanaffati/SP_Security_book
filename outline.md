@@ -7,7 +7,7 @@
 
 **Thesis:** AI is not just a new detection tool. It changes the nature of risk: autonomous agents create a new internal attack surface, while AI can accelerate external threats beyond the pace at which many service providers can adapt. Operators face this shift amid regulation, legacy infrastructure, national criticality, continuity obligations, supplier dependencies, and commercial pressure.
 
-### 1. The Risk Has Changed—and Service Providers Feel It First
+### 1. The Risk Has Changed. Service Providers Feel It First.
 - Service providers are not ordinary enterprises: citizens, businesses, and critical national functions depend on their services.
 - Regulation, sovereignty, resilience, and continuity obligations shape acceptable risk and the consequences of failure.
 - Legacy systems, long transformation cycles, and availability requirements constrain how quickly operators can replace or isolate technology.
@@ -27,14 +27,14 @@
 
 **Boundary with Chapter 2:** Chapter 2 asks where exposure can enter and spread. Chapter 3 asks how quickly a threat can evolve, and whether the operator can decide and act in time.
 
-### 4. Four Moves Every Service Provider Should Start in the Next 12 Months
+### 4. Four Moves for Service Providers in the Next 12 Months
 - **Move 1 — Establish a view of consequential AI and agent use.** Commission a joint security, network, IT, and business review; identify agents, owners, data, access, and suppliers; prioritize use touching network operations, OSS/BSS, and sensitive data.
 - **Move 2 — Reduce excessive access before scaling deployment.** Define who can authorize an agent, limit permissions to necessary tasks, require human approval for high-impact actions, and ensure access can be revoked.
 - **Move 3 — Rehearse AI-accelerated incidents without endangering service.** Select plausible operator scenarios—internal agent misuse, supplier compromise, or disruption to critical functions—and exercise decisions, roles, escalation, and containment consistent with continuity needs.
 - **Move 4 — Secure executive sponsorship for a funded roadmap.** Take prioritized risks, owners, 12-month milestones, requested decisions, and resilience-, regulatory-, and exposure-related measures to the CEO and board.
 - **AI/agentic angle:** The four moves treat AI as a transformation of attack surface and operating model, not just a detection-tool purchase.
 
-### 5. Win the Boardroom Before the Next Incident
+### 5. Board Decisions Before the Next Incident
 - Translate cyber risk into operator consequences: interruption of essential services, customer impact, regulatory exposure, reputation, and trust of authorities.
 - Connect investment to availability expectations, transformation costs, supplier dependencies, and the need to evolve legacy without stopping service.
 - Present choices rather than slogans: what to fund and prioritize, what risk remains, and who owns it.
