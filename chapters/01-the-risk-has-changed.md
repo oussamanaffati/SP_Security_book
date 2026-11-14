@@ -86,6 +86,17 @@ An inventory can help expose delegated authority, but it does not prove that res
 
 That distinction matters when investments compete. Better detection may help teams correlate activity, but it does not narrow an agent’s identity or tool permissions. Restricting authority may reduce exposure, but it does not make containment fast or preserve the service by itself. Continuity work can reduce the cost of containment without preventing misuse. A proposal should say which path it changes, which service outcome should improve, what other capability remains unfunded, and what evidence will show the difference. An efficiency benefit also needs measurement in the actual operating workflow; it should not be assumed from a product demonstration.
 
+**Illustrative benefit check: NOC assistant.** The supplied composite establishes alarm summaries and draft ticket updates, not time saved or output quality. Before funding expansion, compare the current and assisted workflows on a similar task mix and service conditions, using approved representative or synthetic inputs. Measure time to an operator-accepted result, including review, corrections and hand-offs; the time to a generated answer is not the service outcome.
+
+| Check | What to compare | Evidence to retain |
+|---|---|---|
+| Task outcome | Current and assisted time from alarm receipt to a validated summary or ticket update. | Baseline, task conditions and assisted result; include verification and rework time. |
+| Quality and service effect | Missing or misleading context, corrections, escalations and manual fallback. | Service owner’s review of whether the output supports the operational decision; no threshold is assumed here. |
+| Cost and dependency | Supplier/model charges, added review effort, data and identity scope, supplier hand-offs and fallback workload. | Estimate basis and which work moves to network or security operations, or another team; mark unknown items rather than treating them as free. |
+| Decision and authority | Whether net benefit remains after review, controls and service impact. | The control owner verifies scope; the service owner assesses impact; the authorized service executive accepts any residual exposure within appetite. Efficiency alone does not authorize execution. |
+
+If the apparent saving depends on removing human review or granting broader action rights, it is not a proven service-safe productivity gain. The composite contains no operator trial or measured result; the table is guidance for gathering that evidence, not a claim about the assistant.
+
 Chapters 2 and 3 treat those questions separately.
 
 ## Response speed is part of the risk
