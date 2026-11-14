@@ -67,7 +67,7 @@ That does not mean the operator should wait. It means the available actions shou
 
 For a provider, translate that guidance into clear criteria: what evidence is enough, which actions the SOC can take alone, when the NOC or service owner must approve, and what fallback keeps essential services running.
 
-The emergency route needs a real mandate, service context and a record of the decision. An incident-commander title cannot substitute for authority, just as a change process built for scheduled work cannot handle every urgent isolation.
+A job title on the rota is not a mandate. Before an incident, agree which low-impact, reversible actions are pre-authorized, what evidence triggers them, which services they cover and when a broader action must be escalated. Case-by-case approval preserves service context but can prolong exposure; broad standing authority can reduce delay, but exposes more services to a mistaken action. A practical middle path is to pre-authorize narrow, tested restrictions and require a service-level decision for actions that remove shared visibility or affect multiple domains. Test the route with actual on-call roles and supplier dependencies, including when the normal decision-maker is unavailable; a deputy needs explicit delegation too. Record decision time, service impact and whether fallback worked. If the right person cannot act within delegation, the gap is in the response design, not simply the individual on call.
 
 ## The NOC assistant makes authority visible
 
@@ -86,7 +86,7 @@ Chapter 4’s NOC exercise tests the team’s decisions before an incident. This
 | Choose containment | Compare broad revocation, tested narrow restriction or time-limited continuation with controls. State service impact, risk reduced, cost/effort, supplier dependency and proof; mark unknowns. | Incident commander coordinates; authorized service executive decides; escalate if authority is missing or insufficient. |
 | Verify containment | Confirm downstream denial, attributable logs, fallback and understood service state. | Control operator verifies; NOC/service owner confirm service state; incident lead records action and open questions. |
 
-A proposed change is not evidence that the target system acted. If only a proposal is known, verify whether a downstream call occurred before broad revocation, unless the pre-authorized trigger already requires a stop.
+A proposed change is not evidence that the target acted. Check connector and target records for any downstream call, active session or queued action; if a pre-authorized stop trigger is already met, use it rather than waiting for full attribution. If no call occurred and a tested restriction blocks the suspected path without removing essential alarm reads, prefer it; include data access and vendor-case submission in scope if they are part of the concern. If a call occurred, sessions persist or evidence is inconclusive, compare broader revocation with an alternate NOC view and manual case handling before stopping the shared identity. If no safe narrow stop or fallback is available, escalate a time-bounded service decision; do not leave broad access in place indefinitely because revocation may affect visibility. Confirm at the target that disallowed calls fail and verify NOC visibility after containment.
 
 Before restoring the capability, a quiet alert stream or completed revocation is not enough. Confirm which principal and sessions stopped and whether a proposed action reached its target; have NOC/service assurance demonstrate essential alarms or an alternate path, then compare restoration with the local service tolerance.
 
@@ -102,7 +102,7 @@ The operator does not need to establish that an intrusion used AI before prepari
 
 ## The question for leadership
 
-A useful executive discussion settles which containment actions are pre-approved, who can authorize a broader action after hours, which service dependencies isolation may affect, and who communicates with customers and regulators while scope is uncertain. Chapter 5 defines acceptance boundaries; this chapter asks whether the delegation works in the moment, not only on an organization chart.
+Executives should fund the on-call coverage, supplier access and exercises that make pre-authorized actions workable. They should confirm service tolerances and escalation boundaries, not approve each operational stop. Chapter 5 defines acceptance boundaries; this chapter asks whether delegation works under pressure, not only on an organization chart.
 
 These decisions depend on the service, not a generic organization chart. If ownership or the safe next step is unclear, teams will debate roles and impact while the incident unfolds. Containment without service context can create a second service incident.
 
