@@ -94,7 +94,7 @@ Use the response-gap review earlier in this chapter after an exercise or inciden
 
 A proposed change is not evidence that the target system acted. If only the proposal is known, preserve it and verify whether a downstream call occurred before broad revocation; where unauthorized execution is confirmed, use the pre-authorized stop. This distinction can avoid losing service visibility in response to an output that has not changed network state.
 
-**Illustrative restoration gate: NOC assistant.** The composite is not a reported incident. Use this gate before restoring the contained capability; a quiet alert stream or a completed revocation is not, by itself, a reason to restore the former access.
+**Illustrative restoration gate: NOC assistant.** The composite is not a reported incident. Use this gate before restoring the contained capability; a quiet alert stream or a completed revocation is not, by itself, a reason to restore the former access. Chapter 4’s Move 3 exercise can rehearse the decision and fallback before an incident; validate the technical permission and target-system state separately in a suitable environment or supported window. A tabletop alone is not control evidence.
 
 | Recovery check | Evidence before restoring service | If the evidence is missing |
 |---|---|---|
