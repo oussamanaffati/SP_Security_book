@@ -55,6 +55,8 @@ A small source contract can keep an agent from turning conflicting records into 
 
 This contract does not repair inconsistent inventories or assure the agent’s reasoning. It makes the data boundary and the human decision visible, so teams can test whether the output contains enough context without exposing every record. If the source or freshness cannot be verified, restrict the use to displaying attributed records rather than treating a joined summary as a reliable service view.
 
+**Illustrative source-contract check.** For a high-consequence workflow, use synthetic or otherwise approved test records with one known-stale value and one intentional conflict. Confirm that the summary preserves each field’s source and timestamp, surfaces the conflict, and withholds a service-impact recommendation until the designated owner resolves it. Record the expected and observed output, reviewer and limits. This checks provenance and conflict handling for that workflow; it does not establish that source systems are correct, that the model is generally accurate or that the tool path is secure. If a safe check is not available, keep the summary advisory and require verification against authoritative records before service decisions.
+
 CISA and its international partners’ May 2026 agentic-AI guidance identifies expanded attack surface as a risk and warns against broad access to sensitive data or critical systems. Its full report also describes indirect prompt injection through external data sources. For operators, retrieved content is information to assess, not an instruction that changes the agent’s authority.
 
 ## Tools determine what an agent can do
