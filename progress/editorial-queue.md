@@ -25,4 +25,4 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Next sequence
 
-Current next action: Chapter 4 Move 4—remove repeated role/acceptance endings and simplify the roadmap/portfolio tables while preserving priorities, dependencies, resources, evidence and decision triggers. Then de-duplicate Chapter 5, run the final whole-book review, and resume substantive expansion in Chapter 4.
+Current next action: de-duplicate Chapter 5—remove repeated authority, evidence and board-paper explanations; compact the board decision paper and residual-risk record without redefining Chapter 4’s evidence levels. Then run the whole-book review (repetition, internal labels, table shape and counts) and resume substantive expansion in Chapter 4.
