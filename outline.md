@@ -42,4 +42,4 @@
 
 ---
 
-This is the approved working outline, not a claim that the chapter briefs are complete manuscript chapters. Validate its four proposed moves with service-provider leaders as the manuscript develops.
+This is the approved working outline. The five chapter files contain manuscript drafts in progress, not finished publication copy. Validate the four proposed moves with service-provider leaders as the manuscript develops.

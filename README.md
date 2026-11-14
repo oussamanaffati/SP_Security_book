@@ -6,7 +6,7 @@ A strategic, practical book for service-provider and telco leaders: CISOs, CTOs,
 Help readers choose the three or four security initiatives their organization should launch in the next 12 months to keep pace with AI and autonomous agents—and explain those priorities credibly to the CEO and board.
 
 ## Book map
-See [`outline.md`](outline.md) for the current five-chapter outline. Chapter files contain working briefs and will be developed sequentially; they are not presented as finished manuscript chapters.
+See [`outline.md`](outline.md) for the approved five-chapter structure. The files in `chapters/` contain draft manuscript text in progress, not finished publication copy; supporting source records remain in `research/`. The target manuscript is approximately 45,000 words, with current counts and remaining gap recorded in [`progress/daily-log.md`](progress/daily-log.md).
 
 ## Continuous improvement
 Use the `book-continuous-improvement` skill to run one evidence-based chapter cycle at a time. Keep research notes in `research/` and record dated decisions and changes in [`progress/daily-log.md`](progress/daily-log.md). Book material and cycle artifacts are maintained in English.
