@@ -5,8 +5,8 @@ Older cycle history is preserved in `progress/archive/daily-log-before-compactio
 ## Current status
 - Repository: `/data/SP_Security_book`, branch `main`; work is committed locally and remains unpushed.
 - Push authentication previously failed. Last observed remote `main`: `bd32ad4`; do not retry unchanged credentials.
-- Manuscript: 20,634 words (Ch1 4,056; Ch2 4,256; Ch3 2,856; Ch4 6,048; Ch5 3,418), versus the 40,000–45,000-word target. Gap to lower target: 19,366 words.
-- First structural/expansion pass and whole-book review are complete. Chapter 3’s containment-card rows are shorter; Chapter 2 and 4 tables were also shortened. A long Chapter 5 comparison cell remains for the next readability pass. Chapter 5 remains the home for executive risk decisions.
+- Manuscript: 20,632 words (Ch1 4,056; Ch2 4,256; Ch3 2,856; Ch4 6,048; Ch5 3,416), versus the 40,000–45,000-word target. Gap to lower target: 19,368 words.
+- First structural/expansion pass and whole-book review are complete. Chapter 3’s containment-card rows are shorter; Chapter 2 and 4 tables were also shortened. Whole-book pattern checks found no exact duplicates, repeated endings, internal labels, numeric citations or Sources headings; one Chapter 5 cell was shortened and all table shapes/cells now pass the readability scan. Chapter 5 remains the home for executive risk decisions.
 - Only the four existing scenarios are used. No operator outcomes, quotes, costs or test results were invented. Score 7.6/10 is provisional and self-assessed; 9/10 is not defensible yet.
 
 ## Recent cycles
@@ -16,6 +16,7 @@ Older cycle history is preserved in `progress/archive/daily-log-before-compactio
 - 2026-11-14 | Chapter 1 investment choice | 20,440 words | Prioritized identity mapping/boundary tests, response authority/fallback or detection according to the evidenced service constraint; named staffing, supplier and integration costs and reassessment evidence. `git diff --check` passed.
 - 2026-11-14 | Chapter 3 containment card | 20,428 words | Shortened the scope and choice cells while retaining principal/source/target, protected evidence, broad revocation versus narrow tested limits or controlled continuation, service impact, supplier effort and proof. `git diff --check` passed.
 - 2026-11-14 | Chapter 3 response under pressure | 20,634 words | Added the NOC assistant’s read/draft-versus-manual evidence rule and the single-coordinator-versus-domain-team choice for simultaneous incidents, with service authority, supplier/deputy coverage and exercise verification. Critique: practical and tied to the existing case; AI-summary recommendations are author analysis, not field results. `git diff --check` and counts passed. Next: whole-book rebalance.
+- 2026-11-14 | Whole-book rebalance | 20,632 words | Found no exact duplicate paragraphs, repeated endings, internal labels, numeric citations or Sources headings; table shapes were consistent and no cell exceeded 150 characters. Shortened Chapter 5’s shared-account option cell. Critique: cleaner scan; scope and conditional risk trade-off remain. `git diff --check` and word-count audit passed. Next: Chapter 4 roadmap/capacity decision.
 
 ## Next
-Whole-book rebalance: audit the Chapter 3 incident-summary and multi-incident coordination passages against Chapter 2/4 boundaries; shorten the remaining Chapter 5 comparison cell; rerun repetition, label, citation, table-shape and word-count checks.
+Chapter 4: review the implementation roadmap for a distinct capacity decision about protected control work versus competing operational backlog and supplier availability. Keep it separate from Chapter 5’s funding mechanics and use only existing operator scenarios.

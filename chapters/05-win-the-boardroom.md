@@ -97,7 +97,7 @@ Use the NOC assistant described in Chapter 1 as the worked board decision. Its s
 
 | Option | Service effect and trade-off | Evidence gate |
 |---|---|---|
-| **A. Keep the shared account** | Avoids immediate change and preserves workflow, but retains broad reach and weak attribution. Deferral is a service-risk choice, not a neutral schedule decision. | Verify permissions and service impact; apply Chapter 5’s authority model and record the trigger that reopens deferral. |
+| **A. Keep the shared account** | Avoids immediate change; preserves workflow but leaves broad reach and weak attribution. Deferral is a service-risk decision, not a neutral delay. | Verify permissions and service impact; apply Chapter 5’s authority model and record the trigger that reopens deferral. |
 | **B. Restrict or pause actions** | Retain only verified read/draft use if separable. Manual vendor cases and changes add NOC work; a full pause may also remove useful visibility. | At connector and target, prove actions are refused, read scope is limited, principal is logged and fallback preserves service view. |
 | **C. Separate identities** | Can improve attribution and suspend action without removing alarm reads; needs engineering, supplier work and a supported window. | Test allowed/denied paths, existing-session revocation, downstream effects, audit correlation, change control and service fallback. |
 

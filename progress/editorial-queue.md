@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 20,634 words after the first structural/expansion pass and current rebalance; 19,366 words remain to the 40,000-word lower target and 24,366 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 20,632 words after the first structural/expansion pass and current rebalance; 19,368 words remain to the 40,000-word lower target and 24,368 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -25,8 +25,8 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Whole-book review after first pass
 
-Chapter roles and tool homes are distinct. The recurring NOC assistant, supplier feature and patch-window threads serve different decisions, not repeated paragraphs. Exact duplicate paragraphs were not found; reader-facing internal labels, numeric citations and Sources headings are absent. Table column shapes remain consistent; Chapter 3’s containment-card rows are shorter. The source-contract/containment tables in Chapter 2 and supplier, edge-access and roadmap tables in Chapter 4 were also shortened. A long comparison cell remains in Chapter 5 for the final readability pass.
+Chapter roles and tool homes are distinct. The recurring NOC assistant, supplier feature and patch-window threads serve different decisions, not repeated paragraphs. Exact duplicate paragraphs and repeated endings were not found; reader-facing internal labels, numeric citations and Sources headings are absent. Table shapes are consistent and no cell exceeds 150 characters after the Chapter 2, 3 and 5 trims; Chapter 4 tables were also shortened.
 
 ## Next sequence
 
-Whole-book rebalance: audit the Chapter 3 incident-summary and multi-incident coordination passages against Chapter 2/4 boundaries; shorten the remaining Chapter 5 comparison cell; rerun repetition, label, citation, table-shape and word-count checks.
+Chapter 4: review the implementation roadmap for a distinct capacity decision about protected control work versus competing operational backlog and supplier availability. Keep it separate from Chapter 5’s funding mechanics and use only existing operator scenarios.
