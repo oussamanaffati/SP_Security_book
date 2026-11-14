@@ -44,12 +44,12 @@ Before onboarding or renewal, Procurement and Legal can seek material-change not
 |---|---|
 | Capability and trigger | AI diagnostic feature enabled through a routine update to a network-management product; absent from the AI project register. |
 | Purpose and known reach | Reads topology and proposes actions. No wider data access or direct execution is established by the scenario. |
-| Owners and contacts | **Educational assumption:** Operations Engineering manages the feature; a supplier product-support lead is the contact; the network-domain service owner supplies impact and tolerance evidence. Replace these roles with local names. |
-| Identity and path | **Educational assumption:** supplier design material names a product service identity for topology reads. Connector permissions and target-system behavior remain unverified; direct execution is not established by the scenario. |
+| Owners and contacts | **Educational assumption:** Ops Engineering owns feature; supplier support lead is contact; service owner supplies impact/tolerance. |
+| Identity and path | **Educational assumption:** design docs name topology-read identity; target/connector rights unverified; no direct execution is established. |
 | Authority boundary | Proposal is subject to the existing change process, but whether configuration or workflow technically enforces that boundary is **unverified**. |
-| Evidence and control state | **Educational assumption:** Level 1 supplier design documentation is available; no Level 2 configuration review or Level 3 test has been completed. Record claim, scope and limitation for each item. |
-| Stop and fallback | **Educational assumption:** a feature setting appears separate from the release, but runtime disablement is untested. Manual NOC diagnosis remains possible only with planned staff backfill. |
-| Decision and acceptance record | **Conditional educational recommendation:** disable the feature pending proof; retain the product release only if separation and rollback are verified. Reassess if the release cannot be separated or manual fallback strains service capacity. |
+| Evidence and control state | **Educational assumption:** Level 1 supplier design material only; no Level 2 review or Level 3 test. Scope/result/limits remain unverified. |
+| Stop and fallback | **Educational assumption:** separate feature setting is claimed but untested. Manual NOC diagnosis needs planned backfill. |
+| Decision and acceptance record | **Recommendation:** disable feature pending proof; retain release only if separation/rollback pass. Reassess if no split or backfill is infeasible. |
 
 Under these assumptions, ask Operations Engineering and the supplier to disable the feature independently while the product release remains in place, then verify the switch at runtime. A configuration label is not enough. If disablement holds and the release remains supportable, keep the product update and leave the feature off while completing the Level 2 review and Level 3 test. If the feature cannot be stopped without reversing the release, compare the service value of that release with supported rollback, delayed capability and the NOC work needed for manual diagnosis. Supplier and engineering capacity, the next safe window and any displaced change belong in that comparison. Reopen the choice when tests show the actual data path, denied write behavior, attribution, revocation and NOC fallback. These are educational assumptions and a conditional decision, not reported operator outcomes.
 
