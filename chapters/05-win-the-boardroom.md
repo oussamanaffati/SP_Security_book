@@ -15,11 +15,15 @@ Put the service at stake, the relevant system or workflow, its current access an
 
 A generic statement such as “AI is a major new threat” gives the board no decision. The NOC assistant test described in Chapter 1 is more useful: summarization worked, but a broader service account could open vendor cases, pull data from a neighboring domain and propose a change that would reduce NOC visibility. The board discussion can then focus on ownership, identity boundaries and whether the normal change process still applies.
 
+The board-level question is whether the operator has capacity to separate the identities and test how containment affects NOC visibility. If that work cannot happen immediately, the service executive needs to own the residual exposure, with a clear review condition. The requested decision is about service impact, delivery capacity and risk ownership, not model selection.
+
 If the operator relies on a legacy management platform, an external supplier or a narrow maintenance window, explain how that changes the response plan. A broad statement about “the network” is less useful than a clear account of which domain, service and recovery path are involved.
 
 ## Show why the board is part of the operating model
 
 The board’s role is to set direction, risk appetite, ownership and assurance, not select a model or approve a firewall rule. The CISO and CTO should equip directors to ask whether controls match the operator’s service obligations.
+
+That separation matters when residual risk remains. A service executive with delegated authority owns acceptance within the approved appetite. If the exposure falls outside that boundary, it should be escalated with treatment options and the service consequences of each, not treated as accepted because it appears in a report. The board’s oversight is to test whether appetite, escalation thresholds, resources and assurance are adequate, without taking over routine engineering decisions.
 
 The UK Cyber Governance Code calls for senior ownership of cyber risk, integration with enterprise risk management, a defined risk appetite and assurance that resources address those risks.[18] It also recommends formal reporting at least quarterly with metrics and tolerances, and at least annual exercises with relevant internal and external stakeholders.[18]
 It is UK guidance, not a universal legal requirement. Its value here is the operating principle: cyber risk belongs in existing governance, with visible owners and a reporting cadence.
@@ -48,6 +52,8 @@ The roadmap should show its dependencies as well as its milestones. Security wor
 
 A red, amber and green dashboard is useful only when each measure is defined and linked to a decision. Named owners for priority uses, successful access-revocation and fallback tests, and overdue remediation or risks past review date can show whether exposure is better controlled. More deployments do not mean better security.
 
+One distinction is easy to lose in a dashboard: a residual risk accepted within appetite is not the same as an untested control or an exposure with no owner. Acceptance should remain visible against the service, accountable executive, rationale, supporting assurance and conditions for review. A failed test or changed threat picture can reopen the decision; a named owner should not turn an unresolved control gap green by itself.
+
 ## Ask for decisions, not general support
 
 A request for “continued support” leaves the choice unclear. A board paper is stronger when it puts a specific decision in front of directors.
@@ -55,7 +61,7 @@ A request for “continued support” leaves the choice unclear. A board paper i
 1. **Set priority outcomes.** The first decision is which three or four outcomes the operator will pursue over the next twelve months, beginning with services and workflows whose consequences are greatest.
 2. **Make ownership explicit.** Each move needs an executive sponsor and operational lead across security, network, IT, procurement or service continuity as required.
 3. **Protect delivery capacity.** Staff time, planned change windows and supplier engagement all compete with other operational work. If the board will not fund everything, it should see what moves later and what risk remains open.
-4. **Agree assurance and residual-risk acceptance.** The board can set what evidence returns each quarter, what triggers earlier escalation, and which executive owns residual-risk acceptance within the approved appetite.
+4. **Set assurance and escalation.** Agree what evidence management will provide and what changes require earlier escalation. Require management to name the owner for each residual risk, the authority delegated to that owner and the conditions that trigger escalation.
 
 The investment case should state what the money buys. It cannot guarantee that an incident will not happen. It should improve the operator’s ability to identify consequential uses, restrict unnecessary authority, contain an incident while maintaining service through a tested fallback, meet applicable duties and restore services. Some costs are people and change capacity, not software. Directors should understand both the risk the plan is meant to reduce and the work it will displace.
 
@@ -67,12 +73,14 @@ Chapter 4 describes a live core platform with a fixed version available, but a s
 
 The board does not need to direct the engineering change. It does need to understand which service carries the exposure, who owns the acceptance, how the decision fits the operator’s risk appetite, and when it will be reviewed. If the residual risk is outside that appetite, the executive discussion turns to what capacity or supplier engagement could change the timetable. The decision is about service risk and ownership, not a generic demand to “patch faster.”
 
+That review should distinguish the vulnerability’s presence from the operator’s actual exposure and from the control effectiveness during the wait. If those facts are unknown, management should say so rather than describing the risk as controlled. The board can ask whether additional supplier or engineering capacity would change the decision, while the service executive remains accountable for risk accepted within delegated authority.
+
 ## Keep the case defensible
 
 Compliance does not prove that a service will recover, and a platform request needs a named control gap. Do not promise “zero risk” or “future-proof” on networks that depend on legacy systems, suppliers and continuous service. Keep board language within the evidence: state what is known, what remains uncertain and what decision is needed.
 
 ## The next twelve months
 
-Start with priority services, named owners and an exercise. Bring initial findings to the risk committee; quarterly reviews should show which access limits and service alternatives were tested, what gaps remain and who owns the risk.
+The first board cycle can focus on priority services, named owners and an exercise. Quarterly reviews can show which access limits and service alternatives were tested, what gaps remain and who owns the residual risk.
 
-By year-end, leaders should know which AI-enabled uses can affect services, which response controls have been tested, what residual risk remains, and who accepts it. Fund the work to improve those answers. No plan can promise an invulnerable network. The credible commitment is to know which systems can act, limit their authority and test how services continue and recover when a safeguard fails.
+By year-end, leaders should be able to explain which AI-enabled uses can affect services, which response controls have been tested, what residual risk remains and who accepts it within delegated authority. Fund the work that improves those answers. No plan can promise an invulnerable network. The credible commitment is to know which systems can act, limit their authority and test how services continue and recover when a safeguard fails.
