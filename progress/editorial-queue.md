@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 25,240 words after the first structural/expansion pass and current rebalance; 14,760 words remain to the 40,000-word lower target and 19,760 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 25,756 words after the first structural/expansion pass and current rebalance; 14,244 words remain to the 40,000-word lower target and 19,244 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 1: review for a distinct executive decision gap not already covered by the platform-selection, investment-sequencing, patch-window and NOC value decisions; do not lengthen existing conclusions. If no non-duplicative choice remains, proceed to Chapter 3.
+Chapter 5: expand the board’s supplier-exit decision for a critical AI-enabled workflow. Distinguish contractual rights from portable data/configuration, tested manual fallback and service continuity; label any assumptions.
