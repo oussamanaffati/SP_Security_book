@@ -19,11 +19,15 @@ The board-level question is whether the operator has capacity to separate the id
 
 If the operator relies on a legacy management platform, an external supplier or a narrow maintenance window, explain how that changes the response plan. A broad statement about “the network” is less useful than a clear account of which domain, service and recovery path are involved.
 
+The supplier-enabled diagnostic in Chapter 4 offers another board-level test: who reviews capabilities introduced through routine updates, what evidence the supplier provides about identity and reach, and what operational benefit would be lost if the feature were restricted. Directors can ask whether contract terms, product configuration and existing change controls give the operator meaningful leverage. If not, the service executive should make the residual exposure and limitation in supplier assurance visible, rather than treating the product as covered simply because it was already approved.
+
 ## Show why the board is part of the operating model
 
 The board’s role is to set direction, risk appetite, ownership and assurance, not select a model or approve a firewall rule. The CISO and CTO should equip directors to ask whether controls match the operator’s service obligations.
 
 That separation matters when residual risk remains. A service executive with delegated authority owns acceptance within the approved appetite. If the exposure falls outside that boundary, it should be escalated with treatment options and the service consequences of each, not treated as accepted because it appears in a report. The board’s oversight is to test whether appetite, escalation thresholds, resources and assurance are adequate, without taking over routine engineering decisions.
+
+Risk appetite becomes usable only when management translates it into service-level decision rights. A board statement cannot by itself tell an executive which exposures can be accepted, which must be escalated, or what evidence supports the decision. The board should challenge whether those boundaries reflect different service consequences and whether they leave room for safe operational change. A decision to fund one priority before another sets a sequence; it does not, on its own, mean that every deferred exposure has been accepted. The accountable service executive still owns each residual risk within delegated authority.
 
 The UK Cyber Governance Code calls for senior ownership of cyber risk, integration with enterprise risk management, a defined risk appetite and assurance that resources address those risks.[18] It also recommends formal reporting at least quarterly with metrics and tolerances, and at least annual exercises with relevant internal and external stakeholders.[18]
 It is UK guidance, not a universal legal requirement. Its value here is the operating principle: cyber risk belongs in existing governance, with visible owners and a reporting cadence.
@@ -54,6 +58,8 @@ A red, amber and green dashboard is useful only when each measure is defined and
 
 One distinction is easy to lose in a dashboard: a residual risk accepted within appetite is not the same as an untested control or an exposure with no owner. Acceptance should remain visible against the service, accountable executive, rationale, supporting assurance and conditions for review. A failed test or changed threat picture can reopen the decision; a named owner should not turn an unresolved control gap green by itself.
 
+Aggregation helps directors see patterns, but it can hide a material exception on one service. Report trends at a useful level, while preserving service-level exposures that exceed appetite, lack an owner or depend on untested controls. A board should be able to distinguish accepted risk, work in progress and assurance still missing without reviewing every technical finding. The point of the summary is to make escalation and resource choices possible, not to make unlike risks look uniform.
+
 ## Ask for decisions, not general support
 
 A request for “continued support” leaves the choice unclear. A board paper is stronger when it puts a specific decision in front of directors.
@@ -62,6 +68,8 @@ A request for “continued support” leaves the choice unclear. A board paper i
 2. **Make ownership explicit.** Each move needs an executive sponsor and operational lead across security, network, IT, procurement or service continuity as required.
 3. **Protect delivery capacity.** Staff time, planned change windows and supplier engagement all compete with other operational work. If the board will not fund everything, it should see what moves later and what risk remains open.
 4. **Set assurance and escalation.** Agree what evidence management will provide and what changes require earlier escalation. Require management to name the owner for each residual risk, the authority delegated to that owner and the conditions that trigger escalation.
+
+The comparison should include the strongest feasible alternative, not just the preferred investment. In the edge-access example discussed earlier, retaining the shared account preserves the existing arrangement but leaves cross-domain reach; separating the access requires a supplier configuration change and a safe maintenance window. The paper should show the service impact and residual exposure under each path, and identify who can accept that risk. The board can set priorities and resources without taking residual-risk ownership away from management.
 
 The investment case should state what the money buys. It cannot guarantee that an incident will not happen. It should improve the operator’s ability to identify consequential uses, restrict unnecessary authority, contain an incident while maintaining service through a tested fallback, meet applicable duties and restore services. Some costs are people and change capacity, not software. Directors should understand both the risk the plan is meant to reduce and the work it will displace.
 
@@ -73,7 +81,7 @@ Chapter 4 describes a live core platform with a fixed version available, but a s
 
 The board does not need to direct the engineering change. It does need to understand which service carries the exposure, who owns the acceptance, how the decision fits the operator’s risk appetite, and when it will be reviewed. If the residual risk is outside that appetite, the executive discussion turns to what capacity or supplier engagement could change the timetable. The decision is about service risk and ownership, not a generic demand to “patch faster.”
 
-That review should distinguish the vulnerability’s presence from the operator’s actual exposure and from the control effectiveness during the wait. If those facts are unknown, management should say so rather than describing the risk as controlled. The board can ask whether additional supplier or engineering capacity would change the decision, while the service executive remains accountable for risk accepted within delegated authority.
+That review should distinguish the vulnerability’s presence from the operator’s actual exposure and from control effectiveness during the wait. If those facts are unknown, management should say so rather than describing the risk as controlled. A board asking for faster remediation should ask what engineering capacity and supplier confirmation would make a safe window possible, not treat a changed date as a control. If management proposes a temporary restriction, it should show evidence that the restriction reduces exposure and explain the service effect. The board can resource or prioritize the work; the service executive remains accountable for acceptance within delegated authority. Exposure outside appetite must be escalated, not carried forward by default.
 
 ## Keep the case defensible
 
