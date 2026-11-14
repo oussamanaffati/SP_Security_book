@@ -132,7 +132,7 @@ A dashboard should show **[operator threshold]**, trend and affected service for
 
 ## The decision behind an accepted patch window
 
-Chapter 4 describes a live core platform with a fixed version available, but a safe change still depends on a maintenance window, a rollback plan and supplier confirmation. The next window is three weeks away. At the service level, the residual risk is accepted, documented and reviewed.
+Chapter 1’s patch-window composite is the board test: the fixed version is available, but the next safe window is three weeks away and residual risk is accepted and reviewed.
 
 The board does not need to direct the engineering change. It does need to understand which service carries the exposure, who owns the acceptance, how the decision fits the operator’s risk appetite, and when it will be reviewed. If the residual risk is outside that appetite, the executive discussion turns to what capacity or supplier engagement could change the timetable. The decision is about service risk and ownership, not a generic demand to “patch faster.”
 
