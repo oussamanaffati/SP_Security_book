@@ -53,7 +53,7 @@ That makes inventory a lifecycle control, not a one-time audit. The supplier rel
 | Stop and fallback | Independent feature disablement, effect on the rest of the product, and the operational fallback are **not established**. Confirm before deciding whether restriction is safe. |
 | Decision and residual risk | Retain only under evidenced limits, restrict/disable if limits cannot be established, or defer enablement pending supplier evidence. If use continues with an assurance gap, name the delegated service-risk owner, conditions and reassessment trigger. |
 
-The register changes the decision because it separates established capability from unknown control behavior. A supplier statement that the feature is “diagnostic” does not answer whether its identity can reach other systems. If the product can be updated without enabling the feature, separate those decisions. If release and feature activation are coupled, compare delaying the release, accepting the capability under a verified boundary, and delaying or restricting its use. Engineering and Procurement establish the options; the service executive decides whether remaining service exposure is within delegated appetite. A blank owner or an unknown stop path is not a green status.
+This register makes the decision gap concrete: the feature’s purpose is known, but its deployed identity, path, disable behavior and fallback are not. Do not treat a supplier description as proof of those controls. The service executive needs either verified boundaries and an operating fallback or an explicit treatment for the unresolved exposure.
 
 Inventory shows where to look. Access review shows whether an agent has more authority than its task requires.
 
