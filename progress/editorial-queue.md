@@ -25,4 +25,4 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Next sequence
 
-Current next action: resolve whole-book findings—correct Chapter 1’s patch-window description so it does not imply acceptance without an authorized decision; shorten the dense Chapter 2 source-contract, Chapter 3 containment and Chapter 4 supplier-register cells. Then rerun the whole-book checks and resume substantive expansion in Chapter 4.
+Current next action: shorten the remaining dense Chapter 3 containment row and Chapter 4 supplier-register cells. Then rerun whole-book counts, table shape/density, repetition and cross-reference checks before resuming substantive expansion in Chapter 4.
