@@ -25,4 +25,4 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Next sequence
 
-Current next action: finish Chapter 5’s deferred-patch board challenge and close, then run the whole-book structural review: repeated authority/evidence endings, internal labels, table shape and density, cross-references, and chapter counts. Resume substantive expansion in Chapter 4 after the structural pass.
+Current next action: run the whole-book structural review across all five chapters: repeated authority/evidence endings, internal labels, chapter-to-chapter repetition, table shape/density and cross-references. Then resume substantive expansion in Chapter 4; structural compression is complete enough to move on but the 40,000–45,000-word target is not yet met.

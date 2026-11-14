@@ -121,16 +121,14 @@ A dashboard should show **[operator threshold]**, trend and affected service. Do
 
 ## Board challenge: deferred patch window
 
-The fixed version exists, but the next safe change window is three weeks away. Ask which service runs an affected, reachable version; what interim control has been tested; whether a supplier-supported earlier change can preserve test and rollback; and which engineering or supplier work would move. The board should see both the service exposure of waiting and the continuity risk of an earlier change.
+Chapter 4 carries the full patch decision. Here, compare the earliest supported change, waiting with tested controls, and temporary restriction. For each, show service impact, supplier/engineering effort, work displaced and evidence that would change the recommendation. In this scenario, the next safe window is three weeks away.
 
-If those facts are incomplete, say what remains unknown. Count a temporary restriction only when its effect on reach and service is evidenced. A changed target date is not a control. Reopen the management decision if threat, reach, control effectiveness or service conditions change.
+If version, reach or local impact is unknown, say so. Count a temporary restriction only when its effect on reach and service is evidenced; a changed target date is not a control. State what new threat, failed test or service change reopens the plan.
 
 ## Keep the case defensible
 
-Compliance does not prove that a service will recover, and a platform request needs a named control gap. Do not promise “zero risk” or “future-proof” on networks that depend on legacy systems, suppliers and continuous service. Keep board language within the evidence: state what is known, what remains uncertain and what decision is needed.
+Compliance alone does not show that a service can recover, and a platform request must name the control gap. Do not promise “zero risk” or “future-proof.” Show what the investment changes, which dependencies remain and what management must still decide.
 
 ## The next twelve months
 
-The first board cycle can focus on priority services, named owners and an exercise. Quarterly reviews can show which access limits and service alternatives were tested, what gaps remain and who owns the residual risk.
-
-By year-end, leaders should be able to explain which AI-enabled uses can affect services, which response controls have been tested, what residual risk remains and who accepts it within delegated authority. Fund the work that improves those answers. No plan can promise an invulnerable network. The credible commitment is to know which systems can act, limit their authority and test how services continue and recover when a safeguard fails.
+In the first board cycle, set priority services and run an exercise. Quarterly reviews should show which access limits and service alternatives were tested, what gaps remain and which decisions need to reopen. By year-end, leaders should know which AI-enabled uses can affect services and how response controls perform. Fund work that improves those answers. No plan promises an invulnerable network. The credible commitment is to know which systems can act, limit their authority and test how service continues when a safeguard fails.
