@@ -73,9 +73,15 @@ The investment case should state what the money buys. It cannot guarantee that a
 
 If Finance and Operations can substantiate a loss range, show the assumptions. If they cannot, explain service impact, response dependency and regulatory exposure without an unsupported monetary value. The decision remains real: fund the work now, choose another sequence or resource an interim treatment.
 
+### Stage funding without approving the exposure
+
+When the supplier cost, engineering effort or safe test window is still unknown, avoid presenting one fixed budget as if the delivery path were settled. The board can fund design and test capacity first, including supplier time and NOC backfill, while keeping authority at its current or more restricted level. Management then returns with the tested boundary, service impact, rollback path and an implementation estimate before asking for deployment funding.
+
+This staged route limits the chance of funding a design that cannot be deployed safely, but it requires another decision and may delay the diagnostic benefit. Full funding at once can reserve scarce supplier or engineering capacity, but commits before the evidence is complete. Withholding all funds avoids new spend and leaves the current exposure and manual workload in place. Where current reach creates a material service concern, do not wait for the next budget decision to apply a safe interim restriction. Release the larger implementation budget only when local testing shows what the change permits, denies and does to service visibility; if the test fails, return with a safer restriction or a revised delivery path.
+
 ## Board decision: NOC assistant
 
-The assistant in Chapter 1 summarizes alarms and drafts ticket updates, while its service account can also reach neighboring-domain data, open vendor cases and propose a visibility-reducing change. This is an educational decision aid, not an incident report or an actual board exchange. Replace bracketed fields with operator evidence.
+Use the NOC assistant described in Chapter 1 as the worked board decision. Its service account can reach neighboring-domain data, open vendor cases and propose a visibility-reducing change; that does not mean the proposed change has been carried out. Replace bracketed fields with evidence from the operator’s environment.
 
 **Decision sought.** Protect engineering and supplier capacity to separate the assistant’s read path from its authority to open vendor cases or propose changes. Permit bounded interim use only if its restrictions can be tested.
 
