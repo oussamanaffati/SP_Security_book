@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 22,874 words after the first structural/expansion pass and current rebalance; 17,126 words remain to the 40,000-word lower target and 22,126 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 23,161 words after the first structural/expansion pass and current rebalance; 16,839 words remain to the 40,000-word lower target and 21,839 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 5: identify a distinct funding or oversight decision that increases service-provider delivery capacity without repeating the shared-account decision paper or authority model.
+Chapter 2: check the NOC assistant’s source-integrity decision for an unaddressed trade-off in stale or conflicting operational records. Expand only if it adds a distinct operator choice beyond the existing source-contract test.
