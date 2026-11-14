@@ -110,7 +110,7 @@ The following paper uses the existing composite NOC-assistant situation. It is a
 | Residual exposure and service cost | **[specific access still possible]**; **[visibility or workflow at risk if restricted]**; **[manual workload or supplier delay, measured or explicitly unknown]**. |
 | Conditions and expiry | **[permitted data/action scope]** until **[specific expiry or review date set by the operator]**. Do not carry acceptance forward automatically. |
 | Reassessment triggers | Failed revocation or negative-path test; expanded identity/data/tool scope; new threat evidence; loss of NOC visibility; supplier change; or a delayed implementation milestone that changes exposure. |
-| Escalation | If the risk exceeds approved appetite, the service owner lacks delegated authority, or the full service footprint has no owner, escalate through **[operator governance path]** before treating the risk as accepted. |
+| Escalation | If no accountable service executive has delegated authority over every affected service, or the risk exceeds approved appetite, escalate through **[operator governance path]** before treating the risk as accepted. |
 
 The value of this record is not the form. It forces a choice between keeping capability with proven limits, restricting it at an operational cost, or accepting a defined exposure for a stated period. The board can challenge whether the delegated boundary and resources are adequate; management remains accountable for the service-level decision.
 
