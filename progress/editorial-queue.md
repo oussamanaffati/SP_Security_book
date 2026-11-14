@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 26,140 words after the first structural/expansion pass and current rebalance; 13,860 words remain to the 40,000-word lower target and 18,860 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 26,368 words after the first structural/expansion pass and current rebalance; 13,632 words remain to the 40,000-word lower target and 18,632 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 2: add the design-time NOC-assistant decision on task-scoped context, curated knowledge and persistent memory. Distinguish it from Chapter 3’s post-incident recovery; include operating effort and verifiable scope.
+Chapter 3: deepen the post-containment restoration decision for the NOC assistant: full forensic closure versus broad restore versus staged minimum function. Specify target, identity, memory and service-view evidence; do not imply the composite suffered compromise.
