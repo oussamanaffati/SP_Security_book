@@ -1,6 +1,6 @@
 # Chapter 3: The Threat Moves Faster Than the Operator Can Respond
 
-The response gap is not just detection time. It is also the time needed to authorize containment without disrupting service.
+The response gap is not one clock. It includes detection, decision, safe action and restoration. An operator can identify an event quickly and still lose time resolving who can authorize containment without disrupting service.
 
 The SOC may see an alert while the NOC sees a planned change. IAM may be able to revoke a credential, and a supplier may hold platform details. Without a clear decision path, an attacker may retain access while the operator assesses service impact.
 
@@ -24,14 +24,14 @@ Incident response is often described as a technical sequence: detect, investigat
 
 At the same time, the network cannot wait for every team to finish its analysis. Nor can the operator treat every system as disposable. A management platform may support several network domains. An identity may be shared across automation jobs. A supplier connection may be needed to restore a service even as the supplier helps investigate it. Availability changes the containment decision.
 
-Measure four response intervals:
+It helps to separate four response intervals:
 
-- **Detection:** How long before someone recognizes that the event may be malicious?
-- **Decision:** How long before an authorized person chooses a containment action?
-- **Action:** How long before teams execute it safely and confirm the result?
-- **Continuity and recovery:** How long before affected services can run safely again?
+- **Detection:** from the first relevant signal to recognition that the activity may be malicious.
+- **Decision:** from that recognition to an authorized containment choice.
+- **Action:** from the decision to safe execution and confirmation of the result.
+- **Continuity and recovery:** from containment to the safe restoration of affected services.
 
-A fast SOC does not guarantee a fast response if approval is slow. Quick isolation is not success if it breaks a critical workflow or removes telemetry needed to understand the incident. For each exercise, record time to detect, authorize, execute safely and restore service. The service owner should set tolerances for each interval before the exercise, based on continuity needs, safe containment options and applicable notification deadlines. One threshold will not fit every service domain.
+A fast SOC does not guarantee a fast response if approval is slow. Quick isolation is not success if it breaks a critical workflow or removes telemetry needed to understand the incident. An exercise is more informative when it compares the time to detect, authorize, act safely and restore service with tolerances agreed in advance by the service owner. Those tolerances depend on continuity needs, available containment options and applicable notification deadlines; one target will not fit every service domain.
 
 CERT-In’s April 2026 advisory recommends tabletop exercises for five simultaneous incidents rather than a single incident, explicitly modelling AI-driven scenarios.[28] That recommendation is Indian cross-sector guidance, not a telco standard or universal target. For an operator, the test is whether NOC, SOC, IAM and service teams can still make timely, service-safe decisions when their attention is split.
 
@@ -53,7 +53,7 @@ The practical lesson is to assign owners for notification, forensic scoping and 
 
 ## Containment is a service decision
 
-For an ordinary office system, “isolate it” may sound straightforward. In a provider environment, the same action can have different consequences depending on the system’s role. Cutting a compromised supplier connection may slow recovery. Disabling a shared identity may stop a legitimate monitoring workflow. Isolating a management host may reduce an attacker’s access but also remove a source of operational visibility.
+Containment decisions at a service provider have more than one consequence. Cutting a compromised supplier connection may slow recovery. Disabling a shared identity may stop a legitimate monitoring workflow. Isolating a management host may reduce an attacker’s access but also remove a source of operational visibility.
 
 That does not mean the operator should wait. It means the available actions should be designed and authorized in advance. The Canadian Cyber Centre recommends deciding in advance who may isolate an account, application, network or service, and practising incidents that unfold within hours rather than days. It also recommends identifying essential functions, defining pre-authorized isolation steps and testing safe manual or alternative operations.[14]
 
@@ -83,7 +83,7 @@ The operator does not need to establish that an intrusion used AI before prepari
 
 ## The question for leadership
 
-A CISO or CTO should know the answers to four questions before an incident begins:
+Before an incident, the CISO and CTO need a clear view of four decisions:
 
 - Which actions are pre-approved, and who can authorize broader containment after hours?
 - Which service dependencies and fallbacks must be checked before isolating an identity or supplier connection?
