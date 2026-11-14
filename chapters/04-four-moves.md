@@ -48,7 +48,7 @@ Before onboarding or renewal, Procurement and Legal can seek material-change not
 | Identity and path | Identity, connector and target-system permissions: **not yet verified**. Trace them end to end before treating the boundary as known. |
 | Authority boundary | Proposal is subject to the existing change process, but whether configuration or workflow technically enforces that boundary is **unverified**. |
 | Evidence and control state | Record evidence level, claim, scope, result and limitation. Use a safe test or supported window for write-path checks; no result is assumed. |
-| Stop and fallback | Independent feature disablement, effect on the rest of the product, and the operational fallback are **not established**. Confirm before deciding whether restriction is safe. |
+| Stop and fallback | Independent disablement, product impact and fallback are **unknown**; verify whether the feature can stop without affecting the release. |
 | Decision and acceptance record | Retain under evidenced limits, restrict/disable if limits are unknown, or defer. Link continuing exposure to Chapter 5’s decision record. |
 
 Do not close the entry on documentation alone. Require a verified boundary and fallback; retain expected and observed test results.
@@ -60,7 +60,7 @@ Do not close the entry on documentation alone. Require a verified boundary and f
 | What enters the feature? | Identify topology fields, identifiers and context sent with a request; compare them with the enabled configuration and the task’s need. | Restrict data only where the operator can enforce it; intended purpose is not proof of least privilege. |
 | Where is it processed and kept? | Confirm processing location, prompt/output retention, training use and deletion; separate supplier assurance from settings the operator can inspect. | Do not assume data stays local or leaves the environment. Treat destination and retention as assurance gaps; request evidence or delay enablement. |
 | Who can access it? | Establish supplier support access, any subprocessors in the processing path, and what access or activity records can be reviewed. | Keep the access path unresolved. Ask whether the feature can be disabled separately and what product or service function that would affect. |
-| What is the safe operating choice? | Compare enforceable restriction, separate disablement or delayed enablement against diagnostic benefit, NOC workload, supplier support and change path. | If reach or fallback remains unbounded, assess a supported pause or rollback. If neither is safe, escalate before continuing. |
+| What is the safe operating choice? | Compare enforceable restriction, separate disablement or delay with diagnostic benefit, NOC effort, supplier support and change path. | If reach or fallback remains unbounded, assess a supported pause or rollback. If neither is safe, escalate before continuing. |
 
 Do not describe the current feature as controlled while identity, data path, downstream action, independent disablement and fallback remain unknown. First establish whether the feature can be disabled without reversing the rest of the update. If it can, retain the product release but hold the feature until a Level 2 configuration review and Level 3 test confirm data scope, denied write paths, attributable logs and revocation. If it cannot, check whether an operator-enforced boundary can limit data and block writes; test that boundary before relying on it.
 
