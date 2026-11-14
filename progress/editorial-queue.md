@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 26,700 words after the first structural/expansion pass and current rebalance; 13,300 words remain to the 40,000-word lower target and 18,300 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 27,021 words after the first structural/expansion pass and current rebalance; 12,979 words remain to the 40,000-word lower target and 17,979 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 4: deepen the decision for renewing temporary agent access when an incident/task crosses its initial scope. Compare standing privilege, repeated manual approval and a bounded pre-authorized extension; require target-side expiry and session evidence.
+Chapter 5: expand the board’s deferred-patch funding decision: reserve capacity for an earlier supported change versus rely on current capacity. Define local evidence/trigger and service authority; board funds readiness, not operational patch approval.
