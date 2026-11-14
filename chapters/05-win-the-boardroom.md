@@ -1,10 +1,8 @@
 # Chapter 5: Board Decisions Before the Next Incident
 
-Before the next incident, the board needs a business decision, not a technology pitch: which service risk to reduce first, what work can be done within engineering and change capacity, and who owns the remaining risk while services continue.
+Before the next incident, the board needs a business decision, not a technology pitch. It must choose which service risk to reduce first, what work fits engineering and change capacity, and who owns the remaining risk while services continue. Directors need the likely service and customer impact. Management should show what is known and unknown, what evidence supports each option, and how it will reduce exposure over the next twelve months.
 
-Directors need the likely service and customer impact, what is known and unknown, and which decisions can reduce exposure over the next twelve months.
-
-Chapter 4 set out the operating moves. This chapter turns their evidence into choices a CEO and board can make.
+Chapter 4 set out the operating moves. This chapter turns their evidence into choices for the CEO and board.
 
 ## Speak in service-provider consequences
 
