@@ -84,6 +84,8 @@ Before an incident, verify whether action rights can be stopped independently of
 
 **Illustrative live-incident decision card: NOC assistant.** Adapt this to the operator’s incident authority and map the role names to local equivalents before use. It is not an authorization by itself, and a tabletop cannot prove that its technical steps work.
 
+Use the response-gap review earlier in this chapter after an exercise or incident to assign follow-up; this card supports live containment, not post-event scoring.
+
 | Decision point | Evidence and question | Role that contributes or decides |
 |---|---|---|
 | Establish what happened | Which identity and tool acted? Is there evidence of an unauthorized request or only a proposed change? Preserve source alarms, connector records and target-system events. | SOC leads evidence assessment; platform/IAM teams identify the principal and session scope. |
