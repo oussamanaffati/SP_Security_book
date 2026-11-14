@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Baseline:** local `main` at `bd32ad4`; five chapters contain 21,108 words. Target: 40,000–45,000 words of decision-useful substance. Scores are provisional editorial judgments, not independent validation. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 18,558 words after structural compression; target 40,000–45,000 words of decision-useful substance. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -25,4 +25,4 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Next sequence
 
-Current next action: rerun whole-book counts, table shape/density, repeated endings, internal-label and cross-reference checks after these fixes. Then begin substantive Chapter 4 expansion toward the 40,000–45,000-word target.
+Current next action: tighten the Chapter 4 read/recommend/execute matrix, then rerun whole-book word counts, table shape/density, repeated-ending, internal-label and cross-reference checks before substantive Chapter 4 expansion.
