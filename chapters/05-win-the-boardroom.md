@@ -54,44 +54,42 @@ Exercise results add another kind of evidence. Did the SOC know who could revoke
 
 Chapter 4 defines the evidence levels. For each board claim, name the level, service path and limitation, including whether visibility and fallback were covered. If a live integration cannot be tested safely, report the boundary that remains unknown and the decision it constrains; do not label it passed.
 
-Security work competes for engineers, maintenance windows and supplier capacity. If a control must wait for a platform upgrade, state the interim measure and who accepts the remaining risk. CISA and the Canadian Centre for Cyber Security’s guidance on metered AI services notes that token consumption can affect cost, performance and availability. For a critical workflow that depends on such a service, include the exposure and the fallback if service is degraded or unavailable. If a regulatory deadline changes the sequence, show the date and accountable owner.
+Security work competes for engineers, maintenance windows and supplier capacity. If a control must wait for a platform upgrade, show the interim measure, its tested effect and the next decision trigger. CISA and the Canadian Centre for Cyber Security’s guidance on metered AI services notes that token consumption can affect cost, performance and availability. For a critical workflow, include the fallback if service degrades or becomes unavailable. If a regulatory deadline changes the sequence, show its date and tracking lead.
 
-A green status must not collapse work in progress, an untested control, residual risk accepted by an authorized service executive within approved appetite and delegated authority, and exposure with no authorized owner. The worked dashboard below keeps these states distinct; an owner or completion marker alone is not proof of control effectiveness.
+The dashboard must distinguish work in progress, a control tested effective, exposure accepted under defined conditions, and unresolved exposure without a valid decision. The worked dashboard keeps these states distinct; an owner or completion marker alone is not proof of control effectiveness.
 
 ## Ask for decisions, not general support
 
 A request for “continued support” leaves the choice unclear. A board paper is stronger when it puts a specific decision in front of directors.
 
 1. **Set priority outcomes.** The first decision is which three or four outcomes the operator will pursue over the next twelve months, beginning with services and workflows whose consequences are greatest.
-2. **Make ownership explicit.** Each move needs an executive sponsor and operational lead across security, network, IT, procurement or service continuity as required.
+2. **Name delivery leads.** Each move needs an executive sponsor and an operational lead across security, network, IT, procurement or service continuity as required.
 3. **Protect delivery capacity.** Staff time, planned change windows and supplier engagement all compete with other operational work. If the board will not fund everything, it should see what moves later and what risk remains open.
-4. **Set assurance and escalation.** Agree what evidence management will provide and what changes require earlier escalation. Require management to name the owner for each residual risk, the authority delegated to that owner and the conditions that trigger escalation.
+4. **Set assurance and escalation.** Agree what evidence management will provide and which service impacts, failed tests or changed dependencies require an earlier review.
 
-The comparison should include the strongest feasible alternative, not just the preferred investment. In the edge-access example discussed earlier, retaining the shared account preserves the existing arrangement but leaves cross-domain reach; separating the access requires a supplier configuration change and a safe maintenance window. The paper should show the service impact and residual exposure under each path, and identify who can accept that risk. The board can set priorities and resources without taking residual-risk ownership away from management.
-
-The risk owner must have authority over the full reach. In the edge example, the account touched edge nodes and parts of the core. The sponsor for the edge rollout may not be delegated to accept consequences for every affected core service. The board paper should make that boundary visible and route the decision to an executive who can own the cross-service impact; the platform owner confirms technical reach but does not automatically become the service-risk owner.
+The comparison should include the strongest feasible alternative. Retaining the shared edge/core account preserves the current arrangement but retains cross-domain reach; separation needs a supplier change and safe window. Show service impact, fallback and displaced work under both paths. If the reach crosses service domains, route the decision to an executive whose delegation covers the full impact; technical confirmation of reach does not confer service-risk authority.
 
 The investment case should state what the money buys. It cannot guarantee that an incident will not happen. It should improve the operator’s ability to identify consequential uses, restrict unnecessary authority, contain an incident while maintaining service through a tested fallback, meet applicable duties and restore services. Some costs are people and change capacity, not software. Directors should understand both the risk the plan is meant to reduce and the work it will displace.
 
-If Finance and Operations can substantiate a loss range, show the assumptions. If they cannot, say so and explain the service impact, response dependency and regulatory exposure without putting an unsupported monetary value on them. The decision remains real: invest now, accept the residual risk within the stated appetite, or choose a different sequence.
+If Finance and Operations can substantiate a loss range, show the assumptions. If they cannot, explain service impact, response dependency and regulatory exposure without an unsupported monetary value. The decision remains real: fund the work now, choose another sequence or resource an interim treatment.
 
 ## Board decision: NOC assistant
 
 The assistant in Chapter 1 summarizes alarms and drafts ticket updates, while its service account can also reach neighboring-domain data, open vendor cases and propose a visibility-reducing change. This is an educational decision aid, not an incident report or an actual board exchange. Replace bracketed fields with operator evidence.
 
-**Decision sought.** Protect engineering and supplier capacity to separate the assistant’s read path from its authority to open vendor cases or propose changes. Approve a bounded interim use only if its restrictions can be tested. This asks the board to set priority and capacity, not to accept service-level residual risk on behalf of management.
+**Decision sought.** Protect engineering and supplier capacity to separate the assistant’s read path from its authority to open vendor cases or propose changes. Permit bounded interim use only if its restrictions can be tested.
 
 **Service and exposure.** The affected service domain and dependencies are **[name and evidence]**. The deployed identity path, data scope, action path and ability to disable actions are **[verified, assumed or unknown]**. The facts above describe possible authority, not a completed network change.
 
 **Options.**
 
-| Option | Benefit | Cost and residual exposure | Evidence needed before treating it as controlled |
-|---|---|---|---|
-| **A. Defer separation and retain the current account** | Avoids immediate engineering and supplier change; preserves existing workflow. | Retains broader reach and weaker attribution. This is a deliberate service-risk decision, not a neutral scheduling choice. | Confirm actual permissions, service impact and delegated owner. Escalate if the exposure exceeds appetite; record why delay is chosen and what event reopens it. |
-| **B. Restrict or pause the action path while retaining only verified read/draft use** | Can reduce authority sooner and preserve some alarm summarization. | Manual vendor-case creation and change handling may increase NOC workload or delay escalation. If read/action rights cannot be separated, a pause may also remove useful visibility. | Demonstrate at the connector and target that actions are refused, read scope is limited, logs identify the principal, and fallback preserves the necessary service view. |
-| **C. Separate identities and test the end-to-end path** | Improves attribution and may let the operator suspend action without removing alarm reads. | Requires platform engineering, supplier engagement and a supported test or change window; the target-system behavior may constrain the design. | Verify allowed and denied paths, existing-session revocation, downstream effects, audit correlation, normal change control and service fallback. |
+| Option | Service effect and trade-off | Evidence gate |
+|---|---|---|
+| **A. Keep the shared account** | Avoids immediate change and preserves workflow, but retains broad reach and weak attribution. Deferral is a service-risk choice, not a neutral schedule decision. | Verify permissions and service impact; apply Chapter 5’s authority model and record the trigger that reopens deferral. |
+| **B. Restrict or pause actions** | Retain only verified read/draft use if separable. Manual vendor cases and changes add NOC work; a full pause may also remove useful visibility. | At connector and target, prove actions are refused, read scope is limited, principal is logged and fallback preserves service view. |
+| **C. Separate identities** | Can improve attribution and suspend action without removing alarm reads; needs engineering, supplier work and a supported window. | Test allowed/denied paths, existing-session revocation, downstream effects, audit correlation, change control and service fallback. |
 
-**Management recommendation.** Prefer Option B as an interim treatment only if a Level 3 test confirms that read/draft use is genuinely separate. In parallel, implement Option C against an agreed service and supplier plan. If the boundary cannot be enforced or verified, do not label the interim control effective: pause the affected capability where service-safe, or present the unresolved scope, evidence and service consequences to the authorized service executive. The board should resource the work and receive evidence of progress and effect; a delivery decision is not service-risk acceptance.
+**Management recommendation.** Prefer Option B only if a Level 3 test confirms that read/draft use is separate. In parallel, plan Option C against a supported supplier path. If the boundary cannot be enforced or verified, pause the capability where service-safe and take the unresolved scope and service consequence to the service executive. Set the first review at the next supplier/test milestone; if the boundary fails, return to the pause option and reassess service impact.
 
 **Resources and assumptions.** Engineering effort **[estimate and basis]**; supplier work and recurring/usage charges **[scope, cost basis and commitment]**; transition or exit cost **[estimate or state unknown/not applicable]**; NOC manual-work impact **[measure or state not yet measured]**; next supported test/change opportunity **[date and constraints]**. If these are unknown, the paper should say so. A missing estimate is not a reason to imply that work is cost-free or operationally neutral.
 
@@ -99,12 +97,12 @@ The assistant in Chapter 1 summarizes alarms and drafts ticket updates, while it
 
 | Record field | Operator-specific entry |
 |---|---|
-| Service and exposure | **[service, domain, dependencies]**; **[verified, assumed or unknown identity, data and action reach]**. |
-| Treatment and owners | **[chosen option and strongest alternative/reason]**; **[delivery owner, control operator, evidence owner]**; **[supplier commitment and lead time]**. |
-| Evidence and gaps | **[Chapter 4 evidence level, test scope and result]**; **[limitations and claims still unverified]**. |
-| Service effect and cost | **[reach remaining]**; **[visibility/fallback if restricted]**; **[NOC workload, continuity impact, effort/cost basis or unknown]**. |
-| Acceptance authority | **[service executive with delegation across affected services]**; **[within appetite or escalation path]**. |
-| Conditions and review | **[permitted scope, expiry/review date]**; **[reassessment trigger, next evidence and review owner]**. |
+| Service and path | **[services/dependencies]**; **[identity, data and action reach: verified, assumed or unknown]**. |
+| Choice and delivery | **[option; strongest alternative/reason]**; **[delivery/control/evidence leads]**; **[supplier dependency and date]**. |
+| Evidence and limits | **[Chapter 4 level, test scope/result]**; **[limitations and unverified claims]**. |
+| Service impact and cost | **[reach remaining]**; **[visibility/fallback]**; **[NOC workload, continuity impact and effort/cost basis or unknown]**. |
+| Decision authority | **[service executive with delegation across affected services]**; **[appetite or escalation path]**. |
+| Conditions and review | **[permitted scope, expiry/date]**; **[trigger, next evidence and review lead]**. |
 
 The dashboard below rolls these service decisions up for portfolio review.
 
@@ -114,12 +112,12 @@ The dashboard below rolls these service decisions up for portfolio review.
 |---|---|---|---|
 | Priority workflow visibility | Register entry completed and owner assigned. | Identity, data and downstream actions independently checked against deployed configuration. | “Documented” without verified reach remains incomplete. |
 | Read/action boundary | Design approved or configuration changed. | Negative-path and revocation tests show disallowed actions fail and permitted reads remain observable. | Failed or unsafe test leaves exposure open; restrict use or escalate. |
-| Retrieved-content path (where used) | Workflow and source map recorded. | In a bounded test, an out-of-scope request carried in untrusted content is denied at the connector or target; logs link the content source, principal, tool call and target outcome. | One test does not prove general model resistance; an unobservable supplier path remains an open assurance gap, not green. |
-| Response readiness | Exercise held and actions assigned. | SOC/NOC demonstrate authorized containment, service fallback and evidence capture; corrective actions are retested. | Attendance or a tabletop alone does not prove technical control effectiveness. |
-| Supplier control | Supplier notice/evidence routes, material-change triggers and accountable owners are recorded. | The operator reports configuration/test results separately from clearly labelled supplier assurance for data inputs/destination, processing, retention/training use, supplier access and action scope; where persistent memory is used, verify its read/write scope and clearing. | Prompt/output-retention terms alone do not prove memory isolation or deletion; absent evidence or a usable restriction is not green. Open exposure has an owner and review trigger. |
-| Residual-risk governance | Acceptance records reviewed. | Each open exposure has an authorized owner, conditions and current evidence; expired or triggered decisions are reopened. | A named owner alone does not make a failed control green. |
+| Retrieved-content path (where used) | Workflow and source map recorded. | Bounded test sends untrusted, out-of-scope content through the workflow; connector/target denies it and logs source, principal, tool call and result. | One test does not prove general resistance; unobservable supplier paths remain open assurance gaps. |
+| Response readiness | Exercise held and actions assigned. | SOC/NOC contain, invoke fallback and capture evidence; corrective actions are retested. | Attendance or a tabletop alone does not prove technical control effectiveness. |
+| Supplier control | Notice route and material-change triggers recorded. | Operator verification covers data, retention, supplier access, action limits and memory scope; keep supplier assurance separate. | Contract terms alone do not prove isolation or deletion; missing evidence or usable restriction remains open. |
+| Residual-risk governance | Decision records and review dates are current. | Each open exception shows decision state, conditions, expiry and trigger. | Triggered or expired exceptions return to management. |
 
-A dashboard should show **[operator threshold]**, trend and affected service for each measure. Do not aggregate away a single high-consequence exception. A rise in “completed actions” can coexist with unchanged reach; the board needs both delivery status and evidence that exposure, service consequence or response dependency has actually changed.
+A dashboard should show **[operator threshold]**, trend and affected service. Do not average away a high-consequence exception: completed actions can rise while reach stays unchanged. Report delivery and evidence that exposure or response dependency changed.
 
 ## Board challenge: deferred patch window
 
