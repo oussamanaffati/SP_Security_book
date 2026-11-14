@@ -556,3 +556,10 @@
 - Primary critique/revision: `gpt-6-luna`. Grok was not run in this local-only cycle; no credential checks, remote operations or push were attempted.
 - Hard self-critique: the additions sharpen who can act during containment and who owns resulting service risk, while keeping the patch choice balanced between threat exposure and safe change. This is a focused increment, not a large move toward 11,000; further expansion should deepen a distinct decision gap rather than repeat the same four situations.
 - Self-score: **9.5/10** (editorial judgment, not an independent review). The five chapters now total 14,652 words by the same count method. No Sources section, fixed “90 days” language or em dash; inline citations remain mapped to `research/chapter-04.md`.
+
+## 2026-11-14 — Further expansion pass: Chapter 5
+- Expanded Chapter 5 from 2,513 to 2,659 words (+146; same local word-count method). No sources or citations were added; existing claims remain mapped in `research/chapter-05.md`.
+- Added event-based reassessment triggers for accepted residual risk and clarified that a board’s risk owner must have authority over the full cross-service reach, using the existing edge-access composite. No additional anecdote was introduced.
+- Primary critique/revision: `gpt-6-luna`. Grok was not run in this local-only cycle; no credential checks, remote operations or push were attempted.
+- Hard self-critique: these additions sharpen when an accepted decision must be reopened and prevent the project sponsor or platform custodian from being mistaken for the risk owner. They add board-level governance rather than retelling Chapter 4’s technical material. Chapter 5 remains far below its 10,000-word target.
+- Self-score: **9.5/10** (editorial judgment, not an independent review). The five chapters now total 14,798 words by the same count method. No Sources section, fixed “90 days” language or em dash; inline citations remain mapped to `research/chapter-05.md`.
