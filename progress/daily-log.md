@@ -479,3 +479,10 @@
 - Primary critique/revision: `gpt-6-luna`. Grok was not run under the local-only workflow; no authentication or push was attempted.
 - Hard self-critique: the additions make attack-surface mapping more service-specific and distinguish intended boundaries from verified control effectiveness. The edge and supplier examples also appear elsewhere in the book; Chapter 2 uses them to examine reach and exposure, but later edits should avoid retelling them at length. Existing cited claims were not re-fetched externally.
 - Self-score: **9.5/10** (editorial judgment, not an independent review). No Sources section, fixed “90 days” language or em dash; existing inline citations remain mapped to `research/chapter-02.md`.
+
+## 2026-11-14 — Expansion pass: Chapter 3
+- Expanded Chapter 3 from 1,723 to 1,983 words (+260; counted with the same local word-count script). No sources or citations were added; the existing source scope remains documented in `research/chapter-03.md`.
+- Used the supplied three-week patch-window decision to distinguish threat urgency from safe change capacity, including service-level residual-risk acceptance and review conditions. Expanded the NOC assistant test into practical containment questions about read/action identities, NOC visibility, fallback and normal change approval. Recast automation and leadership guidance in less checklist-like prose.
+- Primary critique/revision: `gpt-6-luna`. Grok was not run under the local-only workflow; no authentication or push was attempted.
+- Hard self-critique: the chapter now makes the service cost of both waiting and emergency change more explicit, and the NOC test connects identity design to an incident decision. The two anecdotes already appear elsewhere, so the cross-references should remain focused on response timing and containment, not retell their full setup. Existing cited claims were not re-fetched externally.
+- Self-score: **9.5/10** (editorial judgment, not an independent review). The five chapters now total 11,998 words by the same count method. No Sources section, fixed “90 days” language or em dash; existing inline citations remain mapped to `research/chapter-03.md`.

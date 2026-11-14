@@ -14,7 +14,11 @@ In a 15 October 2026 advisory, CERT-In reported that tools using AI agents short
 
 A separate 4 November advisory from CERT-In’s finance-sector incident-response team reported attacks against Indian BFSI entities timed to holidays, weekends and other low-monitoring windows, including after incomplete remediation.[20] This financial-sector evidence supports testing off-hours decision authority and escalation, not a claim about telco incidents.
 
-Neither report establishes an operator response deadline. When exploitation is confirmed, the operator should not assume it can wait for the next routine maintenance window; it needs a tested emergency path to a safe containment decision.
+Neither report establishes an operator response deadline. Faster adversary activity does not make every emergency change safe on a live service.
+
+Chapter 1’s patch-window example shows the second clock. Security had the advisory and fixed version, but the network team needed a maintenance window, rollback plan and supplier confirmation. The next available window was three weeks away; the residual risk was accepted at the service level, documented and reviewed. Waiting left the vulnerability in scope for longer. Changing a live core platform without the required support and rollback conditions could create service risk of its own.
+
+Speed alone is not the measure. The operator needs a clear view of the threat and exposure, which controls remain effective while the change is prepared, who owns residual risk and what evidence would reopen the decision. The planned date should be reviewed if threat or exposure changes, while any emergency change still needs a supported rollback and service-impact assessment.
 
 Detection and response are different capabilities. A dashboard can show an event, but people still need authority and context to decide whether to revoke an identity, isolate a host, block a supplier connection or keep a service running in reduced mode.
 
@@ -67,23 +71,20 @@ Chapter 1 described the assistant test: it read alarms and drafted ticket update
 
 That result turns a general response question into a practical one. Can the team identify which identity enabled the access, revoke it without losing essential monitoring, and keep any proposed change inside the normal approval process? The answer depends on the service, the identity design and the after-hours decision path. Those are the points a rehearsal can test before an incident.
 
+The exercise can also establish what would be lost if the broad account were suspended: alarm visibility, ticket updates or vendor-case handling, and what alternative remains. Separate read and act identities may let the operator restrict action without removing needed monitoring, but that depends on the actual tool design and must be tested. A proposed network change remains subject to the normal change process; the fact that it came from an AI assistant does not make it an approved action. If the identities cannot yet be separated, the service owner needs a clear view of the temporary exposure and the conditions for revisiting it.
+
 ## Use automation where its impact is limited
 
 CISA’s August 2026 Logging Reference Architecture (LRA) targets U.S. Federal Civilian Executive Branch (FCEB) agencies; it is not a telco-specific standard.[34] It says AI-assisted techniques can support incident triage, scoping, timeline reconstruction and summarization.[34] Actions with material operational, legal or privacy consequences should remain subject to human review and established incident criteria.[34] For an operator, use AI to assemble incident context and evidence, not to make a network-impacting decision on its own.
 
-Limited, reversible automation still has a role. An operator might pre-authorize revocation of a short-lived credential tied to one agent run, with a NOC alert and a recorded reason. The accountable service owner should decide any action that could affect customers or network continuity, and accept its temporary impact. Automated actions should stay within tested limits that leadership has accepted.
+Limited automation can support containment when its authority is narrow, its effect is reversible and it records what it did. A short-lived agent identity may be suitable for automatic revocation if it is separate from identities needed for essential monitoring. Shared credentials change that calculation: the same action may remove visibility operators need to assess the incident. The service owner can set which actions are pre-authorized and which require human judgment, based on service impact, control effectiveness and risk appetite.
 
 The operator does not need to establish that an intrusion used AI before preparing for shorter response windows. Plans should reflect what an attacker can do, how quickly it may act, and which services the operator must keep running.
 
 ## The question for leadership
 
-Before an incident, the CISO and CTO need a clear view of four decisions:
+A useful executive discussion settles who may use pre-approved containment, who can authorize a broader action after hours, and which service dependencies could be affected by isolating an identity or supplier connection. It also assigns customer and regulator communications while the technical scope is uncertain. The accountable owner for each affected service decides whether temporary impact fits the operator’s risk appetite and what conditions allow restoration.
 
-- Which actions are pre-approved, and who can authorize broader containment after hours?
-- Which service dependencies and fallbacks must be checked before isolating an identity or supplier connection?
-- Who owns regulator and customer notifications while technical scoping continues?
-- Who accepts temporary service impact, sets the conditions for restoring service, and confirms when the fallback was last exercised?
-
-If these answers are unclear, teams will debate roles and impact while the incident unfolds. Containment without service context can create a second service incident.
+These decisions depend on the service, not a generic organization chart. If ownership or the safe next step is unclear, teams will debate roles and impact while the incident unfolds. Containment without service context can create a second service incident.
 
 Chapter 1 explained why risk has changed. Chapter 2 mapped where exposure can enter and spread. This chapter connected response time, decision authority and service continuity. Chapter 4 turns those concerns into four practical moves for a service-provider CISO or CTO over the next twelve months.
