@@ -25,4 +25,4 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Next sequence
 
-Current next action: whole-book review across all five chapters—check primary homes, repeated endings, internal labels, table density and cross-references; then rebalance. Resume substantive expansion in Chapter 4, adding only decision-useful material and tracking the 40,000–45,000-word target without padding.
+Current next action: continue Chapter 4’s edge-access, exercise and roadmap sections—remove repeated acceptance endings and trim long table cells without weakening decisions or losing owner, dependency, cost or verification evidence. Then apply the same repetition check to Chapter 5, run the final whole-book review, and resume substantive expansion in Chapter 4.
