@@ -8,11 +8,11 @@ Chapter 2 mapped where exposure can enter and spread. The operator needs to dete
 
 ## Threat activity can accelerate without being fully autonomous
 
-The Canadian Centre for Cyber Security’s 26 October 2026 bulletin is cross-sector evidence, not a telecom incident or a universal attack timeline. It says attacks are not yet fully autonomous: humans still choose targets, set objectives and oversee operations.[14] For some activity attributed by the bulletin to Storm-0940, the time from target selection to privileged cloud access was less than three hours.[14]
+The Canadian Centre for Cyber Security’s 26 October 2026 bulletin is cross-sector evidence, not a telecom incident or a universal attack timeline. It says attacks are not yet fully autonomous: humans still choose targets, set objectives and oversee operations. For some activity attributed by the bulletin to Storm-0940, the time from target selection to privileged cloud access was less than three hours.
 
-In a 15 October 2026 advisory, CERT-In reported that tools using AI agents shortened the time from initial access to impact from days to a few hours in a financially motivated campaign against Indian entities. The advisory did not identify those organizations as telecom operators; it also reported parallel agent operations and repeat attacks within days after incomplete remediation.[11]
+In a 15 October 2026 advisory, CERT-In reported that tools using AI agents shortened the time from initial access to impact from days to a few hours in a financially motivated campaign against Indian entities. The advisory did not identify those organizations as telecom operators; it also reported parallel agent operations and repeat attacks within days after incomplete remediation.
 
-A separate 4 November advisory from CERT-In’s finance-sector incident-response team reported attacks against Indian BFSI entities timed to holidays, weekends and other low-monitoring windows, including after incomplete remediation.[20] This financial-sector evidence supports testing off-hours decision authority and escalation, not a claim about telco incidents.
+A separate 4 November advisory from CERT-In’s finance-sector incident-response team reported attacks against Indian BFSI entities timed to holidays, weekends and other low-monitoring windows, including after incomplete remediation. This financial-sector evidence supports testing off-hours decision authority and escalation, not a claim about telco incidents.
 
 Neither report establishes an operator response deadline. Faster adversary activity does not make every emergency change safe on a live service.
 
@@ -37,21 +37,21 @@ It helps to separate four response intervals:
 
 A fast SOC does not guarantee a fast response if approval is slow. Quick isolation is not success if it breaks a critical workflow or removes telemetry needed to understand the incident. An exercise is more informative when it compares the time to detect, authorize, act safely and restore service with tolerances agreed in advance by the service owner. Those tolerances depend on continuity needs, available containment options and applicable notification deadlines; one target will not fit every service domain. Record the service impact and the reason for each delay as well as elapsed time. Otherwise, one overall response figure cannot show whether the constraint is missing evidence, unclear authority, a supplier dependency or an untested fallback.
 
-CERT-In’s April 2026 advisory recommends tabletop exercises for five simultaneous incidents rather than a single incident, explicitly modelling AI-driven scenarios.[28] That recommendation is Indian cross-sector guidance, not a telco standard or universal target. For an operator, the test is whether NOC, SOC, IAM and service teams can still make timely, service-safe decisions when their attention is split.
+CERT-In’s April 2026 advisory recommends tabletop exercises for five simultaneous incidents rather than a single incident, explicitly modelling AI-driven scenarios. That recommendation is Indian cross-sector guidance, not a telco standard or universal target. For an operator, the test is whether NOC, SOC, IAM and service teams can still make timely, service-safe decisions when their attention is split.
 
 The SOC assesses the evidence and likely attack path; the NOC knows which systems carry live operations, what maintenance is under way, and what isolation could do to service. Agree who resolves a conflict between those views and who can authorize the next step when there is no time for a long discussion.
 
 ## The SK Telecom response had distinct timelines
 
-The South Korean Ministry of Science and ICT (MSIT) investigation into SK Telecom’s 2025 breach shows that response includes more than containment. MSIT reports that SK Telecom detected abnormally large outbound traffic at 11:20 p.m. on 18 April 2025 and notified KISA at 4:46 p.m. on 20 April; the Ministry said this exceeded the statutory 24-hour reporting window.[15]
+The South Korean Ministry of Science and ICT (MSIT) investigation into SK Telecom’s 2025 breach shows that response includes more than containment. MSIT reports that SK Telecom detected abnormally large outbound traffic at 11:20 p.m. on 18 April 2025 and notified KISA at 4:46 p.m. on 20 April; the Ministry said this exceeded the statutory 24-hour reporting window.
 
-That is a reporting timeline, not a measure of containment time. The public-private investigation team was established on 23 April and inspected all 42,605 SK Telecom servers through 27 June; its final findings identified 28 infected servers.[15]
+That is a reporting timeline, not a measure of containment time. The public-private investigation team was established on 23 April and inspected all 42,605 SK Telecom servers through 27 June; its final findings identified 28 infected servers.
 The inspection end date is not a containment timeline. Keep initial notification, containment and forensic scoping as separate measures; the public findings do not make them interchangeable.
 
-The customer response had its own operational demands. In its preliminary findings, the Ministry encouraged subscribers to replace their USIM cards or use a protection service, and urged the operator to expand service channels and add a reservation system so more customers could be protected promptly.[16]
+The customer response had its own operational demands. In its preliminary findings, the Ministry encouraged subscribers to replace their USIM cards or use a protection service, and urged the operator to expand service channels and add a reservation system so more customers could be protected promptly.
 These reports describe a breach-response timeline, not a network outage. They show how an incident can create a second workload: protecting customers, handling enquiries and changing business operations while the technical investigation continues.
 
-CISA, the FBI, and partner agencies recommend a service-outage communications plan with triggers, escalation paths, and templates for status pages, customer and partner notices, and regulatory communications.[22] They advise frequent updates on what is known, unknown and under investigation, while protecting operational security and aligning with law-enforcement and containment efforts.[22] The guidance does not describe the SK Telecom breach; for an operator, it can inform planning when defensive isolation changes service availability.
+CISA, the FBI, and partner agencies recommend a service-outage communications plan with triggers, escalation paths, and templates for status pages, customer and partner notices, and regulatory communications. They advise frequent updates on what is known, unknown and under investigation, while protecting operational security and aligning with law-enforcement and containment efforts. The guidance does not describe the SK Telecom breach; for an operator, it can inform planning when defensive isolation changes service availability.
 
 The practical lesson is to assign owners for notification, forensic scoping and customer protection who can work in parallel while containment continues.
 
@@ -59,7 +59,7 @@ The practical lesson is to assign owners for notification, forensic scoping and 
 
 Containment decisions at a service provider have more than one consequence. Cutting a compromised supplier connection may slow recovery. Disabling a shared identity may stop a legitimate monitoring workflow. Isolating a management host may reduce an attacker’s access but also remove a source of operational visibility.
 
-That does not mean the operator should wait. It means the available actions should be designed and authorized in advance. The Canadian Cyber Centre recommends deciding in advance who may isolate an account, application, network or service, and practising incidents that unfold within hours rather than days. It also recommends identifying essential functions, defining pre-authorized isolation steps and testing safe manual or alternative operations.[14]
+That does not mean the operator should wait. It means the available actions should be designed and authorized in advance. The Canadian Cyber Centre recommends deciding in advance who may isolate an account, application, network or service, and practising incidents that unfold within hours rather than days. It also recommends identifying essential functions, defining pre-authorized isolation steps and testing safe manual or alternative operations.
 
 For a provider, translate that guidance into clear criteria: what evidence is enough, which actions the SOC can take alone, when the NOC or service owner must approve, and what fallback keeps essential services running.
 
@@ -87,7 +87,7 @@ The options are not equivalent. Broad revocation may cut off an unwanted path qu
 
 ## Use automation where its impact is limited
 
-CISA’s August 2026 Logging Reference Architecture (LRA) targets U.S. Federal Civilian Executive Branch (FCEB) agencies; it is not a telco-specific standard.[34] It says AI-assisted techniques can support incident triage, scoping, timeline reconstruction and summarization.[34] Actions with material operational, legal or privacy consequences should remain subject to human review and established incident criteria.[34] For an operator, use AI to assemble incident context and evidence, not to make a network-impacting decision on its own.
+CISA’s August 2026 Logging Reference Architecture (LRA) targets U.S. Federal Civilian Executive Branch (FCEB) agencies; it is not a telco-specific standard. It says AI-assisted techniques can support incident triage, scoping, timeline reconstruction and summarization. Actions with material operational, legal or privacy consequences should remain subject to human review and established incident criteria. For an operator, use AI to assemble incident context and evidence, not to make a network-impacting decision on its own.
 
 Limited automation can support containment when its authority is narrow, its effect is reversible and it records what it did. A short-lived agent identity may be suitable for automatic revocation if it is separate from identities needed for essential monitoring. Shared credentials change that calculation: the same action may remove visibility operators need to assess the incident. The service owner can set which actions are pre-authorized and which require human judgment, based on service impact, control effectiveness and risk appetite.
 
