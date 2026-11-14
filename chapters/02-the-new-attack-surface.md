@@ -12,11 +12,7 @@ That map is hard to keep current. A circuit, customer or service may appear diff
 
 These constraints make it important to trace an agent’s identity through the systems and tools it can reach. It may retrieve information in one system and use it in another. Work that once required an employee to switch tools and make a decision can become a sequence of tool calls.
 
-In its February 2026 report, TM Forum quotes Orange’s vice president of software engineering calling agentic AI “a direct entry point… into the very deep core of our network asset.”
-The report explains that agents could use the Model Context Protocol (MCP) to read data from systems such as customer relationship management (CRM) and billing, then act through those systems.
-It says Vodafone is implementing MCP safeguards on its AI Booster platform, using a catalog of verified, trusted servers and a gateway.
-Through that gateway, access rules can be audited and enforced instead of letting agents reach external MCP servers directly.
-These are attributed industry examples, not a universal architecture. The operator’s question is which data each connection can expose and what the agent can do with it.
+A February 2026 TM Forum report quotes Orange’s vice president of software engineering describing agentic AI as “a direct entry point… into the very deep core of our network asset.” It says agents could use the Model Context Protocol (MCP) to read customer relationship management (CRM) or billing data and act through those systems. Vodafone is implementing safeguards on its AI Booster platform: a catalog of verified, trusted servers and a gateway that audits and enforces access instead of allowing agents to connect directly to external MCP servers. These are attributed industry examples, not a universal architecture; the operator still needs to decide what each connection can expose and do.
 
 ## An agent needs an identity, and that identity needs a boundary
 
