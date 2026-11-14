@@ -59,6 +59,8 @@ This contract does not repair inconsistent inventories or assure the agent’s r
 
 CISA and its international partners’ May 2026 agentic-AI guidance identifies expanded attack surface as a risk and warns against broad access to sensitive data or critical systems. Its full report also describes indirect prompt injection through external data sources. For operators, retrieved content is information to assess, not an instruction that changes the agent’s authority.
 
+An instruction in retrieved content is a possible influence on the agent, not a grant of permission. The model may be told to treat tickets, supplier cases and external documentation as data, but the hard boundary is whether the connector and target system deny an action outside the task. A prompt asking the model to ignore hostile content is not proof of that boundary. For a high-impact workflow, use a safe test to see whether untrusted content can alter the selected tool or destination, then confirm that target-side authorization refuses anything outside scope and logs link source, principal, tool call and downstream result. If a supplier-managed path hides that trace, lower the agent’s authority or keep the evidence gap open. This is author guidance, not a tested control at any operator.
+
 ## Tools determine what an agent can do
 
 An agent may have no direct access to a router CLI and still affect network operations. It can open a ticket, retrieve an account, query a cloud platform, create a change request, trigger a workflow or call an API that another system treats as authoritative.
