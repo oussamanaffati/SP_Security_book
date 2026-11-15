@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 31,298 words; 8,702 words remain to 40,000 and 13,702 to 45,000. Continue substantive expansions in the requested priority, Chapter 4 then Chapter 5. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 31,696 words; 8,304 words remain to 40,000 and 13,304 to 45,000. Continue substantive expansions in the requested priority, Chapter 4 then Chapter 5. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 5: add a concise executive decision record for the shared edge/core account that ties the known reach to service-owner evidence, phased funding, tested restriction, and escalation. Avoid repeating Chapter 4’s gateway engineering detail.
+Chapter 4: next add an operational decision on supplier-feature post-release change handling without repeating the runtime-drift baseline. Focus on emergency security fixes, temporary capability restriction, and service fallback when the feature cannot be independently disabled.
