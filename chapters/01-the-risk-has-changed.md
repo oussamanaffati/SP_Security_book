@@ -74,7 +74,7 @@ Those concerns apply where a provider’s customer services meet network and ope
 
 A public operator example shows that this is not only a future architecture question. In February 2026, Deutsche Telekom reported that its RAN Guardian Agent was live in production in Germany. The company said it had autonomously triggered more than 100 remediation actions at Christmas-market events during its first month and cut the time needed to manage major events from hours to around a minute. These are company-reported figures, not an independent evaluation. The reported outcome is network-event management, not cyber incident response or proof of security-control effectiveness. The announcement described MINDR, a separate multi-domain system, as having first production releases planned for later in 2026. It did not publish RAN Guardian’s action boundaries, rollback or failure rates, or a service-quality baseline. For the CISO and CTO, the useful question is what actions were delegated, how their effects were verified and what service evidence showed the result was safe.
 
-The supplier diagnostic feature returns in Chapter 4 as a decision problem: a routine product update can add a capability without a separate AI project. The investment is not only the cost of reviewing it. If disabling the feature delays operations or release cannot be separated from activation, compare that service cost with the exposure of enabling an unverified identity or action path.
+A routine supplier update can add an AI feature without a separate project. If the feature cannot be separated from the release, disabling it may delay operations. Chapter 4 owns that service decision; Chapter 5 the board’s funding for evidence and continuity.
 
 ## Two risk questions, not one
 
