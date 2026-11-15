@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 38,173 words; 1,827 words remain to 40,000 and 6,827 to 45,000. Continue substantive expansions in the requested priority, Chapter 4 then Chapter 5. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 38,480 words; 1,520 words remain to 40,000 and 6,520 to 45,000. Continue substantive expansions in the requested priority, Chapter 4 then Chapter 5. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 5: deepen the board case where Finance cannot support a monetary loss estimate. Show how CISO, service owner and Finance can still evidence service consequences, uncertainty and capacity trade-offs without false precision.
+Chapter 4: distinguish simulated target behavior from real target enforcement for proposed actions. Define when a non-production result is sufficient, when staged production evidence is needed, and when absence of safe test means retain deny/draft-only.
