@@ -130,11 +130,11 @@ Fund an independent review or operator-controlled assurance only when it can cha
 
 ## Board decision: NOC assistant
 
-The Chapter 1 scenario shows a service account that can reach neighboring-domain data, open vendor cases and propose a visibility-reducing change; the proposal was not carried out. It establishes no deployed permissions, target enforcement, test result, service outcome, cost or pilot result.
+For the NOC-assistant composite, Chapter 1 establishes the account’s reach into neighboring-domain data and a proposed visibility-reducing change; Chapter 4 owns operational tests, pilot gates and continuity evidence. This section addresses board funding and oversight.
 
-**Decision sought.** Protect a bounded review and assurance tranche to map the account’s actual reach and service dependencies, determine whether useful read workflows can remain while change authority is bounded, and scope any supplier, engineering and NOC capacity required. Chapter 4 owns the operational tests and evidence. Funding this work does not approve rollout.
+**Decision sought.** Protect a bounded review and assurance tranche to map account reach and service dependencies, assess whether useful read workflows can remain while change authority is bounded, and scope supplier, engineering and NOC capacity. This funds the decision, not rollout.
 
-**Release and oversight gate.** Before a pilot or scale-up decision, management returns with service-specific impact and fallback, evidence scope and limits, local effort and displaced work, and the delegated service executive’s recommendation. Expand only for the tested task and service when source coverage and reviewer workload meet local thresholds, the target boundary is verified, and essential NOC visibility is preserved. Restrict or stop the affected scope if a boundary fails or the service cannot sustain review and fallback. Broader users, data or actions require a separate decision; the scenario supplies no pilot result.
+**Scale-up funding gate.** Before seeking scale-up funding, management presents the Chapter 4 pilot-gate result, service-specific impact and fallback, evidence limits, local effort and displaced work, plus the delegated service executive’s recommendation. Scale-up funding should cover only the task and service that passed the Chapter 4 gate, with enough recurring capacity to review outputs and sustain the fallback. Funding does not accept residual service risk. Broader users, data or actions require a separate decision.
 
 Record temporary service-risk choices under the exception process later in this chapter. The dashboard below reports portfolio status; it does not replace the service decision.
 
