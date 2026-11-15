@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 39,038 words; 962 words remain to 40,000 and 5,962 to 45,000. Continue substantive expansions in the requested priority, Chapter 4 then Chapter 5. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 39,252 words; 748 words remain to 40,000 and 5,748 to 45,000. Continue substantive expansions in the requested priority, Chapter 4 then Chapter 5. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 5: add an executive return-to-board test for funded work: what evidence is sufficient to release the next tranche, what failure redirects it, and when an unresolved dependency is escalated rather than accepted as complete.
+Chapter 4: define what makes a manual fallback genuinely available after a NOC-assistant handoff. Address staffing, access, current procedures, degraded capacity and rehearsals; do not remove fallback on the strength of pilot throughput alone.
