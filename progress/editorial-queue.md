@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** The on-disk manuscript count is 38,743 after the Chapter 3 response-authority edit. The target is approximately 45,000 words, but only useful depth belongs; never restore repetition or add filler to close the gap. The first introductions of the four approved scenarios are labeled illustrative in Chapter 1. Automated scans found no TODO/TBD/FIXME markers, numeric citations, Sources headings or exact duplicate paragraphs. Chapters 4 and 5 remain read-only. The current table scan found a 188-character funding-condition cell in Chapter 5 line 167, above the prior 150-character check; review only, no edit.
+**Current checkpoint (2026-11-15):** After the Chapter 4 supplier-feature edit, the consistent on-disk count is 37,362 words: Ch1 4,911; Ch2 4,725; Ch3 5,298; Ch4 12,014; Ch5 10,414. Python `re.findall(r'\b\w+\b', text)` was used on all five files. At initial reconciliation the count was 38,743; the daily log’s 38,752 is a historical cycle count and 40,029 is not present in the current queue. Reconciliation began from clean local `main` at `ca808d3683b79e885e11be3d86ed3b8c702c4f09`, four commits ahead of live `origin/main` `19983fc24c98bf57833e2140bb0621e71e57f3b6`. This checkpoint records the first Chapter 4 supplier-feature structural cycle; subsequent commit state is reflected in Git history. The four approved scenarios are illustrative. Remove repetition, not useful implementation or funding depth.
 
 ## Primary homes and chapter boundaries
 
@@ -25,10 +25,10 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Whole-book review after first pass
 
-Automated whole-book checks found no exact duplicate paragraph blocks, numeric citations, reader-facing Sources headings or TODO/TBD/FIXME markers; titles and cross-references are consistent. The four first scenario introductions in Chapter 1 are now labeled illustrative. Read-only review flags repeated supplier-feature decisions and a second close in Chapter 4, plus a repeated patch decision and second close in Chapter 5. Chapter 4’s ACSC guidance claim is supported in its research note only by the official-page search excerpt; verify the body text before publication. Current table scan finds the longest cell is 188 characters in Chapter 5 line 167, not 150. No Chapter 4 or 5 edits were made.
+Automated whole-book checks found no exact duplicate paragraph blocks, numeric citations, reader-facing Sources headings or TODO/TBD/FIXME markers; titles and cross-references were consistent. The four first scenario introductions in Chapter 1 were labeled illustrative. The prior read-only review flagged repeated supplier-feature decisions and a second close in Chapter 4, plus a repeated patch decision and second close in Chapter 5. Chapter 4’s ACSC [25] guidance claim remains limited to the official search excerpt: a 2026-11-15 page/PDF retrieval attempt did not return body text, so do not broaden the claim until it can be checked. The earlier table scan found a 188-character funding-condition cell in Chapter 5 line 167; that baseline will be checked after the current edit. No Chapter 4 or 5 edits had been made at that earlier review.
 
 ## Next sequence
-
-1. Preserve publication-pending status; retry only if authentication circumstances change.
-2. If a later scope includes Chapters 4–5, resolve the verified repetition/boundary issues and source [25] body-text limitation without undoing useful decisions.
-3. Add further material toward ~45,000 only when it contributes a distinct operator decision, implementation trade-off or control-effectiveness evidence; current gap is 6,257 words.
+1. Finish Chapter 4’s structural pass: reduce the shared-account opening recap and overlap among the NOC action, recovery and change-authority passages; remove the second close without losing service-recovery evidence.
+2. Chapter 5: replace duplicated supplier/patch implementation branches with concise board funding, appetite and oversight decisions; refer to Chapter 4 for operational tests and evidence.
+3. Review Chapter 1’s opening and state once that the four operational examples are illustrative composites. Then run whole-book consistency, claim/source, citation, table and count checks.
+4. Commit coherent work and attempt publication as authorized; after any auth failure, verify refs and continue locally without an identical retry. Add words only when they close a substantive gap.
