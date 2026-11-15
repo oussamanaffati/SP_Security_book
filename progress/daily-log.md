@@ -3,9 +3,9 @@
 Older cycle history is preserved in `progress/archive/daily-log-before-compaction-2026-11-14-chapter1.md` and earlier archives under `progress/archive/`.
 
 ## Current status
-- Repository: `/data/SP_Security_book`, branch `main`; local HEAD was `19983fc` at Chapter 1 start. The last observed remote `main` was `4f145e7`; seven Chapter 2 commits remain publication-pending.
+- Repository: `/data/SP_Security_book`, branch `main`; Chapter 1 scenario framing is committed at `4be741a`. The last observed remote `main` was `4f145e7`; Chapter 2’s seven commits remain publication-pending.
 - Push: the Chapter 2 push attempt failed with `Invalid username or token`; publication is pending. The seven Chapter 2 commits remain local. Do not retry unchanged authentication; retry only after credentials or circumstances change.
-- Manuscript: 38,759 words (Ch1 4,911; Ch2 4,725; Ch3 5,314; Ch4 13,395; Ch5 10,414) after the Chapter 1 scenario-framing edit.
+- Manuscript: 38,743 words (Ch1 4,911; Ch2 4,725; Ch3 5,298; Ch4 13,395; Ch5 10,414) after the Chapter 3 response-authority edit.
 - First structural/expansion pass and whole-book review are complete. Chapter 3’s containment-card rows are shorter; Chapter 2 and 4 tables were also shortened. Whole-book pattern checks found no exact duplicates, repeated endings, internal labels, numeric citations or Sources headings; one Chapter 5 cell was shortened and all table shapes/cells now pass the readability scan. Chapter 5 remains the home for executive risk decisions.
 - Only the four existing scenarios are used. No operator outcomes, quotes, costs or test results were invented. Score 7.6/10 is provisional and self-assessed; 9/10 is not defensible yet.
 
@@ -34,6 +34,7 @@ Older cycle history is preserved in `progress/archive/daily-log-before-compactio
 
 - 2026-11-15 | Chapter 2 opening, supplier and close | 38,752 words | Tightened the lead, split the CERT-In account from the separate campaign, shortened supplier guidance and assurance, and replaced the closing inventory questionnaire with a priority-path decision. Editorial critique: more natural rhythm, explicit source scope, less repeated qualification; the chapter still has some technical density but its actions are clearer. GPT `gpt-6-luna`; Grok skipped (key absence logged once). No new research or claims; `git diff --check` passed.
 - 2026-11-15 | Chapter 1 scenario framing | 38,759 words | Marked the first introductions of the four existing scenarios as illustrative and replaced the opening’s abstract proposal caveat with the direct fact that the proposed change was not carried out. Fresh GPT critique: `gpt-6-luna`; the missing scenario labels were the material clarity gap, and the revision keeps each fact boundary while avoiding new claims. Grok not run (`XAI_API_KEY` absent; unavailability already recorded). No source refresh; diff and count checks passed. Next: Chapter 3.
+- 2026-11-15 | Chapter 3 response authority | 38,743 words | Added an impact-based pre-authorization boundary and minimum action record; removed repeated non-occurrence and test-result caveats while keeping material educational assumptions explicit. Fresh GPT critique: `gpt-6-luna`; the authority tiers read more directly and fit the service-owner/executive boundary in Chapters 4–5. Grok not run (`XAI_API_KEY` absent; unavailability already recorded). No source refresh; diff/count checks passed. Next: whole-book review.
 
 ## Next
-Chapter 1 scenario-framing change is complete and awaiting its local commit; next is Chapter 3, then the whole-book consistency/count review. Keep Chapters 4 and 5 unchanged. Publication remains pending until authentication circumstances change.
+Chapter 1 is committed; Chapter 3 response-authority work is in progress. Next: finish Chapter 3, then perform the whole-book consistency/count review. Keep Chapters 4 and 5 unchanged. Publication remains pending until authentication circumstances change.
