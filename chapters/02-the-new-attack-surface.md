@@ -1,6 +1,6 @@
 # Chapter 2: The New Attack Surface Is Inside the Operator
 
-Agent risk starts with access. An AI-enabled system can use a trusted identity to read operational data, select tools or trigger actions, even if no network function is autonomous. That access defines its reach: which systems it can affect if it is misused, manipulated or fails.
+Start with the identity. An AI-enabled system can use a trusted identity to read operational data, choose tools or trigger actions. The network function itself need not be autonomous for the system to affect it. Trace that identity through the systems it could affect if it is misused, manipulated or fails.
 
 AI may enter through a customer-care feature, a network-engineering pilot, a supplier update or a developer’s API integration. Each can look local. Together, they can create access paths across systems that no one team sees end to end.
 
@@ -62,7 +62,7 @@ Before scaling, estimate local filtering, connector, supplier, market-review and
 
 **Partial-region decision.** A market kept out of the regional feed must not appear as a quiet market. A missing or stale source can look like “no event” when it actually means “not observed.” Require the summary to show, for each market, whether its source is current, delayed, withheld or unavailable, with an owner and last-update time. The freshness limit is a service decision: a delay tolerated for retrospective trend analysis may be unacceptable during an incident. Do not let the assistant make a region-wide “clear” recommendation when required markets are absent or stale.
 
-If one market’s route or field approval remains unresolved, keep its raw data local and mark the regional view as incomplete. The local NOC can use approved sources and send a minimum, case-specific summary through an authorized path. This adds reconciliation work and may delay triage; the service owner should weigh that cost against widening routine transfer. Test with a synthetic event and a delayed or withheld source. The result should name the missing market and suppress any unsupported region-wide “clear.” If the test is unsafe, require local confirmation. This verifies missing-source handling, not legal permission or every data route.
+If a market’s route or field approval is unresolved, keep its raw data local and mark the regional view incomplete. The NOC can send a minimum case-specific summary through an authorized path, but reconciliation may delay triage; compare that cost with routine transfer. Test a synthetic event with one delayed or withheld source. The summary should name the market and suppress a region-wide “clear.” If the test is unsafe, require local confirmation. Legal and Compliance must clear the transfer route separately.
 
 Narrowing data access reduces unnecessary exposure, but too little context can make a service-assurance answer incomplete. Decide which service or domain the task needs, then test whether the restricted view still supports a reliable answer. If it does not, request the minimum additional context through a separate, traceable path and keep the output advisory until the expanded scope is justified.
 
@@ -80,9 +80,9 @@ Persistent memory is a separate data path, not an invisible part of the model. I
 
 Start with task-scoped context from authoritative sources. Retain more only if observed lookup or re-entry effort justifies it; consider a curated read-only store before assistant-written memory. Name the data owner, sources, freshness rule, read identity, permitted users and removal owner. Include update and review work in the cost. If access scope or deletion cannot be verified, do not retain sensitive context.
 
-For a consequential workflow, test with an approved synthetic marker in a safe environment: confirm retrieval in the permitted scope, denial from a separately scoped task or user, and expiry/deletion. Record expected and observed results, principal and log source. Any cross-scope retrieval or failure to clear means no sensitive persistent memory; use task-scoped or manual handling. This verifies only the tested store and path, not general model behavior or every data source.
+For a consequential workflow, use an approved synthetic marker in a safe environment. Confirm that the permitted task can retrieve it, a separately scoped task or user is denied, and expiry or deletion removes it. Record expected and observed results, the principal and log source. If the marker appears outside its scope or remains after expiry/deletion, do not use persistent memory for sensitive context; use task-scoped or manual handling. The result applies only to the store and path tested.
 
-Combining sources does not guarantee a consistent view of the network. A circuit or service can be represented differently in inventory, assurance, planning and billing. An agent may assemble a plausible summary from stale or mismatched records. For a consequential decision, the output needs enough provenance for a network or service owner to check it against the authoritative system. Otherwise, the risk is not only disclosure; it is acting on an incorrect picture of service dependencies.
+A plausible summary can still be wrong. Inventory, assurance, planning and billing may describe the same circuit or service differently. When a workflow joins those records, show where each value came from and when it was updated. The network or service owner should check the result against the authoritative system before anyone acts on it.
 
 A source contract makes the data boundary testable. Before a consequential workflow relies on joined records, the data owner and workflow owner should agree what the agent may use and how it must handle uncertainty.
 
@@ -94,9 +94,9 @@ A source contract makes the data boundary testable. Before a consequential workf
 | Join and destination | Permitted combinations, approved destination and downstream recipient. | Narrow the join or destination until the route is understood. |
 | Conflict and decision | How conflicts are surfaced and who resolves them; who decides whether the output is fit for service use. | Show the conflict; block recommendation or action until the data owner resolves it. |
 
-This contract does not validate source accuracy or the agent’s reasoning. It makes inputs and uncertainty visible. If a field’s source or freshness is unknown, display the attributed record rather than present a joined service-impact claim.
+Use the contract to make inputs and uncertainty visible. When a field’s source or freshness is unknown, show the attributed record instead of a joined service-impact claim.
 
-**Illustrative source-contract check.** Use synthetic or approved records with one stale value and one intentional conflict. Confirm that the summary preserves source and timestamp, surfaces the conflict, and withholds a service-impact recommendation until the data owner resolves it. The service owner then decides whether the corrected output fits the operational decision. Record expected and observed results and test limits. This checks provenance handling for one workflow, not source-system accuracy or general model behavior. If a safe test is unavailable, keep the summary advisory and verify authoritative records before acting.
+**Illustrative source-contract check.** Use synthetic or approved records with one stale value and one intentional conflict. Confirm that the summary preserves source and timestamp, surfaces the conflict, and withholds a service-impact recommendation until the data owner resolves it. The service owner then decides whether the corrected output fits the operational decision. Record the expected result, observed result and test limit. The exercise tests how this workflow handles stale data and conflict; it does not validate the source records. If a safe test is unavailable, keep the summary advisory and check the authoritative records before acting.
 
 CISA and its international partners’ May 2026 agentic-AI guidance identifies expanded attack surface as a risk and warns against broad access to sensitive data or critical systems. Its full report also describes indirect prompt injection through external data sources. For operators, retrieved content is information to assess, not an instruction that changes the agent’s authority.
 
@@ -157,4 +157,4 @@ A connector log may show a request without proving the target acted or denied it
 
 Do not wait for a perfect AI inventory. Start with high-consequence paths into network operations, OSS/BSS, customer data and suppliers: who owns each, which identity it uses, what it can retrieve or trigger, and how access can be stopped.
 
-Inventory and boundary evidence show where exposure exists. The next question is whether the operator can contain a threat without losing the visibility and recovery path the service needs.
+Knowing the reach is only half the job. The operator must also detect misuse, authorize a response, contain it safely and restore service without losing essential visibility.
