@@ -162,11 +162,11 @@ Management brings Chapter 4’s evidence summary, service-owner tolerance and fa
 
 ## Make an exception expire in practice
 
-A service-risk review date is not an access expiry. Chapter 2 owns the cross-domain access decision; Chapter 4 covers target-enforced expiry, session handling and operational fallback. A board exception records the affected service and reach, decision authority, evidence and unknowns, interim treatment, review date, and the conditions that bring the decision forward. Renewal is a fresh decision, not a calendar task; a model update, supplier renewal or project status does not renew it.
+A service-risk review date is not an access expiry. Chapter 2 owns cross-domain access; Chapter 4 owns target-enforced expiry, session handling and operational fallback. Record the affected service and reach, decision authority, evidence and unknowns, interim treatment, review date and early-review trigger. Renewal requires a fresh decision; a model, supplier or project change does not extend the exception automatically.
 
-At review, management explains what changed, whether the service owner still considers the impact and fallback tolerable, whether the interim treatment remains supported, and what supplier or resource dependency blocks closure. State the next decision and its evidence owner. If a material change, failed control, slipped window or changed fallback makes the previous basis stale, reopen the decision rather than waiting for the review date.
+At review, management states what changed, whether the service owner still considers the impact tolerable and the fallback viable, whether the interim treatment remains supported, and which dependency blocks closure. Name the next decision and evidence owner; reopen sooner if a control fails, the window slips or service conditions change.
 
-If the review point arrives without evidence to renew, do not continue automatically. Use the previously authorized restriction or manual fallback if it remains service-safe. If that would disrupt service, escalate before the decision lapses to an executive whose authority covers the full impact. The board can resolve a resource, appetite or assurance gap; it does not convert an undocumented extension into accepted risk.
+If evidence is missing at review, use the previously authorized restriction or manual fallback only if it remains safe for the service. If that would disrupt service, escalate before the review point passes to an executive whose authority covers the full impact. The board can resolve resource, appetite or assurance gaps, but it cannot accept risk by undocumented extension.
 
 ## The next twelve months
 
