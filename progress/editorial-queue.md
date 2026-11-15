@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint (2026-11-15):** After Chapter 5’s bottleneck-funding edit, the consistent on-disk count is 31,293 words: Ch1 4,911; Ch2 4,725; Ch3 5,298; Ch4 9,838; Ch5 6,521. Python `re.findall(r'\b\w+\b', text)` was used on all five files. The previous checkpoint was 31,550; before Chapter 4’s structural pass it was 35,186; at initial reconciliation the count was 38,743. The daily log’s 38,752 is a historical cycle count and 40,029 is not present in the current queue. Reconciliation began from clean local `main` at `ca808d3683b79e885e11be3d86ed3b8c702c4f09`, four commits ahead of live `origin/main` `19983fc24c98bf57833e2140bb0621e71e57f3b6`. The four approved scenarios are illustrative. Remove repetition, not useful implementation or funding depth.
+**Current checkpoint (2026-11-15):** After Chapter 5’s investment-case consolidation, the consistent on-disk count is 30,998 words: Ch1 4,911; Ch2 4,725; Ch3 5,298; Ch4 9,838; Ch5 6,226. Python `re.findall(r'\b\w+\b', text)` was used on all five files. The previous checkpoint was 31,293; before Chapter 4’s structural pass it was 35,186; at initial reconciliation the count was 38,743. The daily log’s 38,752 is a historical cycle count and 40,029 is not present in the current queue. Reconciliation began from clean local `main` at `ca808d3683b79e885e11be3d86ed3b8c702c4f09`, four commits ahead of live `origin/main` `19983fc24c98bf57833e2140bb0621e71e57f3b6`. The four approved scenarios are illustrative. Remove repetition, not useful implementation or funding depth.
 
 ## Primary homes and chapter boundaries
 
@@ -29,6 +29,6 @@ Automated whole-book checks found no exact duplicate paragraph blocks, numeric c
 
 ## Next sequence
 1. Chapter 4 structural pass is committed locally as `4e13d28`; post-commit readback showed `origin/main` still at `19983fc24c98bf57833e2140bb0621e71e57f3b6`. Publication is pending after authentication failure; continue locally and do not retry unchanged credentials.
-2. Chapter 5 case-specific board decisions and staged-funding gate are compressed; Chapter 4 retains operational implementation and evidence.
-3. Consolidate the remaining investment-case/impact-chain material, then tighten delivery versus recurring funding and review the board dashboard/evidence and exception sections for repeated cross-case explanations.
+2. Chapter 5 case-specific board decisions, staged funding and investment case are compressed; Chapter 4 retains operational implementation and evidence.
+3. Tighten delivery/run-cost ownership, then review the board dashboard/evidence and exception sections for repeated cross-case explanations.
 4. Review Chapter 1’s opening and state once that the four operational examples are illustrative composites. Then run whole-book consistency, claim/source, citation, table and count checks; retry publication only if authentication circumstances change.
