@@ -4,7 +4,7 @@ In this illustrative NOC-assistant case, the NOC wants a clearer view of alarms.
 
 Keeping the account unchanged avoids immediate work but leaves broad reach and weak attribution. Separating read from action may require supplier and engineering support; pausing may push alarm review and case handling back to NOC staff. Keep read-only or draft-only use only if target systems deny disallowed actions, logs identify the actor, and an alternative NOC view survives revocation. Otherwise, pause the action path until those conditions are demonstrated. Test the boundary safely and estimate the NOC workload before choosing.
 
-The other recurring examples—the shared edge/core account, supplier diagnostic feature and deferred patch—are also illustrative composites, not reports of operator outcomes.
+The other recurring examples are also illustrative composites, not reports of operator outcomes: the shared edge/core account, supplier diagnostic feature and deferred patch.
 
 A cyber incident at a service provider is also a service-continuity problem. If a mobile network, core platform or management system is affected, customers may lose connectivity and organizations may lose services that depend on it. The operator may have to restore service while still establishing what happened and how far the impact reaches.
 
