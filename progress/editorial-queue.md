@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 29,109 words after the first structural/expansion pass and current rebalance; 10,891 words remain to the 40,000-word lower target and 15,891 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 29,377 words after the first structural/expansion pass and current rebalance; 10,623 words remain to the 40,000-word lower target and 15,623 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 4: expand the shared edge/core account cutover sequence: staged parallel identity versus disable-first migration. Bound any overlap, test target behavior and ensure rollback cannot silently restore broad access.
+Chapter 5: deepen the board committee choice: extend existing cyber/network-risk oversight, add a standing agenda, or create a dedicated AI committee. Define evidence/thresholds that justify added governance and its scope; avoid reacting solely to AI branding.
