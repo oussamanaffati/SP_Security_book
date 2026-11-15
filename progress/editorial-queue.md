@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 30,912 words; 9,088 words remain to 40,000 and 14,088 to 45,000. Continue substantive expansions in the requested priority, Chapter 4 then Chapter 5. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 31,298 words; 8,702 words remain to 40,000 and 13,702 to 45,000. Continue substantive expansions in the requested priority, Chapter 4 then Chapter 5. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 4: next expand the composite decision on moving NOC-assistant proposals from draft to any pre-authorized action envelope. Do not state capability or test results as facts; keep target enforcement and service fallback as gates.
+Chapter 5: add a concise executive decision record for the shared edge/core account that ties the known reach to service-owner evidence, phased funding, tested restriction, and escalation. Avoid repeating Chapter 4’s gateway engineering detail.
