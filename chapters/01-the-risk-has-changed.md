@@ -102,9 +102,7 @@ When an external threat or internal agent can change a critical workflow faster 
 
 Service providers face cybersecurity and privacy laws, communications-sector rules, resilience expectations, reporting duties, supplier contracts and, in some markets, national-security requirements. In Europe, NIS2 brings electronic communications providers into a shared framework for cybersecurity risk management and incident reporting, implemented through national law. Duties vary by service and country, so a multinational operator cannot assume that one compliance answer fits every market.
 
-Compliance cannot decide which agent may change a network configuration or what evidence is enough before its authority expands. Make those choices through the operator’s existing service and change governance. Chapter 5 shows how the board can challenge the resulting decision without replacing operational ownership.
-
-Existing security, architecture, change and supplier-risk reviews are usually the simplest place to start. Those reviews can account for each machine identity, the data it can reach, the actions it can take and how those actions can be reversed. Operators do not need perfect certainty before they begin. They can identify the owner and service impact of each consequential use, then define what evidence is needed before its authority expands.
+Regulation sets obligations; it does not decide who may grant an agent authority or what evidence is needed before that authority expands. Use existing service and change governance. Chapters 2–4 cover access and operational evidence; Chapter 5 covers board oversight and the distinction between binding duties and proposals.
 
 ## Set boundaries before expanding use
 
