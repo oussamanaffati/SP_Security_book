@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 32,139 words; 7,861 words remain to 40,000 and 12,861 to 45,000. Continue substantive expansions in the requested priority, Chapter 4 then Chapter 5. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 32,495 words; 7,505 words remain to 40,000 and 12,505 to 45,000. Continue substantive expansions in the requested priority, Chapter 4 then Chapter 5. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 5: extend the deferred-patch board decision with an evidence-to-route gate. Separate applicability/reach, control effectiveness, service tolerance and supported change readiness; show what management brings back and what the board funds.
+Chapter 4: extend the NOC-assistant scale-up gate with source-coverage behavior: missing, stale or conflicting operational inputs, a fail-safe output and human-verifiable provenance. Link briefly to Chapter 2 rather than retelling its coverage decision.
