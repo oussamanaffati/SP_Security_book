@@ -64,3 +64,9 @@ This cycle searched for evidence published in the previous 12 months (13 Novembe
 ## Self-critique
 
 The draft is specific about how identity, data, tools and supplier access intersect inside an operator and includes a practical example without presenting it as fact. Its strongest operator grounding is the link among OSS/BSS, assurance data, maintenance windows, suppliers and change controls. The Orange and Vodafone examples add real telecom context, but they remain attributed industry reporting, not independently audited or universal production practice. ACSC [24]/[25]/[38] and CISA/ASD [39] are cross-sector guidance; the public record still does not establish how widely production agents are deployed across telcos. The composite scenario remains illustrative and should be tested against real NOC practice. No private customer conversation or experience has been invented.
+
+## 15 November 2026 — primary-source refresh
+
+- Direct browser retrieval of TM Forum’s 24 February 2026 article [12] confirmed its attributed Orange quote and Vodafone’s reported MCP catalog/gateway safeguards. Keep these as industry reporting, not independent assurance or universal practice.
+- Direct browser retrieval of CERT-In CIAD-2026-0049 [11] confirmed separate evaluation-agent disclosures and a financially motivated campaign, including the reported authorization overrun, exposed credentials/configuration, live-system access and lack of detection by affected organizations. The advisory does not identify these organizations as telecom operators; the chapter keeps the two incident categories distinct.
+- The ACSC testing-environments and Essentials pages [24]/[25] returned `ERR_HTTP2_PROTOCOL_ERROR` in a fresh browser attempt. Current official search results corroborate the published purpose and relevant scope; the previous direct retrieval and exact quote sets in the shared ledger remain the basis for the narrow chapter claims. No claim was broadened.

@@ -52,7 +52,7 @@ Retain joinable metadata in an operator-controlled or verifiable store by defaul
 
 **Multi-market processing decision.** A regional summary can join records owned by different markets. Legal and Compliance should map obligations by market and data type; a regional endpoint does not establish that a transfer is permitted or controlled. A common “strictest-market” configuration is not a substitute for mapping where data is processed or who approves operational changes in each market.
 
-**Decision variant (assumptions):** a multi-market service-assurance team wants a regional summary of alarms, topology and supplier cases. Test whether correlation needs only a market tag, service identifier, event time and alarm category; do not assume customer identities or full case attachments are necessary. The composite does not establish a transfer, approval or tested minimum.
+If an operator proposes a regional summary of alarms, topology and supplier cases, test whether correlation needs only a market tag, service identifier, event time and alarm category. Do not assume customer identities or full case attachments are necessary.
 
 The operator can send raw records to one regional service, run separate local instances, or filter records locally and share only an approved summary. Raw regional processing makes correlation simpler, but combines more sensitive data, increases the number of owners and supplier paths to govern, and creates a wider dependency if the service is unavailable. Local instances reduce routine transfer but duplicate compute, updates and support, and may fragment a regional incident view. Local filtering limits what moves, but requires field mapping and validation; if the summary removes information the NOC needs, analysts will return to manual cross-market lookups. That case-specific lookup should use the time-bounded path above, not silently widen routine retrieval.
 
@@ -127,7 +127,7 @@ For the NOC assistant, trace the sequence from identity through connector to ope
 | Output to operations | The assistant proposed a visibility-reducing change; completion is not established. | NOC/change owner confirms draft status and where approval is enforced. |
 | Containment | Reach is known; revocation behavior is not. | IAM/platform tests session revocation and target denial; NOC/service assurance verifies attribution and fallback. |
 
-Prompts and product settings do not authorize actions unless the connector or target enforces them. Normal change approval governs only actions that pass through that route. If a supplier hop is unobservable, mark reach unknown and restrict use; route the remaining service decision through Chapter 5.
+Prompts and product settings do not authorize actions unless the connector or target enforces them. Normal change approval governs only actions that pass through that route. If a supplier hop is unobservable, mark reach unknown and restrict use; refer any continuing service-risk choice to the delegated service executive. Continuation must be time-bounded and within appetite, or escalated if authority or appetite is insufficient.
 
 Vendor cases create both a data and workflow boundary. Fields and attachments may include alarms, topology or service-impact details. The NOC assistant can prepare a draft, submit after review or submit automatically. Drafts preserve a review step but keep NOC effort in the path; automatic submission saves a step but may send details or trigger supplier work before an operator sees them. Approval is meaningful only when the reviewer sees the exact payload, recipient and downstream action.
 
@@ -139,7 +139,7 @@ A December 2025 guide from CISA, the Australian Signals Directorate’s Australi
 
 AI can arrive through a service-desk upgrade, cloud feature, network-management platform, customer-care system or supplier portal, without a new project or security review. The product name may stay the same while data flows, model provider or tools change. Inventory supplier features, internal experiments, agent runtimes, connectors, identities and data stores, not only centrally purchased products.
 
-The supplier diagnostic feature from Chapter 4 is the attack-surface example: a routine update enabled a feature that reads topology and proposes actions. Its identity, target authority and independent disablement are unknown; “diagnostic” does not mean read-only. Chapter 4 handles the decision and assurance plan.
+The supplier diagnostic feature from the existing composite is one such path: a routine update enabled a capability that reads topology and proposes actions. Its identity, target authority and independent disablement remain unknown; “diagnostic” does not mean read-only.
 
 Supplier assurance starts with access, prompt/output processing, sub-processors, logging, retention and change notices. The operator/provider boundary must be clear. ACSC recommends a shared-responsibility register separating operator controls, provider capabilities the operator configures and provider outcomes it verifies. Its cross-sector guidance also calls for inventorying services, agents, connectors and unsanctioned applications, and checking prompt/output retention, customer-data training use and processing location; it is not a telecom-specific requirement.
 
@@ -151,10 +151,10 @@ Testing environments add paths to the inventory. The ACSC’s 12 November 2026 g
 
 Inventory maps potential reach; assurance tests an actual path. For a consequential workflow, follow the identity through sources and tools to the target and downstream action. Test permissions, target enforcement, revocation, logs, NOC visibility and fallback.
 
-A connector log may show a request without proving the target acted or denied it. If the target result is invisible, do not claim end-to-end attribution or containment. Keep actions on a target-visible route or add an operator-controlled gateway; if neither is feasible without harming continuity, keep the action manual and route the service-risk decision through Chapter 5.
+A connector log may show a request without proving the target acted or denied it. If the target result is invisible, do not claim end-to-end attribution or containment. Keep actions on a target-visible route or add an operator-controlled gateway; if neither is feasible without harming continuity, keep the action manual and take the continuity choice to the delegated service executive. Escalate if no delegation covers the affected service or the decision exceeds appetite.
 
 ## Establish visibility and ownership
 
 Do not wait for a perfect AI inventory. Start with high-consequence paths into network operations, OSS/BSS, customer data and suppliers: who owns each, which identity it uses, what it can retrieve or trigger, and how access can be stopped.
 
-That is the attack surface. Chapter 3 turns to a different question: can the operator recognize a threat, decide and act quickly enough to keep service running?
+Inventory and boundary evidence show where exposure exists. The next question is whether the operator can contain a threat without losing the visibility and recovery path the service needs.
