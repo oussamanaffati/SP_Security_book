@@ -183,44 +183,13 @@ If a supplier-managed hop cannot be inspected directly, fund the narrowest indep
 
 ## Board decision: NOC assistant
 
-Use the NOC assistant described in Chapter 1 as the worked board decision. Its service account can reach neighboring-domain data, open vendor cases and propose a visibility-reducing change; the proposal was not carried out. **Educational assumptions, not case facts:** treat the affected service as one network-service-assurance domain; assume supplier design material describes a separate action setting but no runtime test has verified it; assume only Level 1 design evidence is available. The NOC can continue alarm review and vendor-case handling manually during a supported test window, but needs temporary backfill. Target permissions, session persistence, revocation, supplier activity records, implementation effort and fallback impact remain unverified. No service outcome or monetary cost is supplied. Replace these assumptions with local evidence before using the paper.
+The Chapter 1 scenario shows a service account that can reach neighboring-domain data, open vendor cases and propose a visibility-reducing change; the proposal was not carried out. It establishes no deployed permissions, target enforcement, test result, service outcome, cost or pilot result.
 
-**Decision sought.** Protect network/identity engineering, supplier support and NOC backfill for a bounded configuration review and target test. Do not fund production rollout on design documentation alone. This is a request for delivery capacity and assurance, not for the board to accept operational service risk.
+**Decision sought.** Protect a bounded review and assurance tranche to map the account’s actual reach and service dependencies, determine whether useful read workflows can remain while change authority is bounded, and scope any supplier, engineering and NOC capacity required. Chapter 4 owns the operational tests and evidence. Funding this work does not approve rollout.
 
-**Service and exposure.** **Educational assumption:** the affected service is a network-service-assurance domain with dependencies on neighboring-domain topology and supplier case handling. The account’s read and proposal capabilities are established in the scenario; whether adjacent-domain access is necessary, how the target enforces change approval, whether sessions persist after revocation and what visibility is lost on disablement remain unknown. The proposed change was not executed.
+**Release and oversight gate.** Before a pilot or scale-up decision, management returns with service-specific impact and fallback, evidence scope and limits, local effort and displaced work, and the delegated service executive’s recommendation. Expand only for the tested task and service when source coverage and reviewer workload meet local thresholds, the target boundary is verified, and essential NOC visibility is preserved. Restrict or stop the affected scope if a boundary fails or the service cannot sustain review and fallback. A result from one service does not authorize another, and a portfolio average cannot hide a failed service threshold. Broader users, data or actions require a separate decision; the scenario supplies no pilot result.
 
-**Options.**
-
-| Option | Service effect and trade-off | Evidence gate |
-|---|---|---|
-| **A. Keep the shared account** | Avoids immediate change; preserves workflow but leaves broad reach and weak attribution. Deferral is a service-risk decision, not a neutral delay. | Verify permissions and service impact; apply Chapter 5’s authority model and record the trigger that reopens deferral. |
-| **B. Restrict or pause actions** | Retain only verified read/draft use if separable. Manual vendor cases and changes add NOC work; a full pause may also remove useful visibility. | At connector and target, prove actions are refused, read scope is limited, principal is logged and fallback preserves service view. |
-| **C. Separate identities** | Can improve attribution and suspend action without removing alarm reads; needs engineering, supplier work and a supported window. | Test allowed/denied paths, existing-session revocation, downstream effects, audit correlation, change control and service fallback. |
-
-**Management recommendation.** Under these assumptions, prefer Option B only after a Level 3 test proves that the action path can be stopped without losing essential alarm reads, and that the target denies disallowed requests and records the principal. Until then, do not widen the assistant’s authority; use a service-safe restriction or pause if the existing action path cannot be bounded. Plan Option C against a supported supplier path. If testing proves separate read/draft use, retain that scope within normal change control. If it fails, compare a supported feature pause or product rollback with the service value of the release and the manual NOC workload. Reopen the choice if the test fails, the service owner identifies a tighter tolerance, or supplier support changes.
-
-**Resources and assumptions.** **Educational planning assumption:** the configuration review and target test require network/platform and identity engineering, supplier support and temporary NOC backfill. No cash figure or effort estimate is assumed because the supplier scope and local change window are not established. Management returns with an estimate basis, recurring charges, manual-work impact and displaced work before seeking production implementation funding. The board can protect design/test capacity now; it is not approving the cutover or accepting the exposure.
-
-**Set the pilot outcome by service, not by one global average.** The composite provides no trial results, so this is a decision gate, not a claim that the assistant passed. Management should return with the task cohort, baseline, service-owner thresholds, source coverage, reviewer correction and rework, target-boundary tests, and the impact of manual fallback. Report high-consequence misses separately from average response time. A result from one service does not justify broader use in another with different data, dependencies or tolerance.
-
-- **Expand within the tested envelope** only when source provenance and coverage are visible, the service owner’s acceptance criteria are met, target denial and revocation pass, reviewers can still challenge outputs, and the observed workload does not shift an unacceptable burden to the NOC. Add users, data or actions one dimension at a time and retest that boundary. The board may release the next tranche of engineering and assurance capacity; management retains the operational enablement decision.
-- **Hold at read/draft or require local confirmation** when the summary is useful but a feed is stale or incomplete, the reviewer effort is uncertain, or results vary across services. A low-impact trend summary may continue with a clear coverage warning if the service owner accepts that use. A live incident or service-change decision should wait for confirmation if missing evidence could reverse the conclusion. Fund the data/connector or review-capacity work that addresses the specific gap rather than widening authority.
-- **Stop the affected workflow or return to manual handling** if the assistant turns missing coverage into a “clear” status, cannot expose sources, crosses the tested identity/action boundary, or creates more review and correction work than the service can support. Preserve a separate read-only function only if its independence and service value are verified. A stop is scoped to the failing task or path; it does not automatically require removing the entire product.
-
-The service executive confirms the local consequence and decides within delegated authority. The board funds the evidence or capacity needed for the selected route and challenges overdue conditions; it does not declare the pilot safe based on a vendor demonstration or average score. If the service-level evidence is still unavailable, keep the pilot bounded and state what decision that gap prevents.
-
-**Residual-risk decision record.** Complete this after comparing the options and evidence. It records a conditional management decision; it does not make an untested control effective.
-
-| Record field | Operator-specific entry |
-|---|---|
-| Service and path | **Educational assumption:** one service-assurance domain; adjacent-data need and target permissions remain unknown. |
-| Choice and delivery | Option B test first; plan Option C if separation works. Ops Engineering/IAM and supplier test; service owner supplies impact/fallback. |
-| Evidence and limits | **Educational assumption:** Level 1 design docs only. No Level 2 review or Level 3 test yet; denial, logging, revocation and fallback unverified. |
-| Service impact and cost | **Educational assumption:** manual alarm review and cases require NOC backfill; actual workload, service impact and cash cost remain unknown. |
-| Decision authority | Delegated service executive decides within appetite; escalate beyond authority. Board sets appetite, resources and assurance, not operational risk. |
-| Conditions and review | Restrict actions until denial, attribution, revocation and NOC visibility pass. Reopen on failure, scope change, lost visibility or supplier delay. |
-
-The dashboard below rolls these service decisions up for portfolio review.
+Record temporary service-risk choices under the exception process later in this chapter. The dashboard below reports portfolio status; it does not replace the service decision.
 
 **Compact dashboard: distinguish delivery from risk reduction.** Set thresholds locally; the examples below are not industry benchmarks.
 
