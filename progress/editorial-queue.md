@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 35,858 words; 4,142 words remain to 40,000 and 9,142 to 45,000. Continue substantive expansions in the requested priority, Chapter 4 then Chapter 5. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 36,080 words; 3,920 words remain to 40,000 and 8,920 to 45,000. Continue substantive expansions in the requested priority, Chapter 4 then Chapter 5. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 4: integrate agent-generated change proposals with normal, standard and emergency change authority. Make clear which existing change controls still apply and what additional evidence is needed before any bounded machine execution.
+Chapter 5: extend staged funding with a decision for releasing or reallocating reserved capacity when a design/test gate fails or the needed service evidence does not arrive. Preserve service-risk ownership and avoid automatic spend or silent deferral.
