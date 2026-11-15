@@ -116,7 +116,7 @@ The composite establishes that one shared account reaches edge nodes and parts o
 
 **Decision sought.** Protect a bounded tranche for service mapping, supplier-supported design and a test. Any deployment funding returns under the staged gate above. If work is deferred, the delegated service executive records the interim treatment and review trigger.
 
-Management returns with the affected-service map, recommendation, service-owner view of tolerance and fallback, local cost and displaced work. Reopen if account reach, supplier support, service dependency or fallback changes. Chapter 4 owns the migration options and technical evidence.
+Management returns with the affected-service map, recommendation, service-owner view of tolerance and fallback, local cost and displaced work. Reopen if account reach, supplier support, service dependency or fallback changes.
 
 If mapping shows that the shared path spans services with different tolerances, report each consequence and fallback separately and identify an executive with authority for the combined reach. No executive can accept another service’s exposure by proxy; if no delegation covers the full path, escalate the authority gap. The board funds mapping and resolves resource or appetite questions, not the operational choice.
 
