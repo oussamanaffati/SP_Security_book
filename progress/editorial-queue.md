@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 35,242 words; 4,758 words remain to 40,000 and 9,758 to 45,000. Continue substantive expansions in the requested priority, Chapter 4 then Chapter 5. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 35,586 words; 4,414 words remain to 40,000 and 9,414 to 45,000. Continue substantive expansions in the requested priority, Chapter 4 then Chapter 5. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 5: add a supplier-evidence decision path for a managed hop the operator cannot inspect directly. Label any refusal as educational; compare operator testing, independent assurance, enforceable restriction, and continued use/exit trade-offs.
+Chapter 4: add a CISO decision for integrating new AI-enabled capabilities into existing change, supplier and service-owner processes. Distinguish minimum assurance gates from controls that should remain in normal change management.
