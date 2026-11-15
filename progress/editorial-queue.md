@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 37,116 words; 2,884 words remain to 40,000 and 7,884 to 45,000. Continue substantive expansions in the requested priority, Chapter 4 then Chapter 5. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 37,350 words; 2,650 words remain to 40,000 and 7,650 to 45,000. Continue substantive expansions in the requested priority, Chapter 4 then Chapter 5. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 4: distinguish rollback of a configuration from recovery of service visibility, alarm history and workflow continuity for the NOC-assistant proposal. Compare reversible pilot constraints with broader action, and set service-owner recovery evidence before execution.
+Chapter 5: add a lifecycle-funding decision that separates one-time delivery from continuing control ownership, monitoring, supplier change review, NOC capacity and exercises. Keep service owner and board responsibilities distinct.
