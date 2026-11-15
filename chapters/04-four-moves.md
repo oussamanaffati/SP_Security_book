@@ -149,7 +149,7 @@ Choose the exercise form from the unresolved question. A tabletop tests who can 
 
 Bring the SOC and NOC, identity and platform owners, service assurance, change management and business continuity into the exercise. Legal, communications, procurement and a supplier contact can join when the scenario needs them. Center it on a decision that could affect a service.
 
-A rehearsal can make the authority boundary explicit. The operator can pre-authorize suspension of a dedicated agent identity under defined conditions, while requiring service-owner input when revocation would also remove NOC visibility or supplier-case handling. That distinction is not a reason to delay containment when misuse is confirmed. Start the fallback with the containment action; the NOC should not have to choose under pressure between leaving access active and making a broad change.
+Chapter 3 sets the live containment choices; here, test whether the named on-call roles can apply the chosen trigger and activate an independent fallback without losing required NOC visibility.
 
 The Canadian Centre for Cyber Security recommends practising for incidents that may unfold within hours, with isolation steps approved in advance and manual alternatives tested for critical functions. CISA, ASD ACSC and partner agencies’ joint guidance also warns that external content can carry instructions designed to steer an agent, a risk known as indirect prompt injection. These are general recommendations. Operators can test them against their own systems and response roles.
 
@@ -166,11 +166,11 @@ Set success criteria before inviting teams: which access must stop, what NOC vis
 | Establish the normal path | The assistant summarizes alarms and drafts a ticket. Ask what identity and data path the teams expect. | Identify the service, principal, connector, logs and operational owner. |
 | Review broader access | The account can open vendor cases and read neighboring-domain data. Which scopes does the task need? | Separate required reads, recommendations and actions; identify any temporary expansion trigger. |
 | Proposed visibility-reducing change | What evidence, containment and fallback are needed? Keep the proposal in normal change control. | NOC explains service impact; SOC provides threat evidence; service owner identifies fallback. |
-| Choose containment | Suspend the account, restrict actions only, or keep the workflow human-reviewed until the boundary is tested? | State the pre-authorized trigger, service effect, fallback and visibility/support that each option removes. |
+| Apply the containment decision | Use Chapter 3’s card for the proposed visibility-reducing change. | Record the trigger, authorized decision-maker, service effect and independent fallback; track technical verification separately. |
 | Test stop and fallback | Separately validate revocation and downstream behavior in a safe test or supported window. | Observe new and existing sessions, principal logs, target denial and essential monitoring. |
 | Close open gaps | Assign interim treatment, retest, review trigger and supplier dependency. | Record the disposition; failed tests or changed service conditions reopen the issue. |
 
-Use the result to decide whether the assistant can retain bounded read/draft use or should return to manual NOC handling while the boundary is redesigned. A proven separation can preserve alarm summaries while limiting case or change actions; a failed test, missing supplier trace or lost visibility favors restriction. Include manual workload and backfill in that choice. If exercises repeatedly stall on missing supplier evidence or a safe-window dependency, put that dependency on the funded roadmap before expanding authority.
+Use the exercise to close authority and continuity gaps; the pilot gate in Move 4 governs any later expansion to read/draft use. Send unresolved supplier-evidence or safe-window dependencies to the funded roadmap.
 
 **Turn each exercise finding into a different management action.** A single “exercise passed/failed” label is too coarse. A technical failure, an unclear decision right, an unavailable fallback and a missing supplier record do not need the same fix, and counting findings gives no priority.
 
