@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 30,525 words after the first structural/expansion pass and current rebalance; 9,475 words remain to the 40,000-word lower target and 14,475 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 30,912 words; 9,088 words remain to 40,000 and 14,088 to 45,000. Continue substantive expansions in the requested priority, Chapter 4 then Chapter 5. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 5: turn the deferred patch challenge into a full board decision record: what is known, what remains local/unknown, options, capacity ask, gate and service authority. Do not direct a production patch or invent exposure.
+Chapter 4: next expand the composite decision on moving NOC-assistant proposals from draft to any pre-authorized action envelope. Do not state capability or test results as facts; keep target enforcement and service fallback as gates.
