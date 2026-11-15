@@ -114,9 +114,9 @@ Give reserved capacity an owner and review point. Retain only what supports the 
 
 The composite establishes that one shared account reaches edge nodes and parts of the core. It does not establish service dependencies, target permissions, supported migration, fallback or cost. Chapter 4 owns migration options, cutover and technical evidence.
 
-**Decision sought.** Protect capacity for service mapping, supplier-supported design and a bounded test. Apply the staged-funding framework above: implementation funding returns as a separate decision when local evidence identifies a supported, service-tolerable route and its cost/displacement. If work is deferred, the delegated service executive states the interim treatment, tolerance and review trigger.
+**Decision sought.** Protect a bounded tranche for service mapping, supplier-supported design and a test. Any deployment funding returns under the staged gate above. If work is deferred, the delegated service executive records the interim treatment and review trigger.
 
-Management returns with the affected-service map, supported route, service-owner fallback and tolerance, evidence limits, local estimate and displaced work. Reopen if account reach, supplier support, service dependency or fallback changes. Chapter 4 details target-native identities, any interim gateway, rollback and cutover gates.
+Management returns with the affected-service map, recommendation, service-owner view of tolerance and fallback, local cost and displaced work. Reopen if account reach, supplier support, service dependency or fallback changes. Chapter 4 owns the migration options and technical evidence.
 
 If mapping shows that the shared path spans services with different tolerances, report each consequence and fallback separately and identify an executive with authority for the combined reach. No executive can accept another service’s exposure by proxy; if no delegation covers the full path, escalate the authority gap. The board funds mapping and resolves resource or appetite questions, not the operational choice.
 
