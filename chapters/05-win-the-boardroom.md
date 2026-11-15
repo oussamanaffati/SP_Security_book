@@ -138,7 +138,7 @@ For the NOC-assistant composite, Chapter 1 establishes the account’s reach int
 
 Record temporary service-risk choices under the exception process later in this chapter. The dashboard below reports portfolio status; it does not replace the service decision.
 
-**Compact dashboard: distinguish delivery from risk reduction.** Use locally defined thresholds; these are reporting fields, not benchmark values. Chapter 4 holds technical evidence; board reporting states scope, result, limits and the decision blocked.
+**Compact dashboard: distinguish delivery from risk reduction.** Use local thresholds, not benchmarks. Chapter 4 holds operational evidence; this is a portfolio view.
 
 | Board view | Delivery status | Evidence of risk reduction | Board challenge or trigger |
 |---|---|---|---|
