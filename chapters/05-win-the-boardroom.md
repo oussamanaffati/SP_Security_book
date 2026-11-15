@@ -154,11 +154,11 @@ Report status by service, market and task, with the tested identity, evidence sc
 
 ## Board challenge: deferred patch window
 
-Chapter 4 owns the applicability check, interim-control test, change readiness and technical validation. The three-week window is a scheduling fact, not evidence of local exposure or safe delay; the composite establishes no deployed version, reachable path, test result, expedite cost or board action.
+The composite fixes the next safe window at three weeks. Chapter 4 owns applicability, interim-control tests and change readiness; this section addresses conditional funding and service tolerance.
 
-**Decision sought.** Protect conditional readiness capacity for verification and, only if local evidence shows a reachable affected path without an adequate tested interim control, an earlier supported change. This preserves supplier, engineering and NOC capacity but may displace planned maintenance; it does not approve an early production change. If local evidence shows no affected path or a tested control supports the planned window, retain the normal release process and release or reallocate the reserve at review.
+**Decision sought.** Hold readiness capacity for verification and, only if Chapter 4’s evidence supports it, an earlier supplier-backed change. This preserves the option but may displace maintenance; it does not authorize a production change. At review, release or reallocate the reserve if evidence supports the planned window; otherwise retain only the capacity needed for the verified path.
 
-Management returns with version and reach evidence, interim-control limits, service-owner tolerance and fallback, the earliest supported window and rollback, and local effort/displacement. The delegated service executive decides whether deferral or an earlier change fits appetite. If no safe earlier route exists and continued exposure exceeds tolerance, escalate the resource or authority gap and use only a verified restriction. Reopen when reach, threat evidence, control effectiveness, supplier support, window or service conditions change. A booked window is not risk reduction.
+Management brings Chapter 4’s evidence summary, service-owner tolerance and fallback, local effort and displaced work, and the delegated service executive’s recommendation. The executive decides whether the supported route fits appetite. If no safe route meets service tolerance, escalate the resource or authority gap. Reopen if exposure, supplier support, timing or service conditions change.
 
 ## Make an exception expire in practice
 
