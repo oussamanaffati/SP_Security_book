@@ -9,7 +9,7 @@
 
 **Central argument:** Delegated authority can move faster than an operator’s ability to understand its reach, contain downstream effects and recover the service. External threat speed is a related but distinct pressure on the same decision and response capacity.
 
-### 1. The Risk Has Changed. Service Providers Feel It First.
+### 1. The Risk Has Changed. Service Providers Need More Than Detection.
 **Reader question:** What has changed for service-provider security, and why does AI make existing continuity and risk decisions harder?
 **Reader outcome:** Distinguish internal delegated authority from external threat speed, and see why service continuity shapes security priorities.
 - Service providers are not ordinary enterprises: citizens, businesses, and critical national functions depend on their services.
