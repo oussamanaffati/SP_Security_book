@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint (2026-11-15):** After Chapter 5’s exception/renewal compression, the consistent on-disk count is 30,318 words: Ch1 4,911; Ch2 4,725; Ch3 5,298; Ch4 9,838; Ch5 5,546. Python `re.findall(r'\b\w+\b', text)` was used on all five files. The previous checkpoint was 30,546; before Chapter 4’s structural pass it was 35,186; at initial reconciliation the count was 38,743. The daily log’s 38,752 is a historical cycle count and 40,029 is not present in the current queue. Reconciliation began from clean local `main` at `ca808d3683b79e885e11be3d86ed3b8c702c4f09`, four commits ahead of live `origin/main` `19983fc24c98bf57833e2140bb0621e71e57f3b6`. The four approved scenarios are illustrative. Remove repetition, not useful implementation or funding depth.
+**Current checkpoint (2026-11-15):** After Chapter 5’s second-close removal, the consistent on-disk count is 30,273 words: Ch1 4,911; Ch2 4,725; Ch3 5,298; Ch4 9,838; Ch5 5,501. Python `re.findall(r'\b\w+\b', text)` was used on all five files. The previous checkpoint was 30,318; before Chapter 4’s structural pass it was 35,186; at initial reconciliation the count was 38,743. The daily log’s 38,752 is a historical cycle count and 40,029 is not present in the current queue. Reconciliation began from clean local `main` at `ca808d3683b79e885e11be3d86ed3b8c702c4f09`, four commits ahead of live `origin/main` `19983fc24c98bf57833e2140bb0621e71e57f3b6`. The four approved scenarios are illustrative. Remove repetition, not useful implementation or funding depth.
 
 ## Primary homes and chapter boundaries
 
@@ -29,6 +29,6 @@ Automated whole-book checks found no exact duplicate paragraph blocks, numeric c
 
 ## Next sequence
 1. Chapter 4 structural pass is committed locally as `4e13d28`; post-commit readback showed `origin/main` still at `19983fc24c98bf57833e2140bb0621e71e57f3b6`. Publication is pending after authentication failure; continue locally and do not retry unchanged credentials.
-2. Chapter 5 case decisions, funding gates, investment rationale, run-cost ownership, board dashboard and exception process are compressed; Chapter 4 retains operational implementation and evidence.
-3. Remove the standalone “Keep the case defensible” close if redundant; review Chapter 1’s opening for the single illustrative-composite statement; then run the whole-book consistency/source/citation/table/count checks.
+2. Chapter 5 case decisions, funding gates, investment rationale, run-cost ownership, board dashboard and exception process are compressed; the duplicate close is removed. Chapter 4 retains operational implementation and evidence.
+3. Review Chapter 1’s opening for one concise statement that the four operational examples are illustrative composites. Then run the whole-book consistency/source/citation/table/count checks.
 4. Continue with the next highest-value weakness from that review; publication remains pending unless authentication circumstances change.

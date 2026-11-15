@@ -181,10 +181,6 @@ At review, management explains what changed, whether the service owner still con
 
 If the review point arrives without evidence to renew, do not continue automatically. Use the previously authorized restriction or manual fallback if it remains service-safe. If that would disrupt service, escalate before the decision lapses to an executive whose authority covers the full impact. The board can resolve a resource, appetite or assurance gap; it does not convert an undocumented extension into accepted risk.
 
-## Keep the case defensible
-
-Compliance alone does not show that a service can recover, and a platform request must name the control gap. Do not promise “zero risk” or “future-proof.” Show what the investment changes, which dependencies remain and what management must still decide.
-
 ## The next twelve months
 
 In the first board cycle, set priority services and run an exercise. Quarterly reviews should show which access limits and service alternatives were tested, what gaps remain and which decisions need to reopen. By year-end, leaders should know which AI-enabled uses can affect services and how response controls perform. Fund work that improves those answers. No plan promises an invulnerable network. The credible commitment is to know which systems can act, limit their authority and test how service continues when a safeguard fails.
