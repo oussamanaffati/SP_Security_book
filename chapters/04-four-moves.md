@@ -187,9 +187,7 @@ The first three moves reveal gaps in authority, control effectiveness and respon
 
 A 12-month roadmap should hold three or four priorities, not every desirable control. Give each a sponsor, delivery lead, target window, dependencies, cost estimate and decision gate. Show supplier and legacy-system constraints. Explain the cost of delay in operator terms: customer-data exposure, reduced network control, slower containment, missed duties or lost service.
 
-Priority should follow service risk, not AI novelty. Compare affected services, identity/tool reach, control effectiveness and the safety of change. A high-impact gap with a long supplier dependency may need an interim treatment and an accelerated supplier plan; a lower-impact use with a reversible change may wait. Make the basis visible without pretending one score can rank every use.
-
-**Compare competing work with the same evidence.** When fixes compete for engineering capacity or a maintenance window, use four questions before ranking them:
+**Compare competing work with the same evidence.** Prioritize service impact and safe implementation, not AI novelty: a high-impact gap with a long supplier dependency may need interim treatment, while a reversible lower-impact change may wait. Use these four operational questions when fixes compete for capacity or a maintenance window:
 
 | Question | Evidence to bring | Trade-off the decision must show |
 |---|---|---|
