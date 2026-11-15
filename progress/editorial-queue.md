@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 40,029 words; the 40,000-word minimum is met. The upper planning range remains 45,000, but the active request is to reach at least 40,000 with substantive material, not pad to a number. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
+**Current checkpoint:** The on-disk manuscript count is 38,759 after the Chapter 1 scenario-framing edit. The target is approximately 45,000 words, but only useful depth belongs; never restore repetition or add filler to close the gap. Preserve the four existing illustrative scenarios, label assumptions, and do not invent operator outcomes. Chapters 4 and 5 are read-only for this pass.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,5 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Before the next release, run a focused whole-book consistency and placeholder scan, verify count/diff checks, and preserve the established chapter boundaries. Do not add words merely to chase the upper range.
+1. Complete Chapter 3 quality pass and local commit.
+2. Review the whole book for scenario introductions, chapter boundaries, unsupported assumptions, repetition, cross-references, word counts and the approximate 45,000-word target. Keep Chapters 4 and 5 unchanged; do not add words merely to chase the target.
