@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 33,132 words; 6,868 words remain to 40,000 and 11,868 to 45,000. Continue substantive expansions in the requested priority, Chapter 4 then Chapter 5. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 33,527 words; 6,473 words remain to 40,000 and 11,473 to 45,000. Continue substantive expansions in the requested priority, Chapter 4 then Chapter 5. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 4: add a decision method for turning exercise findings into funded actions: immediate service restriction, technical verification, authority clarification or supplier dependency. Avoid scoring by count or assuming the exercise found defects.
+Chapter 5: work through an educational shared-account case where service tolerances and delegated authority differ across edge/core dependencies. Make clear who can accept temporary exposure, how the interim choice is funded, and when to escalate.
