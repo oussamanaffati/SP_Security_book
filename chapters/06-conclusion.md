@@ -1,10 +1,12 @@
 # Conclusion: Make the Next Decision Concrete
 
-Service providers must keep networks available while changing how they operate. AI does not remove that obligation. An agent using a valid identity and connected tools can move data or trigger a workflow faster than the operator can see its reach, contain the effects or restore a reliable service view. This changes the nature of risk, not just the speed of work.
+The board does not need another AI product pitch. It needs to decide which service path receives protected engineering, supplier and NOC capacity first.
 
-External threats create a different pressure. An attacker may use AI to move through parts of an operation faster, but that does not set a universal response deadline or make an unsupported live-service change safe. Response is more than detection: teams must decide, act, keep essential service functions running and recover what was affected. The time available depends on the service, the path and the fallback the operator can actually use.
+Service providers must keep networks available while changing how they operate. An agent using a valid identity and connected tools can connect data access to operational action in ways the operator may not see as one path. That changes the nature of risk, not only the speed of work.
 
-A model review or product list cannot answer the operational questions. A shared account can link systems meant to stay separate. A routine update can enable a supplier feature. A patch may be ready while a supported change window is weeks away. For each path, ask what it can do, what that means for service and what the operator can safely change next.
+External threats create a different pressure. An attacker may use AI to accelerate parts of an attack, but that does not set a universal response deadline or make an unsupported live-service change safe. Response is more than detection: teams must decide, act, keep essential service functions running and recover what was affected. The time available depends on the service, the path and the fallback the operator can actually use.
+
+A model review or product list cannot answer the operational questions. Four illustrative composites make them concrete: a shared account spanning edge and part of the core; a supplier diagnostic feature enabled by a routine update; a NOC assistant with neighboring-domain reach; and a live-core patch with a three-week wait for the next supported window. For each path, ask what it can do, what that means for service and what the operator can safely change next.
 
 Four moves make the work concrete:
 
@@ -17,7 +19,7 @@ Do not wait for a perfect inventory. Product documentation cannot prove deployed
 
 When a production test would put service at risk, do not treat the lack of a test as approval. Keep write authority denied; continue only at the last verified read-only or draft-only scope or on a manual route that preserves the required service view. If neither can sustain the service, escalate that continuity choice to an executive with authority to decide.
 
-The order will differ by operator. Prioritize a shared-account boundary where reach is broad and service dependencies are known. Move a patch forward only when the deployed version is affected and reachable and a supported change can be made safely. Keep a supplier feature off until it can be separated from the product without losing essential visibility. Allow a NOC assistant into a bounded task only after the access boundary, reviewer capacity and manual fallback are verified. These cases are composites; local evidence, not the story, sets the order.
+The order will differ by operator. Prioritize a shared-account boundary when local checks confirm broad reach and known service dependencies. Move a patch forward only when the deployed version is affected and reachable and a supported change can be made safely. For a supplier feature, test whether it can be disabled without losing the required service view; if not, compare a supplier-supported pause or rollback and its NOC fallback. Keep a NOC assistant to a bounded task until its access boundary, reviewer capacity and manual fallback are verified. Set the order from local service conditions.
 
 Capacity belongs in the decision. A safer identity boundary may require supplier engineering and a maintenance window. A manual fallback needs people and practice. A pilot that saves time on one shift may add review or correction work elsewhere. If leaders do not name the work that will move, the plan may look feasible while the same engineers and operators are already committed. Compare service benefit with effort, displaced work, supplier dependence and the cost of waiting. Use local estimates. When a number is missing, say so and decide whether learning it could change the order.
 
@@ -27,4 +29,4 @@ The board does not need a catalogue of every model. It needs a small set of serv
 
 Progress is not the number of AI systems deployed or controls marked complete. It is the operator’s ability to explain a consequential workflow, show where its limits were verified and keep the service manageable when the workflow is unavailable or no longer trusted. When the operator cannot do that, narrow the path, improve the evidence or protect the people and supplier time needed to do the work.
 
-For the CISO or principal architect, decide which service path gets protected engineering, supplier and NOC capacity first. Name the work that will move to make room. Put that choice on the next executive agenda while the supported change window is still open.
+The CISO or principal architect should now name the first service path, the work that will move to make room and the executive decision it needs. Put that choice on the next agenda while the supported change window is still open.
