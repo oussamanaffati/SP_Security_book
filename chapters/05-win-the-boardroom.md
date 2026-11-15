@@ -122,11 +122,11 @@ If mapping shows that the shared path spans services with different tolerances, 
 
 ## Board decision: supplier diagnostic feature
 
-The composite establishes that a routine product update enabled a supplier AI diagnostic feature that reads topology and proposes actions; direct execution is not established. Chapter 4 holds the worked operational release decision and its educational assumptions. No operator test result, measured benefit, cost or service outcome is a case fact.
+The Chapter 4 composite concerns a supplier AI diagnostic feature enabled by a routine update. It reads topology and proposes actions; direct execution is not established. Chapter 4 owns the operational release decision; this section addresses board funding and supplier dependency.
 
-**Decision sought.** Protect a bounded tranche for supplier data-path and support-access evidence, a feature-off/target-boundary test, NOC continuity and an estimate. This funds a decision, not enablement. Management selects the operational route within the authority model above and returns with the service owner’s impact/fallback view, supplier commitments and local effort estimate.
+**Decision sought.** Protect a bounded tranche for supplier data-path and support-access evidence, NOC continuity planning and a local effort estimate. This funds a decision, not enablement. Management returns with the service owner’s impact/fallback view and supplier commitments.
 
-If a supplier-managed hop cannot be inspected directly, fund the narrowest independent review or operator-controlled boundary test that can answer the material question. If neither route proves the relevant boundary, keep the feature restricted. Use the results to decide whether the dependency ends at the AI feature or extends to the management product and service-support path. Consider portability or exit work when that dependency materially affects service continuity; a feature switch and a contract termination clause answer different questions.
+Fund an independent review or operator-controlled assurance only when it can change the decision. Use the result to decide whether dependency ends at the AI feature or extends to the management product and service-support path. Consider portability or exit work when that broader dependency materially affects service continuity; a feature switch and a contract termination clause answer different questions.
 
 ## Board decision: NOC assistant
 
