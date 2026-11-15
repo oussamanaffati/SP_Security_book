@@ -83,15 +83,15 @@ For a consequential workflow, use an approved synthetic marker in a safe environ
 
 Combining sources does not guarantee a consistent view of the network. A circuit or service can be represented differently in inventory, assurance, planning and billing. An agent may assemble a plausible summary from stale or mismatched records. For a consequential decision, the output needs enough provenance for a network or service owner to check it against the authoritative system. Otherwise, the risk is not only disclosure; it is acting on an incorrect picture of service dependencies.
 
-A small source contract can keep an agent from turning conflicting records into a confident service-impact statement. Before a high-consequence workflow relies on joined data, the data owner and workflow owner can agree what the agent may use and how uncertainty is handled.
+A source contract makes the data boundary testable. Before a consequential workflow relies on joined records, the data owner and workflow owner should agree what the agent may use and how it must handle uncertainty.
 
-| Field | What the operator records | If it is unknown or cannot be verified |
+| Field | Record | If unknown or unverifiable |
 |---|---|---|
-| Task and minimum data | The decision the summary supports and the data fields needed for that task. | Remove fields without a clear purpose; do not grant broad context merely because it is available. |
-| Source and authority | The system treated as authoritative for each field and the person or team that owns its meaning. | Keep the field marked unknown until the owner confirms the source; do not let the model choose between systems. |
-| Provenance and freshness | Source, timestamp and any transformation applied before the output. Set an operator-defined freshness limit where age affects the decision. | Show the age or missing provenance and require a qualified person to verify the data before relying on it. |
-| Join and destination | Permitted combinations, approved output destination, and the downstream system that receives the result. | Narrow the join or destination until the data path is understood; do not send an unapproved combined view to an external service. |
-| Conflict and decision | Surface conflicts and name the resolver. Data owner confirms meaning; service owner judges whether the output is fit for its decision. | Show the conflict; block a recommendation or action until the data owner resolves it. |
+| Task and minimum data | Decision supported and fields required. | Remove fields without a task need; availability is not justification. |
+| Source authority | Authoritative system for each field and its data owner. | Mark unknown until the owner confirms it; the model must not choose between systems. |
+| Provenance and freshness | Source, timestamp and transformations; set a freshness limit when age affects the decision. | Show missing or stale provenance and require an owner to verify before use. |
+| Join and destination | Permitted combinations, approved destination and downstream recipient. | Narrow the join or destination until the route is understood. |
+| Conflict and decision | How conflicts are surfaced and who resolves them; who decides whether the output is fit for service use. | Show the conflict; block recommendation or action until the data owner resolves it. |
 
 This contract does not repair inconsistent inventories or assure the agent’s reasoning. It makes the data boundary and the human decision visible, so teams can test whether the output contains enough context without exposing every record. If the source or freshness cannot be verified, restrict the use to displaying attributed records rather than treating a joined summary as a reliable service view.
 
