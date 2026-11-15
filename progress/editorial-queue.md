@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 28,243 words after the first structural/expansion pass and current rebalance; 11,757 words remain to the 40,000-word lower target and 16,757 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 28,518 words after the first structural/expansion pass and current rebalance; 11,482 words remain to the 40,000-word lower target and 16,482 to the upper target. Score 7.6/10 is provisional and self-assessed. Preserve the four existing operator scenarios and their facts; label assumptions as educational, never as operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 5: add a portfolio decision across the four existing composites. Show how to choose the next evidence/funding tranche under constrained capacity without inventing an exact ranking or costs; keep the board’s role to outcomes, resources and assurance.
+Chapter 2: expand identity continuity across agent, connector and target. Compare target-native principal propagation, brokered correlation and a shared connector identity; preserve authorization, attribution and service fallback distinctions.

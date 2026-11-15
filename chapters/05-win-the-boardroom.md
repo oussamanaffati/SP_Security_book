@@ -80,12 +80,16 @@ The dashboard must distinguish work in progress, a control tested effective, exp
 
 ## Ask for decisions, not general support
 
-A request for “continued support” leaves the choice unclear. A board paper is stronger when it puts a specific decision in front of directors.
+**Portfolio choice when capacity cannot fund everything.** For an educational planning exercise, assume the operator can protect two substantial technical work packages and one cross-functional exercise in the next cycle; the composites establish no such capacity limit or budget. The choice is not to pick the most visible AI product. It is to fund the evidence and changes that can reduce the greatest service exposure without using an unsafe window.
 
-1. **Set priority outcomes.** The first decision is which three or four outcomes the operator will pursue over the next twelve months, beginning with services and workflows whose consequences are greatest.
-2. **Name delivery leads.** Each move needs an executive sponsor and an operational lead across security, network, IT, procurement or service continuity as required.
-3. **Protect delivery capacity.** Staff time, planned change windows and supplier engagement all compete with other operational work. If the board will not fund everything, it should see what moves later and what risk remains open.
-4. **Set assurance and escalation.** Agree what evidence management will provide and which service impacts, failed tests or changed dependencies require an earlier review.
+Use the same decision fields for all four composites:
+
+- **Shared edge/core account:** service owner maps dependencies and tolerance; IAM, Engineering and the supplier test target permissions, attribution, revocation and fallback. The known reach makes this a concrete path to assess, but no production split is authorized by the scenario.
+- **Supplier diagnostic feature:** prove whether disablement is independent, what identity/data/actions the feature uses, and whether the ordinary product remains supportable. Keep the feature restricted until the path and fallback are evidenced; do not infer direct execution from a proposal.
+- **Deferred live-core patch:** first verify the deployed version, reachable exposure, interim controls and earliest supported change/rollback. A public exploitation signal can justify faster verification and readiness; it does not prove the operator is affected or make an unsupported change safe.
+- **NOC assistant:** keep read/draft scope separate from action rights. Fund a bounded value comparison only when the identity, data and target boundary can be tested; no time-saving or quality result is established.
+
+If only two technical packages fit, the service owners’ impact and tolerance evidence should determine which of these proceeds to implementation. A sensible first tranche may protect the edge-account boundary test and establish local patch applicability, while a smaller evidence request determines whether the supplier feature can be separated; the NOC value pilot remains bounded until authority is proven. This is a conditional sequence, not a universal ranking: a reachable, high-impact patch path or a failed containment test can change it. Reserve the cross-functional exercise for the actions that would affect service, and include NOC/SOC backfill and supplier participation in the estimate. For each selected outcome, management names an executive sponsor and operational lead, defines the evidence gate, escalation trigger and review date. The board can approve three or four outcomes and protect delivery and assurance capacity; management sequences the work and accepts operational risk only within delegation. Report what moves if local evidence changes the order. No cash costs, comparative risk scores or operator test outcomes are supplied for this exercise.
 
 **Fund the bottleneck revealed by the exercise.** For an educational board discussion based on the NOC assistant, assume an off-hours exercise found that responders waited because the containment trigger and deputy authority were unclear, while NOC staff were already handling manual alarm work. This is a decision assumption, not a reported exercise result. The board is choosing between additional on-call and backfill, supplier standby, more automation, or no new capacity.
 
