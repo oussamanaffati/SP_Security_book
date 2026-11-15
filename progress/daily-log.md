@@ -5,7 +5,7 @@ Older cycle history is preserved in `progress/archive/daily-log-before-compactio
 ## Current status
 - Repository: `/data/SP_Security_book`, branch `main`; baseline `HEAD` and `origin/main` were both `4f145e7` before this edit.
 - Push: `gh` is unavailable. A previous credential preflight returned HTTP 401; no push has been attempted in this cycle. The user requests a push after each finished chapter; no push capability is claimed until verified.
-- Manuscript: 39,905 words (Ch1 4,904; Ch2 5,878; Ch3 5,314; Ch4 13,395; Ch5 10,414).
+- Manuscript: 39,792 words (Ch1 4,904; Ch2 5,765; Ch3 5,314; Ch4 13,395; Ch5 10,414).
 - First structural/expansion pass and whole-book review are complete. Chapter 3’s containment-card rows are shorter; Chapter 2 and 4 tables were also shortened. Whole-book pattern checks found no exact duplicates, repeated endings, internal labels, numeric citations or Sources headings; one Chapter 5 cell was shortened and all table shapes/cells now pass the readability scan. Chapter 5 remains the home for executive risk decisions.
 - Only the four existing scenarios are used. No operator outcomes, quotes, costs or test results were invented. Score 7.6/10 is provisional and self-assessed; 9/10 is not defensible yet.
 
@@ -24,5 +24,7 @@ Older cycle history is preserved in `progress/archive/daily-log-before-compactio
 
 - 2026-11-15 | Chapter 2 connector identity decision | 39,905 words | Compressed four identity-propagation options and converted the NOC-assistant variant into a clear conditional gate: target-native principal, otherwise an enforced broker, otherwise keep submission outside the assistant; verified sessions and queued actions on revocation. Editorial critique: direct and readable; the variant label is minimal, not repeated as a disclaimer. `git diff --check` and counts passed. GPT `gpt-6-luna`; Grok unavailable as recorded above. No external retrieval.
 
+- 2026-11-15 | Chapter 2 processing and trace retention | 39,792 words | Cut repeated route caveats and removed the repeated “not established” ending; retained the minimum-data, verify-route/retention, metadata-first, role/access, provider-copy and synthetic deletion-test decisions. Editorial critique: simpler sentences and fewer defensive disclaimers without weakening the data boundary. GPT `gpt-6-luna`; Grok skipped (key absent, logged once). No external retrieval; diff/count checks passed.
+
 ## Next
-Chapter 2: simplify the processing/retention and multi-market variants; remove repeated assumptions and defensive “not established” endings while keeping factual boundaries.
+Chapter 2: streamline the multi-market and context-persistence variants; retain a decisive processing recommendation and avoid repeating the same test/unknown caveats.
