@@ -170,4 +170,4 @@ If evidence is missing at review, use the previously authorized restriction or m
 
 ## The next twelve months
 
-In the first board cycle, set priority services and run an exercise. Quarterly reviews should show which access limits and service alternatives were tested, what gaps remain and which decisions need to reopen. By year-end, leaders should know which AI-enabled uses can affect services and how response controls perform. Fund work that improves those answers. No plan promises an invulnerable network. The credible commitment is to know which systems can act, limit their authority and test how service continues when a safeguard fails.
+In the first board cycle, set priority services and run an exercise. Quarterly reviews should show which access limits and service alternatives were tested, what gaps remain and which decisions need to reopen. By year-end, leaders should know which AI-enabled uses can affect services and how response controls perform. Fund work that improves those answers.
