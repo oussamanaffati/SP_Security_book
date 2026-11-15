@@ -25,7 +25,7 @@
 - AI features and integrations may inherit broad access to data, tools, and operational processes without appearing in conventional security inventories.
 - **AI/agentic angle:** Agent identities, permissions, connected tools, and data flows create an internal attack surface to inventory and constrain, including in operator environments.
 
-### 3. The Threat Moves Faster Than the Operator Can Respond
+### 3. The Threat Can Move Faster Than the Operator Can Safely Respond
 **Reader question:** Can the operator contain a fast-moving threat without making service impact worse?
 **Reader outcome:** Connect detection, decision authority, containment, downstream activity, operational visibility and recovery across teams and suppliers.
 - Incident processes designed for human-paced changes may be outmatched by threats that act quickly and at scale.
