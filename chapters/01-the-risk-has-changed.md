@@ -1,20 +1,20 @@
 # Chapter 1: The Risk Has Changed. Service Providers Feel It First.
 
-An alarm assistant should help the network operations center (NOC) see more, not less. Its service account supports alarm summaries but also reaches neighboring-domain data and opens vendor cases. The assistant proposed a change that would reduce NOC visibility; the proposal was not carried out.
+One illustrative NOC-assistant case begins with a simple aim: help the network operations center (NOC) see more. The assistant summarizes alarms, but its account also reaches neighboring-domain data and can open vendor cases. It proposed a change that would reduce NOC visibility; it was not carried out.
 
 Keeping the account unchanged avoids immediate work but leaves broad reach and weak attribution. Separating read from action may require supplier and engineering support; pausing may push alarm review and case handling back to NOC staff. Keep a read/draft path only if the target systems refuse disallowed actions, logs identify the actor, and an alternative NOC view survives revocation. Otherwise, pause the action path until those conditions are shown. Verify the boundary in a safe environment and estimate the NOC workload before choosing.
 
-The four recurring operational examples—the NOC assistant, shared edge/core account, supplier diagnostic feature and deferred patch—are illustrative composites, not reports of operator outcomes.
+The other recurring examples—the shared edge/core account, supplier diagnostic feature and deferred patch—are also illustrative composites, not reports of operator outcomes.
 
 A cyber incident at a service provider can become a service incident quickly. When a mobile network, core platform or management system is affected, customers may lose connectivity, businesses may lose services they depend on, and public services may lose an important channel. The operator has to restore service while it is still establishing what happened and how far the impact reaches.
 
-The central risk is a mismatch: delegated authority can move across identities and workflows faster than the operator can understand its reach, contain downstream effects and restore a trustworthy service view. External threats create a related but distinct response-speed problem.
+Delegated authority can cross identities and workflows faster than the operator can trace the path, contain misuse or restore service. External threats create a separate, related speed problem.
 
-A 2025 Cisco article describes edge compute for mobile-network workloads. A workload placed on edge compute, an operator cloud or a public cloud changes where its data resides, which systems connect and who is responsible for securing it. AI capabilities may be embedded in products for customer care, service assurance, fraud management and internal operations. A tool that summarizes an alarm is different from an agent that can query inventory, open a supplier case or trigger a workflow. The key question is what it can reach and do, and what happens to the service if it gets that wrong.
+A 2025 Cisco article describes edge compute for mobile-network workloads. Placing a workload at the edge, in an operator cloud or in a public cloud changes where its data sits, which systems connect and who must secure each part. AI features are also appearing in customer care, service assurance, fraud management and internal operations. A summary tool and an agent that queries inventory, opens supplier cases or triggers workflows do not carry the same authority. Before enabling the latter, map what it can read and change, and what the operator must keep running if it is stopped.
 
-This is not only a detection question. An agent may hold a trusted identity, select tools and move information into a workflow; external threats present a different response-speed problem. The CISO and CTO must decide what authority to delegate, how to contain those threats without unsafe service changes, and who owns the service consequences.
+The CISO and CTO must decide what authority to delegate, how to stop a threat without breaking service, and which executive can authorize that trade-off.
 
-## An operator is part of the country’s operating system
+## Networks support services beyond the operator
 
 Networks carry emergency calls, support payments, connect hospitals and keep businesses running. The degree of dependence varies by country and service, but an outage can affect organizations the operator does not control. This is one reason a service provider’s security decisions cannot be separated from its continuity obligations.
 
@@ -24,7 +24,7 @@ Those findings should not be read as a claim that every operator has the same ri
 
 A control shifts risk; it does not remove it. Closing an access path may reduce compromise exposure, while an unsafe change can increase outage risk. A shared identity may simplify support but weaken attribution. Severity alone does not rank these choices: compare exposure while waiting with service impact and the safety and cost of remediation, including a supported change, tested interim control, narrower use or deferral.
 
-Security competes with network growth, service-quality work and customer investment for engineering time, change windows and budget. Name the work that would move and the service outcome the investment should protect; include testing, monitoring and a safe pause or rollback in the estimate. A stated “low tolerance for cyber risk” does not settle that service trade-off. Chapter 4 sets out the operational sequence; Chapter 5 shows how the board challenges funding and residual risk without taking operational ownership.
+Security competes with network growth, service-quality work and customer investment for engineering time, change windows and budget. Name what must move, state the service outcome the investment should protect, and include testing, monitoring and a safe pause or rollback. A general statement of “low tolerance for cyber risk” does not settle the trade-off.
 
 The live-core patch case makes the trade-off concrete: a fixed version is known, but the next supported window is three weeks away.
 
@@ -44,13 +44,13 @@ On 8 November, Malbear Labs published its account of an exposed operational work
 
 CISA’s 10 November KEV entry cites evidence of active exploitation; Cisco’s 13 November advisory says Cisco has no direct evidence of active exploitation. These are separate statements about the vulnerability, not confirmation of Malbear Labs’ claimed link to its intrusion. The victim is unnamed, and public sources reviewed here do not independently confirm every reported outcome.
 
-The KEV entry is evidence of exploitation somewhere, not proof that a particular operator runs an affected release or exposes a reachable path. The local decision needs four facts: deployed version, reachable exposure, effectiveness of any interim controls, and the earliest supported fix with rollback. Security and platform teams establish the first two; control owners evidence the interim measures; engineering and the supplier confirm safe change conditions. A KEV listing warrants action, not an unsupported live-core change.
+The KEV entry is evidence of exploitation somewhere; it does not show whether this operator runs an affected release or exposes a reachable path. Establish the deployed version, reachability, any effective interim control and the earliest supported fix. Security and platform teams verify the local path; Engineering and the supplier confirm change conditions and rollback. A KEV listing warrants action, not an unsupported live-core change.
 
-The board should fund the time and supplier access needed to verify the local path; management can then compare local exposure, supported remediation and the service cost of delay.
+Leaders should fund the time and supplier access needed to verify the local path before choosing a fix.
 
 In Singapore, the response began when telcos notified IMDA and CSA, then continued through a joint effort to contain the breach and expand monitoring. Notification paths and escalation relationships are easier to use when they are clear before an incident. They are difficult to improvise while technical teams are trying to preserve service and establish scope.
 
-## Edge transformation is a security decision too
+## Edge transformation is a security decision
 
 Moving workloads closer to users and network functions can make a strong business case: lower latency, better service performance and new operating models. Security questions can arrive later, once the platform choice and deployment plan are already in motion. That sequence can make a manageable design issue expensive to correct.
 
@@ -84,7 +84,7 @@ When budgets compete, invest where local service evidence identifies the constra
 
 **Fund role readiness, not awareness alone.** General AI awareness can give employees shared language, but it does not prove that an on-call operator can distinguish a proposal from a target action, that IAM can stop downstream sessions, or that a service owner knows when a restriction exceeds tolerance. A dedicated central team can build deep expertise, yet may become a bottleneck or be absent on nights and weekends. Role-based preparation for the named NOC, SOC, IAM, platform, service-owner and supplier contacts takes scarce shift time and backfill, but tests the decisions that keep service running.
 
-Use existing workflows to define the capability: the NOC identifies the service view and fallback; SOC establishes the evidence and affected path; IAM verifies principal, revocation and sessions; Engineering and the supplier confirm target behavior and a supported rollback; the authorized service executive decides within delegation. Train only the people who hold those roles and their deputies, then exercise them across shifts. Measure whether they can find the relevant identity, verify what happened at the target, choose an authorized containment path and preserve the service view. Attendance or a quiz is not evidence that the operational decision works. Fund the role-based exercise when prior tests show missing authority, skill or hand-off; keep broad awareness as a baseline, not a substitute. No training outcome or staffing level is established for the composites.
+Use the existing workflow to define capability: the NOC names the service view and fallback; the SOC establishes the evidence and affected path; IAM verifies the principal, revocation and sessions; Engineering and the supplier confirm target behavior and rollback. The service executive decides within delegation. Train those roles and deputies across shifts. The exercise should test whether they can locate the relevant identity, verify target behavior, choose authorized containment and preserve the service view. Fund training or backfill where the exercise shows a gap; broad awareness alone will not fix it.
 
 A faster threat does not automatically justify faster automated containment. In a service provider, blocking an identity or isolating a management path can also remove the NOC’s view of a fault or interrupt service dependencies. More automation may shorten time to act, but it adds integration work and can create service impact when the system lacks the right context. Keeping every decision manual avoids some automatic-action risk but may leave too little time to compare service effects. Start with actions whose scope is narrow and reversal is known; keep changes to shared or core services under NOC and service-owner control. Measure time to safe containment, not just alert receipt or playbook start, alongside service impact, review effort, rollback and fallback. If exercises show approval is the delay, refine authority for bounded actions before expanding automatic execution.
 
@@ -94,7 +94,7 @@ The operator’s concern is not a universal response clock. It is the time avail
 
 When an external threat or internal agent can change a critical workflow faster than normal approvals, the executive discussion needs to cover how quickly the operator can detect and contain it, and what service could be affected by containment. Who can stop the change? Can the team do so without losing the visibility needed to manage the network? Security, Network, IT, Operations, Procurement, Legal and business leaders may each hold part of the answer.
 
-## Regulation does not replace operational ownership
+## Regulation does not decide who can act
 
 Service providers face cybersecurity and privacy laws, communications-sector rules, resilience expectations, reporting duties, supplier contracts and, in some markets, national-security requirements. In Europe, NIS2 brings electronic communications providers into a shared framework for cybersecurity risk management and incident reporting, implemented through national law. Duties vary by service and country, so a multinational operator cannot assume that one compliance answer fits every market.
 
@@ -110,14 +110,4 @@ A bounded task with limited service impact can be a sensible place to start. The
 
 For the NOC assistant, a useful task-value pilot cannot show that its account is bounded. Operators need separate evidence for the authority boundary and fallback before deciding whether to expand or fund routine use.
 
-## Three shifts for the next twelve months
-
-The next-year discussion does not need to settle every technical question. It can focus on three shifts within the operator’s existing plans.
-
-**Treat AI as part of the attack surface and operating model.** For consequential uses, know the identity, data, tools, supplier, owner and actions involved, including whether task context persists into later runs. If the operator does not know where a capability is used, it cannot make a grounded decision about how much authority it should have.
-
-**Design for service continuity.** Containment, rollback, customer impact and regulatory notification can pull in different directions. Response plans should reflect the service and its dependencies, not only the system under investigation.
-
-**Keep accountability in step with autonomy.** As the workflow gains access or action rights, tighten its permitted scope, test the stop path and show operators how to recover. Supplier assurance informs the choice; it cannot establish how the operator’s own service behaves.
-
-The first decision is not whether an operator uses AI. It is where delegated authority can affect service, what evidence shows its reach, and which impact the service can tolerate. Map that path first; the response decision depends on it.
+The first decision is not whether to use AI. It is which service an AI-enabled workflow can affect, what evidence shows its reach and how much disruption that service can tolerate. Follow the identity through its data and tools before granting more authority.

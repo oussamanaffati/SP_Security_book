@@ -2,6 +2,11 @@
 
 Older cycle history is preserved in `progress/archive/daily-log-before-compaction-2026-11-14-chapter1.md` and earlier archives under `progress/archive/`.
 
+## Front matter and humanization pass (2026-11-15)
+- Added `front-matter/title-page.md` and committed it as `ffcd709` (`docs: add book title page`). Added a 963-word conclusion in `chapters/06-conclusion.md` and committed it as `2bb6042` (`docs(book): add reader-focused conclusion`). The live remote remains at `a693ff0`; two local commits are ahead. The authorized credential source is unchanged after the previous authentication failure, so no repeated push attempt was made.
+- Chapter 1 pass: moved the illustrative-composite label into the opening, removed the competing “three shifts” recap, tightened the opening thesis and funding/training passages, and removed chapter-coordination language. Count fell from 3,442 to 3,148 by the same regex method; no source claim was added or broadened. Primary-model style check (`gpt-6-luna`): the opening is clearer and more direct, with service continuity and authority visible early. The chapter still contains necessary procedural detail; this pass cut repeat summaries rather than flattening the operating distinctions.
+- Grok was not available (`XAI_API_KEY` is absent from the runtime); no second-model review is claimed.
+
 ## Current status (2026-11-15)
 - Repository root `/data/SP_Security_book`; branch `main`; at the start of this pass, local `HEAD` was `38ed119`, live `origin/main` was `1d9cf8f`, and the branch was three commits ahead. The inherited worktree had seven modified files, no staged changes and no untracked files; all were inspected and preserved.
 - Baseline at local `HEAD 38ed119`: 27,482 words across the five chapter files (Ch1 3,584; Ch2 4,748; Ch3 5,298; Ch4 9,432; Ch5 4,420). After the current full read and edits, the consistent worktree count is 26,827 (Ch1 3,442; Ch2 4,758; Ch3 5,228; Ch4 9,050; Ch5 4,349), using Python `re.findall(r'\b\w+\b', text)` on every chapter. Earlier 38k totals belong to historical manuscript states.
