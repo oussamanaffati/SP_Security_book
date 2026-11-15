@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 34,137 words; 5,863 words remain to 40,000 and 10,863 to 45,000. Continue substantive expansions in the requested priority, Chapter 4 then Chapter 5. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 34,487 words; 5,513 words remain to 40,000 and 10,513 to 45,000. Continue substantive expansions in the requested priority, Chapter 4 then Chapter 5. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 4: make the NOC-assistant pilot mode an explicit decision: synthetic validation, historical replay, shadow processing or bounded live read/draft. Match each to the evidence question, service/privacy limits and resource cost; do not imply the composite has a pilot result.
+Chapter 5: add an executive decision on exception expiry and renewal for the four composites. Distinguish an implementation milestone from a risk-expiry trigger; define what requires fresh evidence and delegated approval.
