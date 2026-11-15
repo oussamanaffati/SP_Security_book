@@ -134,7 +134,7 @@ For the NOC-assistant composite, Chapter 1 establishes the account’s reach int
 
 **Decision sought.** Protect a bounded review and assurance tranche to map account reach and service dependencies, assess whether useful read workflows can remain while change authority is bounded, and scope supplier, engineering and NOC capacity. This funds the decision, not rollout.
 
-**Scale-up funding gate.** Before seeking scale-up funding, management presents the Chapter 4 pilot-gate result, service-specific impact and fallback, evidence limits, local effort and displaced work, plus the delegated service executive’s recommendation. Scale-up funding should cover only the task and service that passed the Chapter 4 gate, with enough recurring capacity to review outputs and sustain the fallback. Funding does not accept residual service risk. Broader users, data or actions require a separate decision.
+**Scale-up funding gate.** Before seeking scale-up funding, management presents the Chapter 4 pilot-gate result, service-specific impact and fallback, evidence limits, local effort and displaced work, plus the delegated service executive’s recommendation. Release funds only for the tested task and service cleared by that result, with enough recurring capacity to review outputs and sustain the fallback. Funding does not accept residual service risk. Broader users, data or actions require a separate decision.
 
 Record temporary service-risk choices under the exception process later in this chapter. The dashboard below reports portfolio status; it does not replace the service decision.
 
