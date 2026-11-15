@@ -90,19 +90,6 @@ Use existing workflows to define the capability: the NOC identifies the service 
 
 A faster threat does not automatically justify faster automated containment. In a service provider, blocking an identity or isolating a management path can also remove the NOC’s view of a fault or interrupt service dependencies. More automation may shorten time to act, but it adds integration work and can create service impact when the system lacks the right context. Keeping every decision manual avoids some automatic-action risk but may leave too little time to compare service effects. Start with actions whose scope is narrow and reversal is known; keep changes to shared or core services under NOC and service-owner control. Measure time to safe containment, not just alert receipt or playbook start, alongside service impact, review effort, rollback and fallback. If exercises show approval is the delay, refine authority for bounded actions before expanding automatic execution. Chapter 3 develops the containment decision and continuity tests.
 
-**NOC assistant benefit check.** The scenario establishes alarm summaries and draft ticket updates, not time saved or output quality. Before funding expansion, compare the current and assisted workflows on a similar task mix and service conditions, using approved representative or synthetic inputs. Measure time to an operator-accepted result, including review, corrections and hand-offs; the time to a generated answer is not the service outcome.
-
-| Decision question | Compare | Evidence before expansion |
-|---|---|---|
-| Does it improve the task? | Current and assisted time from alarm receipt to an operator-accepted summary or ticket update, including review, corrections and hand-offs. | Baseline and assisted results for a similar task mix and service conditions; use approved representative or synthetic inputs. |
-| Is the result usable? | Missing or misleading context, corrections, escalations and manual fallback. | Operational review of whether the output supports the decision; no performance threshold is assumed here. |
-| What is the full cost? | Supplier/model charges, review effort, broader identity or data scope, supplier hand-offs and fallback workload. | Estimate basis, which teams absorb the work and which costs remain unknown. |
-| Does authority stay bounded? | Whether the assistant remains read/draft and whether the target can reject a disallowed action. | Test the path, actor logs and revocation before expansion; efficiency alone does not authorize execution. |
-
-No operator trial or measured result is established here. Keep the assistant advisory until the comparison shows a net service benefit without removing necessary review or broadening authority beyond a tested boundary.
-
-Chapters 2 and 3 treat those questions separately.
-
 ## Response speed is part of the risk
 
 The Canadian Centre for Cyber Security’s cross-sector evidence on attack speed reinforces the risk, but it is not a telecom incident or an operator response target. Chapter 3 examines what the bulletin reports and how the operator should translate that signal into response readiness.
