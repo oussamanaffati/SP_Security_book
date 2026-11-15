@@ -1,6 +1,6 @@
 # Editorial queue: structural repair and expansion
 
-**Current checkpoint:** Five reader-facing chapters contain 39,252 words; 748 words remain to 40,000 and 5,748 to 45,000. Continue substantive expansions in the requested priority, Chapter 4 then Chapter 5. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
+**Current checkpoint:** Five reader-facing chapters contain 40,029 words; the 40,000-word minimum is met. The upper planning range remains 45,000, but the active request is to reach at least 40,000 with substantive material, not pad to a number. Preserve the four existing operator scenarios; label educational assumptions and never invent operator outcomes.
 
 ## Primary homes and chapter boundaries
 
@@ -29,4 +29,4 @@ Chapter 4’s roadmap already covers protected capacity, displaced work and supp
 
 ## Next sequence
 
-Chapter 4: define what makes a manual fallback genuinely available after a NOC-assistant handoff. Address staffing, access, current procedures, degraded capacity and rehearsals; do not remove fallback on the strength of pilot throughput alone.
+Before the next release, run a focused whole-book consistency and placeholder scan, verify count/diff checks, and preserve the established chapter boundaries. Do not add words merely to chase the upper range.
