@@ -5,7 +5,7 @@ Older cycle history is preserved in `progress/archive/daily-log-before-compactio
 ## Current status
 - Repository: `/data/SP_Security_book`, branch `main`; baseline `HEAD` and `origin/main` were both `4f145e7` before this edit.
 - Push: `gh` is unavailable. A previous credential preflight returned HTTP 401; no push has been attempted in this cycle. The user requests a push after each finished chapter; no push capability is claimed until verified.
-- Manuscript: 39,028 words (Ch1 4,904; Ch2 5,001; Ch3 5,314; Ch4 13,395; Ch5 10,414).
+- Manuscript: 38,752 words (Ch1 4,904; Ch2 4,725; Ch3 5,314; Ch4 13,395; Ch5 10,414).
 - First structural/expansion pass and whole-book review are complete. Chapter 3’s containment-card rows are shorter; Chapter 2 and 4 tables were also shortened. Whole-book pattern checks found no exact duplicates, repeated endings, internal labels, numeric citations or Sources headings; one Chapter 5 cell was shortened and all table shapes/cells now pass the readability scan. Chapter 5 remains the home for executive risk decisions.
 - Only the four existing scenarios are used. No operator outcomes, quotes, costs or test results were invented. Score 7.6/10 is provisional and self-assessed; 9/10 is not defensible yet.
 
@@ -32,5 +32,7 @@ Older cycle history is preserved in `progress/archive/daily-log-before-compactio
 
 - 2026-11-15 | Chapter 2 source-to-action path | 39,028 words | Tightened the source-contract conclusion/test, untrusted-content boundary, broker failure trade-off, workflow map and vendor-case submission gate; shortened the path table while keeping evidence owners. Editorial critique: less repetition and clearer gates; distinguishes prompt guidance, connector control and target enforcement. GPT `gpt-6-luna`; Grok skipped (key absence logged once). No external retrieval; diff/count checks passed.
 
+- 2026-11-15 | Chapter 2 opening, supplier and close | 38,752 words | Tightened the lead, split the CERT-In account from the separate campaign, shortened supplier guidance and assurance, and replaced the closing inventory questionnaire with a priority-path decision. Editorial critique: more natural rhythm, explicit source scope, less repeated qualification; the chapter still has some technical density but its actions are clearer. GPT `gpt-6-luna`; Grok skipped (key absence logged once). No new research or claims; `git diff --check` passed.
+
 ## Next
-Chapter 2: review the opening, supplier section and ending for remaining repeated claims; then finish and push this chapter before moving to Chapter 1.
+Chapter 2: perform final chapter-wide consistency/placeholder scan, commit any necessary correction, then push once and verify remote branch/file contents before starting Chapter 1.
