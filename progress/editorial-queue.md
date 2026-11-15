@@ -25,10 +25,10 @@ Keep tables only for comparison or compact decisions. Give each tool one primary
 
 ## Whole-book review after first pass
 
-Chapter 4’s roadmap already covers protected capacity, displaced work and supplier availability; the added sequencing paragraph addresses the distinct combine-versus-separate window decision. Chapter roles remain distinct. Exact duplicate paragraphs and repeated endings were not found; reader-facing internal labels, numeric citations and Sources headings are absent. Table shapes are consistent and no cell exceeds 150 characters after the Chapter 2, 3 and 5 trims; Chapter 4 tables were also shortened.
+Automated whole-book checks found no exact duplicate paragraph blocks, numeric citations, reader-facing Sources headings or TODO/TBD/FIXME markers; titles and cross-references are consistent. The four first scenario introductions in Chapter 1 are now labeled illustrative. Read-only review flags repeated supplier-feature decisions and a second close in Chapter 4, plus a repeated patch decision and second close in Chapter 5. Chapter 4’s ACSC guidance claim is supported in its research note only by the official-page search excerpt; verify the body text before publication. Current table scan finds the longest cell is 188 characters in Chapter 5 line 167, not 150. No Chapter 4 or 5 edits were made.
 
 ## Next sequence
 
-1. Finish read-only consistency reviews of Chapters 4 and 5.
-2. Reconcile material whole-book findings against Chapters 1–3 only; keep Chapters 4 and 5 unchanged.
-3. Run final count/diff/citation and cross-reference checks; record the exact gap to 45,000. Do not add words merely to chase the target.
+1. Preserve publication-pending status; retry only if authentication circumstances change.
+2. If a later scope includes Chapters 4–5, resolve the verified repetition/boundary issues and source [25] body-text limitation without undoing useful decisions.
+3. Add further material toward ~45,000 only when it contributes a distinct operator decision, implementation trade-off or control-effectiveness evidence; current gap is 6,257 words.
