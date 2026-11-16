@@ -17,5 +17,5 @@ Use [`research/claim-ledger.md`](research/claim-ledger.md) for current claim dis
 - Ground recommendations in service-provider realities: regulation, legacy, national criticality, operational continuity, supplier dependencies and economics.
 - Attribute company and supplier claims; keep adoption, productivity, service quality, security effectiveness and ROI separate.
 - Do not infer AI use or non-use from an incident disclosure that does not mention AI.
-- Label the four composites as illustrative; do not turn them into reported incidents or test results.
+- Label author-supplied operational situations as illustrative; separate supplied facts from educational assumptions and never present them as incidents or test results.
 - Keep the prose direct, evidence-bounded and free of generic filler.

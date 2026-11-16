@@ -1,57 +1,56 @@
 # Draft v2 editorial report
 
 **Date:** 16 November 2026
-**Status:** Six-chapter manuscript for author review. Not publication-ready.
 
-## Deliverable and counts
+**Status:** Revised manuscript for author review; not publication-ready.
 
-- Reader-facing manuscript: [`../draft-v2/manuscript.md`](../draft-v2/manuscript.md)
-- Canonical components: `draft-v2/introduction.md` and `draft-v2/chapter-01-*.md` through `chapter-06-*.md`
-- Governing architecture: [`../outline-v3.md`](../outline-v3.md)
+**Active file:** [`../draft-v2/manuscript.md`](../draft-v2/manuscript.md)
+**Canonical sources:** `draft-v2/introduction.md` and the six `draft-v2/chapter-*.md` files. `outline-v3.md` remains the governing structure.
 
-The assembled manuscript contains **10,661 word tokens**, including title, subtitle, contents, headings and tables. The prose contains **9,630 words and 666 sentences**; mean sentence length is **14.46 words**, maximum **30**, with none over 30. Counts use `re.findall(r"\b\w+(?:[-’]\w+)*\b")`; prose excludes headings, table rows and HTML comments; list items count separately; sentence boundaries use terminal punctuation and closing quotation marks. These are editorial diagnostics, not a length target.
+## Counts
+
+- **Prose:** 8,092 words, excluding headings, table rows and hidden HTML comments.
+- **Visible manuscript:** 8,622 word tokens, including title, subtitle, contents, headings and tables.
+- **Chapter 6:** 1,644 prose words, 36.3% below the previous recorded 2,581-word version. This is slightly above the requested approximate 25–35% reduction; the cut removed repetition while retaining the substantive decision set.
+
+Counts use `re.findall(r"\b\w+(?:[-’]\w+)*\b")`; list items count separately. These are editorial word counts, not a page target.
 
 ## What changed
 
-### Chapter 6 now makes selection explicit
+### Chapters 3 and 4: show the authority and the service consequence
 
-Before:
-> “The four rows describe areas of work, not a universal ranking or a requirement to fund four separate packages.”
+Chapter 3 develops the author-supplied shared edge/core account situation. It distinguishes its known scope (one account reaches edge nodes and parts of core; remediation depends on supplier configuration and a safe window) from educational assumptions about an assistant, data, connector and target API. It follows the call and compares continued use, a tested gateway, separate target-native identities and a staged migration. The recommendation keeps the agent out of the write path until scope and migration are proven; Network Engineering and the supplier verify supported identities and windows, while the service executive owns any necessary period of broad support.
 
-After:
-> “The four rows are candidate work areas, not a default package or universal ranking.”
+Chapter 4 fully introduces the NOC-assistant situation and separates known details (alarm summaries, ticket drafts, neighboring-domain reads, supplier cases, and an unexecuted visibility-reducing proposal) from added assumptions about the shared identity, connectors and target. It explains that stopping a runtime may leave a connector credential, active target session or accepted queued request in place. It gives concrete checks at runtime, connector and target, and explains why a verified independent alarm view changes whether the broad identity can be revoked without losing operational visibility. These are recommendations, not claimed test results.
 
-The Chapter 6 worked choice now shows how to select three of four candidate areas under a clearly hypothetical capacity constraint. It prioritizes mapping, target-boundary testing and a service-safe containment exercise for a contemplated NOC-assistant expansion, while deferring broad supplier/exit review because the diagnostic feature is assumed not to be enabled this cycle. Feature-specific supplier checks remain release gates; the omission is delayed work with an owner, residual risk and reopening trigger, not a finding of safety. No company-specific costs, projects or outcomes are invented.
+### Chapter 6: one decision record, less repetition
 
-### The work displaced is a recordable trade-off, not a category
+The four-row priority table and repeated decision fields were removed. The chapter now has four candidate work areas, one local selection method, one explicitly hypothetical three-of-four choice, one concise sequence, one board brief that serves as the portfolio decision record, and conditions that change the order. The close asks the reader to choose three or four local priorities and uses the worked choice only as an example. Local owners, budgets, work-item identifiers and windows remain fields to fill; no operator values are invented.
 
-The table now asks the operator to identify the specific local work by title, work-item identifier or window. Examples of fields include “the specific planned change, test window or reliability task” and “the contract review or supplier-validation task” that would move. These are instructions for locally completed fields, not claims about any operator’s current projects.
+### Chapters 1 and 2, introduction and transitions
 
-### The board brief and ending are shorter
+Chapter 1 explains the distinctions among deployment, activity, productivity, service quality, security effectiveness and ROI together, then applies them to attributed examples without repeating the full caveat after each one. Chapter 2 preserves the material difference between ENISA’s 30-incident OSINT overview and 188 authority-submitted significant-incident reports, removes the unused Member State-count digression, states the AI-attribution limit and turns toward local preparation. The introduction now promises two fully developed illustrative situations plus a shorter supplier-feature example. Chapter 2 and Chapter 5 now transition to the next decision rather than summarizing themselves.
 
-The board-paper prompt now has four fields: decision and ownership; evidence and scope; value, cost and displacement; fallback and reassessment. The ending no longer repeats the full owner/evidence/cost/trigger list. It asks the reader to choose three or four priorities that local consequence and capacity justify, leave unknowns visible, and distinguish management ownership from board oversight.
+## Final critique pass: findings and corrections
 
-The trigger section now asks for one local reopening condition, review owner and possible action per priority; examples cover a reachable target path, supplier change, fallback weakness and legal change. The final opening was also changed so Chapter 6 develops the visibility/support tension as a portfolio decision rather than repeating the introduction’s opening scenario.
+One continuous internal read of the assembled manuscript found and corrected these passage-level issues:
 
-### Whole-book corrections
+1. **Chapter 6, selection and board sections:** the per-priority decision record repeated owners, evidence, cost, capacity, displacement and fallback in the later board brief. Removed the duplicate record and made the board brief the single portfolio record.
+2. **Chapter 6, final paragraph:** the meeting recommendation could read as a universal three-work-area package. It now asks the reader to select three or four from local evidence and labels the three-work-area decision as the hypothetical example.
+3. **Chapters 3–4, scenario boundaries:** clarified which details belong to the supplied situations and which are educational assumptions. Changed wording that implied the supplier feature was already disabled; the recommendation now says not to enable or expand it until release checks pass.
+4. **Reader journey and terminology:** replaced reader-facing “composite” language with “illustrative scenario,” expanded Network Operations Center (NOC) and Security Operations Center (SOC) at first use, and repaired the Chapter 2/5 transitions.
+5. **Source anchors:** corrected Chapter 1 and 2 anchors and recalculated current paragraph/list-item mappings for all revised chapters.
 
-The introduction expands “artificial intelligence (AI)” and keeps the service-visibility tension explicit as an analytic argument, not a measured cause of incidents. Chapter 3 expands “application programming interface (API)” and spells out “United States” at first use. In earlier editing, chapter headings and contents links were normalized; acronym expansions and source-map anchors were corrected; the Singapore telecom operation remains attributed to the public Cyber Security Agency disclosure without an AI-causation claim. The separate IMDA advisory remains unresolved and unused.
+No external claim was added or broadened. The current claim-ledger dispositions govern; historical repository claims are not automatically certified. No successive critique rounds or new reviewers were launched.
 
-## Review and verification
+## Verification and limitations
 
-Two whole-book passes were completed: a reader/argument pass for chapter boundaries, sequence, voice and repeated material; and a final continuous read of the assembled manuscript for evidence limits, acronyms, source mapping, structure, cadence and repetition.
+- Regenerated `draft-v2/manuscript.md` from the introduction and six chapter files. Each component appears exactly once; all contents anchors match headings.
+- Verified source-map paragraph anchors against the current components, both Markdown tables for consistent columns, repository-local README links, and `git diff --check`.
+- No hidden audit comments, inline numeric citations, TODO/TBD/FIXME markers, reader-facing “composite” terminology or ENISA Member State-count digression remain in the assembled manuscript.
+- No PDF was generated. ReportLab, pypdf and Markdown are installed, but no page renderer (Pandoc, LibreOffice, Chromium, wkhtmltopdf, `pdftoppm` or `mutool`) is available for visual inspection. No rendered page count can be reported.
+- No human, operator or legal-counsel review is claimed. Costs, staffing, service tolerances, supplier rights, legal applicability, and local fallback paths require operator-specific verification.
 
-Two separate-context Chapter 6 critiques were performed by **GPT-6-Luna**. The first advised against a commit because the local selection rule and decision record were incomplete. After revision, the second found no High-severity defect and recommended commit. It raised two Medium concerns: the four table rows could still read like a default package, and the table/board prompt/ending repeated too many fields. It also raised Low concerns about how to name displaced work and repeated trigger language. Those points were addressed as described above. Both critiques used the same available model; they are not human or independent-model reviews. Grok was not used. No human, operator, legal-counsel or external legal review is claimed.
+## Git status at revision start
 
-Mechanical checks on the final assembly found:
-- all seven reader-facing components appear exactly once and internal HTML audit comments are omitted;
-- all contents links match the actual headings;
-- four tables have consistent columns;
-- 66 source-map anchor tokens checked, with zero out-of-range paragraph/sentence references;
-- no reader-facing `## Sources` section, numeric citation, TODO/TBD/FIXME marker or exact duplicate paragraph block.
-
-## Limits and remaining publication work
-
-The manuscript adds no new external cost, ROI, incident, deployment or operator-practice claim. It uses the current claim-ledger dispositions; it does not certify every historical repository claim. The selected priorities, costs, staffing, specific displaced work, change windows, service tolerances, supplier rights and legal applicability must be filled with each operator’s evidence. Remaining evidence limitations include unresolved source/date or methodology issues already recorded in the ledger, including Heavy Reading date relationships, ENISA geography-count differences and incomplete operator metrics. The text does not use those disputed figures to support its argument.
-
-The earlier renderer preflight found ReportLab and pypdf but no page-rendering executable; no renderable PDF was produced or visually inspected. Manuscript commit: `88c17d104ff6db9a3a2f9edd45609eaaa8e8dbd2`. One push attempt failed with `remote: Invalid username or token. Password authentication is not supported for Git operations.` The live remote main readback remained `8f07e72c00635191aaa2fbabc04130090e8b404d`; no retry was made.
+On `main`, local `HEAD` and live `origin/main` were verified as `c4257d11554709363f385a864090955bfe855cc2`; the branch had no ahead/behind commits. This corrected earlier status text that said the preceding work was local-only. The commit and push status for the current revision will be recorded after the final Git operation.

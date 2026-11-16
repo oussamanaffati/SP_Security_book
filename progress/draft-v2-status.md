@@ -1,31 +1,34 @@
 # Draft v2 status
 
 **As of:** 16 November 2026
-**Status:** Author-review manuscript committed locally as `88c17d104ff6db9a3a2f9edd45609eaaa8e8dbd2`. The requested push was attempted once and failed authentication; live `origin/main` remains `8f07e72c00635191aaa2fbabc04130090e8b404d`. No retry was made. Not publication-ready.
+
+**Editorial status:** Revised six-chapter author-review manuscript. Not publication-ready.
+**Git status at this snapshot:** The revision is prepared and validated but not yet committed or pushed. At the start of this revision, local `main`, `HEAD` and live `origin/main` all matched `c4257d11554709363f385a864090955bfe855cc2`; the earlier local-only status was stale. The push outcome for this revision will be recorded after the operation.
 
 ## Active files
-- Reader-facing assembly: [`../draft-v2/manuscript.md`](../draft-v2/manuscript.md)
-- Governing structure: [`../outline-v3.md`](../outline-v3.md)
-- Source components: [`../draft-v2/introduction.md`](../draft-v2/introduction.md) and six `chapter-*.md` files in `draft-v2/`
-- Claim dispositions: [`../research/claim-ledger.md`](../research/claim-ledger.md)
-- Paragraph/source map: [`../research/draft-v2-source-map.md`](../research/draft-v2-source-map.md)
-- Chapter 6 research/editorial record: [`../research/chapter-06.md`](../research/chapter-06.md)
+- Assembled reader-facing manuscript: [`../draft-v2/manuscript.md`](../draft-v2/manuscript.md)
+- Canonical components: [`../draft-v2/introduction.md`](../draft-v2/introduction.md) and six `chapter-*.md` files in `draft-v2/`
+- Governing six-chapter structure: [`../outline-v3.md`](../outline-v3.md)
+- Current claim dispositions: [`../research/claim-ledger.md`](../research/claim-ledger.md)
+- Current paragraph/source map: [`../research/draft-v2-source-map.md`](../research/draft-v2-source-map.md)
+- Chapter 6 evidence and editorial record: [`../research/chapter-06.md`](../research/chapter-06.md)
+- Editorial report: [`draft-v2-editorial-report.md`](draft-v2-editorial-report.md)
 - Work log: [`daily-log.md`](daily-log.md)
-- Historical chapters are preserved under `chapters/`; they are not the active manuscript or factual authority.
 
-## Verified in the current draft
-- All six outline chapters, an introduction, title/subtitle and contents are assembled in reading order.
-- Reader-facing component text appears once; internal HTML audit comments are omitted from the assembly.
-- All six chapter headings match the contents anchors. Four Markdown tables have consistent columns.
-- No reader-facing `Sources` heading, numeric citation, TODO/TBD/FIXME marker or exact duplicate block was found.
-- Source-map validation checked 66 paragraph/sentence anchor tokens; none were out of range.
-- Readability diagnostics: 10,661 reader-facing word tokens including title, contents, headings and tables; 9,630 prose words; 666 prose sentences; mean 14.46 words/sentence; maximum 30; none over 30. See the work log for the counting method.
-- Two whole-book editorial passes have been completed: argument/reader journey and, on the current assembly, evidence boundaries, acronyms, structure, cadence and repetition.
+## Counts and verification
+- **8,092 prose words** (headings, tables and hidden HTML comments excluded).
+- **8,622 visible word tokens** including title, contents, headings and tables.
+- Chapter 6: **1,644 prose words**, down 36.3% from the prior recorded 2,581-word version; slightly beyond the requested approximate 25–35% range.
+- Assembled from seven canonical components exactly once. Contents links match all seven headings; source-map anchors are in range; both Markdown tables have consistent columns; README relative links resolve; `git diff --check` passed.
+- The reader-facing manuscript contains no hidden audit comments, inline numeric citations, TODO/TBD/FIXME markers, stale ENISA Member State-count digression or “composite” terminology.
 
-## Review and release limits
-- Two separate-context Chapter 6 critiques by GPT-6-Luna (same available model, not human or independent-model review). The first identified a missing local selection rule and per-priority decision record. The second found no High-severity defect and recommended commit; it raised Medium concerns about treating four rows as a default package and repeating decision fields, plus Low concerns about displaced-work specificity and trigger repetition. These were addressed by naming candidate areas, recording owners/triggers for omitted rows, requiring local displaced-work identifiers, reducing the board prompt to four fields and trimming the conclusion/trigger language.
-- No human, legal-counsel or independent-model review is claimed. The work uses current claim-ledger dispositions; it does not certify every historical claim in the repository. Operator-specific costs, staffing, service tolerances, supplier rights and legal applicability remain local inputs, not manuscript facts. No PDF was rendered: no page-level renderer is installed for visual inspection.
-- Prior pre-commit baseline: branch `main`; local `HEAD` and fetched/live `origin/main` were both `8f07e72c00635191aaa2fbabc04130090e8b404d`. The manuscript commit `88c17d104ff6db9a3a2f9edd45609eaaa8e8dbd2` is now local. Its single push attempt failed with the exact authentication error recorded in the editorial report; live remote `main` remained at the baseline SHA. No retry was made.
+Counts use `re.findall(r"\b\w+(?:[-’]\w+)*\b")`; prose excludes headings, table rows and HTML comments, with list items counted separately.
 
-## Exact continuation point
-The Chapter 6 critique and final whole-book pass are complete. The author-review manuscript is committed locally as `88c17d104ff6db9a3a2f9edd45609eaaa8e8dbd2`. One push attempt failed authentication; live remote `main` remains at `8f07e72c00635191aaa2fbabc04130090e8b404d`. No retry was made. Publication remains blocked until the configured GitHub credential is corrected.
+## Main changes
+- Chapters 3 and 4 now work through the shared edge/core account and NOC-assistant situations, with supplied facts separated from educational assumptions. Chapter 4 explains target-side session/queue checks and the operational value of an independent alarm view.
+- Chapter 6 has four candidate areas, one local selection method, one hypothetical three-of-four choice, a concise sequence, a single board brief used as the decision record, and conditions that change the order.
+- Chapters 1 and 2 retain the deployment/activity/productivity/service-quality/security distinctions, separate ENISA datasets and bounded AI attribution. The introduction promises two fully developed situations and one shorter supplier-feature example.
+- The source map and research notes were refreshed; no new research claims, incidents, costs, ROI or test outcomes were introduced.
+
+## Limits
+No PDF was generated. ReportLab, pypdf and Markdown modules are installed, but no page renderer is available for visual inspection. There is therefore no rendered page count. No human, operator or legal-counsel review is claimed. Operator-specific costs, capacity, owners, work items, service tolerances, supplier rights and legal applicability remain local inputs.

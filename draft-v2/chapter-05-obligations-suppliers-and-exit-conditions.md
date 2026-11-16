@@ -1,6 +1,6 @@
 # Chapter 5: Obligations, Suppliers and Exit Conditions
 
-In the supplier-diagnostic composite, a routine update enables a feature that reads topology and proposes actions. The composite does not establish direct execution, the feature’s identity, or whether it can be disabled independently.
+**Illustrative scenario: a supplier diagnostic feature enabled by a routine update.** It reads topology and proposes actions. The situation does not establish direct execution, its identity, or whether it can be disabled independently.
 
 The first decision is therefore wider than “enable or reject the feature.” The operator needs to know which duties apply, which supplier paths matter to the service, and what remains possible if the feature or its provider is unavailable. A data region is only one part of that picture.
 
@@ -48,7 +48,7 @@ When a supplier supports a consequential workflow, bring together Procurement, L
 
 These are procurement questions, not claims that every supplier will accept every term. Seek the strongest practical notice, audit, evidence and transition rights while the operator still has leverage. Where a contract cannot guarantee a technical outcome, record that limit and test the operator-controlled part. A clause promising deletion does not show that a copy was removed; a statement that access is supervised does not prove the target sees a distinct, revocable identity.
 
-The supplier diagnostic feature makes the distinction concrete. Its presence is established, and the composite says it reads topology and proposes actions. Direct execution is not established. The operator should not describe it as a network-changing agent. The absence of evidence for direct execution does not prove that its data path, disablement or downstream effect is safe.
+The supplier diagnostic situation makes the distinction concrete. Its presence is established, and the scenario says it reads topology and proposes actions. Direct execution is not established. The operator should not describe it as a network-changing agent. The absence of evidence for direct execution does not prove that its data path, disablement or downstream effect is safe.
 
 Ask the supplier to identify the feature’s runtime identity, destinations, logs and independent disablement. Compare those statements with the operator’s deployed records. Chapter 4 covers the technical test. Here the question is whether the release and contract leave the operator able to make that test and act on its result.
 
@@ -72,9 +72,11 @@ A read-only summary over an approved, task-limited data set may proceed when the
 
 If the operator cannot identify the data destination, the effective identity, the applicable legal role or the independent service fallback, do not expand the feature’s access. Narrow the data, keep the output as a draft, or hold the feature off while the platform’s required functions remain available. If the feature cannot be separated from a product release, compare a supported pause or rollback with the service and security consequence of delaying that release. Do not assume either that the AI feature can be disabled or that the whole platform must be withdrawn.
 
-For the supplier-feature composite, require a clear release and support path. Keep write authority outside the feature unless a target-enforced boundary is proven. Preserve the service view during investigation or rollback. Revisit the choice when the identity, target path, fallback and support arrangement are evidenced.
+For this supplier-feature situation, require a clear release and support path. Keep write authority outside the feature unless a target-enforced boundary is proven. Preserve the service view during investigation or rollback. Revisit the choice when the identity, target path, fallback and support arrangement are evidenced.
 
 A legal duty sets a floor and a supplier contract sets expectations. Neither, by itself, shows who can disable a connector at 02:00, whether existing sessions terminate, or whether the NOC can still manage the service afterward. That is the operator’s responsibility to map, test and fund.
+
+Chapter 6 uses those service and supplier constraints to choose a small set of funded priorities, rather than treating every control as equally urgent.
 
 <!-- Non-reader-facing claim/source map. Exact source texts, evidence classes and limits are in research/claim-ledger.md, research/research-map.md and research/draft-v2-source-map.md.
 P1.S1-S2, P15.S2-S3, P25: Author-supplied supplier-diagnostic composite; a routine update enables a feature that reads topology and proposes actions; direct execution, runtime identity, target authority and independent disablement are not established. Illustrative only.
@@ -84,5 +86,5 @@ P6: T22 / LAW-1 (UK Electronic Communications (Security Measures) Regulations 20
 P7: T22 / LAW-2 (UK Telecommunications Security Code of Practice v1.1; official guidance, Tier 1/2 scope, Tier 3 qualification and legal relevance).
 P8: T6 / LAW-3 (CISA CIRCIA status page, directly read 16 Nov 2026; final rule still in progress; mandatory reporting does not start until effective; voluntary reports encouraged).
 Table 1: T8, T9, T10, T22/LAW-1, T22/LAW-2 and T6/LAW-3, with the same scope limits above. Table 2: author-derived supplier dependency/evidence questions, not claims about a specific contract.
-P2-P3, P9-P14, P15.S1/S4-S5, P16-P24, P26: Author analysis and recommendations on jurisdiction mapping, supplier dependency, contracting, exit, bounded use and service continuity; no unverified operator practice, contract term, cost, or exit outcome asserted.
+P2-P3, P9-P14, P15.S1/S4-S5, P16-P24, P26-P27: Author analysis and recommendations on jurisdiction mapping, supplier dependency, contracting, exit, bounded use and service continuity; no unverified operator practice, contract term, cost, or exit outcome asserted.
 -->
