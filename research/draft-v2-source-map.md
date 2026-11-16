@@ -34,6 +34,16 @@
 | P14.S1–S2 | O8 | [CISA and international partners, Careful Adoption of Agentic AI Services](https://www.cisa.gov/news-events/news/cisa-us-and-international-partners-release-guide-secure-adoption-agentic-ai) | Cross-sector multi-agency guidance recommends low-risk/non-sensitive starts and avoiding broad or unrestricted access to sensitive data and critical systems. Not a telco-specific control standard. |
 | P3–P5, P7–P8, P9.S4–S7, P10–P13, P15; authority-map table | Author analysis/recommendation | No additional source claim | Workflow definitions, distinction among identity/data/tool/target/service, local mapping aid and action-level categories. No operator-wide path, deployment, incident or test result is asserted. |
 
+## Chapter 4 — Prove Safe Authority and Service-Safe Response
+
+| Draft anchor | Claim/source IDs | Primary source links | Support and limit |
+|---|---|---|---|
+| P10 | T12 | [NIST, Lessons Learned from the Consortium: Tool Use in Agent Systems](https://www.nist.gov/news-events/news/2025/08/lessons-learned-consortium-tool-use-agent-systems) | NIST reports an expert workshop synthesis (~140 experts) proposing multiple tool-use taxonomy dimensions, including functionality/action, access patterns, risk/reversibility, monitoring and autonomy. Expert discussion, not a consensus standard or production test. |
+| P11.S2 | T19 | [AgentDojo, NeurIPS 2024 paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/97091a5177d8dc64b1da8bf3e1f6fb54-Paper-Datasets_and_Benchmarks_Track.pdf) | Peer-reviewed benchmark showing indirect prompt-injection mechanisms in simulated tool environments. No telecom systems, operator incident or production control-effectiveness estimate; conflicting tool counts omitted. |
+| P11.S3 | T20 | [IEEE paper DOI](https://doi.org/10.1109/OJCOMS.2024.3364840); [author PDF](https://faculty.csie.ntust.edu.tw/~smcheng/papers/J39_2402_Security%20Threats%20to%20xApps%20Access%20Control%20and%20E2%20Interface%20in%20O-RAN.pdf) | Peer-reviewed experimental O-RAN H-Release study; access-control/API/E2 weaknesses and lab attacks. Not a carrier production deployment or an LLM-agent test; authors disclose Trend Micro and Taiwan NSTC support. |
+| P14 | Author-supplied composite | `research/chapter-04.md` (historical composite record) | NOC-assistant situation is illustrative only; neighboring-domain data and reduced NOC visibility are exercise prompts, not empirical evidence or a reported operator test. |
+| P1-P9, P12-P13, P15-P23 | Author analysis/recommendation | No external source claim | Locally scoped testing, containment, service-owner role, restoration, fallback, change-trigger and evidence-record guidance. No operator test, deadline or outcome is asserted. |
+
 ## Update rule
 
 Add each chapter after drafting and ledger review. Where a sentence is author analysis rather than sourced fact, mark it as such; where a claim is omitted or qualified, keep the exact reason visible. When whole-book edits alter paragraph anchors, update this map in the same commit as the manuscript change.
