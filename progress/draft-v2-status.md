@@ -3,7 +3,7 @@
 **As of:** 16 November 2026
 
 **Editorial status:** Revised six-chapter author-review manuscript. Not publication-ready.
-**Git status:** Manuscript revision committed locally as `0db70ac0334d98711aea450a4492cb6b004f55d2`. A normal push was attempted after confirming the live baseline; GitHub rejected authentication (`Invalid username or token. Password authentication is not supported for Git operations.`). At the failed-push readback, local `HEAD` was `0db70ac0334d98711aea450a4492cb6b004f55d2` and live `origin/main` remained `c4257d11554709363f385a864090955bfe855cc2` (one local commit ahead, zero behind). The final status/log correction is a separate local documentation commit; no retry will be made without changed credentials.
+**Git status:** Manuscript revision committed locally as `0db70ac0334d98711aea450a4492cb6b004f55d2`. A normal push was attempted after confirming the live baseline; GitHub rejected authentication (`Invalid username or token. Password authentication is not supported for Git operations.`). At the failed-push readback, local `HEAD` was `0db70ac0334d98711aea450a4492cb6b004f55d2` and live `origin/main` remained `c4257d11554709363f385a864090955bfe855cc2` (one local commit ahead, zero behind). The status/log correction is recorded in a separate local documentation commit and remains unpublished; no retry will be made without changed credentials.
 
 ## Active files
 - Assembled reader-facing manuscript: [`../draft-v2/manuscript.md`](../draft-v2/manuscript.md)
