@@ -1,7 +1,7 @@
 # Draft v2 status
 
 **As of:** 16 November 2026
-**Status:** Complete six-chapter working draft for author review; final editorial pass and assembly validation are complete. Local commit and requested push verification are pending. Not publication-ready.
+**Status:** Author-review manuscript committed locally as `88c17d104ff6db9a3a2f9edd45609eaaa8e8dbd2`. The requested push was attempted once and failed authentication; live `origin/main` remains `8f07e72c00635191aaa2fbabc04130090e8b404d`. No retry was made. Not publication-ready.
 
 ## Active files
 - Reader-facing assembly: [`../draft-v2/manuscript.md`](../draft-v2/manuscript.md)
@@ -25,7 +25,7 @@
 ## Review and release limits
 - Two separate-context Chapter 6 critiques by GPT-6-Luna (same available model, not human or independent-model review). The first identified a missing local selection rule and per-priority decision record. The second found no High-severity defect and recommended commit; it raised Medium concerns about treating four rows as a default package and repeating decision fields, plus Low concerns about displaced-work specificity and trigger repetition. These were addressed by naming candidate areas, recording owners/triggers for omitted rows, requiring local displaced-work identifiers, reducing the board prompt to four fields and trimming the conclusion/trigger language.
 - No human, legal-counsel or independent-model review is claimed. The work uses current claim-ledger dispositions; it does not certify every historical claim in the repository. Operator-specific costs, staffing, service tolerances, supplier rights and legal applicability remain local inputs, not manuscript facts. No PDF was rendered: no page-level renderer is installed for visual inspection.
-- Prior pre-commit baseline: branch `main`; local `HEAD` and fetched/live `origin/main` were both `8f07e72c00635191aaa2fbabc04130090e8b404d`, with zero ahead/behind. That check predates the final editorial edits. The current request authorizes commit and push; refresh Git state before proceeding. No push attempt has yet been made.
+- Prior pre-commit baseline: branch `main`; local `HEAD` and fetched/live `origin/main` were both `8f07e72c00635191aaa2fbabc04130090e8b404d`. The manuscript commit `88c17d104ff6db9a3a2f9edd45609eaaa8e8dbd2` is now local. Its single push attempt failed with the exact authentication error recorded in the editorial report; live remote `main` remained at the baseline SHA. No retry was made.
 
 ## Exact continuation point
-The Chapter 6 critique and final whole-book pass are complete. The working manuscript is assembled and validated. Refresh Git state and diff checks, commit the author-review version, attempt the requested push once, and verify the remote branch and commit; if authentication fails, preserve the local commit and report the exact failure without retrying.
+The Chapter 6 critique and final whole-book pass are complete. The author-review manuscript is committed locally as `88c17d104ff6db9a3a2f9edd45609eaaa8e8dbd2`. One push attempt failed authentication; live remote `main` remains at `8f07e72c00635191aaa2fbabc04130090e8b404d`. No retry was made. Publication remains blocked until the configured GitHub credential is corrected.

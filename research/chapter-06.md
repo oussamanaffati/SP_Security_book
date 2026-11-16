@@ -37,4 +37,4 @@ The final read makes the Chapter 6 opening distinct from the introduction and th
 
 ## Next
 
-The Chapter 6 critique and final whole-book read are complete. Refresh the status and editorial report, rerun source-map/assembly and `git diff --check`, then make the local author-review commit. Do not push; no push was requested.
+The Chapter 6 review and final manuscript checks are complete. The author-review manuscript was committed locally as `88c17d104ff6db9a3a2f9edd45609eaaa8e8dbd2`. Its single push attempt failed authentication; live `origin/main` remains `8f07e72c00635191aaa2fbabc04130090e8b404d`. No retry was made.
