@@ -41,7 +41,7 @@ Telecom’s AI story is not one technology arriving at once. Operators already u
 
 **Key argument:** AI adoption differs by function. Customer service and analytics may scale differently from network-control actions. A survey saying “adopting” is not the same as a production system, and a faster task is not automatically a safer service or a lower total cost.
 
-**Evidence and telecom examples:** Orange France’s deployed MAIA advisor tool and prospective Sharlie voice assistant; One NZ’s Network Concierge; Deutsche Telekom’s RAN Guardian; Telefónica’s broad AI-use claims and NOA incident-analysis agent; BT’s Hiya-powered consumer call screening. Treat Orange Cyberdefense’s Qevlar SOC integration as a rollout claim, and keep public evidence gaps in internal fraud, coding and operator security operations explicit. Label partner/vendor results and operator self-reports; compare workflow-specific measures rather than forcing one adoption figure onto the sector.
+**Evidence and telecom examples:** Orange France’s deployed MAIA advisor tool and prospective Sharlie voice assistant; One NZ’s Network Concierge; Deutsche Telekom’s RAN Guardian; Airtel’s Ericsson Operations Engine case; SK Telecom’s AI-RAN commercial-network validation; TELUS’s customer-facing GenAI support; China Mobile/ZTE’s O&M pilot; Telefónica’s broad AI-use claims and NOA incident-analysis agent; BT’s Hiya-powered consumer call screening. Treat Orange Cyberdefense’s Qevlar SOC integration as a rollout claim, and keep public evidence gaps in internal fraud, coding and operator security operations explicit. Label supplier/vendor results, operator self-reports, pilots and validation stages; compare workflow-specific measures rather than forcing one adoption figure onto the sector [O1, O9, O11–O19, O22].
 
 **Practical payoff:** A **use-case heat map** by production status, service impact, authority, benefit evidence and dependency.
 
@@ -52,7 +52,7 @@ Telecom’s AI story is not one technology arriving at once. Operators already u
 
 **Key argument:** Telecom espionage, credential theft and supply-chain compromise are serious without an AI label. Attribute AI use only when a primary source or well-supported investigation does so. Broader reports of AI-assisted phishing, coding or reconnaissance are relevant but not telecom incident evidence.
 
-**Evidence and telecom examples:** Official telecom disclosures and advisories (including Singapore, U.S. PRC-linked telecom activity and the Indonesian telecom backdoor advisory); independently described campaigns such as Google's GRIDTIDE investigation; separate model-provider and government reports on AI misuse, with explicit sector limits.
+**Evidence and telecom examples:** Official telecom disclosures and advisories (including Singapore, the FBI/CISA PRC-linked U.S. telecom campaign and the Indonesian telecom backdoor advisory); ENISA’s separate 30-incident OSINT overview and 188 authority-submitted incident reports, which must not be treated as comparable counts; independently described campaigns such as Google’s GRIDTIDE investigation; separate model-provider and government reports on AI misuse, with explicit sector limits [O4–O7, O20, O21, O23].
 
 **Practical payoff:** A **threat-claim ladder**: observed action, verified tool use, AI contribution, causal effect, telecom victim and operational impact—each requiring separate evidence.
 
@@ -85,7 +85,7 @@ Telecom’s AI story is not one technology arriving at once. Operators already u
 
 **Key argument:** Zero Trust is an architectural approach to resource access; IGA governs identity lifecycle and entitlement decisions; AI may support analysis or orchestration. Combining the labels does not demonstrate that the target enforces policy, that non-human identities are governed, or that dynamic decisions are safe. Apply each control at the point where it changes a real risk.
 
-**Evidence and telecom examples:** NIST SP 800-207 and SP 1800-35; 3GPP security and AI/ML management; GSMA guidance; the Protiviti article's proposed architecture contrasted with named operator outcomes (or their absence). Distinguish a 5G standards-based authentication/control mechanism from enterprise-wide ZTA adoption.
+**Evidence and telecom examples:** NIST SP 800-207 and SP 1800-35; 3GPP security and AI/ML management; GSMA guidance; the Protiviti article’s proposed architecture contrasted with TM Forum’s later agent-governance and access-management Catalysts (proofs of concept, not production outcomes) and Telenor’s vendor-reported standalone IGA case [M7, M9–M11, T2–T5]. Distinguish 5G standards-based authentication/control from enterprise-wide ZTA adoption.
 
 **Practical payoff:** A **convergence test**: which identity is governed, which policy decision changes, where enforcement occurs, what evidence links request to target result, and what happens during revocation or control-plane failure.
 
@@ -118,7 +118,7 @@ Telecom’s AI story is not one technology arriving at once. Operators already u
 
 **Key argument:** Separate law in force, regulator rules, draft consultations, voluntary standards, industry guidance and vendor recommendations. Map requirements by service, data, entity, market and operator role. Supplier location, retention, support access, model change and exit terms create operational—not only privacy—dependencies.
 
-**Evidence and telecom examples:** NIS2 national implementation, GDPR, EU AI Act role/classification rules, CIRCIA rulemaking status, FCC provider obligations and rescinded actions, national telecom guidance, GSMA/3GPP standards, and TRAI proposals where applicable. Use a dated jurisdiction matrix; do not generalize one market's law to all carriers.
+**Evidence and telecom examples:** NIS2 national implementation, GDPR, EU AI Act role/classification rules, CIRCIA rulemaking status, FCC provider obligations and rescinded actions, UK Electronic Communications (Security Measures) Regulations and the distinct Code of Practice (updated to version 1.1 in July 2026), national telecom guidance, GSMA/3GPP standards, and TRAI proposals where applicable. Use a dated jurisdiction matrix; do not generalize one market’s law to all carriers [T6–T10, T22].
 
 **Practical payoff:** A **binding-versus-voluntary obligations map** plus a supplier-change checklist tied to actual service paths.
 
