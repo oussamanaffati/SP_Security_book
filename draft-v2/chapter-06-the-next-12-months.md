@@ -1,8 +1,8 @@
 # Chapter 6: The Next 12 Months: A Defensible Operator Agenda
 
-Pausing an agent can reduce an access risk while removing a feed or supplier path the network team needs to see the service. Leaving it unbounded is not a safe alternative. The decision for the next year is narrower and more useful: which work will make a consequential workflow safer to use, what evidence would justify expansion, and what service capability must remain if the workflow is stopped?
+Spend next year’s limited capacity first on workflows that need safer limits and a better recovery path. This is not a vote for or against AI. The NOC must still see the service if a workflow is stopped.
 
-The aim is not to predict how many agents operators will deploy or to claim that agents cause most telecom incidents. It is to produce a small, funded portfolio tied to local services. A product roadmap is not a portfolio. Neither is a list of controls without an owner, capacity or a service decision.
+Start with the services an agent could touch, not a forecast of how many agents will arrive. Supplier roadmaps cannot decide what your teams can fund or which risks management can accept. Those are local decisions.
 
 ## Choose the priorities from local evidence
 
@@ -10,60 +10,60 @@ Start with four candidate work areas:
 
 1. **Map consequential workflows.** Identify what is live or planned, which service it touches, what data it reads, and which identity, connector and target it uses.
 2. **Bound and test target authority.** Demonstrate what the target permits and denies, how it attributes calls, and what happens to sessions or queued work when access is revoked.
-3. **Rehearse service-safe containment and recovery.** Show how the operator preserves an authoritative service view, limits a suspect path, and restores the smallest safe capability.
+3. **Rehearse containment and recovery.** Show how the team can limit a suspect path without losing its view of the service, then restore the smallest useful capability.
 4. **Set supplier, jurisdiction and exit conditions.** Know which rules apply to the entity and service, what supplier paths and changes matter, and what service can continue if the provider or feature becomes unavailable.
 
-These are work areas, not necessarily separate projects. One test can support more than one only if the identities, connectors, target and service conditions align; otherwise, it does not establish control for another workflow.
+Treat these as four lines of work, not automatically four separate projects. One test may help with more than one only when the identities, connectors, target and service conditions match. Otherwise, it does not prove that the other workflow is controlled.
 
-Choose three or four only if local service evidence and capacity support them. Compare the candidates on service consequence, effective reach, urgency, dependencies, readiness to test and recover, full-life cost, available capacity and the specific work that would move. Do not turn unlike measures into a precise score. Prioritize a high-consequence gap or urgent exposure; use readiness and safe capacity to decide whether to test, narrow or sequence the work. A material unknown about a high-consequence path calls for funded discovery, not automatic deferral. If two priorities compete for one safe window, service consequence—not project maturity—sets the order. If three work areas address the material local risks, do not add a fourth just to complete the list; if all four matter and capacity exists, fund all four rather than creating an artificial cap.
+Choose three or four only when local evidence and capacity support them. Weigh service impact, reach, urgency, dependencies, readiness, cost over the system’s life and the work that would be delayed. Do not turn unlike measures into one score. Put high-consequence gaps and urgent exposures first. Use readiness to decide whether to test, narrow or sequence the work. When a path is unclear and the consequence high, fund discovery. If priorities compete for one safe window, protect the service facing greater harm. The number is not a target: choose fewer if they cover the risks, all four if each matters and the teams can deliver.
 
-Record each selected priority once in the board brief below. Use that brief as the portfolio’s decision record, not an extra committee layer. Mark local names, evidence, budget and work-item details clearly; an unknown stays unknown until someone verifies it.
+Use the board brief below as the decision record, not another committee. Fill in local owners, evidence, budget and work items; mark unknown facts until someone verifies them.
 
-Supplier and legal conditions apply to the workflows they affect even when work area four is not selected as a separate project. If a workflow cannot pass a relevant supplier-access, data, support or legal check, keep it bounded. A separate release check does not require a broad supplier-transformation programme.
+Supplier and legal checks still apply to the workflows they affect, even when they are not a separate project. Keep access within the agreed boundary until the relevant data, support and legal conditions are checked. This need not become a company-wide supplier programme.
 
 ## A hypothetical three-of-four choice
 
-Assume, only for this exercise, that the operator can staff three of the four work areas this planning cycle. No budget, cost estimate or staffing level is asserted. The NOC situation in Chapter 4 raises the question of whether the assistant can affect the alarm view; the supplied situation says the proposed change was not executed. The supplier feature in Chapter 5 reads topology and proposes actions, but direct execution is not established. Add two planning assumptions: the operator is considering expanding the NOC workflow, while the supplier feature is not planned for enablement this cycle.
+Assume teams can staff three of the four areas this cycle. That is a capacity constraint, not a budget or headcount estimate. In the Chapter 4 situation, the assistant proposed a change that could narrow the alarm view; it was not executed. The supplier feature reads topology and proposes actions, but whether it can execute them is unknown. For planning, assume the operator is considering expanding the NOC workflow but not enabling the supplier feature this cycle.
 
-Under those assumptions, choose workflow mapping, target-boundary testing and service-safe containment. First map the actual identity and path for the planned NOC expansion. Then test what the relevant targets permit before increasing its authority. Rehearse a pause that keeps an independent alarm view available. Defer a broad supplier-and-exit review as a separate workstream, but do not enable or expand the supplier feature until its identity, logging, disablement, support, fallback and applicable legal checks are complete. The omitted work is delayed, not deemed safe; its reopening trigger belongs in the decision record.
+On that basis, choose workflow mapping, target testing and containment that preserves service visibility. First trace the identity and path for the planned NOC expansion. Test what the target permits before granting more authority. Then rehearse a pause that leaves an independent alarm view. A broader review of supplier access and exit can wait, but do not enable or expand the feature until its identity, logging, disablement, support, fallback and legal duties have been checked. Deferring the review does not make the feature safe; state when to revisit it.
 
-This choice changes if the premises change. If the supplier feature enters a planned service workflow, or local evidence shows it can reach a sensitive target, move the supplier and target-boundary work ahead of a lower-consequence task. If the alarm view cannot be maintained without the assistant, fund and verify an independent view before considering expansion. If a clear excess permission is already known, close it through a supported change while the wider inventory continues. These are conditional management choices, not claims about operator practice or measured outcomes.
+Reorder the work when an assumption changes. Bring supplier and target testing forward if the feature enters a live service path or can reach a sensitive target. If the assistant is the only way to see alarms, fund an independent view first. Remove any known excessive permission through a supported change while the wider inventory continues.
 
-The example also shows why capacity belongs in the decision. Selecting three areas does not make the fourth disappear. Network engineers, platform staff, security, NOC and security operations centre (SOC) teams, Procurement and Legal already have work. Name the particular local change, access review, exercise, maintenance window or contract task that will move. “Reliability work” is not specific enough for the service executive to understand the trade-off. If no work moves, explain how the added effort is funded rather than assuming capacity is free.
+The choice is credible only if the teams have time. Network Engineering, platform operations, Security, the NOC, the security operations centre (SOC), Procurement and Legal all have existing commitments. Name the change, access review, exercise, maintenance window or contract task that will move. “Reliability work” is too vague for the service executive to weigh. If nothing moves, explain how the extra effort is funded; capacity is not free.
 
-## Sequence the year by what the decision needs
+## A practical order for the next year
 
-Use a simple sequence, adjusted to real maintenance windows and supplier support rather than an arbitrary calendar:
+Fit the sequence to real maintenance windows and supplier support, not an arbitrary calendar:
 
 - **First, select the workflows and map their actual paths.** Record what is known, what is not, and why the service matters. Do not let adoption figures or a vendor calendar choose the first service.
 - **Next, reduce clear excess authority and test the boundary safely.** If production denial could disrupt service, use a safe test route. Until target behavior is verified, keep the workflow at its last verified scope.
 - **Then, rehearse the service response.** Confirm which alarm view and manual route remain, how active sessions and queued work are handled, who can act, and how restoration will be checked.
 - **Before expanding, resolve the supplier and legal conditions that apply.** If a material dependency remains unknown, hold the scope or bring the service-specific choice to an authorized executive.
 
-At each point, management can expand within the tested scope, keep the workflow bounded while gathering evidence, or stop and use a supported manual process. Stopping is not automatically safest if it removes service visibility. If no independent view or support route is ready, state the consequence and make a service decision before removing the only operational path—unless evidence of misuse requires immediate containment. In either case, check target state rather than treating the assistant’s stop message as proof.
+As work progresses, management can expand within the tested scope, hold the current boundary while gathering evidence, or stop and use a supported manual process. A stop is not automatically safer if it removes the service view. If no independent view or support route is ready, make the service consequence explicit before removing the only operational path—unless evidence of misuse requires immediate containment. Either way, check the target; the assistant’s stop message is not proof.
 
 ## Put one decision in front of the board
 
-The board should oversee risk appetite, resources, escalation and assurance. Management should own delivery and service risk within delegated authority. The CISO provides distinct security advice; a board update or an approval button does not itself establish that a target boundary works or that the service can recover. Approval to fund mapping and testing does not approve expansion of a workflow’s production authority.
+The board oversees risk appetite, resources, escalation and assurance. Management owns delivery and service risk within its delegated authority. The CISO gives separate security advice. A board update or approval button cannot prove that the target enforces a boundary or that the service can recover. Funding a map and test does not approve more production authority.
 
-A one-page decision brief can ask directors to approve capacity for three or four locally justified priorities. For each, it should state four things:
+Use a one-page brief to ask directors for capacity to fund three or four locally justified priorities. For each one, answer four questions:
 
-- **Scope and ownership:** Which service and workflow are included, who is the accountable executive, and what is the CISO’s separate advice?
-- **Evidence and limits:** Which target requests should pass or fail, what log or resulting state proves it, what remains unknown, and what is out of scope?
-- **Investment and trade-off:** What is the full-life cost and its basis, what is still unknown, which functions and windows provide capacity, and what specific work moves with what consequence? Use fields such as `[local budget]`, `[work-item ID]` and `[change window]` when those values are not yet set.
-- **Service and risk decision:** What fallback preserves the operational view and recovery, who may accept the remaining risk within delegated authority, and what evidence or change will trigger reassessment?
+- **What are we funding?** Name the service and workflow, the accountable executive and the CISO’s separate advice.
+- **What will count as proof?** State which target requests should pass or fail, what log or resulting state will show it, and what remains unknown or out of scope.
+- **What will it cost and displace?** Give the full cost over the system’s life, its basis, capacity and change windows, and name the work that will move. Use `[local budget]`, `[work-item ID]` and `[change window]` where details are not yet set.
+- **How will the service keep running?** Name the fallback, who may accept risk within their authority, and what change or evidence will trigger a new decision.
 
-Do not promise return on investment (ROI) without a local baseline, a comparison method, a quality measure and full operating cost. A faster workflow may still require correction and supervision. A successful target-denial test is a security result, not a productivity result. Keep those decisions separate. Classify cost figures as supplier quotes, internal estimates or unknown, and separate one-time, recurring and exit costs where the operator can. If a value is missing, name who will obtain it or write `[estimate pending]`; do not turn a blank into zero or use it to delay the first local decision.
+Do not promise return on investment (ROI) without a local baseline, a fair comparison, a quality measure and the full operating cost. A faster workflow may still need correction and supervision. A target-denial test measures security, not productivity. Keep those results separate. Label each figure as a supplier quote, internal estimate or unknown; show one-time, recurring and exit costs separately where possible. For a missing value, name who will obtain it or write `[estimate pending]`. A blank is not zero, and it need not delay the first local decision.
 
-The management ask is simple: authorize the selected capacity, keep write scope bounded until the target test and service fallback are demonstrated, and return for a decision if those conditions change. Do not ask directors to approve AI as a category.
+Ask management to fund the selected work, keep write access within the tested boundary, and prove that the service fallback works before expansion. Return for a new decision if those conditions change. Do not ask directors to approve “AI” as a category.
 
 ## What should change the order
 
-Reopen a priority when evidence changes the service decision. A newly verified route to a sensitive target may move boundary correction forward. A supplier change to identity, data handling, support or update behavior may bring dependency review forward. An exercise that exposes a shared fallback identity may require a different recovery path before expansion. A legal change requires Legal to check the affected entity and service before the scope is revised.
+Reopen a priority when new evidence changes the service decision. A newly confirmed route to a sensitive target may bring boundary work forward. A supplier change to identity, data handling, support or updates may require an earlier review. If an exercise finds that the fallback shares an identity with the system under review, reassess the recovery path before expanding. Legal should check any change in the rules against the affected entity and service.
 
-Threat reporting can prompt a local comparison, but an AI label alone does not set the priority. Compare the reported technique with local exposure, telemetry and service consequence. If the evidence does not change, do not expand because a project reached a milestone or a supplier announced a feature. Hold at the approved scope and state what evidence is still needed. Absence of a reported incident is not proof that the boundary works.
+Threat reports can prompt a local check, but an AI label alone does not set the priority. Compare the reported technique with local exposure, telemetry and service impact. Do not expand simply because a project reached a milestone or a supplier announced a feature. Keep the approved scope and say what evidence is still missing. A lack of reported incidents does not show that the boundary works.
 
-At the next planning meeting, decide whether to fund the three or four priorities your local evidence supports. In the worked example, that means mapping the proposed NOC expansion, testing target permissions and rehearsing an independent alarm view; write access stays out until those results are known. Do not enable or expand the supplier feature until its release checks pass. Put the accountable owner and displaced work in the brief.
+At the next planning meeting, choose the three or four priorities your local evidence supports. In the example, map the proposed NOC expansion, test the target permissions and rehearse an independent alarm view. Keep write access out until you have those results. Do not enable or expand the supplier feature until its release checks pass. Put the accountable owner and displaced work in the brief.
 
 <!-- Non-reader-facing claim/source map. Exact evidence classes and limits are in the chapter maps and claim ledger.
 P1-P32: Author analysis and synthesis based on Chapters 1-5 and current claim-ledger dispositions; no new empirical or sector-prevalence claim. The visibility/support tension is analytic, not a measured incident cause.
