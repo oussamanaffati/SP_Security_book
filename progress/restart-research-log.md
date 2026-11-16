@@ -117,3 +117,10 @@
 - The unresolved items remain bounded: missing DT denominator/timing/error data; missing One NZ baseline/sample/quality measures; Orange has no published quality/time/cost outcome; SKT’s real-time application was still in development in the cited release. The chapter makes no sector-wide prevalence, security-efficacy or independent ROI claim.
 - Read-through for rhythm and clarity prompted shorter measurement caveats and a tighter synthesis instead of repeating a vendor-by-vendor recap. Strongest argument: an action count establishes activity, not correctness or service outcome. Primary critique used `gpt-6-luna`; no Grok review was run because `XAI_API_KEY` was absent.
 - No push was attempted: `GITHUB_TOKEN` was absent and the earlier authentication failure is already recorded; unchanged credentials were not retried. The pilot commits remain local-only.
+
+## 16 November 2026 — Transition to six-chapter drafting
+
+- Fetched `origin/main` before editing. Branch `main`, local `HEAD`, fetched `origin/main` and live GitHub `main` were all `51c6dd0d8012e2e91e34b0a961d8183ffa72be0d`; worktree was clean.
+- Created root-level `outline-v3.md` from the six-decision sequence in `research/outline-red-team-review.md`, aligning Chapter 1’s title with the completed pilot. Marked `outline-v2.md` historical; retained the file and all legacy chapter files.
+- Working sequence: claim reality; telecom threat and AI-attribution boundary; identity/data/tool authority to target; target-side control proof and service-safe response; jurisdiction and supplier exit; a locally defensible 12-month agenda.
+- Drafting cycle: one chapter per file, ledger/source review, flow and voice critique, short progress entry, local commit, then proceed to the next chapter. The four existing composites remain the only operational examples available for illustrative exercises.

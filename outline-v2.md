@@ -1,5 +1,7 @@
 # Proposed concept v2
 
+> **Historical working outline — superseded 16 November 2026.** This ten-chapter concept is retained for reference only. The active architecture is `outline-v3.md`; do not use this file as authoritative for current drafting.
+
 ## Working title
 
 **AI Security for Telecom CISOs: Separating Reality from Hype**
