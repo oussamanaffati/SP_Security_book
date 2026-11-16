@@ -10,7 +10,7 @@ In November 2024, the Federal Bureau of Investigation (FBI) and Cybersecurity an
 
 The European Union Agency for Cybersecurity (ENISA) counted 30 cybersecurity incidents in an open-source intelligence (OSINT) overview. A separate annual summary contained 188 significant-incident reports submitted by national authorities. That set also includes service outages, system failures, human error and natural phenomena. The collections draw on different inputs and definitions; they are not a combined total or comparable rates.
 
-The OSINT overview shows publicly reported cyber activity, not every telecom intrusion. The authority-submitted reports capture continuity-impact events under a reporting framework, not just hostile campaigns. They answer different questions. Keep that distinction in executive briefings; neither figure estimates an operator’s local exposure.
+The OSINT overview shows publicly reported cyber activity, not every telecom intrusion. The authority-submitted reports capture continuity-impact events under a reporting framework, not just hostile campaigns. Because the collections answer different questions, neither estimates an operator’s local exposure.
 
 ## Put the threat report to work
 

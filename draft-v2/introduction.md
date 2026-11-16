@@ -4,7 +4,7 @@ When leadership asks its chief information security officer (CISO) to pause a wo
 
 Neither response is enough. Start with the workflow itself. What data does it read, which identity and connector does it use, and what can it recommend or change? Check where the target enforces permission. Then ask what the team can still see if the workflow stops, and who can restore the service.
 
-That makes this a service-provider security problem, not just an AI problem. A decision sits inside a live service, with people, suppliers and dependencies that may still be needed when a workflow stops. A control that looks easy in a demonstration can be hard to remove from operations. And “in production” says little about what the system can change, how widely it is used or whether security improved.
+This is a service-provider security problem. A decision sits inside a live service, with people, suppliers and dependencies that may still be needed when a workflow stops. A control that looks easy in a demonstration can be hard to remove from operations. And “in production” says little about what the system can change, how widely it is used or whether security improved.
 
 The sources in this book show serious telecom targeting, but do not establish AI as the cause of the incidents discussed. The systems themselves are at different stages. Keep three distinctions in view: productivity is not security effectiveness, a threat report is not a local risk assessment, and a test supports only the path it exercised.
 

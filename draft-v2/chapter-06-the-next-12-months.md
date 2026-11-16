@@ -1,8 +1,8 @@
 # Chapter 6: The Next 12 Months: A Defensible Operator Agenda
 
-Spend next year’s limited capacity first on workflows that need safer limits and a better recovery path. This is not a vote for or against AI. The NOC must still see the service if a workflow is stopped.
+Spend next year’s limited capacity first on workflows that need safer limits and a better recovery path. Let service impact, not the AI label, set the order. The NOC must still see the service if a workflow is stopped.
 
-Start with the services an agent could touch, not a forecast of how many agents will arrive. Supplier roadmaps cannot decide what your teams can fund or which risks management can accept. Those are local decisions.
+Start with the services an agent could touch. Supplier roadmaps cannot decide what your teams can fund or which risks management can accept. Those are local decisions.
 
 ## Choose the priorities from local evidence
 
@@ -17,7 +17,7 @@ Treat these as four lines of work, not automatically four separate projects. One
 
 Choose three or four only when local evidence and capacity support them. Weigh service impact, reach, urgency, dependencies, readiness, cost over the system’s life and the work that would be delayed. Do not turn unlike measures into one score. Put high-consequence gaps and urgent exposures first. Use readiness to decide whether to test, narrow or sequence the work. When a path is unclear and the consequence high, fund discovery. If priorities compete for one safe window, protect the service facing greater harm. The number is not a target: choose fewer if they cover the risks, all four if each matters and the teams can deliver.
 
-Use the board brief below as the decision record, not another committee. Fill in local owners, evidence, budget and work items; mark unknown facts until someone verifies them.
+Use the board brief below to record the decision. Fill in local owners, evidence, budget and work items; mark unknown facts until someone verifies them.
 
 Supplier and legal checks still apply to the workflows they affect, even when they are not a separate project. Keep access within the agreed boundary until the relevant data, support and legal conditions are checked. This need not become a company-wide supplier programme.
 
@@ -63,7 +63,7 @@ Reopen a priority when new evidence changes the service decision. A newly confir
 
 Threat reports can prompt a local check, but an AI label alone does not set the priority. Compare the reported technique with local exposure, telemetry and service impact. Do not expand simply because a project reached a milestone or a supplier announced a feature. Keep the approved scope and say what evidence is still missing. A lack of reported incidents does not show that the boundary works.
 
-At the next planning meeting, choose the three or four priorities your local evidence supports. In the example, map the proposed NOC expansion, test the target permissions and rehearse an independent alarm view. Keep write access out until you have those results. Do not enable or expand the supplier feature until its release checks pass. Put the accountable owner and displaced work in the brief.
+At the next planning meeting, put the proposed NOC expansion on the table. Ask for a workflow map, tested target permissions and a rehearsed independent alarm view before granting write access. Hold the supplier feature until its release checks pass; record the accountable owner and displaced work in the brief.
 
 <!-- Non-reader-facing claim/source map. Exact evidence classes and limits are in the chapter maps and claim ledger.
 P1-P32: Author analysis and synthesis based on Chapters 1-5 and current claim-ledger dispositions; no new empirical or sector-prevalence claim. The visibility/support tension is analytic, not a measured incident cause.

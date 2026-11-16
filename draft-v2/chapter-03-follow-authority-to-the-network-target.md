@@ -4,7 +4,7 @@ A radio application can create a network-control risk without being called an AI
 
 The study did not test a large language model (LLM)-based agent; the applications were not automatically AI agents. The weakness was not bad model advice, but insufficient control over what an application could reach through network-management interfaces. That distinction still matters when a language model joins an operational workflow. It may reason about a change, but a runtime must call a tool, the tool must use a credential, and an API must accept the request before the target can alter the network.
 
-The authority is in that chain, not in the product name.
+What matters is the authority each step in that chain carries.
 
 ## Follow one identity to its target
 

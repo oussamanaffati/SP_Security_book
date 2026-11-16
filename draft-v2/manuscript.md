@@ -18,7 +18,7 @@ When leadership asks its chief information security officer (CISO) to pause a wo
 
 Neither response is enough. Start with the workflow itself. What data does it read, which identity and connector does it use, and what can it recommend or change? Check where the target enforces permission. Then ask what the team can still see if the workflow stops, and who can restore the service.
 
-That makes this a service-provider security problem, not just an AI problem. A decision sits inside a live service, with people, suppliers and dependencies that may still be needed when a workflow stops. A control that looks easy in a demonstration can be hard to remove from operations. And “in production” says little about what the system can change, how widely it is used or whether security improved.
+This is a service-provider security problem. A decision sits inside a live service, with people, suppliers and dependencies that may still be needed when a workflow stops. A control that looks easy in a demonstration can be hard to remove from operations. And “in production” says little about what the system can change, how widely it is used or whether security improved.
 
 The sources in this book show serious telecom targeting, but do not establish AI as the cause of the incidents discussed. The systems themselves are at different stages. Keep three distinctions in view: productivity is not security effectiveness, a threat report is not a local risk assessment, and a test supports only the path it exercised.
 
@@ -54,8 +54,6 @@ These examples measure different things. Deployment tells us where a system is u
 
 Start with the workflow and service. Is the system a demonstration, a pilot or in live use? How widely is it used? Then ask which identity and actions it has, who is reporting the result and what the metric counts. For a measured claim, ask for the denominator, baseline, period and comparison method. Mark important gaps as unknown. A plan is not a live deployment, and an activity count is not an outcome.
 
-A production label starts the conversation. It should prompt the CISO to ask what path the system uses, what it can do and what result has been measured.
-
 Use the same discipline with threat claims. The next chapter asks what public disclosures say about telecom intrusions—and what they leave unknown.
 
 # Chapter 2: Telecom Threats Without the AI Hype
@@ -70,7 +68,7 @@ In November 2024, the Federal Bureau of Investigation (FBI) and Cybersecurity an
 
 The European Union Agency for Cybersecurity (ENISA) counted 30 cybersecurity incidents in an open-source intelligence (OSINT) overview. A separate annual summary contained 188 significant-incident reports submitted by national authorities. That set also includes service outages, system failures, human error and natural phenomena. The collections draw on different inputs and definitions; they are not a combined total or comparable rates.
 
-The OSINT overview shows publicly reported cyber activity, not every telecom intrusion. The authority-submitted reports capture continuity-impact events under a reporting framework, not just hostile campaigns. They answer different questions. Keep that distinction in executive briefings; neither figure estimates an operator’s local exposure.
+The OSINT overview shows publicly reported cyber activity, not every telecom intrusion. The authority-submitted reports capture continuity-impact events under a reporting framework, not just hostile campaigns. Because the collections answer different questions, neither estimates an operator’s local exposure.
 
 ## Put the threat report to work
 
@@ -92,7 +90,7 @@ A radio application can create a network-control risk without being called an AI
 
 The study did not test a large language model (LLM)-based agent; the applications were not automatically AI agents. The weakness was not bad model advice, but insufficient control over what an application could reach through network-management interfaces. That distinction still matters when a language model joins an operational workflow. It may reason about a change, but a runtime must call a tool, the tool must use a credential, and an API must accept the request before the target can alter the network.
 
-The authority is in that chain, not in the product name.
+What matters is the authority each step in that chain carries.
 
 ## Follow one identity to its target
 
@@ -206,7 +204,7 @@ In the United States, one relevant federal statute is the Cyber Incident Reporti
 | UK telecom security rules | Binding, proportionate telecom-security duties for in-scope public providers; the Code gives detailed guidance. | Provider status, territory, turnover tier and any exemption. |
 | CIRCIA | Provides for mandatory reporting by covered entities under a final rule that is not yet effective as of 16 November 2026. | Future covered-entity scope and any separate reporting duties that already apply. |
 
-Use the table as a starting map, not legal advice. Ask counsel to confirm the current text, national implementation and applicability to each service and entity. A deadline in one market does not automatically apply in another. Nor are a consultation, government code, industry standard and statute interchangeable.
+Treat the table as a starting map. Ask counsel to confirm the current text, national implementation and applicability to each service and entity. A deadline in one market does not automatically apply in another. A consultation, government code, industry standard and statute are not interchangeable.
 
 Make the record useful to the people who run the service. Name the entity, service, applicable rule and reporting trigger. Note who owns the decision and notification, what evidence to preserve and when the entry was last checked. Revisit it if a supplier changes processing location, service role or support path. The legal answer follows the deployed workflow, not the product label.
 
@@ -226,7 +224,7 @@ If a supplier supports a consequential workflow, bring Procurement, Legal, Secur
 | Availability and recovery | Service dependencies, outage notification, support coverage, manual mode and restoration conditions. | What the operator can safely continue when the external service is unavailable. |
 | Portability and exit | Exportable configuration and records, replacement path, credential closure, deletion process and transition assistance. | Whether the operator can leave or change the supplier without losing service control or evidence. |
 
-These are questions to negotiate, not terms every supplier will accept. Seek practical rights to notice, audit, evidence and transition while the operator still has leverage. A contract cannot guarantee every technical outcome, so record the limits and test what the operator controls. A promise to delete data does not show that a copy is gone. “Supervised access” does not prove that the target sees a separate, revocable identity.
+Raise these points while the operator still has leverage, but expect suppliers to resist some requests. Contracts cannot guarantee technical outcomes; test the controls the operator can influence. A deletion clause alone does not show that every copy is gone, and “supervised access” does not prove that the target sees a separate, revocable identity.
 
 Return to the diagnostic feature. The example establishes that it reads topology and proposes actions, but not that it executes them. Do not describe it as a network-changing agent. At the same time, lack of evidence for direct execution does not make its data path, disablement or downstream effects safe.
 
@@ -254,15 +252,15 @@ If the data destination, effective identity, legal role or independent fallback 
 
 For this feature, require a clear release and support path. Keep write access outside it unless tests show that the target enforces the boundary. Preserve the service view during investigation or rollback. Revisit the decision when the identity, target path, fallback and support arrangements are clear.
 
-A legal duty sets a floor and a supplier contract sets expectations. Neither, by itself, shows who can disable a connector at 02:00, whether existing sessions terminate, or whether the NOC can still manage the service afterward. That is the operator’s responsibility to map, test and fund.
+Legal duties set the floor; the contract sets supplier expectations. But they cannot show who can disable a connector at 02:00, whether existing sessions terminate or whether the NOC can still manage the service. The operator has to map, test and fund those capabilities.
 
 These obligations and supplier dependencies narrow the choices. Chapter 6 asks where to spend limited capacity over the next year.
 
 # Chapter 6: The Next 12 Months: A Defensible Operator Agenda
 
-Spend next year’s limited capacity first on workflows that need safer limits and a better recovery path. This is not a vote for or against AI. The NOC must still see the service if a workflow is stopped.
+Spend next year’s limited capacity first on workflows that need safer limits and a better recovery path. Let service impact, not the AI label, set the order. The NOC must still see the service if a workflow is stopped.
 
-Start with the services an agent could touch, not a forecast of how many agents will arrive. Supplier roadmaps cannot decide what your teams can fund or which risks management can accept. Those are local decisions.
+Start with the services an agent could touch. Supplier roadmaps cannot decide what your teams can fund or which risks management can accept. Those are local decisions.
 
 ## Choose the priorities from local evidence
 
@@ -277,7 +275,7 @@ Treat these as four lines of work, not automatically four separate projects. One
 
 Choose three or four only when local evidence and capacity support them. Weigh service impact, reach, urgency, dependencies, readiness, cost over the system’s life and the work that would be delayed. Do not turn unlike measures into one score. Put high-consequence gaps and urgent exposures first. Use readiness to decide whether to test, narrow or sequence the work. When a path is unclear and the consequence high, fund discovery. If priorities compete for one safe window, protect the service facing greater harm. The number is not a target: choose fewer if they cover the risks, all four if each matters and the teams can deliver.
 
-Use the board brief below as the decision record, not another committee. Fill in local owners, evidence, budget and work items; mark unknown facts until someone verifies them.
+Use the board brief below to record the decision. Fill in local owners, evidence, budget and work items; mark unknown facts until someone verifies them.
 
 Supplier and legal checks still apply to the workflows they affect, even when they are not a separate project. Keep access within the agreed boundary until the relevant data, support and legal conditions are checked. This need not become a company-wide supplier programme.
 
@@ -323,4 +321,4 @@ Reopen a priority when new evidence changes the service decision. A newly confir
 
 Threat reports can prompt a local check, but an AI label alone does not set the priority. Compare the reported technique with local exposure, telemetry and service impact. Do not expand simply because a project reached a milestone or a supplier announced a feature. Keep the approved scope and say what evidence is still missing. A lack of reported incidents does not show that the boundary works.
 
-At the next planning meeting, choose the three or four priorities your local evidence supports. In the example, map the proposed NOC expansion, test the target permissions and rehearse an independent alarm view. Keep write access out until you have those results. Do not enable or expand the supplier feature until its release checks pass. Put the accountable owner and displaced work in the brief.
+At the next planning meeting, put the proposed NOC expansion on the table. Ask for a workflow map, tested target permissions and a rehearsed independent alarm view before granting write access. Hold the supplier feature until its release checks pass; record the accountable owner and displaced work in the brief.

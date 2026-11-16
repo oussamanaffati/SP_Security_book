@@ -19,7 +19,7 @@
 | P4 | O9 / OP-3 | Same One NZ source | Separate generator-placement workflow; no network-control or service-restoration result established. |
 | P5 | O13 / OP-5 | [Orange France MAIA/Sharlie release](https://www.orange.com/en/press-release/orange-france-launches-two-new-artificial-intelligence-services-to-enhance-customer-relations-444308) | MAIA deployment/reach and conversation volume are adoption/activity claims, not measured productivity, quality, security or ROI. |
 | P6 | O18 / OP-8 | [SK Telecom AI-RAN recommender](https://news.sktelecom.com/208077) | Commercial-network validation; it recommends parameters and real-time application remained in development. No network-wide autonomous-control result. |
-| P7-P11 | Author analysis | No additional source claim | Distinguishes deployment, activity, productivity, service quality, security effectiveness and ROI. |
+| P7-P10 | Author analysis | No additional source claim | Distinguishes deployment, activity, productivity, service quality, security effectiveness and ROI. |
 
 ## Chapter 2 — Telecom Threats Without the AI Hype
 

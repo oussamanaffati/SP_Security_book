@@ -22,8 +22,6 @@ These examples measure different things. Deployment tells us where a system is u
 
 Start with the workflow and service. Is the system a demonstration, a pilot or in live use? How widely is it used? Then ask which identity and actions it has, who is reporting the result and what the metric counts. For a measured claim, ask for the denominator, baseline, period and comparison method. Mark important gaps as unknown. A plan is not a live deployment, and an activity count is not an outcome.
 
-A production label starts the conversation. It should prompt the CISO to ask what path the system uses, what it can do and what result has been measured.
-
 Use the same discipline with threat claims. The next chapter asks what public disclosures say about telecom intrusions—and what they leave unknown.
 
 <!-- Non-reader-facing source/claim map. Exact primary-source passages, source classes and limitations are in research/claim-ledger.md.
@@ -32,5 +30,5 @@ P3: O9 / OP-3 (Network Concierge workflow and operator-reported analysis-time fi
 P4: O9 / OP-3 (separate generator-placement workflow and severe-weather use; no network-control/restoration result established).
 P5: O13 / OP-5 (MAIA reach, conversation volume and adviser validation; no productivity, security or customer outcome reported).
 P6: O18 / OP-8 (commercial-network validation, recommendation task and real-time application still in development).
-P7-P11: Author synthesis and evidence distinctions; no comparative performance, security-effectiveness or ROI claim.
+P7-P10: Author synthesis and evidence distinctions; no comparative performance, security-effectiveness or ROI claim.
 -->

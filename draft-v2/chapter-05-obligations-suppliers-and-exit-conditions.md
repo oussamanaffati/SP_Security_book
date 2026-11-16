@@ -26,7 +26,7 @@ In the United States, one relevant federal statute is the Cyber Incident Reporti
 | UK telecom security rules | Binding, proportionate telecom-security duties for in-scope public providers; the Code gives detailed guidance. | Provider status, territory, turnover tier and any exemption. |
 | CIRCIA | Provides for mandatory reporting by covered entities under a final rule that is not yet effective as of 16 November 2026. | Future covered-entity scope and any separate reporting duties that already apply. |
 
-Use the table as a starting map, not legal advice. Ask counsel to confirm the current text, national implementation and applicability to each service and entity. A deadline in one market does not automatically apply in another. Nor are a consultation, government code, industry standard and statute interchangeable.
+Treat the table as a starting map. Ask counsel to confirm the current text, national implementation and applicability to each service and entity. A deadline in one market does not automatically apply in another. A consultation, government code, industry standard and statute are not interchangeable.
 
 Make the record useful to the people who run the service. Name the entity, service, applicable rule and reporting trigger. Note who owns the decision and notification, what evidence to preserve and when the entry was last checked. Revisit it if a supplier changes processing location, service role or support path. The legal answer follows the deployed workflow, not the product label.
 
@@ -46,7 +46,7 @@ If a supplier supports a consequential workflow, bring Procurement, Legal, Secur
 | Availability and recovery | Service dependencies, outage notification, support coverage, manual mode and restoration conditions. | What the operator can safely continue when the external service is unavailable. |
 | Portability and exit | Exportable configuration and records, replacement path, credential closure, deletion process and transition assistance. | Whether the operator can leave or change the supplier without losing service control or evidence. |
 
-These are questions to negotiate, not terms every supplier will accept. Seek practical rights to notice, audit, evidence and transition while the operator still has leverage. A contract cannot guarantee every technical outcome, so record the limits and test what the operator controls. A promise to delete data does not show that a copy is gone. “Supervised access” does not prove that the target sees a separate, revocable identity.
+Raise these points while the operator still has leverage, but expect suppliers to resist some requests. Contracts cannot guarantee technical outcomes; test the controls the operator can influence. A deletion clause alone does not show that every copy is gone, and “supervised access” does not prove that the target sees a separate, revocable identity.
 
 Return to the diagnostic feature. The example establishes that it reads topology and proposes actions, but not that it executes them. Do not describe it as a network-changing agent. At the same time, lack of evidence for direct execution does not make its data path, disablement or downstream effects safe.
 
@@ -74,7 +74,7 @@ If the data destination, effective identity, legal role or independent fallback 
 
 For this feature, require a clear release and support path. Keep write access outside it unless tests show that the target enforces the boundary. Preserve the service view during investigation or rollback. Revisit the decision when the identity, target path, fallback and support arrangements are clear.
 
-A legal duty sets a floor and a supplier contract sets expectations. Neither, by itself, shows who can disable a connector at 02:00, whether existing sessions terminate, or whether the NOC can still manage the service afterward. That is the operator’s responsibility to map, test and fund.
+Legal duties set the floor; the contract sets supplier expectations. But they cannot show who can disable a connector at 02:00, whether existing sessions terminate or whether the NOC can still manage the service. The operator has to map, test and fund those capabilities.
 
 These obligations and supplier dependencies narrow the choices. Chapter 6 asks where to spend limited capacity over the next year.
 
