@@ -14,7 +14,7 @@ A practical way to describe any claimed use is with verbs: gather, classify, sum
 
 This is more useful than asking whether a product is “agentic.” The label does not tell you whether the workflow can read operational data, write to a network target, or merely prepare a recommendation for someone else. It also does not tell you what happens when the data are incomplete or the recommendation is wrong.
 
-The deployment stage and the action authority are separate questions. A system can be deployed to gather operational data and recommend next steps without a source establishing that it changes network state. A commercial-network validation can happen while real-time application is still being developed. And a pilot can operate at a real event without being a routine, scaled service.
+The deployment stage and the action authority are separate questions. A system can be deployed to gather operational data and recommend next steps without a source establishing that it changes network state. A commercial-network validation can happen while real-time application is still being developed.
 
 For this chapter, use the stage words plainly. An **announcement** describes a plan or intention. A **proof of concept** shows a design or workflow in a demonstration. A **pilot** tests a bounded use in a limited setting. **Limited production** means live use in a defined part of the operation. **Production** means the operator says the system is in live use, but the footprint still needs to be stated. **Scaled** should mean a documented spread across a defined set of sites, users or operations—not a stronger adjective attached to “production.” These are working labels, not a universal industry standard. Each describes stage, not effectiveness.
 
@@ -52,7 +52,7 @@ If the answer to a material question is missing, record it as unknown. Do not tu
 <!-- Non-reader-facing sentence audit map. Exact primary-source passages, source classes and limitations are recorded in research/claim-ledger.md.
 P1.S1-S3, P2.S4-S7: O1 / OP-1 (RAN Guardian production scope, first-month autonomous-action count, event-management-time claim and absent denominator/method/error/override/rollback details).
 P4.S2: O1 / OP-1 (remediation actions); O9 / OP-3 (data gathering, summary and suggested next step).
-P7.S2: O9 / OP-3 (deployed read-and-recommend workflow); P7.S3: O18 / OP-8 (commercial-network validation, with real-time application still future work); P7.S4: O19 / OP-10 (event-assurance/O&M work described as a pilot).
+P7.S2: O9 / OP-3 (deployed data-gathering and recommendation workflow; no network-state change established); P7.S3: O18 / OP-8 (commercial-network validation, with real-time application still in development).
 P9.S1-S3, P10.S3: O9 / OP-3 (Network Concierge deployment, workflow, operator-reported analysis-time metric, and missing sample/baseline/period/comparison/quality details).
 P11.S1-S3: O9 / OP-3 (separate generator-placement workflow, severe-weather test and future deeper integration; no network-control or restored-service result established).
 P12.S2-S6: O13 / OP-5 (MAIA deployment, conversation volume, adviser validation; quality/time/cost outcomes not reported).
