@@ -1,0 +1,49 @@
+# Restart research log
+
+## 16 November 2026 — New concept and evidence phase
+
+### Scope reset
+- Started a fresh research/book-design phase for **AI Security for CISOs in Telecommunications: Reality from Hype**. The existing manuscript, five-chapter outline and prior research notes remain in place as historical working material; none was treated as authoritative and no chapters were edited.
+- Read the full current six-chapter manuscript, title page, outline, README and editorial queue before shaping a new concept. The new work is deliberately separate: `research/research-map.md`, `research/trend-synthesis.md` and `outline-v2.md`.
+- Loaded the book-continuous-improvement, grounded-citations, book-outline and blocked-page-recovery workflows. No chapter drafting or manuscript rewrites were performed.
+
+### Research completed in this pass
+- Read the Protiviti reference article in a real browser. It is dated 26 September 2025 and presents Zero Trust, identity governance and AI as a convergence for telecom CISOs. The cited Check Point metric traces to the original Check Point Research report, which is product telemetry rather than a survey. The article’s NIST hyperlink points to NIST’s post-quantum cryptography announcement, not Zero Trust guidance; its broad FCC/CISA/GDPR wording and integrated architecture were separately audited in the research map.
+- Confirmed the Check Point Q1 2025 vendor-telemetry figure: 2,664 weekly attacks per protected telecom organization and a 94% year-over-year increase. The original report says telecom had the **highest percentage increase**, while the third-highest weekly volume; Protiviti reverses these rankings, calling the growth third-highest. It also calls the source a “survey,” though it is ThreatCloud AI telemetry. The telecom denominator and selection method are undisclosed; this is not a sector census or successful-incident count. The Check Point page returned 403 in direct retrieval; its official indexed result supplied the original wording, and the figure is not a headline measure of sector risk.
+- Read the original Heavy Reading 2025 AIOps PDF: 84 qualified individuals at mobile network businesses, fielded globally July/August 2025; project partners Amdocs and RADCOM. Recorded the distinct question denominators (n=83 for 47% self-described bounded assurance autonomy; n=82–83 for planned agent deployment) and evidence limitations. Checked TM Forum’s interim ROI article (7 October 2026): 78 validated operator respondents, survey still in field; geography and field start are not disclosed.
+- Reviewed operator primary sources from Deutsche Telekom, One NZ, Telefónica, Orange France, BT and Orange Cyberdefense. Recorded deployment stage and limits: DT RAN Guardian described as production; MINDR as MVP about to go live; One NZ Network Concierge deployed with a self-reported 80% analysis-time reduction; Orange MAIA deployed to 3,000 advisors and nearly 1 million monthly conversations while Sharlie remains prospective; Telefónica’s 500+ use-case/15 Level-4 claim lacks an itemized inventory; NOA’s production scale is unstated; Orange Cyberdefense’s Qevlar integration is gradual and unmeasured; BT’s Hiya call protection is a customer-facing AI service, not internal SOC evidence.
+- Added independent technical evidence: NeurIPS 2024 AgentDojo (97 tasks, 629 security cases, 74 tools), a peer-reviewed IEEE O-RAN xApp access-control study with three lab attacks and disclosed Trend Micro/NSTC support, and the peer-reviewed Computer Networks O-RAN misconfiguration study. These support specific mechanisms in synthetic/testbed settings, not carrier incident rates or production assurance.
+- Reviewed official guidance and law from 3GPP, GSMA, CISA/CISA-FBI, IMDA, NIST, FCC and EUR-Lex, plus threat research from Google and Anthropic. Serious telecom intrusions are documented; the reviewed disclosures do not attribute those incidents to AI. Source incentives, evidence types, dates and limits are recorded in `research/research-map.md`.
+- Some pages could not be fully opened: Check Point and the BT result release returned 403; TM Forum’s 2025 report download is gated and the sponsor name was not visible; the FCC/CSA pages had retrieval limits; the Computer Networks publisher PDF returned 403. These are recorded as limits, not silently treated as verified details.
+
+### Files created
+- `research/research-map.md` — evidence method, article audit, source inventory, statistic ledger and unresolved verification work.
+- `research/trend-synthesis.md` — ten evidence-classified trends with confidence, counter-evidence, hype boundaries, CISO decisions and local evidence needs.
+- `outline-v2.md` — new ten-chapter concept with reader question, argument, evidence/examples, practical takeaway and boundary for each chapter.
+- This log — progress, source limits and next work.
+
+### Unresolved / not claimed
+- No operator interviews or independent operator validation have been performed.
+- No global, representative estimate of telecom AI production use, AI-specific telecom incidents, or causal AI ROI has been established.
+- Check Point’s telecom denominator and event definition remain undisclosed. TM Forum’s 2025 report sponsor/sample details and NVIDIA’s 2026 survey instrument, field dates and question-level denominators remain unverified. Heavy Reading’s report and major denominators were checked directly; TM Forum’s interim 2026 sample remains provisional.
+- The China Mobile 30% O&M staffing / 30% MTTR claim still needs its original operator source, baseline and measurement period. NetInjectBench review status and experimental assumptions remain unverified; its percentages are not used as carrier-risk rates.
+- Public production evidence remains thin for internal operator SOC/security workflows, internal coding and fraud/risk operations. Customer-facing call screening and a provider SOC rollout do not establish internal telco-wide adoption.
+- Current reviewed telecom intrusion reports do not attribute AI to the incidents. Absence of public attribution is not proof that AI was never used.
+- Some public operator performance claims lack baselines, denominators, error/override/rollback rates and independent review. Legal applicability still requires a jurisdiction- and operator-specific review.
+- No draft chapter was written. No 9/10 score or independent operator validation is claimed.
+
+### Repository and publication state
+- Repository `/data/SP_Security_book`, branch `main`. The four deliverables are new research/design files; legacy manuscript files remain untouched. They are recorded in a local commit. No remote push has been attempted, so remote publication is not verified.
+- `gh` is not installed and no `GITHUB_TOKEN` is present in the process environment. A read-only API authentication check of the explicitly identified secret source returned HTTP 401. Do not retry using the unchanged credential; remote publication is not verified.
+
+### Final quality checks — 16 November 2026
+- Confirmed 10 numbered trends and 10 proposed chapters. Every trend contains all five required fields (change, evidence/confidence, counter-evidence, CISO decision, local evidence); every chapter contains reader question, argument, examples, payoff and boundary.
+- Confirmed 45 source IDs in the research map; all 37 distinct coded references used in the synthesis and outline resolve to map entries. The map contains 59 direct Markdown HTTP links. Link syntax and source-code references were checked; this is not a live-availability audit, and known blocked/gated sources remain labeled.
+- Checked all 62 source-map table rows for consistent structure; zero malformed rows. `git diff --check` passed. No changes to legacy chapters were present.
+- The Check Point source page remains inaccessible by direct retrieval; the official indexed report result was checked. Its exact ranking discrepancy with Protiviti is documented. Some other pages and reports remain gated or blocked as recorded above.
+
+### Next work
+1. Obtain operator review across NOC/SOC, network engineering, identity/security, service continuity, suppliers/procurement and legal teams in more than one market.
+2. Trace Check Point’s precise event definition and telecom denominator; obtain the gated TM Forum 2025 and NVIDIA survey details; find or exclude the China Mobile 30% staffing/MTTR claim; verify NetInjectBench review status and assumptions.
+3. Continue primary-source checks for public operator internal SOC, fraud/risk, coding and security deployments; do not infer non-use from absence of disclosure.
+4. Refresh fast-aging legislation, vendor claims, 3GPP/6G work and deployment stages before drafting chapters. Keep the existing manuscript as historical material unless the author later directs otherwise.
