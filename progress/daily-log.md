@@ -144,5 +144,12 @@ Older cycle history is preserved in `progress/archive/daily-log-before-compactio
 - Verification: opening is 300 words excluding the title; `git diff --check` passes. Manuscript changes are limited to the Chapter 1 opening; this progress-log entry records the cycle.
 - Publication: the Chapter 1 commit is local. One push attempt failed with the invalid-token error already recorded in Historical status notes. A fresh live readback left `origin/main` at `c64f7a5831b28e928d0fe4877546eadfd98dc118`; do not retry without an authentication change.
 
+## 16 November 2026 — Chapter 2 opening rewrite
+- Rewrote the first 288 words, including the section heading. The opening now leads with router access and the identity path, then grounds the issue in OSS/BSS, legacy records, suppliers and maintenance windows. Kept the Orange quotation and the TM Forum/MCP claim within the existing attribution; the later Vodafone paragraph and rest of the chapter are unchanged.
+- Fact check: used `research/chapter-02.md`; no new external claim or source was added, and no source was re-fetched.
+- GPT drafting and critique: `gpt-6-luna`. Grok remains unavailable because `XAI_API_KEY` is not configured; no second-model review is claimed. Self-critique: clearer opening hook, more direct operator language and stronger SP grounding. The architecture paragraph still carries a dense inventory of systems, and the employee/agent comparison remains explicit; both preserve essential detail. No detector was run and no score reduction is claimed.
+- Verification: opening is 288 words including its heading; `git diff --check` passes. The manuscript edit is limited to the opening block; this progress-log entry records the cycle.
+- Publication: Chapter 1 commit `f506a28` remains local after one invalid-token push failure; the exact error is retained in Historical status notes. Live `origin/main` remains `c64f7a5831b28e928d0fe4877546eadfd98dc118`. No further push until authentication changes.
+
 ## Next
-Chapter 1’s opening commit remains local; live `origin/main` is `c64f7a5831b28e928d0fe4877546eadfd98dc118`. The push failed with the already-recorded invalid-token error. No further push until authentication changes. Continue with Chapter 2 locally.
+Chapter 2 is committed locally after this check; continue to Chapter 3. Publication remains pending because the prior push failed with invalid authentication; remote `main` is `c64f7a5831b28e928d0fe4877546eadfd98dc118`. Do not retry unchanged credentials.

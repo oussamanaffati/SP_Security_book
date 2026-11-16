@@ -1,18 +1,18 @@
 # Chapter 2: The New Attack Surface Is Inside the Operator
 
-An agent can affect network operations without logging in to a router. With a trusted identity, it may read operational data, submit a supplier case or trigger another workflow. Map that identity’s reach before assessing the model or product label.
+An agent does not need a router login to affect network operations. It may use a trusted identity to read operational data, submit a supplier case or trigger another workflow. Map that identity’s reach before assessing the model or product label.
 
-AI may enter through a customer-care feature, a network-engineering pilot, a supplier update or a developer’s API integration. Each can look local. Together, they can create access paths that no single team has mapped end to end.
+AI may arrive as a customer-care feature, a network-engineering pilot, a supplier update or a developer’s API integration. Each can look local. No single team may have mapped the full path end to end.
 
 ## The operator is a connected operating environment
 
-A service provider’s estate is not one neat enterprise network. Operations support systems (OSS) and business support systems (BSS) underpin delivery, assurance, inventory, orders, billing and customer care. Network domains have their own management systems. Cloud, data platforms, field-service tools and suppliers add more links. The architecture varies, but the question is consistent: which system can influence another, and under what conditions?
+A service provider’s estate is not one neat enterprise network. Operations support systems (OSS) and business support systems (BSS) underpin delivery, assurance, inventory, orders, billing and customer care. Network domains have their own management systems. Cloud, data platforms, field-service tools and suppliers add links. The architecture varies. Which system can influence another, and under what conditions?
 
 That map is hard to keep current. A circuit, customer or service may appear differently across inventory, assurance, planning and billing. Essential legacy systems can take years to replace safely. Suppliers may support a component while the operator owns the service impact. Production changes must fit maintenance windows and established controls.
 
-These constraints make it important to trace an agent’s identity through the systems and tools it can reach. It may retrieve information in one system and use it in another. Work that would otherwise require an employee to switch tools and make a decision may become a sequence of tool calls.
+Trace the agent’s identity through the systems and tools it can reach. It may retrieve information in one system and use it in another. An employee would switch tools and decide along the way. An agent may turn that work into a sequence of tool calls.
 
-TM Forum’s February 2026 report quotes Orange’s vice president of software engineering calling agentic AI “a direct entry point… into the very deep core of our network asset.” It says agents could use the Model Context Protocol (MCP) to read customer relationship management (CRM) or billing data and act through those systems.
+TM Forum’s February 2026 report quotes Orange’s vice president of software engineering calling agentic AI “a direct entry point… into the very deep core of our network asset.” The report says agents could use the Model Context Protocol (MCP) to read customer relationship management (CRM) or billing data and act through those systems.
 
 The report also says Vodafone is implementing safeguards on its AI Booster platform: a catalog of verified, trusted servers and a gateway that audits and enforces access, rather than direct agent connections to external MCP servers. These are attributed examples, not universal architectures. Each operator must decide what a connection can expose and do.
 
