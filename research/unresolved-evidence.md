@@ -30,6 +30,7 @@
 ## 3. Missing denominators, methods, and local conditions
 
 - **Check Point:** telecom-only protected-organization count, exact attack/event definition, telemetry selection, deduplication, observation window and whether the weekly figure is a mean/median are unknown to this audit.
+- **AgentDojo:** the NeurIPS paper abstract reports 74 tools; Table 1 text says 70 while its per-environment counts total 74. The discrepancy is not thesis-bearing; omit the tool count and use only the simulated indirect-prompt-injection mechanism, with its non-telecom scope explicit.
 - **Heavy Reading:** 84 people do not equal 84 operators; item n values vary (83; 82–83); the June versus July/August date discrepancy is unresolved; self-assessed autonomy and intentions are not observed production or control effectiveness.
 - **Deutsche Telekom:** action/event sample, error and override rates, rollback, time measurement, service impact and start-date milestone are not public in the reviewed announcement. MINDR’s production status needs a dated post-October operator statement.
 - **One NZ:** the 80% analysis-time claim lacks case count, baseline, timing definition, answer quality, rework/override and cost. The generator-placement assistant is a separate workflow and should not be described as network-state control.
