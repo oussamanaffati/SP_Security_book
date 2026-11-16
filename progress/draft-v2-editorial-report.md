@@ -51,6 +51,6 @@ No external claim was added or broadened. The current claim-ledger dispositions 
 - No PDF was generated. ReportLab, pypdf and Markdown are installed, but no page renderer (Pandoc, LibreOffice, Chromium, wkhtmltopdf, `pdftoppm` or `mutool`) is available for visual inspection. No rendered page count can be reported.
 - No human, operator or legal-counsel review is claimed. Costs, staffing, service tolerances, supplier rights, legal applicability, and local fallback paths require operator-specific verification.
 
-## Git status at revision start
+## Git status at revision end
 
-On `main`, local `HEAD` and live `origin/main` were verified as `c4257d11554709363f385a864090955bfe855cc2`; the branch had no ahead/behind commits. This corrected earlier status text that said the preceding work was local-only. The commit and push status for the current revision will be recorded after the final Git operation.
+Manuscript revision commit: `0db70ac0334d98711aea450a4492cb6b004f55d2` (`Revise telecom security manuscript for author review`). The normal fast-forward push was attempted once after confirming that live `origin/main` was `c4257d11554709363f385a864090955bfe855cc2`. GitHub rejected authentication: `Invalid username or token. Password authentication is not supported for Git operations.` A fresh readback confirmed local `HEAD` at `0db70ac0334d98711aea450a4492cb6b004f55d2` and live `origin/main` still at `c4257d11554709363f385a864090955bfe855cc2`; one commit was local-only and the branch was zero commits behind. No retry was made. The final status/log correction is recorded in a separate local documentation commit and is not pushed.

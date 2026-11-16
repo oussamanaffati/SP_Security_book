@@ -191,5 +191,9 @@ Older cycle history is preserved in `progress/archive/daily-log-before-compactio
 - PDF: no PDF generated. ReportLab/pypdf/Markdown modules are present, but there is no installed page renderer (Pandoc, LibreOffice, Chromium, wkhtmltopdf, pdftoppm or MuPDF); no visual inspection was possible.
 - Git at revision start: branch `main`, local HEAD and live `origin/main` all verified as `c4257d11554709363f385a864090955bfe855cc2`; no ahead/behind commits. Earlier local-only status was stale. The current revision’s commit/push result is to be recorded after the operation.
 
-## Next
-Commit the verified author-review revision, push through the configured connection if available, and read back the live remote ref. Record exact results; do not retry an unchanged authentication failure.
+## Git publication result
+
+- Committed the verified manuscript revision as `0db70ac0334d98711aea450a4492cb6b004f55d2` (`Revise telecom security manuscript for author review`).
+- Before pushing, confirmed the live baseline `origin/main=c4257d11554709363f385a864090955bfe855cc2`. Made one normal `git push origin main` attempt. GitHub rejected authentication: `Invalid username or token. Password authentication is not supported for Git operations.`
+- Read back the refs after failure: local `HEAD=0db70ac0334d98711aea450a4492cb6b004f55d2`; live `origin/main=c4257d11554709363f385a864090955bfe855cc2`; one local commit ahead, zero behind. No force push, no credential search and no retry.
+- Final status, editorial report and this log are being corrected in a separate local documentation commit. That commit will also remain local. To publish, configure an authorized `GITHUB_TOKEN` in hPanel → Hermes Agent → Dashboard → Environment, then explicitly ask for one push attempt; never paste the token into chat.
