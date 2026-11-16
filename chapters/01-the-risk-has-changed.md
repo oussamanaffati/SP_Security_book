@@ -1,16 +1,16 @@
 # Chapter 1: The Risk Has Changed. Service Providers Need More Than Detection.
 
-In this illustrative NOC-assistant case, the NOC wants a clearer view of alarms. The assistant summarizes them, but its account also reaches neighboring-domain data and can open supplier cases. It proposes a change that would reduce the NOC’s view of the network. No change is carried out.
+A proposed change would have narrowed the NOC’s network view. It did not go through. The NOC wanted a clearer view of alarms. In this illustrative composite, an assistant summarizes them. Its account also reaches neighboring-domain data and can open supplier cases.
 
-Keeping the account unchanged avoids immediate work but leaves broad reach and weak attribution. Separating read from action may require supplier and engineering support; pausing may push alarm review and case handling back to NOC staff. Keep read-only or draft-only use only if target systems deny disallowed actions, logs identify the actor, and an alternative NOC view survives revocation. Otherwise, pause the action path until those conditions are demonstrated. Test the boundary safely and estimate the NOC workload before choosing.
+Check the account. Attribution is weak. Leaving it avoids immediate work. Read-only or draft use is viable only if target systems block disallowed actions, logs identify the principal, and another NOC view survives revocation. If one condition is unproven, pause the action path. Test the boundary safely.
 
-The other recurring examples are also illustrative composites, not reports of operator outcomes: the shared edge/core account, supplier diagnostic feature and deferred patch.
+Separating read from action may need supplier and engineering support. Pausing may shift alarm review and case handling back to NOC staff. Estimate the load before choosing.
 
-A cyber incident at a service provider is also a service-continuity problem. If a mobile network, core platform or management system is affected, customers may lose connectivity and organizations may lose services that depend on it. The operator may have to restore service while still establishing what happened and how far the impact reaches.
+The other three are illustrative composites, not operator outcomes: a shared edge/core account, a supplier diagnostic feature and a deferred patch. Cyber incidents threaten service continuity. If a mobile network, core platform or management system is affected, customers may lose connectivity and organizations may lose services that depend on the network. The operator may have to restore service while establishing what happened and how far the impact reaches.
 
 Delegated authority can cross identities and workflows faster than the operator can trace the path, contain misuse or restore service. External threats create a separate, related speed problem.
 
-A 2025 Cisco article describes edge compute for mobile-network workloads. Whether a workload runs at the edge, in an operator cloud or in a public cloud affects where its data sits, which systems it connects to and which suppliers are involved. Possible AI use cases include customer care, service assurance, fraud management and internal operations. A summary tool and an agent that queries inventory, opens supplier cases or triggers workflows do not carry the same authority. Before enabling the latter, map what it can read and change, and what the operator must keep running if it is stopped.
+A 2025 Cisco article describes edge compute for mobile-network workloads. Running at the edge, in an operator cloud or in a public cloud affects where data sits, which systems it connects to and which suppliers are involved. Possible uses include customer care, service assurance, fraud management and internal operations. A summary tool differs in authority from an agent that queries inventory, opens supplier cases or triggers workflows. Before enabling it, map what it can read and change, and what the operator must keep running if it stops.
 
 The CISO and CTO must decide what authority to delegate, how to stop a threat without breaking service, and which executive can authorize that trade-off.
 
