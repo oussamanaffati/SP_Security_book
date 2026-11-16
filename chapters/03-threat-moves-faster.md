@@ -1,18 +1,18 @@
 # Chapter 3: The Threat Can Move Faster Than the Operator Can Safely Respond
 
-A fast alert does not make containment safe. The SOC may see suspicious activity while the NOC sees a planned change; IAM may be able to revoke a credential, and a supplier may hold platform details. Without a clear decision path, an attacker may retain access while the operator checks service impact.
+A fast alert does not make containment safe. The SOC sees suspicious activity. The NOC sees a planned change. IAM may be able to revoke a credential; the supplier may hold platform details. Without a clear decision path, an attacker may retain access while the operator checks service impact.
 
 ## Threat activity can accelerate without being fully autonomous
 
-The Canadian Centre for Cyber Security’s 26 October 2026 bulletin is cross-sector evidence, not a telecom incident or a universal attack timeline. It says attacks are not yet fully autonomous: humans still choose targets, set objectives and oversee operations. For some activity it attributes to Storm-0940, the period from target selection to privileged cloud access was under three hours.
+The Canadian Centre for Cyber Security’s 26 October 2026 bulletin is cross-sector evidence, not a report of a telco incident. It says attacks are not fully autonomous: people still choose targets, set objectives and oversee operations. In some activity attributed to Storm-0940, the bulletin reports less than three hours from target selection to privileged cloud access.
 
-In a 15 October 2026 advisory, CERT-In reported that tools using AI agents shortened the time from initial access to impact from days to a few hours in a financially motivated campaign against Indian entities. The advisory did not identify those organizations as telecom operators; it also reported parallel agent operations and repeat attacks within days after incomplete remediation.
+CERT-In’s 15 October 2026 advisory says tools using AI agents shortened the time from initial access to impact from days to a few hours in a financially motivated campaign against Indian entities. It does not identify those entities as telecom operators. It also reports parallel agent operations and repeat attacks within days after incomplete remediation.
 
-A separate 4 November advisory from CERT-In’s finance-sector incident-response team reported attacks against Indian banking, financial services and insurance (BFSI) entities timed to holidays, weekends and other low-monitoring windows, including after incomplete remediation. This financial-sector evidence supports testing off-hours decision authority and escalation, not a claim about telco incidents.
+A separate 4 November advisory from CERT-In’s finance-sector incident-response team describes attacks against Indian banking, financial services and insurance (BFSI) entities timed to holidays, weekends and other low-monitoring windows, including after incomplete remediation. Use it to test off-hours authority and escalation, not as a telco incident.
 
-Neither report establishes an operator response deadline. Faster adversary activity does not make every emergency change safe on a live service.
+These sources set no operator response deadline. Faster adversary activity does not make every emergency change safe on a live service.
 
-Chapter 1’s live-core patch decision supplies a second clock: the fixed version is known, but the supported change is three weeks away. The three-week interval is specific to this patch decision, not a universal benchmark. Separate time to confirm affected services and interim protections from the lead time for a production change; they call for different actions. If exposure changes, reassess interim protection and change readiness; an unsupported emergency change is not automatically safer.
+Chapter 1’s live-core patch decision adds a second clock. The fixed version is known; the supported change is three weeks away. That interval belongs to this patch, not every operator. Separate time to confirm affected services and interim protections from the lead time for a production change. If exposure changes, reassess interim protection and change readiness. An unsupported emergency change is not automatically safer.
 
 Keep four tracks moving in parallel. Security and platform teams verify the deployed version, reachable path and affected services. The control owner and NOC/service assurance test interim restrictions against monitoring, supplier access and customer work. Engineering and the supplier confirm the fixed release, earliest supported window, testing and rollback. A scheduled window is not mitigation, and a known fixed version does not prove local exposure. Reassess if threat, reach, control result or service conditions change.
 

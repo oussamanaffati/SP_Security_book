@@ -151,5 +151,13 @@ Older cycle history is preserved in `progress/archive/daily-log-before-compactio
 - Verification: opening is 288 words including its heading; `git diff --check` passes. The manuscript edit is limited to the opening block; this progress-log entry records the cycle.
 - Publication: Chapter 1 commit `f506a28` remains local after one invalid-token push failure; the exact error is retained in Historical status notes. Live `origin/main` remains `c64f7a5831b28e928d0fe4877546eadfd98dc118`. No further push until authentication changes.
 
+## 16 November 2026 — Chapter 3 opening rewrite
+- Rewrote the first 299 words, including the section heading. Recast the opening as short, operational statements, split the Canadian, CERT-In and BFSI evidence into distinct paragraphs, and tightened the patch-window decision while preserving each source’s scope and all scenario boundaries.
+- Fact check: used `research/chapter-03.md`; retained the cross-sector caveats, the Storm-0940 attribution, the Indian campaign limits and the three-week patch-window qualifier. No claim was broadened and no source was re-fetched.
+- GPT drafting and critique: `gpt-6-luna`. Grok remains unavailable because `XAI_API_KEY` is not configured; no second-model review is claimed. Self-critique: the first sentence remains a strong, accurate hook; shorter sentences improve pace and SP response details stay concrete. The source paragraphs are still fact-dense, but clearer attribution is necessary. No detector was run and no score reduction is claimed.
+- Verification: opening is 299 words including the heading; `git diff --check` passes. Only the Chapter 3 opening block changed in the manuscript.
+- Publication: after the Chapter 1 push attempt failed, a later live readback following Chapter 2 confirmed remote `main` at `35db6fcc2c63e09f7a082b54b26c936ffd42d8e8`. At that readback, Chapter 1, Chapter 2 and the progress-log blob IDs matched local and remote. No separate manual push was issued for Chapter 2.
+- Post-commit readback: live `origin/main` stayed at `35db6fcc2c63e09f7a082b54b26c936ffd42d8e8`. Chapter 1 and Chapter 2 file blobs still match remote; the Chapter 3 opening does not and remains local. No further manual push attempt with the unchanged invalid credential.
+
 ## Next
-Chapter 2 is committed locally after this check; continue to Chapter 3. Publication remains pending because the prior push failed with invalid authentication; remote `main` is `c64f7a5831b28e928d0fe4877546eadfd98dc118`. Do not retry unchanged credentials.
+Chapter 3 remains local; live `origin/main` is `35db6fcc2c63e09f7a082b54b26c936ffd42d8e8`. Continue with Chapter 4. Do not retry the push until authentication changes.
