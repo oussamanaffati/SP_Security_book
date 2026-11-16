@@ -1,6 +1,6 @@
-# What Is Actually Deployed?
+# Chapter 1: What Is Actually Deployed?
 
-Deutsche Telekom’s February 2026 release says its RAN Guardian Agent is live in production in Germany. The company reports that it autonomously triggered more than 100 remediation actions in its first month, during Christmas-market events. It also says the time to manage major events fell from hours to around a minute.
+Deutsche Telekom’s February 2026 release says its Radio Access Network (RAN) Guardian Agent is live in production in Germany. The company reports that it autonomously triggered more than 100 remediation actions in its first month, during Christmas-market events. It also says the time to manage major events fell from hours to around a minute.
 
 That is a useful claim. It names an operator, a workflow, a geography and an action. It is also the beginning of the conversation, not the end. The release does not say how many events sit behind the time comparison or how it measured the time. It gives no success, override or rollback rate for the actions. “More than 100 actions” tells us activity occurred. On its own, it does not tell us how often the actions were right, what service outcome followed, or whether the result would hold across the network.
 
@@ -30,11 +30,11 @@ Orange France offers a different kind of scale claim. Its release says Mon Assis
 
 SK Telecom’s AI-RAN Parameter Recommender makes another useful distinction. The operator says the recommender was applied to its commercial network and systematically validated. It recommends base-station parameters; the same release says real-time application was still being developed. That is evidence of validation in a commercial-network setting, not evidence that the system was autonomously changing parameters across the live network. “On the commercial network” and “in autonomous production” are not interchangeable descriptions.
 
-Put these claims in one column called “AI deployed” and the differences disappear. Keep the workflow, stage and measure beside each other instead: a production remediation action, a reduction in analysis time, conversation volume and commercial-network validation are four different kinds of evidence, not a sequence of increasing maturity. None of these examples demonstrates reduced cyber risk or independently measured return on investment.
+Put these claims in one column called “AI deployed” and the differences disappear. Keep the workflow, stage and measure beside each other. A production remediation action, a reduction in analysis time, conversation volume and commercial-network validation are four different kinds of evidence. They are not a sequence of increasing maturity. None of these examples demonstrates reduced cyber risk or independently measured return on investment.
 
-It is easy to let these measures blur together. Adoption is not effectiveness. A count of conversations, actions, advisers or sites measures reach or activity. A productivity claim needs a defined task and a defensible comparison, including the human review and rework that remain. A service-quality claim needs a service measure, such as correctness or customer impact, not just tool usage. A security claim needs evidence about the control or threat outcome. An ROI claim needs costs and benefits measured on a comparable basis. A result in one category does not prove a result in another.
+It is easy to let these measures blur together. Adoption is not effectiveness. A count of conversations, actions, advisers or sites measures reach or activity. A productivity claim needs a defined task and a defensible comparison, including the human review and rework that remain. A service-quality claim needs a service measure, such as correctness or customer impact, not just tool usage. A security claim needs evidence about the control or threat outcome. A return on investment (ROI) claim needs costs and benefits measured on a comparable basis. A result in one category does not prove a result in another.
 
-“Production” is still important. When an operator says “production,” it is a claim that the system has crossed beyond a presentation or a test. But it does not tell a buyer or board how widely the system is used, what it can change, how often it fails, whether staff can stop it, or whether its benefits exceed its costs. Those are separate claims. Ask for separate evidence.
+“Production” is still important. When an operator says “production,” it is a claim that the system has crossed beyond a presentation or a test. It does not tell a buyer or board how widely the system is used, what it can change, how often it fails, or whether staff can stop it. It also does not show whether its benefits exceed its costs. Those are separate claims. Ask for separate evidence.
 
 ## A claim check for the next meeting
 
@@ -57,5 +57,5 @@ P9.S1-S3, P10.S3: O9 / OP-3 (Network Concierge deployment, workflow, operator-re
 P11.S1-S3: O9 / OP-3 (separate generator-placement workflow, severe-weather test and future deeper integration; no network-control or restored-service result established).
 P12.S2-S6: O13 / OP-5 (MAIA deployment, conversation volume, adviser validation; quality/time/cost outcomes not reported).
 P13.S2-S3: O18 / OP-8 (commercial-network application, systematic validation, recommendation task, and real-time application still in development).
-P14.S1-S3: O1 / OP-1; O9 / OP-3; O13 / OP-5; O18 / OP-8. These are stage/outcome distinctions, not comparative performance claims.
+P14.S1-S5: O1 / OP-1; O9 / OP-3; O13 / OP-5; O18 / OP-8. These are stage/outcome distinctions, not comparative performance claims.
 All other statements are working definitions, questions, editorial analysis or evidence rules rather than claims of measured operator outcomes. -->

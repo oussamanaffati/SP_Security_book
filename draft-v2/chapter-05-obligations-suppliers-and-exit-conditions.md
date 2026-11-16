@@ -1,4 +1,4 @@
-# 5. Obligations, Suppliers and Exit Conditions
+# Chapter 5: Obligations, Suppliers and Exit Conditions
 
 In the supplier-diagnostic composite, a routine update enables a feature that reads topology and proposes actions. The composite does not establish direct execution, the feature’s identity, or whether it can be disabled independently.
 
@@ -8,11 +8,11 @@ The first decision is therefore wider than “enable or reject the feature.” T
 
 A multinational operator rarely has one cybersecurity rulebook. Requirements can depend on the country, the legal entity, the service, the data being processed and the operator’s role. An obligation map should identify those boundaries before a supplier feature is expanded or a service path is moved across them.
 
-Several European instruments can touch the same workflow, but they answer different questions. The Network and Information Security Directive 2 (NIS2) includes in-scope providers of public electronic communications networks and services in its cybersecurity framework; national implementation and entity status still matter. The General Data Protection Regulation (GDPR) applies to personal-data processing within its territorial and material scope. Its records-of-processing and security duties do not, by themselves, establish a universal requirement to retain every prompt and response.
+Several European instruments can touch the same workflow, but they answer different questions. The European Union’s NIS2 Directive (Directive (EU) 2022/2555) includes in-scope providers of public electronic communications networks and services in its cybersecurity framework; national implementation and entity status still matter. The General Data Protection Regulation (GDPR) applies to personal-data processing within its territorial and material scope. Its records-of-processing and security duties do not, by themselves, establish a universal requirement to retain every prompt and response.
 
-The European Union (EU) Artificial Intelligence Act (AI Act) is phased and role-dependent. One relevant high-risk category covers systems intended to be safety components in the management or operation of critical digital infrastructure. That is narrower than treating every AI system used by a telecom operator as high-risk. Intended purpose and the Act’s criteria need to be checked for the particular system and role.
+The European Union’s Artificial Intelligence Act (AI Act) is phased and role-dependent. One relevant high-risk category covers systems intended to be safety components in the management or operation of critical digital infrastructure. That is narrower than treating every AI system used by a telecom operator as high-risk. Intended purpose and the Act’s criteria need to be checked for the particular system and role.
 
-The United Kingdom illustrates why a legal rule and its implementation guide must stay distinct. The Electronic Communications (Security Measures) Regulations 2022 have been in force since 1 October 2022. They impose proportionate security duties on in-scope providers of public electronic communications networks and services, except micro-entities.
+The United Kingdom (UK) illustrates why a legal rule and its implementation guide must stay distinct. The Electronic Communications (Security Measures) Regulations 2022 have been in force since 1 October 2022. They impose proportionate security duties on in-scope providers of public electronic communications networks and services, except micro-entities.
 
 The Telecommunications Security Code of Practice v1.1 was issued on 14 July 2026 and gives technical guidance to Tier 1 and Tier 2 providers. It is guidance, not a statutory instrument or the only compliance route. Tier 3 providers are not expected to follow its measures, but remain subject to statutory duties unless they are micro-entities.
 

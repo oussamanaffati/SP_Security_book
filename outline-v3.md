@@ -2,7 +2,8 @@
 
 **Status:** Active working outline, created 16 November 2026. It supersedes the ten-chapter concept in `outline-v2.md`, which is retained as historical material. The six-chapter decision sequence follows `research/outline-red-team-review.md`; Chapter 1 uses the title of the completed pilot.
 
-**Working title:** *AI Security for CISOs in Telecommunications: Reality from Hype*
+**Working title:** *Service Provider Security in the AI Era*
+**Subtitle:** *A Practical Guide to AI, Agents, and Service Continuity for Telecom CISOs and CTOs*
 
 ## Reader promise
 
