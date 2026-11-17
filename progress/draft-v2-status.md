@@ -4,7 +4,7 @@
 
 **Editorial status:** Expanded six-chapter manuscript for author review. Not publication-ready.
 
-**Git status:** The current revision is prepared locally from baseline `e1abb9ad68e1d396a8d16b3712e1cb1f9409f82c`. Local `main` and the live `origin/main` matched that baseline at the last read. Commit and publication status for this revision are pending.
+**Git status:** The manuscript revision is committed as `22043db85f492250ec89acd9c79898c2c2dea3e3`. A normal push moved live `origin/main` from baseline `e1abb9ad68e1d396a8d16b3712e1cb1f9409f82c` to that commit. `git ls-remote`, fetch and changed-file blob comparisons confirmed the remote matches; ahead/behind is 0/0. The status, report and work-log publication record are included in a documentation-only follow-up commit.
 
 ## Active files
 - Assembled reader-facing manuscript: [`../draft-v2/manuscript.md`](../draft-v2/manuscript.md)

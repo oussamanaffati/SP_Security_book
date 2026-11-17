@@ -50,4 +50,4 @@ No PDF was generated: Python ReportLab is available, but no page renderer was av
 
 ## Git status
 
-The revision was prepared from local and live `origin/main` baseline `e1abb9ad68e1d396a8d16b3712e1cb1f9409f82c`. The local revision commit and verified push result will be recorded here after those operations.
+The manuscript revision `22043db85f492250ec89acd9c79898c2c2dea3e3` was pushed to `main`. A fresh live-ref read and fetch confirmed `origin/main` at that commit; every changed-file blob matched local, and ahead/behind was 0/0. The status, editorial report and work-log publication record are in a separate documentation-only follow-up commit.
