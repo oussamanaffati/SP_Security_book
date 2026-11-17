@@ -1,9 +1,10 @@
 # Draft v2 status
 
-**As of:** 16 November 2026
+**As of:** 17 November 2026
 
-**Editorial status:** Revised six-chapter author-review manuscript. Not publication-ready.
-**Git status:** Manuscript revision committed locally as `0db70ac0334d98711aea450a4492cb6b004f55d2`. A normal push was attempted after confirming the live baseline; GitHub rejected authentication (`Invalid username or token. Password authentication is not supported for Git operations.`). At the failed-push readback, local `HEAD` was `0db70ac0334d98711aea450a4492cb6b004f55d2` and live `origin/main` remained `c4257d11554709363f385a864090955bfe855cc2` (one local commit ahead, zero behind). The status/log correction is recorded in a separate local documentation commit and remains unpublished; no retry will be made without changed credentials.
+**Editorial status:** Expanded six-chapter manuscript for author review. Not publication-ready.
+
+**Git status:** The current revision is prepared locally from baseline `e1abb9ad68e1d396a8d16b3712e1cb1f9409f82c`. Local `main` and the live `origin/main` matched that baseline at the last read. Commit and publication status for this revision are pending.
 
 ## Active files
 - Assembled reader-facing manuscript: [`../draft-v2/manuscript.md`](../draft-v2/manuscript.md)
@@ -11,24 +12,27 @@
 - Governing six-chapter structure: [`../outline-v3.md`](../outline-v3.md)
 - Current claim dispositions: [`../research/claim-ledger.md`](../research/claim-ledger.md)
 - Current paragraph/source map: [`../research/draft-v2-source-map.md`](../research/draft-v2-source-map.md)
-- Chapter 6 evidence and editorial record: [`../research/chapter-06.md`](../research/chapter-06.md)
 - Editorial report: [`draft-v2-editorial-report.md`](draft-v2-editorial-report.md)
 - Work log: [`daily-log.md`](daily-log.md)
 
-## Counts and verification
-- **8,092 prose words** (headings, tables and hidden HTML comments excluded).
-- **8,622 visible word tokens** including title, contents, headings and tables.
-- Chapter 6: **1,644 prose words**, down 36.3% from the prior recorded 2,581-word version; slightly beyond the requested approximate 25–35% range.
-- Assembled from seven canonical components exactly once. Contents links match all seven headings; source-map anchors are in range; both Markdown tables have consistent columns; README relative links resolve; `git diff --check` passed.
-- The reader-facing manuscript contains no hidden audit comments, inline numeric citations, TODO/TBD/FIXME markers, stale ENISA Member State-count digression or “composite” terminology.
+## Counts and method
+- **9,025 prose words** (headings, table rows and hidden HTML comments excluded).
+- **9,559 visible word tokens** including title, contents, headings and tables.
+- Per-component prose counts: Introduction 489; Chapter 1 877; Chapter 2 808; Chapter 3 1,458; Chapter 4 1,824; Chapter 5 1,536; Chapter 6 2,033.
+- Chapter 6 contains 2,065 visible word tokens.
+- Counts use `re.findall(r"\b\w+(?:[-’]\w+)*\b")`; prose excludes headings, table rows and HTML comments, and list items count separately. The visible count is about 1,895 tokens above the user-provided approximate baseline of 7,664; that comparison includes headings and tables on both sides.
 
-Counts use `re.findall(r"\b\w+(?:[-’]\w+)*\b")`; prose excludes headings, table rows and HTML comments, with list items counted separately.
+## Revision summary
+- Chapters 3–4 follow one fictional NOC assistant from its ordinary read/draft task and overbroad shared identity through a stale ticket note, accepted/queued request, detection, investigation, containment, degraded operation and limited restoration. The scenario’s assumptions and evidence limits are explicit.
+- Credential revocation is separated from preventing new requests, handling existing sessions, accounting for queued/accepted work and checking resulting target state. Chapter 4 explains what to do when the target cannot cancel accepted work.
+- Chapter 6 makes a qualitative, hypothetical choice among independent alarm visibility, supported patch preparation/change, identity separation and supplier diagnostic review. Capacity, a single assumed production window, parallel preparation, interim restrictions, residual exposure, the rejected alternative and reversal evidence are stated.
+- Chapters 1–2 restore explanation around deployment/activity/productivity/service/security measures and show how public threat observations lead to conditional local defensive priorities without inferring AI use.
+- The supplied style sample informed the introduction and Chapter 1: concrete subjects, familiar verbs, conversational cadence and clear distinctions between what a report says and what it does not establish.
+- Source-map anchors and Chapter 3’s internal source map were refreshed. No new external sources, operator outcomes, measurements, costs, ROI or tests were added.
 
-## Main changes
-- Chapters 3 and 4 now work through the shared edge/core account and NOC-assistant situations, with supplied facts separated from educational assumptions. Chapter 4 explains target-side session/queue checks and the operational value of an independent alarm view.
-- Chapter 6 has four candidate areas, one local selection method, one hypothetical three-of-four choice, a concise sequence, a single board brief used as the decision record, and conditions that change the order.
-- Chapters 1 and 2 retain the deployment/activity/productivity/service-quality/security distinctions, separate ENISA datasets and bounded AI attribution. The introduction promises two fully developed situations and one shorter supplier-feature example.
-- The source map and research notes were refreshed; no new research claims, incidents, costs, ROI or test outcomes were introduced.
-
-## Limits
-No PDF was generated. ReportLab, pypdf and Markdown modules are installed, but no page renderer is available for visual inspection. There is therefore no rendered page count. No human, operator or legal-counsel review is claimed. Operator-specific costs, capacity, owners, work items, service tolerances, supplier rights and legal applicability remain local inputs.
+## Verification and limits
+- Reassembled from seven canonical components, each exactly once; contents links match all seven headings.
+- Structural validation passed: source-map anchors in range, two Markdown tables have consistent columns, README links resolve, and no hidden comments, numeric citations, placeholders, reader-facing Sources heading, leaked “composite” terminology or removed ENISA count digression appear in the reader-facing assembly.
+- `git diff --check` passed. Scenario editorial meta-language checks passed.
+- No PDF was generated. ReportLab is installed, but no page renderer was available for visual inspection. No rendered page count is claimed.
+- No human, operator or legal-counsel review is claimed. Local service scope, legal applicability, costs, staffing, supplier rights and fallback readiness still require operator-specific verification.

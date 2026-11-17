@@ -1,56 +1,53 @@
 # Draft v2 editorial report
 
-**Date:** 16 November 2026
-
-**Status:** Revised manuscript for author review; not publication-ready.
-
+**Date:** 17 November 2026
+**Status:** Expanded manuscript for author review; not publication-ready.
 **Active file:** [`../draft-v2/manuscript.md`](../draft-v2/manuscript.md)
 **Canonical sources:** `draft-v2/introduction.md` and the six `draft-v2/chapter-*.md` files. `outline-v3.md` remains the governing structure.
 
 ## Counts
 
-- **Prose:** 8,092 words, excluding headings, table rows and hidden HTML comments.
-- **Visible manuscript:** 8,622 word tokens, including title, subtitle, contents, headings and tables.
-- **Chapter 6:** 1,644 prose words, 36.3% below the previous recorded 2,581-word version. This is slightly above the requested approximate 25–35% reduction; the cut removed repetition while retaining the substantive decision set.
+- **Prose:** 9,025 words, excluding headings, table rows and hidden HTML comments.
+- **Visible manuscript:** 9,559 word tokens, including title, subtitle, contents, headings and tables.
+- **Per-component prose:** Introduction 489; Chapter 1 877; Chapter 2 808; Chapter 3 1,458; Chapter 4 1,824; Chapter 5 1,536; Chapter 6 2,033.
+- **Chapter 6 visible tokens:** 2,065.
 
-Counts use `re.findall(r"\b\w+(?:[-’]\w+)*\b")`; list items count separately. These are editorial word counts, not a page target.
+Counts use `re.findall(r"\b\w+(?:[-’]\w+)*\b")`; list items count separately. Prose excludes headings, table rows and HTML comments. The visible count is about 1,895 tokens above the user-provided approximate 7,664-word baseline. That is a same-scope comparison including headings and tables; no page target is asserted.
 
-## What changed
+## Substantive changes
 
-### Chapters 3 and 4: show the authority and the service consequence
+### Chapters 3–4: one operational story, from routine work to recovery
 
-Chapter 3 develops the author-supplied shared edge/core account situation. It distinguishes its known scope (one account reaches edge nodes and parts of core; remediation depends on supplier configuration and a safe window) from educational assumptions about an assistant, data, connector and target API. It follows the call and compares continued use, a tested gateway, separate target-native identities and a staged migration. The recommendation keeps the agent out of the write path until scope and migration are proven; Network Engineering and the supplier verify supported identities and windows, while the service executive owns any necessary period of broad support.
+Chapter 3 explains why the fictional NOC assistant is useful, what alarm, ticket and neighboring-domain data it receives, which connectors it uses, and how a shared identity reaches farther than triage requires. A stale ticket note leads a reviewer to submit an alarm-routing request; the target accepts and queues it, while completion remains unknown. The chapter distinguishes a proposal, submission, target acceptance and completed state change, and explains what runtime, connector and target logs can and cannot establish.
 
-Chapter 4 fully introduces the NOC-assistant situation and separates known details (alarm summaries, ticket drafts, neighboring-domain reads, supplier cases, and an unexecuted visibility-reducing proposal) from added assumptions about the shared identity, connectors and target. It explains that stopping a runtime may leave a connector credential, active target session or accepted queued request in place. It gives concrete checks at runtime, connector and target, and explains why a verified independent alarm view changes whether the broad identity can be revoked without losing operational visibility. These are recommendations, not claimed test results.
+Chapter 4 continues that same scenario. It covers detection and correlation, containment choices and their service costs, why an independent alarm view changes whether the broad identity can safely be revoked, and what the NOC can do in degraded mode. It distinguishes preventing new authenticated requests, restricting existing sessions, cancelling or accounting for accepted/queued work, and verifying target state. If the target cannot cancel accepted work, the team blocks further writes where it can, tracks the operation, and treats it as capable of completing until evidence shows otherwise. Restoration starts with the independent service view and returns only the smallest tested capability.
 
-### Chapter 6: one decision record, less repetition
+The scenario is fictional and educational. Its identity, connector scopes, target behavior, event records, queue state and alarm-view assumptions are not an operator incident, observed test or measured outcome.
 
-The four-row priority table and repeated decision fields were removed. The chapter now has four candidate work areas, one local selection method, one explicitly hypothetical three-of-four choice, one concise sequence, one board brief that serves as the portfolio decision record, and conditions that change the order. The close asks the reader to choose three or four local priorities and uses the worked choice only as an example. Local owners, budgets, work-item identifiers and windows remain fields to fill; no operator values are invented.
+### Chapter 6: a defensible resource choice
 
-### Chapters 1 and 2, introduction and transitions
+The chapter chooses among independent NOC alarm visibility, a supported live-core patch, separation of the shared edge/core identity and review of a supplier diagnostic feature. It states hypothetical capacity and service constraints, separates work that can start in parallel from work competing for a single assumed production window, and identifies the residual exposure while identity separation waits. The interim assistant write block is conditional on verified target or gateway enforcement and absence of a bypass. The chapter explains why the patch gets the window under those assumptions, why identity migration is the plausible rejected alternative, and what new evidence would reverse the order. No budget, ROI, probability, successful result or operator programme is invented. The closing recommendation is an example, not a universal NOC project prescription.
 
-Chapter 1 explains the distinctions among deployment, activity, productivity, service quality, security effectiveness and ROI together, then applies them to attributed examples without repeating the full caveat after each one. Chapter 2 preserves the material difference between ENISA’s 30-incident OSINT overview and 188 authority-submitted significant-incident reports, removes the unused Member State-count digression, states the AI-attribution limit and turns toward local preparation. The introduction now promises two fully developed illustrative situations plus a shorter supplier-feature example. Chapter 2 and Chapter 5 now transition to the next decision rather than summarizing themselves.
+### Chapters 1–2 and voice
 
-## Final critique pass: findings and corrections
+Chapter 1 restores the reasoning from deployment claims to approval, measurement and investment decisions while keeping activity, productivity, service quality and security effectiveness separate. The introduction and Chapter 1 were adjusted toward the user-provided style: concrete subjects, plain verbs, conversational transitions, and a clear line between what a source reports and what it does not establish.
 
-One continuous internal read of the assembled manuscript found and corrected these passage-level issues:
+Chapter 2 distinguishes the two ENISA datasets and uses the FBI-CISA disclosure to derive conditional local priorities—identity attribution, access scope and event coverage—without guessing at the intrusion path or attributing it to AI. The Singapore disclosure’s reported technical-data exfiltration and its stated limits remain together.
 
-1. **Chapter 6, selection and board sections:** the per-priority decision record repeated owners, evidence, cost, capacity, displacement and fallback in the later board brief. Removed the duplicate record and made the board brief the single portfolio record.
-2. **Chapter 6, final paragraph:** the meeting recommendation could read as a universal three-work-area package. It now asks the reader to select three or four from local evidence and labels the three-work-area decision as the hypothetical example.
-3. **Chapters 3–4, scenario boundaries:** clarified which details belong to the supplied situations and which are educational assumptions. Changed wording that implied the supplier feature was already disabled; the recommendation now says not to enable or expand it until release checks pass.
-4. **Reader journey and terminology:** replaced reader-facing “composite” language with “illustrative scenario,” expanded Network Operations Center (NOC) and Security Operations Center (SOC) at first use, and repaired the Chapter 2/5 transitions.
-5. **Source anchors:** corrected Chapter 1 and 2 anchors and recalculated current paragraph/list-item mappings for all revised chapters.
+## Whole-manuscript review and verification
 
-No external claim was added or broadened. The current claim-ledger dispositions govern; historical repository claims are not automatically certified. No successive critique rounds or new reviewers were launched.
+One complete read of the regenerated manuscript checked continuity, transitions, repetition, voice and technical consistency. The introduction now describes one NOC scenario across Chapters 3–4 and a shorter supplier-feature example in Chapter 5. The scenario’s setup, evidence limits and recovery path remain coherent. Credential revocation is not treated as session termination or queue cancellation. The conclusion asks each reader to choose their own first consequential workflow; the NOC is an example.
 
-## Verification and limitations
+No new external source was added or re-fetched; current claim-ledger dispositions were retained. Source-map paragraph anchors and Chapter 3’s internal source map were updated. The editorial check found no remaining “supplied situation” / “these added details” wording or “at the start of Chapter 4” meta-reference. No successive reviewer rounds were launched.
 
-- Regenerated `draft-v2/manuscript.md` from the introduction and six chapter files. Each component appears exactly once; all contents anchors match headings.
-- Verified source-map paragraph anchors against the current components, both Markdown tables for consistent columns, repository-local README links, and `git diff --check`.
-- No hidden audit comments, inline numeric citations, TODO/TBD/FIXME markers, reader-facing “composite” terminology or ENISA Member State-count digression remain in the assembled manuscript.
-- No PDF was generated. ReportLab, pypdf and Markdown are installed, but no page renderer (Pandoc, LibreOffice, Chromium, wkhtmltopdf, `pdftoppm` or `mutool`) is available for visual inspection. No rendered page count can be reported.
-- No human, operator or legal-counsel review is claimed. Costs, staffing, service tolerances, supplier rights, legal applicability, and local fallback paths require operator-specific verification.
+Mechanical checks passed: seven canonical components appear exactly once, table of contents links match headings, source-map anchors are in range, both manuscript tables have consistent columns, README links resolve, and `git diff --check` passes. The reader-facing assembly contains no hidden audit comments, numeric citations, TODO/TBD/FIXME placeholders, Sources heading, reader-facing “composite” terminology or the removed ENISA member-count digression.
 
-## Git status at revision end
+## Self-critique and limitations
 
-Manuscript revision commit: `0db70ac0334d98711aea450a4492cb6b004f55d2` (`Revise telecom security manuscript for author review`). The normal fast-forward push was attempted once after confirming that live `origin/main` was `c4257d11554709363f385a864090955bfe855cc2`. GitHub rejected authentication: `Invalid username or token. Password authentication is not supported for Git operations.` A fresh readback confirmed local `HEAD` at `0db70ac0334d98711aea450a4492cb6b004f55d2` and live `origin/main` still at `c4257d11554709363f385a864090955bfe855cc2`; one commit was local-only and the branch was zero commits behind. No retry was made. The status/log correction was recorded in a separate local documentation commit and remains unpublished.
+The strongest improvement is that the manuscript now demonstrates decisions and trade-offs instead of only naming them. The style sample makes the introduction and opening chapter more natural without flattening the technical distinctions. The NOC scenario and the Chapter 6 capacity assumptions remain dense in places; that density carries information the reader needs to reason about authority, service impact and sequencing. It should not be removed merely to make the prose shorter. This is an internal editorial read, not independent, human, operator or legal validation.
+
+No PDF was generated: Python ReportLab is available, but no page renderer was available for visual inspection. No layout or page count is claimed. Operator-specific service scope, legal applicability, staffing, supplier rights, costs and fallback readiness still require local verification.
+
+## Git status
+
+The revision was prepared from local and live `origin/main` baseline `e1abb9ad68e1d396a8d16b3712e1cb1f9409f82c`. The local revision commit and verified push result will be recorded here after those operations.

@@ -40,3 +40,7 @@ Current Chapter 6 count is 1,644 prose words using the method above, 36.3% below
 ## Publication state at revision start
 
 At the start of this requested revision, branch `main`, local `HEAD` and the live `origin/main` all resolved to `c4257d11554709363f385a864090955bfe855cc2`; `git ls-remote` confirmed the same remote head and the branch had no ahead/behind commits. Earlier status text saying that the preceding author-review changes were local-only was stale: those changes were already present on GitHub. The current prose revision is a separate change; its commit and push status must be recorded after the final operation.
+
+## 17 November 2026 — expanded hypothetical portfolio
+
+The 16 November count and three-of-four choice above describe the previous Chapter 6 draft and are superseded. The current worked choice is qualitative and explicitly hypothetical. It assumes locally confirmed affected/reachable live-core exposure, a supported patch with the existing three-week window, no verified interim control, one change window shared by the patch and identity migration, separate supplier arrangements, and parallel preparation of independent NOC visibility, network changes and a supplier-feature review. These are planning inputs, not operator facts or successful outcomes. The current source map identifies their paragraph anchors; final counts and local commit status are in `progress/draft-v2-status.md` and `progress/draft-v2-editorial-report.md`. No external source was added or re-fetched.

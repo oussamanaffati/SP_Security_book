@@ -8,7 +8,7 @@
 |---|---|---|
 | P1-P3 | Author framing | Service-visibility tension is an analytic argument, not a measured incident cause. No empirical claim is added. |
 | P4 | AI-1; O1/O9/O13/O18; O4/O6/O23 | Deployment and incident statements are bounded by Chapters 1-2; no AI attribution is inferred beyond the sources. |
-| P5-P8 | Author synthesis; outline-v3 | Chapter order, two developed illustrative situations, supplier example and reader promise. No operator outcome asserted. |
+| P5-P8 | Author synthesis; outline-v3 | Chapter order, one fictional NOC scenario followed across Chapters 3-4, shorter supplier-feature example and reader promise. No operator outcome asserted. |
 
 ## Chapter 1 — What Is Actually Deployed?
 
@@ -19,7 +19,7 @@
 | P4 | O9 / OP-3 | Same One NZ source | Separate generator-placement workflow; no network-control or service-restoration result established. |
 | P5 | O13 / OP-5 | [Orange France MAIA/Sharlie release](https://www.orange.com/en/press-release/orange-france-launches-two-new-artificial-intelligence-services-to-enhance-customer-relations-444308) | MAIA deployment/reach and conversation volume are adoption/activity claims, not measured productivity, quality, security or ROI. |
 | P6 | O18 / OP-8 | [SK Telecom AI-RAN recommender](https://news.sktelecom.com/208077) | Commercial-network validation; it recommends parameters and real-time application remained in development. No network-wide autonomous-control result. |
-| P7-P10 | Author analysis | No additional source claim | Distinguishes deployment, activity, productivity, service quality, security effectiveness and ROI. |
+| P7-P13 | Author analysis | No additional source claim | Distinguishes deployment, activity, productivity, service quality, security effectiveness and ROI; applies them to approval and investment decisions. |
 
 ## Chapter 2 — Telecom Threats Without the AI Hype
 
@@ -28,28 +28,27 @@
 | P1-P2 | O4 / AI-1 | [Singapore CSA Operation CYBER GUARDIAN disclosure](https://www.csa.gov.sg/news-events/press-releases/largest-multi-agency-cyber-operation-mounted-to-counter-threat-posed-by-advanced-persistent-threat--apt--actor-unc3886-to-singapore-s-telecommunications-sector/) | Four major operators targeted; operation lasted more than eleven months and involved over 100 defenders. The published account does not attribute AI. Scale measures the defensive operation, not prevented threats or avoided impact. Separate IMDA advisory remains unresolved and unused. |
 | P3 | O23 and O6 / AI-1 | [FBI/CISA November statement](https://www.cisa.gov/news-events/news/joint-statement-fbi-and-cisa-peoples-republic-china-prc-targeting-commercial-telecommunications); [official FBI counterpart](https://www.fbi.gov/news/press-releases/joint-statement-from-fbi-and-cisa-on-the-peoples-republic-of-china-targeting-of-commercial-telecommunications-infrastructure); [FBI/CISA October statement](https://www.cisa.gov/news-events/news/joint-statement-fbi-and-cisa-prc-activity-targeting-telecommunications) | Disclosed compromise, data access and investigative support; named activity is not attributed to AI. Public statements are not a complete forensic timeline. CISA pages had retrieval limitations recorded in the ledger; exact text was previously directly reviewed. |
 | P4-P5 | O20 / EN-1 / AI-EN20; O21 / EN-2 / AI-EN21 | [ENISA 2024 OSINT overview](https://www.enisa.europa.eu/sites/default/files/2025-03/5-ENISA_2024%20Telco%20threat%20landscape_March%202025.pdf); [ENISA 2024 authority-report summary](https://www.enisa.europa.eu/sites/default/files/2025-07/ENISA_Telecom_Security_Incidents_2024_en_1.pdf) | One dataset counts 30 OSINT incidents; the other 188 authority-submitted significant-incident reports, including non-malicious causes. Different collection methods/scopes; not combined or comparable as rates. Member State count discrepancy stays in research notes only and is not used in reader-facing text. |
-| P6-P11 | Author analysis/recommendation | No additional source claim | AI-attribution reasoning and operator preparation. No incident is attributed to AI beyond what the sources establish. |
+| P6-P10 | Author analysis/recommendation | No additional source claim | Turns supported threat observations into local identity, data-access and logging priorities; no intrusion mechanism or local exposure is inferred. |
 
 ## Chapter 3 — Follow Authority to the Network Target
 
 | Draft anchor | Claim/source IDs | Primary source links | Support and limit |
 |---|---|---|---|
 | P1-P2 | T20 | [IEEE paper DOI](https://doi.org/10.1109/OJCOMS.2024.3364840); [author PDF](https://faculty.csie.ntust.edu.tw/~smcheng/papers/J39_2402_Security%20Threats%20to%20xApps%20Access%20Control%20and%20E2%20Interface%20in%20O-RAN.pdf) | Peer-reviewed experimental O-RAN H-Release study; missing xApp access permissions and lab attacks through APIs/E2, including service disruption in the testbed. Not a carrier production deployment or LLM-agent test. Authors disclose Trend Micro and Taiwan NSTC support. |
-| P4-P5 | Author-supplied shared edge/core situation; `research/chapter-04.md` | No external source | Existing situation: one shared account reaches edge nodes and parts of core; remediation depends on supplier configuration and a safe maintenance window. It does not establish AI use, commands, target enforcement, identity separation or test result. Maintenance assistant, edge-only task, connector/API path and target behavior are explicitly educational assumptions. |
-| P6-P12 | Author analysis/recommendation | No external source | Identity-to-target reasoning, choices and conditional recommendation; no operator path, gateway, migration or test is claimed. |
-| P14 | T19 | [AgentDojo, NeurIPS 2024 paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/97091a5177d8dc64b1da8bf3e1f6fb54-Paper-Datasets_and_Benchmarks_Track.pdf) | Peer-reviewed benchmark of indirect prompt-injection mechanisms in simulated tool environments. Not telecom, operator incident or network-control frequency/effectiveness estimate. Conflicting tool counts are not quoted. |
-| P16 | T2 | [NIST SP 800-207 Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final) | Voluntary architecture publication, not telecom regulation. Target-mapping advice is author analysis. |
-| P3, P13, P15, P17-P18 | Author analysis | No additional source claim | No universal carrier path, incident or outcome asserted. |
+| P4-P6 | Fictional NOC-assistant scenario; author-supplied NOC and shared edge/core situations plus educational assumptions | No external source | Introduces the assistant’s intended triage/documentation task, inputs, connectors, shared identity, excess edge/core reach, stale ticket note, accepted/queued request and unverified independent alarm path. Not an incident or test. |
+| P7-P13 | Author analysis/recommendation | No external source | Normal workflow, identity-to-target path, misleading input, request-state distinctions, log limitations and conditional authority choices; no operator path, migration or test is claimed. |
+| P15 | T19 | [AgentDojo, NeurIPS 2024 paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/97091a5177d8dc64b1da8bf3e1f6fb54-Paper-Datasets_and-Benchmarks_Track.pdf) | Peer-reviewed benchmark of indirect prompt-injection mechanisms in simulated tool environments. Not telecom, operator incident or network-control frequency/effectiveness estimate. Conflicting tool counts are not quoted. |
+| P17 | T2 | [NIST SP 800-207 Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final) | Voluntary architecture publication, not telecom regulation. Target-mapping advice is author analysis. |
+| P3, P14, P16, P18-P19 | Author analysis | No additional source claim | No universal carrier path, incident or outcome asserted. |
 
 ## Chapter 4 — Prove Safe Authority and Service-Safe Response
 
 | Draft anchor | Claim/source IDs | Primary source links | Support and limit |
 |---|---|---|---|
-| P3 | Author-supplied NOC-assistant situation; `research/chapter-04.md` | No external source | The situation states alarm summaries, draft ticket updates, neighboring-domain data, supplier cases and a proposed visibility-reducing change that was not executed. It does not establish identity, connector, target, permission model or direct write access. Illustrative, not an incident or test. |
-| P4 | Educational assumptions | No external source | Shared service identity, ticket/alarm connectors, identity scope, proposed alarm-routing write, whole-identity revocation and no verified independent alarm-read path are explicitly assumed, not operator facts. |
-| P6-P11 | Author analysis/recommendation | No external source | Conditional response and testing advice; session, queued-work and recovery checks are recommended, not reported test results. |
-| P15 | T19; T20 | [AgentDojo, NeurIPS 2024 paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/97091a5177d8dc64b1da8bf3e1f6fb54-Paper-Datasets_and_Benchmarks_Track.pdf); [IEEE O-RAN study](https://doi.org/10.1109/OJCOMS.2024.3364840) | Each source is limited to its own simulated benchmark or experimental testbed; neither establishes carrier production effectiveness. |
-| P1-P2, P5, P12-P14, P16-P21 | Author analysis/recommendation | No external source claim | No operator test, incident response or service outcome asserted. |
+| P2-P13 | Fictional continuation of Chapter 3 NOC scenario; author analysis | No external source | Detection signal, target acceptance/queue state, log fields, containment options, degraded operation, restoration and decision triggers are educational assumptions and recommendations, not an incident or test. |
+| P14-P16, P18-P22 | Author analysis/recommendation | No external source | Target-boundary testing, evidence limits, response roles, fallback and recovery advice; no operator result asserted. |
+| P17 | T19; T20 | [AgentDojo, NeurIPS 2024 paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/97091a5177d8dc64b1da8bf3e1f6fb54-Paper-Datasets_and_Benchmarks_Track.pdf); [IEEE O-RAN study](https://doi.org/10.1109/OJCOMS.2024.3364840) | Each source is limited to its own simulated benchmark or experimental testbed; neither establishes carrier production effectiveness. |
+| P1 | Author analysis | No external source claim | Evidence categories and live-target limits; no operator test or service outcome asserted. |
 
 ## Chapter 5 — Obligations, Suppliers and Exit Conditions
 
@@ -68,8 +67,8 @@
 
 | Draft anchor | Claim/source IDs | Support and limit |
 |---|---|---|
-| P1-P32 | Author analysis/synthesis; outline-v3 §6 and Chapters 1-5 | No new empirical or sector-prevalence claim. Visibility/support tension is analytic, not a measured incident cause. Candidate priorities are recommendations, not a universal ranking or observed operator programme. |
-| P12-P14 | Chapter 4 NOC-assistant and Chapter 5 supplier-feature situations | The three-of-four capacity decision is explicitly hypothetical. No local costs, budget, staffing, deployment or outcome is asserted; existing situation facts remain bounded as mapped above. |
+| P1-P31 | Author analysis/synthesis; outline-v3 §6 and Chapters 1-5 | No new empirical or sector-prevalence claim. Visibility/support tension is analytic, not a measured incident cause. Candidate priorities are recommendations, not a universal ranking or observed operator programme. |
+| P11-P20 | Chapter 3 NOC/shared-identity scenario, Chapter 5 supplier-feature situation and Chapter 1 deferred-patch situation | Capacity, local affected-version/reach confirmation, service impact, supplier independence, workstream separation, shared change window and ranking are explicitly hypothetical. No cost, budget, headcount, test result, patch success, ROI or operator programme is asserted. |
 
 ## Update rule
 
