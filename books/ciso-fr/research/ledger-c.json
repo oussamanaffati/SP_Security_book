@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.isaca.org/about-us/newsroom/press-releases/2025/state-of-cybersecurity-2025-global-press-release",
+      "title": "",
+      "accessed": "2026-11-20"
+    },
+    {
+      "id": 2,
+      "url": "https://gartner.com/en/about/magic-quadrant-faq",
+      "title": "",
+      "accessed": "2026-11-20"
+    },
+    {
+      "id": 3,
+      "url": "https://www.gov.uk/government/publications/cyber-governance-code-of-practice/cyber-governance-code-of-practice",
+      "title": "Gouvernement britannique — Code de gouvernance cyber, 8 avril 2025",
+      "accessed": "2026-11-20",
+      "quotes": [
+        {
+          "text": "Gain assurance that resources are allocated effectively to manage the agreed cyber risks (Action A3 and A5).",
+          "added": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://www.cisa.gov/news-events/news/continued-progress-towards-secure-open-source-ecosystem",
+      "title": "CISA — Progrès vers un écosystème libre sécurisé, 8 juillet 2024 (fondation)",
+      "accessed": "2026-11-20",
+      "quotes": [
+        {
+          "text": "Even when mature open source software projects publish software bills of material or other artifacts of secure software development practices, it is the responsibility of those who use the project to perform the necessary diligence to continually assess each open source project, as discussed in CISA and partners’",
+          "added": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://www.gov.uk/government/publications/software-security-code-of-practice/software-security-code-of-practice",
+      "title": "Gouvernement britannique — Code de sécurité des logiciels, mise à jour du 15 janvier 2026",
+      "accessed": "2026-11-20",
+      "quotes": [
+        {
+          "text": "4.1 Provide information to the customer specifying the level of support and maintenance provided for the software being sold.",
+          "added": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience",
+      "title": "ENISA — Évolution des menaces et dépendances, 22 septembre 2026",
+      "accessed": "2026-11-20",
+      "quotes": [
+        {
+          "text": "Ransomware remains the most short-term impactful type of incident.",
+          "added": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "url": "https://web.archive.org/web/20261022073220/https://www.gartner.com/en/about/magic-quadrant-faq",
+      "title": "Gartner — FAQ Magic Quadrant, archive du 22 octobre 2026",
+      "accessed": "2026-11-20",
+      "quotes": [
+        {
+          "text": "No. Magic Quadrants are a starting point. Gartner recommends using them alongside other research, such as Critical Capabilities, Peer Insights and discussions with analysts, to make informed decisions.",
+          "added": "2026-11-20"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience",
+      "title": "ENISA — Threat Landscape 2026 : dépendances et résilience",
+      "accessed": "2026-11-20",
+      "quotes": [
+        {
+          "text": "To shape our understanding of the cyber threat landscape and the dynamics at work, ENISA collected and analysed incidents and events observed from 1 January to 31 December 2025 for this new edition of the Threat Landscape.",
+          "added": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://www.enisa.europa.eu/news/supporting-nis2-implementation-through-actionable-guidance",
+      "title": "",
+      "accessed": "2026-11-20",
+      "quotes": [
+        {
+          "text": "The implementation guidance is not a legally binding document and it is not intended to replace the frameworks, guidance or tools provided by Member States at national level.",
+          "added": "2026-11-20"
+        },
+        {
+          "text": "In scope of the NIS implementing regulation and this technical guideline are DNS providers, TLD registries, cloud computing service providers, data centre service providers, content delivery network providers, managed service providers and managed security service providers, providers of online marketplaces, online search engines and social networking services platforms, and trust service providers.",
+          "added": "2026-11-20"
+        },
+        {
+          "text": "Implementation Guidance (and excel file of mapping to standards and frameworks)",
+          "added": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://messervices.cyber.gouv.fr/nis2",
+      "title": "",
+      "accessed": "2026-11-20",
+      "quotes": [
+        {
+          "text": "La transposition de la directive NIS 2 en France est en cours.",
+          "added": "2026-11-20"
+        },
+        {
+          "text": "ReCyF est susceptible d’ajustements pour tenir compte des discussions parlementaires et des travaux règlementaires à venir.",
+          "added": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://www.nist.gov/cyberframework",
+      "title": "",
+      "accessed": "2026-11-20",
+      "quotes": [
+        {
+          "text": "Helping organizations to better understand and improve their management of cybersecurity risk",
+          "added": "2026-11-20"
+        },
+        {
+          "text": "Templates and useful resources for creating and using both CSF profiles",
+          "added": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "url": "https://www.theguardian.com/business/2025/may/21/cyber-attack-cost-marks-and-spencer-lost-sales-company-results-reveal",
+      "title": "",
+      "accessed": "2026-11-20",
+      "quotes": [
+        {
+          "text": "Marks & Spencer has said it will take an estimated £300m hit to profits this year from a damaging cyber-attack that it expects to disrupt its online business into July.",
+          "added": "2026-11-20"
+        },
+        {
+          "text": "It said it aimed to halve the financial impact of the attack to about £150m through insurance, cost reductions and other actions.",
+          "added": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "url": "https://blog.cloudflare.com/18-november-2025-outage",
+      "title": "Cloudflare — Panne du 18 novembre 2025",
+      "accessed": "2026-11-20",
+      "quotes": [
+        {
+          "text": "The issue was not caused, directly or indirectly, by a cyber attack or malicious activity of any kind.",
+          "added": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "url": "https://www.cisa.gov/news-events/alerts/2025/05/27/new-guidance-siem-and-soar-implementation",
+      "title": "CISA — Recommandations SIEM et SOAR, 27 mai 2025",
+      "accessed": "2026-11-20",
+      "quotes": [
+        {
+          "text": "Priority Logs for SIEM Ingestion – Practitioner Guidance offers insights for prioritizing log ingestion into a SIEM, ensuring that critical data sources are effectively collected and analyzed to enhance threat detection and incident response capabilities tailored for organizations.",
+          "added": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "url": "https://www.anthropic.com/research/writing-tools-for-agents",
+      "title": "Anthropic — Concevoir des outils pour les agents, 11 septembre 2025",
+      "accessed": "2026-11-20",
+      "quotes": [
+        {
+          "text": "Each evaluation prompt should be paired with a verifiable response or outcome.",
+          "added": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+      "title": "Anthropic — Demystifying evals for AI agents — 9 janvier 2026",
+      "accessed": "2026-11-20",
+      "quotes": [
+        {
+          "text": "The outcome is the final state in the environment at the end of the trial.",
+          "added": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "url": "https://www.gov.uk/government/publications/cyber-governance-code-of-practice/cyber-governance-code-of-practice",
+      "title": "Gouvernement britannique — Code de gouvernance cyber, 8 avril 2025",
+      "accessed": "2026-11-20",
+      "quotes": [
+        {
+          "text": "Gain assurance that resources are allocated effectively to manage the agreed cyber risks (Action A3 and A5).",
+          "added": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "url": "https://www.cisa.gov/news-events/news/continued-progress-towards-secure-open-source-ecosystem",
+      "title": "CISA — Progrès vers un écosystème libre sécurisé, 8 juillet 2024 (fondation)",
+      "accessed": "2026-11-20",
+      "quotes": [
+        {
+          "text": "Even when mature open source software projects publish software bills of material or other artifacts of secure software development practices, it is the responsibility of those who use the project to perform the necessary diligence to continually assess each open source project, as discussed in CISA and partners’",
+          "added": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "url": "https://www.gov.uk/government/publications/software-security-code-of-practice/software-security-code-of-practice",
+      "title": "Gouvernement britannique — Code de sécurité des logiciels, mise à jour du 15 janvier 2026",
+      "accessed": "2026-11-20",
+      "quotes": [
+        {
+          "text": "4.1 Provide information to the customer specifying the level of support and maintenance provided for the software being sold.",
+          "added": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "url": "https://web.archive.org/web/20261022073220/https://www.gartner.com/en/about/magic-quadrant-faq",
+      "title": "Gartner — FAQ Magic Quadrant, archive du 22 octobre 2026",
+      "accessed": "2026-11-20",
+      "quotes": [
+        {
+          "text": "No. Magic Quadrants are a starting point. Gartner recommends using them alongside other research, such as Critical Capabilities, Peer Insights and discussions with analysts, to make informed decisions.",
+          "added": "2026-11-20"
+        }
+      ]
+    }
+  ]
+}

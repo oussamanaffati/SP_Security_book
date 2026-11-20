@@ -1,0 +1,87 @@
+{
+  "chapters": [
+    {
+      "file": "00.md",
+      "words_without_sources": 1210
+    },
+    {
+      "file": "01.md",
+      "words_without_sources": 1832,
+      "scene_words": 933,
+      "sources": [
+        6,
+        7
+      ]
+    },
+    {
+      "file": "02.md",
+      "words_without_sources": 1879,
+      "scene_words": 881,
+      "sources": [
+        3,
+        4
+      ]
+    },
+    {
+      "file": "03.md",
+      "words_without_sources": 1890,
+      "scene_words": 935,
+      "sources": [
+        9,
+        10
+      ]
+    },
+    {
+      "file": "04.md",
+      "words_without_sources": 1884,
+      "scene_words": 922,
+      "sources": [
+        11,
+        13
+      ]
+    },
+    {
+      "file": "05.md",
+      "words_without_sources": 1803,
+      "scene_words": 916,
+      "sources": [
+        1,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "file": "06.md",
+      "words_without_sources": 1797,
+      "scene_words": 913,
+      "sources": [
+        1,
+        18,
+        19
+      ]
+    },
+    {
+      "file": "07.md",
+      "words_without_sources": 1888,
+      "scene_words": 933,
+      "sources": [
+        1,
+        16,
+        18
+      ]
+    },
+    {
+      "file": "08.md",
+      "words_without_sources": 1358
+    }
+  ],
+  "checks": {
+    "seven_scenes_in_range": true,
+    "required_sections": true,
+    "citation_ids_verified": true,
+    "budget_total": 60
+  },
+  "manuscript_words_without_sources": 15541,
+  "unique_sources": 13
+}

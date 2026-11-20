@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience",
+      "title": "ENISA — Threat Landscape 2026 : dépendances et résilience",
+      "accessed": "2026-11-20",
+      "quotes": [
+        {
+          "text": "To shape our understanding of the cyber threat landscape and the dynamics at work, ENISA collected and analysed incidents and events observed from 1 January to 31 December 2025 for this new edition of the Threat Landscape.",
+          "added": "2026-11-20"
+        }
+      ]
+    }
+  ]
+}
