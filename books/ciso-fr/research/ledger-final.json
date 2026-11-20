@@ -34,38 +34,6 @@
       ]
     },
     {
-      "id": 4,
-      "url": "https://messervices.cyber.gouv.fr/nis2",
-      "title": "",
-      "accessed": "2026-11-20",
-      "quotes": [
-        {
-          "text": "La transposition de la directive NIS 2 en France est en cours.",
-          "added": "2026-11-20"
-        },
-        {
-          "text": "ReCyF est susceptible d’ajustements pour tenir compte des discussions parlementaires et des travaux règlementaires à venir.",
-          "added": "2026-11-20"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "url": "https://www.nist.gov/cyberframework",
-      "title": "",
-      "accessed": "2026-11-20",
-      "quotes": [
-        {
-          "text": "Helping organizations to better understand and improve their management of cybersecurity risk",
-          "added": "2026-11-20"
-        },
-        {
-          "text": "Templates and useful resources for creating and using both CSF profiles",
-          "added": "2026-11-20"
-        }
-      ]
-    },
-    {
       "id": 7,
       "url": "https://www.theguardian.com/business/2025/may/21/cyber-attack-cost-marks-and-spencer-lost-sales-company-results-reveal",
       "title": "",
@@ -77,18 +45,6 @@
         },
         {
           "text": "It said it aimed to halve the financial impact of the attack to about £150m through insurance, cost reductions and other actions.",
-          "added": "2026-11-20"
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "url": "https://blog.cloudflare.com/18-november-2025-outage",
-      "title": "Cloudflare — Panne du 18 novembre 2025",
-      "accessed": "2026-11-20",
-      "quotes": [
-        {
-          "text": "The issue was not caused, directly or indirectly, by a cyber attack or malicious activity of any kind.",
           "added": "2026-11-20"
         }
       ]
@@ -130,18 +86,6 @@
       ]
     },
     {
-      "id": 16,
-      "url": "https://www.gov.uk/government/publications/cyber-governance-code-of-practice/cyber-governance-code-of-practice",
-      "title": "Gouvernement britannique — Code de gouvernance cyber, 8 avril 2025",
-      "accessed": "2026-11-20",
-      "quotes": [
-        {
-          "text": "Gain assurance that resources are allocated effectively to manage the agreed cyber risks (Action A3 and A5).",
-          "added": "2026-11-20"
-        }
-      ]
-    },
-    {
       "id": 17,
       "url": "https://www.cisa.gov/news-events/news/continued-progress-towards-secure-open-source-ecosystem",
       "title": "CISA — Progrès vers un écosystème libre sécurisé, 8 juillet 2024 (fondation)",
@@ -154,18 +98,6 @@
       ]
     },
     {
-      "id": 18,
-      "url": "https://www.gov.uk/government/publications/software-security-code-of-practice/software-security-code-of-practice",
-      "title": "Gouvernement britannique — Code de sécurité des logiciels, mise à jour du 15 janvier 2026",
-      "accessed": "2026-11-20",
-      "quotes": [
-        {
-          "text": "4.1 Provide information to the customer specifying the level of support and maintenance provided for the software being sold.",
-          "added": "2026-11-20"
-        }
-      ]
-    },
-    {
       "id": 19,
       "url": "https://web.archive.org/web/20261022073220/https://www.gartner.com/en/about/magic-quadrant-faq",
       "title": "Gartner — FAQ Magic Quadrant, archive du 22 octobre 2026",
@@ -173,6 +105,34 @@
       "quotes": [
         {
           "text": "No. Magic Quadrants are a starting point. Gartner recommends using them alongside other research, such as Critical Capabilities, Peer Insights and discussions with analysts, to make informed decisions.",
+          "added": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng?uri=CELEX%3A32022L2555",
+      "title": "Directive (UE) 2022/2555 — articles 20, 21 et 23 — texte du JO",
+      "accessed": "2026-11-20",
+      "quotes": [
+        {
+          "text": "Member States shall ensure that the management bodies of essential and important entities approve the cybersecurity risk-management measures taken by those entities in order to comply with Article 21, oversee its implementation and can be held liable for infringements by the entities of that Article.",
+          "added": "2026-11-20"
+        },
+        {
+          "text": "without undue delay and in any event within 72 hours of becoming aware of the significant incident, an incident notification",
+          "added": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "url": "https://eur-lex.europa.eu/eli/reg_impl/2024/2690/oj/eng",
+      "title": "Règlement d’exécution (UE) 2024/2690 — champ et exigences",
+      "accessed": "2026-11-20",
+      "quotes": [
+        {
+          "text": "This Regulation shall be binding in its entirety and directly applicable in all Member States.",
           "added": "2026-11-20"
         }
       ]

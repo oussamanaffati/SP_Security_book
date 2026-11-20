@@ -1,33 +1,34 @@
-# Votre risque n’a pas lu le Magic Quadrant
+# La sécurité n’est pas un concours de slides
 
-**Petit manuel de lucidité pour CISOs : menaces réelles, innovation utile et budgets qui ne se multiplient pas en réunion.**
+**Base de travail pour l’auteur — français, bullets hiérarchisés, contradiction et cartes.**
 
-## Lire le premier jet
+## Commencer ici
 
-- **[Manuscrit intégral en français](manuscrit-complet.md)** : introduction, sept chapitres, conclusion et sources.
-- [Version HTML](manuscrit-complet.html) : à télécharger et ouvrir dans un navigateur pour la lecture ou l’impression.
-- [Chapitres séparés](chapters/).
-- [Contrôles structurels et comptages](verification.json).
-- [Registre des sources du manuscrit](research/ledger-final.json), liens et courts extraits justificatifs dans `research/`. Les copies intégrales des pages consultées restent dans l’espace de travail local et ne sont pas republiées.
+- **[Base auteur complète](base-auteur.md)** — introduction, sept chapitres et conclusion ; arguments et matière à développer, pas rédaction du livre.
+- **[Mind map et schéma de décision](mind-map.md)** — Mermaid rendu par GitHub, tensions entre les chapitres et chemins d’analyse.
+- **[Carte visuelle des sept chapitres](carte-1.svg)** et **[carte de décision de la roadmap](carte-2.svg)** — SVG générés et vérifiés.
+- [Fiches séparées par chapitre](chapters/).
 
-Ce projet est distinct du livre anglais Service Provider Security. Aucun chapitre de ce dernier n’est remplacé.
+## Ce que contient chaque fiche
 
-## État éditorial
+- Question centrale et frontière avec les autres chapitres.
+- Thèse, contre-thèse et cas où la pratique critiquée est justifiée.
+- Incitations, contradictions, arbitrages et erreurs à attaquer.
+- Outil de décision : acteurs, preuve, alternatives et condition de changement d’avis.
+- Questions et matière à apporter par l’auteur ; suggestion d’ironie, sans scène ni dialogue rédigé.
 
-Premier jet complet, recherche arrêtée au 20 novembre 2026. Les scènes sont des fictions pédagogiques explicitement signalées ; les éléments factuels externes sont référencés séparément.
+## Refonte et contradiction
 
-- 15 541 mots hors bibliographie, selon le comptage lexical du validateur.
-- Sept scènes de 800 à 1 200 mots, toutes contrôlées.
-- 13 sources distinctes citées dans le manuscrit assemblé.
-- Identifiants de citations, correspondances bibliographiques et présence d’extraits justificatifs vérifiés automatiquement. Cette validation n’est pas une expertise indépendante de chaque affirmation.
+- [Journal des corrections et arbitrages](reviews/boucle-editoriale.md).
+- [Dernière vérification Grok](reviews/grok-closure.md).
+- [Rapports successifs](reviews/) : sept réponses obtenues avec `grok-4.7`, dont une première critique tronquée ; les contre-audits ultérieurs sont complets.
+- [Contrôles structurels](verification.json) : sept chapitres, corps intégralement en headings/bullets, deux diagrammes rendus, citations vérifiées.
+- [Registre des dix sources citées](research/ledger-final.json) ; portée et limites expliquées à la fin de la base auteur.
 
-Les chapitres séparés conservent leur numérotation bibliographique locale ; le manuscrit complet possède une numérotation fusionnée. Les identifiants inutilisés des registres de recherche peuvent correspondre à des pages inaccessibles : ils ne sont pas cités dans le manuscrit final.
+Grok a reçu le document complet et la mind map, puis des extraits sources pour confronter ses objections. Son dernier avis ne relève plus de problème bloquant dans le dossier fourni. Il n’a pas effectué de vérification web indépendante ; cet avis n’est ni une expertise juridique ni une garantie d’exactitude.
 
-Le travail a été rédigé avec le modèle disponible `gpt-6-astra`. Une limite fournisseur a interrompu un agent après l’écriture de ses fichiers ; l’assemblage et les contrôles ont été repris et exécutés ensuite. Aucun second avis Grok n’est revendiqué.
+## Ancienne version
 
-## Points à renforcer lors d’une seconde passe
-
-- Diversifier les sources indépendantes sur les agents IA : le chapitre consacré à la veille s’appuie notamment sur des publications d’un fournisseur, limite indiquée dans le texte.
-- Revalider les informations nationales relatives à NIS 2 avant publication définitive et avant tout usage juridique.
-- Certains retours d’expérience publics reposent sur une source de presse lorsque la publication primaire n’était pas accessible.
-- Approfondir la relecture éditoriale transversale ; il s’agit d’un premier jet exploitable, pas d’un manuscrit présenté comme prêt à imprimer.
+- Le manuscrit rédigé est retiré de la version de travail.
+- Il reste consultable dans [l’historique du premier jet](https://github.com/oussamanaffati/SP_Security_book/tree/4f3353dcbd9b7740d447f84c6ade753ea67ef4d1/books/ciso-fr).
+- Le livre anglais Service Provider Security n’est pas modifié.

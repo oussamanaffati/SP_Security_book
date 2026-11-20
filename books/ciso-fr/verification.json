@@ -1,87 +1,24 @@
 {
-  "chapters": [
-    {
-      "file": "00.md",
-      "words_without_sources": 1210
-    },
-    {
-      "file": "01.md",
-      "words_without_sources": 1832,
-      "scene_words": 933,
-      "sources": [
-        6,
-        7
-      ]
-    },
-    {
-      "file": "02.md",
-      "words_without_sources": 1879,
-      "scene_words": 881,
-      "sources": [
-        3,
-        4
-      ]
-    },
-    {
-      "file": "03.md",
-      "words_without_sources": 1890,
-      "scene_words": 935,
-      "sources": [
-        9,
-        10
-      ]
-    },
-    {
-      "file": "04.md",
-      "words_without_sources": 1884,
-      "scene_words": 922,
-      "sources": [
-        11,
-        13
-      ]
-    },
-    {
-      "file": "05.md",
-      "words_without_sources": 1803,
-      "scene_words": 916,
-      "sources": [
-        1,
-        16,
-        17,
-        18
-      ]
-    },
-    {
-      "file": "06.md",
-      "words_without_sources": 1797,
-      "scene_words": 913,
-      "sources": [
-        1,
-        18,
-        19
-      ]
-    },
-    {
-      "file": "07.md",
-      "words_without_sources": 1888,
-      "scene_words": 933,
-      "sources": [
-        1,
-        16,
-        18
-      ]
-    },
-    {
-      "file": "08.md",
-      "words_without_sources": 1358
-    }
+  "format": "base auteur en bullets, sans scènes rédigées",
+  "chapters": 7,
+  "chapter_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
   ],
-  "checks": {
-    "seven_scenes_in_range": true,
-    "required_sections": true,
-    "citation_ids_verified": true,
-    "budget_total": 60
-  },
-  "manuscript_words_without_sources": 15541,
-  "unique_sources": 13
+  "words_without_sources": 6445,
+  "all_body_lines_are_headings_or_bullets": true,
+  "invented_scene_labels_absent": true,
+  "mermaid_diagrams_rendered": 2,
+  "source_count": 10,
+  "grok_model": "grok-4.7",
+  "review_rounds_completed": 7,
+  "final_review_status": "aucun problème bloquant identifié dans le dossier, sans validation factuelle indépendante",
+  "base_sha256": "a2901d44b137f594fb1853d90a809159dbe97f88a48526c4eb474d2c2e31d158",
+  "mind_map_sha256": "cac9c63c86860fe7142e5a068f76d10a2492df186a065bc77d31603f97919c25",
+  "final_review_input_sha256": "37128c8f9e6a37f6be4d1d8b80817f709071433a2f8330f88d6e1e593457235f"
 }
