@@ -19,4 +19,4 @@
 - **Autres branches du registre à qualifier selon l’activité :** RGPD, DORA, Cyber Resilience Act, obligations sectorielles et contrats. Liste de questions d’applicabilité, pas déclaration que tous s’appliquent ni qu’ils se cumulent intégralement.
   - Pour chaque ligne : nature du texte (directive, règlement, texte national, guide ou contrat), champ, articulation, date d’application et autorité ; ne pas copier la logique de transposition d’une directive sur un règlement.
 
-- [Sources et portée](base-auteur.md#repères-documentaires--portée-des-preuves).
+- [Sources et portée](research/reperes-documentaires.md).
