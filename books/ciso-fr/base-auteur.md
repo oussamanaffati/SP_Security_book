@@ -35,6 +35,14 @@
   - Quel investissement techniquement bon a échoué faute d’organisation ?
 - **Trait d’ironie possible :** « Le catalogue est complet. Il reste à choisir ce que nous voulons protéger. »
 
+## Trois exigences de lecture pour un CISO senior
+
+- **Une bonne décision peut rester imparfaite :** le livre doit expliquer ce qu’elle sacrifie, pas seulement pourquoi l’alternative est mauvaise. Exiger à la fois indépendance totale, exploitation minimale et coût réduit peut rendre toute option irréalisable.
+- **La rationalité locale ne garantit pas la solidité collective :** des contrats, exceptions et projets acceptables séparément peuvent dépendre du même moyen d’administration ou de la même compétence rare. Rendre visible ce qui échouerait ensemble.
+- **La recommandation doit supporter sa défaite :** prévoir ce qui se passe si le budget est refusé, le fournisseur ne négocie pas, l’autorité tranche autrement ou le prérequis n’arrive pas ; une escalade n’est pas une résolution tant que personne n’a décidé.
+- **Adapter le niveau de formalisation :** approfondir les décisions à impact fort, difficiles à inverser ou reposant sur une assurance fragile ; ne pas imposer sept formulaires à une action courante déjà autorisée.
+- **Trois fils, répartis plutôt que répétés :** portefeuille de dépendances (chapitre 3 → arbitrage du 1) ; temps et preuves qui vieillissent (2, 4, 5) ; pouvoir réel et désaccord (6, 7).
+
 # 1 — Le CISO challengé par le board
 
 ## Nœud et frontière du chapitre
@@ -73,6 +81,16 @@
 - **Distinguer les organes réels :** conseil, président, direction générale, comité exécutif ; « board » est ici un raccourci, pas une attribution juridique universelle.
 - **Ancrage réglementaire :** l’article 20 de NIS 2 traite de l’approbation et de la supervision des mesures par les organes de direction ; ne pas en déduire une sanction française précise sans vérifier le droit applicable.[14]
 
+## Décision senior : quand attendre est déjà choisir
+
+- **Dilemme :** suspendre un lancement pour lever une incertitude de reprise, ou autoriser un périmètre limité en conservant une exposition connue. Le conseil peut avoir raison de refuser une étude supplémentaire si son résultat ne peut plus changer la décision utile.
+- **Distinguer trois temps :** temps nécessaire pour décider, temps avant effet du contrôle et temps pendant lequel le service reste exposé. Une solution supérieure à terme peut arriver après la fenêtre où elle était utile.
+- **Information discriminante :** demander quel résultat ferait préférer l’autre option. S’il n’en existe aucun, l’étude sert probablement à rassurer, à gagner du temps ou à justifier un choix déjà pris ; nommer cette fonction au lieu d’appeler cela de l’analyse.
+- **Portefeuille :** plusieurs acceptations locales peuvent dépendre de la même identité, du même prestataire ou de la même ressource rare. Faire remonter la conséquence simultanée au niveau compétent, sans additionner des scores hétérogènes ; la cartographie technique est développée au chapitre 3.
+- **Choix défendable mais imparfait :** conserver une concentration réellement exploitable plutôt que financer une diversité sans compétence pour la tenir ; montrer ce qui resterait utilisable si la dépendance commune tombait.
+- **Le piège du CISO :** attendre une preuve exhaustive pour protéger sa recommandation alors que le coût du retard ou la fermeture d’une option est déjà visible. La prudence doit aussi rendre compte de ce qu’elle laisse se produire.
+- **Limite :** l’urgence économique ne crée ni exemption juridique ni délégation implicite. Une mesure provisoire reste bornée par les pouvoirs existants et les contraintes applicables.
+
 ## Erreurs à attaquer
 
 - Budget construit comme une liste de produits, sans activité protégée ni alternative.
@@ -81,15 +99,15 @@
 - Signature du dirigeant interprétée comme autorisation d’ignorer la loi.
 - « Réduction de risque » présentée sans préciser quel risque subsiste et sur quel périmètre.
 
-## Outil : la fiche d’arbitrage stratégique
+## Outil : note décider / attendre / préserver une option
 
-- **Décision demandée :** financer, limiter un lancement, différer ou accepter une exposition dans une délégation valide.
-- **Options comparables :** situation actuelle ; correction ciblée ; transformation plus large — sans imposer artificiellement trois options si deux seulement sont réalistes.
-- **Pour chacune :** conséquence métier, coûts futurs complets, délai, dépendances et risque restant.
-- **Inconnue décisive :** celle qui ferait préférer une autre option ; budget d’information proportionné pour la lever.
-- **Répartition :** métier décrit les conséquences ; finance challenge les hypothèses ; CISO caractérise les mécanismes ; autorité habilitée décide.
-- **Preuve après décision :** résultat obtenu comparé à l’hypothèse, pas uniquement budget consommé.
-- **Inversion :** si la correction ciblée ne permet pas le niveau de service exigé, reconsidérer la transformation ; si elle suffit, ne pas financer une migration pour sauver la présentation initiale.
+- **Choix à trancher :** option retenue, meilleure alternative réalisable et raison de ne pas la retenir ; pas une liste de solutions également prioritaires.
+- **Fenêtre :** événement qui impose la décision, option qui disparaît si l’on attend, exposition et coûts maintenus pendant ce temps.
+- **Inconnue discriminante :** information encore susceptible d’inverser le choix, moyen de l’obtenir et effort proportionné ; sinon arrêter l’étude.
+- **Conséquence collective :** services susceptibles de tomber ensemble, capacité de reprise restante et ressource disputée entre programmes.
+- **Mandat :** contributions métier, finance, CISO et exploitation ; autorité habilitée ; désaccord résiduel conservé, sans fausse unanimité.
+- **Si la réunion ne tranche pas :** décision actuellement en vigueur, responsable du provisoire, limites et prochaine escalade ; ne pas convertir le silence en acceptation.
+- **Preuve et inversion :** contrôler le résultat et l’hypothèse décisive ; rouvrir si le service attendu ne peut plus être tenu, pas seulement si le budget change.
 
 ## Matière à apporter par l’auteur
 
@@ -122,24 +140,22 @@
 - **Effet commercial :** une nouvelle clause client introduit une charge récurrente sans budget associé.
 - **Contradiction utile :** vouloir une preuve unique pour tout, puis exiger que chaque audit démontre une réalité différente.
 
-## Socle juridique : ce que le chapitre peut affirmer
+## Conséquence opérationnelle des exigences
 
-- **Champ avant délais :** qualifier l’entité et ses services, les secteurs/annexes concernés, les seuils et exceptions ou désignations pertinentes, le statut essentiel/important, les États membres concernés, les textes nationaux en vigueur et l’autorité compétente.[14]
-  - Règle de travail proposée : le registre conclut pour chaque entité, pas pour le groupe par intuition.
-  - Les articles de la directive définissent l’architecture à mettre en œuvre par les États ; leur seule lecture ne suffit pas à établir une obligation opposable à une entreprise française. Les délais ci-dessous décrivent cette architecture, à relier au régime effectivement applicable avant de les utiliser comme échéances de l’entreprise.
-- **NIS 2, directive 2022/2555 :**
-  - Article 20 : gouvernance des organes de direction ; article 21 : mesures techniques, opérationnelles et organisationnelles appropriées et proportionnées ; article 23 : notification des incidents importants.[14]
-  - Architecture générale de l’article 23 : alerte précoce sans retard injustifié, au plus tard 24 heures après prise de connaissance de l’incident important ; notification d’incident sans retard injustifié et, en tout état de cause, au plus tard 72 heures après cette prise de connaissance (plafond, pas délai d’attente autorisé) ; rapport final au plus tard un mois après la notification d’incident, distincte de l’alerte précoce.[14]
-  - Compléments à garder avec les délais : rapport d’avancement puis rapport final si l’incident est toujours en cours ; rapports intermédiaires sur demande.[14]
-  - Régime particulier des prestataires de services de confiance : pour les incidents importants affectant leurs services de confiance, la notification visée à l’article 23, paragraphe 4, point b, intervient sans retard injustifié et au plus tard en 24 heures après prise de connaissance, au lieu du délai général de 72 heures.[14]
-  - Conséquence opérationnelle : préparer la qualification et l’envoi avant l’incident ; ne pas assimiler « toute alerte » à « incident important », ni attendre une certitude exhaustive pour enclencher la procédure.
-- **Règlement d’exécution 2024/2690 :** exigences techniques et méthodologiques et précisions sur les incidents importants pour les catégories d’entités énumérées à son article 1 ; pas un référentiel universel pour toutes les entreprises.[15]
-  - Catégories à vérifier : DNS, registres TLD, cloud, centres de données, CDN, services gérés, services de sécurité gérés, places de marché, moteurs de recherche, plateformes de réseaux sociaux et services de confiance.[15]
-  - Ne pas présenter ce règlement comme supprimant tous les autres textes, obligations nationales ou régimes applicables.
-- **Guide ENISA associé :** la page de présentation de l’ENISA précise qu’il est non juridiquement contraignant et ne remplace pas les cadres nationaux ; cette attribution porte sur la présentation consultée, pas sur une analyse exhaustive du guide.[3]
-- **France :** pas de verdict global sur l’état de transposition déduit d’un portail ; relever les textes français effectivement en vigueur et leur champ avant toute affirmation d’opposabilité.
-- **Autres branches du registre à qualifier selon l’activité :** RGPD, DORA, Cyber Resilience Act, obligations sectorielles et contrats. Liste de questions d’applicabilité, pas déclaration que tous s’appliquent ni qu’ils se cumulent intégralement.
-  - Pour chaque ligne : nature du texte (directive, règlement, texte national, guide ou contrat), champ, articulation, date d’application et autorité ; ne pas copier la logique de transposition d’une directive sur un règlement.
+- **Avant le contrôle :** qualifier entité, activité, pays, texte applicable et échéance ; distinguer droit, guide et contrat. Les registres doivent conclure, pas seulement accumuler les noms de textes.
+- **Avant la crise :** préparer qualification, envoi, suppléance et destinataires ; ne pas attendre une certitude exhaustive ni le prochain comité pour suivre la procédure applicable.
+- **Avant de mutualiser :** vérifier que la même preuve couvre les populations, périodes et modalités requises ; documenter les différences au lieu d’inventer une équivalence.
+- **Repères de droit et délais :** voir l’[annexe juridique](#annexe-juridique). Pas de verdict français de transposition déduit d’un portail ni de délai universel appliqué à toute alerte.
+
+## Décision senior : quand une preuve cesse de prouver
+
+- **Dilemme :** réutiliser un test de restauration après modification du chemin d’administration, ou remobiliser l’exploitation pour refaire la démonstration. L’auditeur a raison si le changement touche l’hypothèse testée ; une nouvelle capture sans changement pertinent n’apporte pas nécessairement plus d’assurance.
+- **Deux dimensions :** efficacité du contrôle et confiance dans ce que l’on en sait. Un essai rigoureux mais étroit n’établit pas une couverture générale ; un inventaire complet de déclarations n’établit pas un fonctionnement réel.
+- **La date ne suffit pas :** une preuve devient caduque si identité, configuration, connecteur, périmètre ou mode d’exploitation changent d’une façon qui invalide sa conclusion. À l’inverse, ancienne ne signifie pas automatiquement inutile.
+- **Échantillonnage :** conserver population, exclusions et raisons du choix ; inclure les exceptions ou les chemins difficiles qui pourraient renverser la conclusion. Ne pas laisser celui qui prépare l’audit sélectionner seulement les cas qu’il sait réussir.
+- **Désaccord avec l’audit :** séparer contrôle défaillant, preuve insuffisante et interprétation différente de l’exigence. Corriger un système, refaire un test ou résoudre une interprétation sont trois travaux distincts.
+- **Mesure compensatoire :** expliquer le mécanisme couvert, la limite et la vérification ; faire confirmer sa recevabilité. Une alternative techniquement séduisante ne satisfait pas automatiquement une exigence prescriptive.
+- **Le piège du CISO :** demander le même niveau de preuve à chaque contrôle et produire une nouvelle bureaucratie au nom de la lutte contre la bureaucratie. Réserver le traitement approfondi aux preuves qui portent une décision importante.
 
 ## Erreurs à attaquer
 
@@ -149,16 +165,15 @@
 - Optimiser la production de captures alors que le contrôle sous-jacent n’est pas réalisé.
 - Supprimer une conservation de preuve parce qu’elle n’aide pas directement le SOC, sans vérifier son autre finalité.
 
-## Outil : deux registres reliés, pas une feuille magique
+## Outil : registre d’applicabilité et passeport des preuves critiques
 
-- **Registre d’applicabilité — juridique/conformité avec métiers :** texte, article, statut, entité, activité, pays, date, autorité, déclencheur et obligations ; correspondances et règles d’articulation à documenter.
-- **Catalogue opérationnel — propriétaires des contrôles :** objectif, configuration, exécution, preuve datée, périmètre, exceptions, correction et vérification.
-- **Trois niveaux de preuve :** intention définie → mise en place vérifiée → fonctionnement éprouvé ; ne pas faire passer un niveau pour le suivant.
-- **Notification :** un responsable de qualification, un responsable d’envoi et des suppléants ; horloges et destinataires distincts par régime.
-  - Distinguer alerte SOC et alerte précoce réglementaire ; suivre notification, rapports intermédiaires/final et incident encore ouvert.
-  - Prévoir séparément, lorsqu’elle est requise, l’information des destinataires de services concernés : l’article 23 ne se limite pas aux échanges avec l’autorité. Ne pas la fusionner avec la communication commerciale.[14]
-- **Test de fonctionnement :** retrouver une opération réellement exécutée et sa preuve sans reconstruire a posteriori une histoire propre.
-- **Inversion :** si le contrôle est bon mais les preuves inexploitables, investir dans la traçabilité ; si les preuves sont bonnes mais le contrôle absent, arrêter d’améliorer le classeur.
+- **Applicabilité — juridique/conformité avec métiers :** texte, article, statut, entité, service, pays, date, autorité et articulation. Le catalogue opérationnel reste distinct du registre juridique.
+- **Affirmation soutenue :** ce que la preuve établit exactement ; intention, installation ou fonctionnement. Aucun niveau ne remplace automatiquement l’autre.
+- **Domaine de validité :** population, période, environnement, méthode, échantillon, exclusions et indépendance de la vérification ; ne pas effacer un échec en réduisant silencieusement le périmètre.
+- **Déclencheurs de retest :** changements qui invalident la conclusion ; responsable chargé de les détecter et décision à suspendre, restreindre ou réexaminer si l’assurance disparaît.
+- **Écart :** contrôle à corriger, preuve à compléter ou interprétation à trancher ; propriétaire et effet opérationnel, pas seulement couleur dans l’outil GRC.
+- **Notifications :** qualification, envoi, suppléants, destinataires et horloges par régime ; détail maintenable en annexe juridique, sans attendre de compléter tous les dossiers de preuve pour traiter un incident.
+- **Preuve et inversion :** retrouver un contrôle réellement exécuté avec ses exclusions ; refaire le test si l’hypothèse essentielle change, réutiliser la pièce lorsque son domaine de validité demeure pertinent.
 
 ## Matière à apporter par l’auteur
 
@@ -206,6 +221,16 @@
 - **Coût évité :** distinguer baisse de facture, temps libéré et perte probabiliste ; ne pas les additionner comme des euros équivalents.
 - **Contre-exemple à l’anti-plateforme :** un module peu utilisé peut être indispensable pour un scénario rare et grave ; faible fréquence ne signifie pas faible valeur.
 
+## Décision senior : plusieurs bons contrats peuvent faire une mauvaise architecture
+
+- **Dilemme :** consolider pour rendre enfin la supervision exploitable, tout en maintenant une capacité indépendante de reprise. Le fournisseur peut avoir raison sur la dispersion inefficace ; cela ne démontre pas que prévention, détection et reprise doivent partager tous leurs moyens de contrôle.
+- **Défaillance commune :** relier les fonctions aux identités d’administration, données, connecteurs, prestataires, canaux de support et compétences dont elles dépendent. Plusieurs logos peuvent partager le même point de rupture.
+- **Indépendance utile :** préciser ce qui continue de fonctionner pendant la perte du fournisseur ou du système d’identité central, et qui sait l’opérer. Une redondance non exerçable est une charge, pas une assurance.
+- **Actifs cachés du legacy :** détections, historiques, automatismes, exceptions et connaissances d’exploitation. Leur valeur ne se réduit pas à la licence ; leur transfert ne se démontre pas avec un export qui n’a jamais été réutilisé.
+- **Coût de sortie futur :** distinguer ce qui a déjà été perdu, ce qui reste contractuellement dû et ce que la transition créerait. Le raisonnement contre les coûts irrécupérables ne fait pas disparaître les contraintes de liquidité ou d’exploitation.
+- **Décision inconfortable :** renouveler ce qu’on n’achèterait plus, parce que la sortie maintenant détruirait une capacité essentielle ; associer le renouvellement à un découplage réalisable, pas à une promesse sans équipe.
+- **Le piège du CISO :** défendre sa réputation par un produit ou démontrer son courage par une migration. Dans les deux cas, l’identité du décideur devient un critère de portefeuille clandestin.
+
 ## Erreurs à attaquer
 
 - Activer un module pour améliorer le taux d’adoption plutôt que répondre à un besoin.
@@ -214,14 +239,15 @@
 - « Économiser » en supprimant la licence mais en conservant intégralement le travail.
 - Interpréter un post-mortem public comme une démonstration de l’architecture à acheter.
 
-## Outil : maintenir / réparer / réduire / remplacer
+## Outil : renouvellement et carte des défaillances communes
 
-- **Périmètre :** une capacité et ses consommateurs, pas nécessairement toute la plateforme.
-- **Coûts futurs :** exploitation, correction, transition, contrats et sortie ; coûts irrécupérables isolés.
-- **Diagnostic :** défaut de couverture, de donnée, de configuration, de compétence ou du produit lui-même.
-- **Décision :** responsable du service avec CISO, exploitation, achats et finance ; arbitrage à l’autorité habilitée.
-- **Preuve :** scénario autorisé → donnée → décision → action → effet ; voir également ce qui fonctionne en mode dégradé.
-- **Inversion :** conserver si le défaut se corrige à coût soutenable ; remplacer si une limite indispensable persiste et que l’alternative est éprouvée ; ne pas confondre durée d’essai et preuve de fiabilité à long terme.
+- **Options :** maintenir, réparer, réduire, remplacer ; écarter explicitement celles qui n’ont ni capacité ni trajectoire crédible.
+- **Fonctions liées :** ce qui disparaît ensemble en cas de défaillance commune ; service minimum préservé et indépendance réellement exploitée.
+- **Sortie au premier jour :** données, détections, preuves, compétences et interfaces perdues ; obligations de conservation et accès à maintenir.
+- **Coûts futurs :** maintien, correction, chevauchement, transfert et retrait ; séparer cible économique et moyens nécessaires pour l’atteindre (chapitre 5).
+- **Arbitrage de portefeuille :** risque commun accepté par l’autorité compétente, pas uniquement renouvellement approuvé par chaque propriétaire de contrat.
+- **Preuve :** exercer un scénario de perte du moyen commun et réutiliser hors du produit un élément indispensable ; consigner les limites non testées.
+- **Inversion :** conserver ou consolider si la capacité réellement tenue s’améliore ; préserver une fonction indépendante si la concentration rend plusieurs scénarios simultanément intolérables et si cette indépendance est soutenable.
 
 ## Matière à apporter par l’auteur
 
@@ -248,7 +274,7 @@
 
 ## Les trois files de veille
 
-- **Exposition urgente :** composant/identité concerné, présence réelle, exposition, indices de compromission, correctif ou mitigation, propriétaire ; si aucune option technique suffisante, arbitrer restriction ou suspension du service.
+- **Exposition urgente :** composant/identité concerné, présence réelle, exposition, indices de compromission, correctif ou mitigation, propriétaire ; si aucune option technique suffisante, proposer restriction ou suspension à l’autorité prévue au chapitre 7 et n’exécuter que les mesures autorisées ou préautorisées.
 - **Décision d’évolution :** problème, alternative, date de décision, preuve recherchée ; architecture, compétences, changements de marché et technologies, pas uniquement IA.
 - **Exploration :** sujet à potentiel encore mal défini, effort borné, signal qui le ferait passer dans l’autre file.
 - **Règle :** ne pas confondre fréquence de publication et fréquence de changement nécessaire.
@@ -270,6 +296,16 @@
 - **Limite des sources :** le texte d’Anthropic sur les outils demande d’associer chaque tâche d’évaluation à une réponse ou un résultat vérifiable.[11] Son texte sur les évaluations définit le résultat comme l’état final de l’environnement.[13]
   - Usage proposé : vérifier l’effet plutôt que croire le récit de l’agent ; retours du concepteur, pas comparaison indépendante des fournisseurs.
 
+## Décision senior : un pilote peut réussir sans rien nous apprendre
+
+- **Dilemme :** adopter une assistance qui accélère les cas simples mais déplace la vérification des cas sensibles vers les rares experts ; ou prolonger un essai qui consomme précisément la capacité qu’il promet de libérer.
+- **Réfutabilité :** nommer un résultat qui ferait abandonner. Si tout résultat peut être présenté comme une invitation à prolonger, l’essai est devenu un programme d’adoption déguisé.
+- **Valeur d’information :** demander quelle option réellement disponible peut changer grâce à l’essai ; comparer ce gain de connaissance à l’effort, au retard et à l’exposition introduite, sans inventer sa valeur en euros.
+- **Irréversibilité :** divulgation, action externe ou engagement ne s’annulent pas par arrêt du pilote. Définir les effets admissibles avant de choisir les données et les droits ; le bouton d’arrêt ne remplace pas cette limite.
+- **Transfert :** distinguer performance du produit et contribution temporaire des spécialistes fournisseur. Tester avec les données, les compétences et les contraintes qui resteront après leur départ.
+- **Contre-argument fournisseur :** un essai irréaliste peut disqualifier à tort une solution utile. Construire avec lui les conditions représentatives, sans lui confier seul le choix des cas ou le verdict.
+- **Le piège du CISO :** opposer un refus abstrait à un usage déjà recherché par le métier, sans alternative praticable. Proposer un périmètre autorisé ou une autre manière de réaliser la tâche ; la pression du sponsor ne vaut pas autorisation.
+
 ## Erreurs à attaquer
 
 - Assimiler une démonstration à un essai sur l’environnement cible.
@@ -278,14 +314,15 @@
 - Automatiser un processus dont les droits et les exceptions sont indéfinis.
 - Rejeter toute nouveauté parce qu’un produit déçoit ; adopter toute une catégorie parce qu’un pilote réussit.
 
-## Outil : fiche d’expérience et décision de sortie
+## Outil : contrat d’apprentissage et transfert en exploitation
 
-- **Hypothèse :** amélioration mesurable d’une tâche identifiée.
-- **Référence :** méthode actuelle et alternative plus simple ; jeu comparable.
-- **Seuils avant essai :** qualité, erreurs intolérables, charge humaine, coûts et droits ; pas un seuil choisi après les résultats.
-- **Responsables :** propriétaire de l’usage pour la valeur ; technique pour les barrières ; sécurité/juridique pour les limites pertinentes.
-- **Issues :** adopter un périmètre borné ; poursuivre pour une inconnue nommée ; abandonner ; rester en exploration.
-- **Inversion :** si l’option simple atteint le résultat avec moins de dépendances, la sophistication doit justifier son surcoût ; si elle échoue sur une capacité indispensable, l’innovation gagne sa place.
+- **Décision visée :** adopter, limiter, différer ou abandonner ; inconnue qui peut encore changer cette décision.
+- **Référence :** méthode actuelle et option plus simple ; mêmes tâches pertinentes et même comptabilisation du travail humain.
+- **Résultat disqualifiant :** erreur intolérable, dépendance inexploitable, gain annulé par la supervision ; critères fixés avant les résultats.
+- **Effets non annulables :** données, actions et engagements autorisés ; responsable, limites techniques et conditions d’arrêt avant le premier essai.
+- **Transfert :** soutien temporaire identifié, équipe d’exploitation, charge récurrente, cas exclus et variations d’entrées ; un résultat favorable ne prouve pas sa généralisation.
+- **Preuve :** état du système cible, essais difficiles et de refus, temps de correction ; revalidation si modèle, outils, données ou périmètre changent matériellement.
+- **Inversion et sortie :** si aucune nouvelle observation ne peut changer l’option, arrêter l’étude et décider ; si le service reste inexploitable, ne pas le renommer pilote permanent.
 
 ## Matière à apporter par l’auteur
 
@@ -331,6 +368,16 @@
 - **Collecte et stockage :** distinguer sources nécessaires à la détection, à l’enquête et aux obligations de conservation ; réduire après qualification, pas au seul volume.
 - **Suppression d’un service ou d’une exposition :** parfois plus efficace que protéger indéfiniment un usage marginal ; accord métier et vérification des dépendances avant arrêt.
 
+## Décision senior : la cible est finançable, le passage ne l’est pas
+
+- **Dilemme :** remplacer une plateforme coûteuse alors que la migration monopoliserait l’équipe nécessaire à la reprise ; ou payer un renouvellement limité pour sécuriser d’abord cette reprise. Une économie cible ne finance pas automatiquement sa transition.
+- **Goulot :** équipe identité, réseau, métier, achats ou intégration ; obtenir de son responsable une capacité dans la fenêtre utile. Un accord de principe n’est pas une ressource planifiable.
+- **Trois gains différents :** facture supprimée à une date réelle ; heures de travail libérées ; capacité réaffectable au chantier suivant. La finance peut avoir raison d’exiger du cash : les deux derniers ne paient pas automatiquement une facture.
+- **Trajectoire :** prérequis, fenêtres de changement, double exploitation, période de couverture incomplète, transfert des compétences et fermeture effective de l’ancien dispositif.
+- **Allocation marginale :** financer ce qui lève la prochaine limite du scénario prioritaire ; davantage d’alertes ne résout pas une absence d’autorité pour agir.
+- **Concentration après les coupes :** regarder quel contrôle, fournisseur ou individu porte désormais plusieurs engagements. Une économie locale peut déplacer une fragilité sur le portefeuille.
+- **Le piège du CISO :** lisser la liste des services moins couverts pour rester un partenaire agréable. Un plan soutenable doit nommer les pertes de couverture et les faire arbitrer, pas les cacher dans une hypothèse d’efficience.
+
 ## Erreurs à attaquer
 
 - Coupe identique sur toutes les lignes malgré des conséquences différentes.
@@ -339,14 +386,15 @@
 - Présenter un palier budgétaire comme « sécurité complète ».
 - Faire signer une exposition irréaliste pour transférer le blâme au prochain incident.
 
-## Outil : deux plans et une liste d’arrêts
+## Outil : plan de passage et registre des engagements
 
-- **Plan réalisable :** périmètre tenu, service rendu, limites explicites ; plancher légal vérifié séparément.
-- **Palier supplémentaire :** capacité ajoutée, dépendance levée, risque mieux traité ; pas simple liste de produits.
-- **Pour chaque ajout :** financement, capacité libérée ou travail décalé — nommer lequel.
-- **Pour chaque arrêt :** consommateur consulté, dépendances, données et preuves à préserver, coût évité vérifiable, signal de réouverture.
-- **Ordre :** engagements non écartables et expositions urgentes → scénarios locaux → dépendances → capacité ; aucun ordre universel « identité puis sauvegarde puis IA ».
-- **Inversion :** si un scénario grave traverse une zone sous-couverte, revoir la répartition ou le périmètre d’activité ; ne pas sacrifier droit applicable, sécurité des personnes/installations ou contrainte contractuelle non négociable pour garder le budget inchangé. Financer, réduire licitement l’activité ou escalader l’arbitrage.
+- **Plan réalisable et palier :** service rendu, limites et plancher applicable ; capacité additionnelle obtenue avec le palier, pas seulement produit supplémentaire.
+- **Ressource productrice :** responsable, compétence, fenêtre et preuve d’engagement ; un chantier sans disponibilité confirmée reste conditionnel, pas engagé.
+- **Chemin critique :** prérequis, tests, changement, double exploitation et retrait ; distinguer dépendance technique et simple préférence de planning.
+- **Flux économiques :** date d’arrêt de facture, coûts de chevauchement, capacité réellement réaffectable ; aucun gain compté deux fois.
+- **Renoncement :** tâche arrêtée ou reportée, bénéficiaire consulté, conséquence, données et preuves conservées ; vérification après coup de l’économie ou de la capacité promise.
+- **Test de résistance :** perte de la compétence rare ou retard du prérequis ; option de maintien licite, réduction d’activité ou financement à faire arbitrer.
+- **Inversion :** si le gain cible exige une transition que l’organisation ne peut pas absorber, changer la séquence, réduire le périmètre ou maintenir provisoirement ; ne pas sacrifier une contrainte non négociable pour conserver un budget inchangé.
 
 ## Matière à apporter par l’auteur
 
@@ -389,6 +437,16 @@
 - **Sortie :** export exploitable, formats, historique, règles, délais, frais, assistance, accès et traitement des données ; un fichier téléchargé n’est pas une migration démontrée.
 - **Support :** tester l’escalade et examiner les conditions ; un essai court ne prouve ni la santé financière ni la fiabilité annuelle du fournisseur.
 
+## Décision senior : le favori peut-il réellement perdre ?
+
+- **Dilemme :** retenir une offre supérieure mais difficile à quitter, ou une offre moins complète dont l’équipe maîtrise les interfaces. Le support et l’écosystème du leader peuvent valoir plus qu’une indépendance impossible à exploiter.
+- **Rapport de force :** accord-cadre, remises liées à une suite, région imposée, délais d’achat ou intégrations existantes ; faire qualifier les contraintes déjà engagées et celles encore négociables.
+- **Deux exercices distincts :** sélection réellement ouverte ; sécurisation d’un choix contraint. Ne pas fabriquer les notes du premier pour justifier le second, ni contourner les règles d’achat applicables.
+- **Après la signature :** qui maîtrise les changements de version, les coûts variables, le support et le rythme de migration ? Un droit contractuel de sortie, un export technique et une capacité réelle à partir sont trois états différents.
+- **Fournisseur qui refuse :** une clause ou un protocole idéal ne crée pas de pouvoir de négociation. Examiner périmètre réduit, compensation recevable, autre architecture, alternative exploitable ou escalade ; ne pas faire disparaître l’exigence du dossier.
+- **Préserver un futur choix :** données réutilisables, interfaces, moyens d’administration de reprise et compétence interne ; cibler les leviers utiles plutôt que promettre une indépendance totale.
+- **Le piège du CISO :** annoncer une mise en concurrence dont aucun résultat ne peut écarter le favori. Le dossier défend alors la procédure, pas la qualité de la décision.
+
 ## Erreurs à attaquer
 
 - Copier le coin supérieur droit avant d’écrire le besoin.
@@ -397,14 +455,15 @@
 - Considérer les heures d’ingénieur commercial comme le futur coût d’exploitation.
 - Réutiliser un graphique sous licence sans vérifier les droits ; citer l’analyse pertinente plutôt que reproduire automatiquement l’image.
 
-## Outil : dossier de sélection contradictoire
+## Outil : carte du pouvoir d’achat et dépendance consentie
 
-- **Question :** quelle capacité manque et pourquoi l’existant ne suffit-il pas ?
-- **Candidats :** options distinctes, dont correction de l’existant lorsque crédible.
-- **Protocole commun :** tâches, données, charge, limites, cas d’échec et interventions fournisseurs consignés.
-- **Décision :** raisons de retenir le candidat, raisons sérieuses de ne pas le retenir, compensations et coût récurrent.
-- **Répartition :** utilisateurs/exploitation testent ; architecture examine les dépendances ; sécurité évalue les contrôles ; achats/juridique sécurisent les engagements.
-- **Inversion :** si le candidat favori échoue à une exigence indispensable, écarter ou revoir le besoin explicitement ; ne pas réviser silencieusement le barème pour le faire gagner.
+- **Besoin et admissibilité :** capacité indispensable, exigences éliminatoires et marges négociables ; les préférences ne compensent pas une condition indispensable.
+- **Pouvoir réel :** ce qui est signé, qui peut refuser, coût de sortie de la négociation et alternatives opérables ; distinguer contrainte imposée et choix encore ouvert.
+- **Preuve :** protocole comparable, interventions fournisseur consignées, contraintes et limites non testées ; conserver le droit de conclure à une inadéquation.
+- **Concessions :** dépendance et limites acceptées par autorité habilitée, bénéfice obtenu en échange, mesures préservées ; pas de renoncement implicite aux obligations.
+- **Trois sorties :** droit contractuel, portabilité technique et capacité opérationnelle ; démontrer au moins le chemin de sortie du composant indispensable, sans promettre que tout est migrable.
+- **Levier après achat :** évolution de tarif, support, traitement des données ou fonction indispensable ; événement de renégociation et solution transitoire réalisable.
+- **Inversion :** si le favori échoue à une condition indispensable, écarter ou faire réviser explicitement le besoin par l’autorité compétente ; si le choix est contraint, publier ses limites plutôt que lui fabriquer la meilleure note.
 
 ## Matière à apporter par l’auteur
 
@@ -455,6 +514,17 @@
 - **Dépendance critique :** si le plan d’identité est compromis, prévoir un chemin d’administration de reprise dont la confiance et l’indépendance ont été vérifiées ; restaurer sous les mêmes pouvoirs compromis peut réintroduire le problème.
 - **Notifications :** la décision d’envoyer une information à une autorité suit sa procédure et son délai ; ne pas la confondre avec validation de la communication commerciale.
 
+## Décision senior : quand le CISO perd l’arbitrage
+
+- **Dilemme :** contenir un service suspect lorsque l’exploitation estime l’arrêt dangereux. Ni coupure réflexe ni effacement de l’avis sécurité ; comparer conséquences, moyens de confinement partiel et pouvoirs réellement disponibles.
+- **Désaccord sur les faits :** nommer l’observation discriminante, qui peut la produire et ce qui est autorisé pendant l’investigation. Une réunion supplémentaire ne remplace pas cette observation.
+- **Désaccord sur l’exposition :** dans la tolérance et les délégations valides, le décideur tranche ; conserver l’avis contradictoire puis exécuter sans sabotage ni maquillage. Au-delà, escalader vers l’autorité compétente : la signature du métier ne suffit pas.
+- **Désaccord sur le pouvoir :** expliciter la portée du veto, sa base, sa durée et la voie de recours. Une obligation légale ou un enjeu de sécurité des personnes appelle les fonctions compétentes ; toute incertitude ne donne pas au CISO un pouvoir d’arrêt personnel.
+- **Décideur qui ne décide pas :** constater ce qui continue par défaut, les mesures conservatoires préautorisées et l’échelon de secours ; fixer un délai lié aux conséquences, pas seulement au prochain comité.
+- **Exceptions cumulées :** plusieurs dérogations admissibles séparément peuvent former un chemin d’accès transversal durable ; revoir leur combinaison et leurs hypothèses, pas uniquement leurs dates d’échéance.
+- **Mandat contingent :** dans une petite équipe, une personne peut cumuler des rôles, mais les actes restent distingués ; dans une organisation distribuée, privilégier des délégations vérifiables. La criticité physique peut imposer une autre chaîne d’autorité que celle du SOC.
+- **Le piège du CISO :** défendre son indépendance en rouvrant sans fait nouveau une décision légitime qu’il a perdue ; ou conserver toute signature pour rendre sa fonction indispensable.
+
 ## Erreurs à attaquer
 
 - RACI sans décision, délai ni remplaçant.
@@ -463,14 +533,15 @@
 - Faire du CISO le responsable implicite de toute perte économique.
 - Supprimer un contrôle central avant que l’équipe locale ait les moyens d’assumer la délégation.
 
-## Outil : matrice d’autorité testable
+## Outil : protocole d’autorité et relevé de désaccord
 
-- **Pour chaque décision :** objet, initiateur, expert consulté, décideur, exécutant, suppléant.
-- **Bornes :** systèmes, effets admissibles, durée, contraintes, irréversibilité et conditions d’escalade.
-- **Sans réponse :** action conservatoire autorisée ou escalade de secours définie ; pas un « silence vaut accord » universel.
-- **Exception :** conditions de maintien, échéance, responsable de correction ; prévoir les conséquences de l’expiration avant d’automatiser une coupure potentiellement dangereuse.
-- **Preuve :** exercice avec décideur absent, canal principal indisponible et désaccord métier/sécurité ; vérifier une action autorisée et sa trace.
-- **Inversion :** renforcer le contrôle central si les délégations produisent des effets non maîtrisés ; élargir la délégation si les actions restent dans les bornes et l’attente crée le risque.
+- **Décision et bornes :** objet, systèmes, conséquences, durée, limites, initiateur, expert, décideur, exécutant et suppléant.
+- **Nature du désaccord :** faits, exposition ou pouvoirs ; avis conservés, hypothèse déterminante et observation susceptible de la renverser.
+- **Escalade :** niveau habilité à trancher, délai lié à la conséquence et recours ; exposition hors délégation jamais réputée acceptée par simple information.
+- **En attendant :** action conservatoire autorisée ou escalade de secours, avec ses effets ; aucun silence valant accord universel.
+- **Après arbitrage :** exécution de la décision valide, mesures conservées, faits déclencheurs de réouverture et suivi du risque résiduel ; pas de fausse unanimité dans le compte rendu.
+- **Preuve :** exercice avec décideur absent, désaccord métier/sécurité et canal principal indisponible ; vérifier qu’une action autorisée est possible sans supposer une chaîne parfaite.
+- **Inversion :** faire élargir explicitement la délégation par l’autorité compétente si l’attente crée le risque, dans les limites du droit applicable et des exigences de sécurité ; l’urgence ne crée pas ce pouvoir. Renforcer le contrôle si les exceptions ou leur combinaison dépassent les limites approuvées.
 
 ## Matière à apporter par l’auteur
 
@@ -536,6 +607,29 @@
 - **Sortie :** supprimer ce qui a été remplacé, terminer la double exploitation, fermer les accès et conserver ce qui doit l’être.
 - **Dates :** les fixer après estimation par les équipes concernées et examen des échéances imposées ; ne pas déduire l’effort de la place disponible dans un trimestre.
 
+## Arbitrage de trajectoire : une option retenue, une option rejetée
+
+- **Conditions du raisonnement :** une même équipe doit préparer une reprise de confiance et migrer une plateforme de sécurité ; la migration promet une économie à terme, mais exige une double exploitation et le transfert de contrôles existants. Il s’agit de critères de décision à confronter au terrain, pas d’un résultat d’entreprise rapporté.
+- **Trajectoire à retenir si le maintien reste admissible :**
+  - Maintenir le périmètre nécessaire de l’existant pendant une période contractuellement et opérationnellement maîtrisée.
+  - D’abord démontrer le chemin d’administration et la reprise du service critique ; préserver cette capacité pendant la migration.
+  - Ensuite transférer les contrôles et données indispensables sur un périmètre borné ; décommissionner l’ancien seulement après preuve de remplacement et traitement des obligations de conservation.
+  - **Prix du choix :** économie retardée et coûts de chevauchement ; les accepter explicitement, sans les cacher dans le budget cible.
+- **Trajectoire rejetée sous ces conditions :** migrer partout pour obtenir l’économie affichée avant de rendre la reprise indépendante ; la même équipe devient le goulot de deux changements et la capacité de retour n’est pas démontrée.
+- **Ce qui renverse le choix :** maintenir l’existant devient inadmissible, une contrainte de calendrier s’impose, ou une capacité distincte de migration peut être réellement obtenue ; reprendre l’arbitrage au lieu de réciter « reprise d’abord ».
+- **Si aucune trajectoire ne tient :** présenter financement, réduction licite d’activité ou autre mesure conservatoire à l’autorité compétente. Ne pas remettre les deux projets en vert en supposant que les personnes absorberont le conflit.
+- **Décision d’arrêt :** si l’équipe ne peut pas produire le résultat de transfert défini, suspendre l’extension selon les règles approuvées ; ne pas supprimer l’ancien contrôle pour faire apparaître l’économie.
+
+## Résistance du programme aux faits contrariants
+
+- **Perte d’une dépendance commune :** quels investissements et services échouent simultanément ? Quel moyen d’administration, d’alerte et de reprise reste utilisable ?
+- **Absence de la compétence rare :** quelle tâche doit attendre, quel service reste tenu, quel engagement n’est plus soutenable ? Ne pas compter des personnes non formées comme des remplaçants immédiats.
+- **Prérequis en retard :** quelles actions conservatoires peuvent avancer, quelle extension est interdite et qui arbitre le risque de l’attente ?
+- **Moyens de transition retirés :** distinguer économies finales annoncées et coûts pour y parvenir ; remettre la cible en discussion si son chemin n’est plus financé.
+- **Preuve invalidée :** quel changement impose un retest ou un retour à un périmètre restreint ? Un contrôle installé n’a pas forcément perdu son efficacité, mais l’assurance utilisée pour décider doit être réexaminée.
+- **Aucun résultat nouveau ne peut changer le choix :** arrêter l’étude et demander la décision ; continuer à tester ne doit pas servir à éviter un désaccord de pouvoir ou de valeur.
+- **Bilan de portefeuille :** après chaque arrêt ou consolidation, regarder à nouveau les dépendances communes et les exceptions cumulées ; une liste plus courte de projets ne prouve pas une exposition moindre.
+
 ## Dernière fiche pour l’auteur
 
 - **Décision :** qu’est-ce qui change concrètement après ce chapitre ?
@@ -544,6 +638,28 @@
 - **Renoncement :** quel travail ou quelle capacité est déplacé ?
 - **Limite :** où la recommandation cesse-t-elle d’être raisonnable ?
 - **Fin possible à écrire :** une sécurité qui sait expliquer ses choix, observer leurs limites et les réviser ; pas un CISO qui finit toujours par gagner la réunion.
+
+# Annexe juridique
+
+- **Objet :** détail maintenable des repères de champ et de notification ; les distinctions juridiques restent nécessaires, mais ne constituent pas le cœur argumentatif du chapitre 2.
+
+- **Champ avant délais :** qualifier l’entité et ses services, les secteurs/annexes concernés, les seuils et exceptions ou désignations pertinentes, le statut essentiel/important, les États membres concernés, les textes nationaux en vigueur et l’autorité compétente.[14]
+  - Règle de travail proposée : le registre conclut pour chaque entité, pas pour le groupe par intuition.
+  - Les articles de la directive définissent l’architecture à mettre en œuvre par les États ; leur seule lecture ne suffit pas à établir une obligation opposable à une entreprise française. Les délais ci-dessous décrivent cette architecture, à relier au régime effectivement applicable avant de les utiliser comme échéances de l’entreprise.
+- **NIS 2, directive 2022/2555 :**
+  - Article 20 : gouvernance des organes de direction ; article 21 : mesures techniques, opérationnelles et organisationnelles appropriées et proportionnées ; article 23 : notification des incidents importants.[14]
+  - Architecture générale de l’article 23 : alerte précoce sans retard injustifié, au plus tard 24 heures après prise de connaissance de l’incident important ; notification d’incident sans retard injustifié et, en tout état de cause, au plus tard 72 heures après cette prise de connaissance (plafond, pas délai d’attente autorisé) ; rapport final au plus tard un mois après la notification d’incident, distincte de l’alerte précoce.[14]
+  - Compléments à garder avec les délais : rapport d’avancement puis rapport final si l’incident est toujours en cours ; rapports intermédiaires sur demande.[14]
+  - Régime particulier des prestataires de services de confiance : pour les incidents importants affectant leurs services de confiance, la notification visée à l’article 23, paragraphe 4, point b, intervient sans retard injustifié et au plus tard en 24 heures après prise de connaissance, au lieu du délai général de 72 heures.[14]
+  - Conséquence opérationnelle : préparer la qualification et l’envoi avant l’incident ; ne pas assimiler « toute alerte » à « incident important », ni attendre une certitude exhaustive pour enclencher la procédure.
+- **Règlement d’exécution 2024/2690 :** exigences techniques et méthodologiques et précisions sur les incidents importants pour les catégories d’entités énumérées à son article 1 ; pas un référentiel universel pour toutes les entreprises.[15]
+  - Catégories à vérifier : DNS, registres TLD, cloud, centres de données, CDN, services gérés, services de sécurité gérés, places de marché, moteurs de recherche, plateformes de réseaux sociaux et services de confiance.[15]
+  - Ne pas présenter ce règlement comme supprimant tous les autres textes, obligations nationales ou régimes applicables.
+- **Guide ENISA associé :** la page de présentation de l’ENISA précise qu’il est non juridiquement contraignant et ne remplace pas les cadres nationaux ; cette attribution porte sur la présentation consultée, pas sur une analyse exhaustive du guide.[3]
+- **France :** pas de verdict global sur l’état de transposition déduit d’un portail ; relever les textes français effectivement en vigueur et leur champ avant toute affirmation d’opposabilité.
+- **Autres branches du registre à qualifier selon l’activité :** RGPD, DORA, Cyber Resilience Act, obligations sectorielles et contrats. Liste de questions d’applicabilité, pas déclaration que tous s’appliquent ni qu’ils se cumulent intégralement.
+  - Pour chaque ligne : nature du texte (directive, règlement, texte national, guide ou contrat), champ, articulation, date d’application et autorité ; ne pas copier la logique de transposition d’une directive sur un règlement.
+
 
 # Repères documentaires — portée des preuves
 

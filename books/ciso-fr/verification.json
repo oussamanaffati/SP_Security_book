@@ -1,24 +1,16 @@
 {
-  "format": "base auteur en bullets, sans scènes rédigées",
-  "chapters": 7,
-  "chapter_numbers": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7
+  "chapter_count": 7,
+  "chapter_files_including_intro_conclusion": 9,
+  "senior_dilemmas": 7,
+  "tools": 7,
+  "mermaid_diagrams_rendered_and_xml_parsed": 2,
+  "local_links_valid": true,
+  "citation_verification": "strict --evidence passed; existing ten-source ledger",
+  "models": [
+    "gpt-6-astra",
+    "grok-4.7"
   ],
-  "words_without_sources": 6445,
-  "all_body_lines_are_headings_or_bullets": true,
-  "invented_scene_labels_absent": true,
-  "mermaid_diagrams_rendered": 2,
-  "source_count": 10,
-  "grok_model": "grok-4.7",
-  "review_rounds_completed": 7,
-  "final_review_status": "aucun problème bloquant identifié dans le dossier, sans validation factuelle indépendante",
-  "base_sha256": "a2901d44b137f594fb1853d90a809159dbe97f88a48526c4eb474d2c2e31d158",
-  "mind_map_sha256": "cac9c63c86860fe7142e5a068f76d10a2492df186a065bc77d31603f97919c25",
-  "final_review_input_sha256": "37128c8f9e6a37f6be4d1d8b80817f709071433a2f8330f88d6e1e593457235f"
+  "final_clarifications": "parent verified after independent reviews",
+  "base_sha256": "bd9f26ae6482ef25d784d67eec7c814077c44d473e85403c13d9b5f316bf9074",
+  "scope": "books/ciso-fr only"
 }

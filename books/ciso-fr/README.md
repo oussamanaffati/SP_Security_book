@@ -1,34 +1,36 @@
 # La sécurité n’est pas un concours de slides
 
-**Base de travail pour l’auteur — français, bullets hiérarchisés, contradiction et cartes.**
+**Base auteur renforcée : posture CISO senior, bullets hiérarchisés et mind map. Oussama rédige le livre.**
 
 ## Commencer ici
 
-- **[Base auteur complète](base-auteur.md)** — introduction, sept chapitres et conclusion ; arguments et matière à développer, pas rédaction du livre.
-- **[Mind map et schéma de décision](mind-map.md)** — Mermaid rendu par GitHub, tensions entre les chapitres et chemins d’analyse.
-- **[Carte visuelle des sept chapitres](carte-1.svg)** et **[carte de décision de la roadmap](carte-2.svg)** — SVG générés et vérifiés.
-- [Fiches séparées par chapitre](chapters/).
+- **[Base complète](base-auteur.md)** — introduction, sept chapitres, conclusion et annexe juridique.
+- **[Mind map et carte de décision](mind-map.md)** — sources Mermaid modifiables et tensions transversales.
+- **[Carte visuelle des chapitres](carte-1.svg)** · **[Carte de décision de la roadmap](carte-2.svg)**.
+- [Fiches séparées](chapters/) · [Annexe juridique](annexe-juridique.md).
 
-## Ce que contient chaque fiche
+## Ce qui a été poussé plus loin
 
-- Question centrale et frontière avec les autres chapitres.
-- Thèse, contre-thèse et cas où la pratique critiquée est justifiée.
-- Incitations, contradictions, arbitrages et erreurs à attaquer.
-- Outil de décision : acteurs, preuve, alternatives et condition de changement d’avis.
-- Questions et matière à apporter par l’auteur ; suggestion d’ironie, sans scène ni dialogue rédigé.
+1. **Board :** quand attendre coûte plus que décider imparfaitement.
+2. **Standards :** quand une preuve récente ne prouve plus ce qu’on lui fait dire.
+3. **Investissements :** quand plusieurs bons contrats créent une défaillance commune.
+4. **Veille :** quand un pilote réussit mais n’apprend rien ou ne passe pas en exploitation.
+5. **Budget :** quand la cible est rentable mais la transition n’est pas finançable.
+6. **Achats :** quand le favori ne peut pas perdre et que le vrai sujet devient la dépendance consentie.
+7. **Gouvernance :** quand le CISO perd l’arbitrage ou que personne ne décide.
 
-## Refonte et contradiction
+La conclusion développe une trajectoire retenue et une rejetée, leur prix et les conditions qui inversent le choix. Chaque chapitre conserve thèse, contre-thèse, erreurs, outil et questions à l’auteur. Les sept outils préexistants sont transformés, pas doublés.
 
-- [Journal des corrections et arbitrages](reviews/boucle-editoriale.md).
-- [Dernière vérification Grok](reviews/grok-closure.md).
-- [Rapports successifs](reviews/) : sept réponses obtenues avec `grok-4.7`, dont une première critique tronquée ; les contre-audits ultérieurs sont complets.
-- [Contrôles structurels](verification.json) : sept chapitres, corps intégralement en headings/bullets, deux diagrammes rendus, citations vérifiées.
-- [Registre des dix sources citées](research/ledger-final.json) ; portée et limites expliquées à la fin de la base auteur.
+## Confrontation GPT / Grok
 
-Grok a reçu le document complet et la mind map, puis des extraits sources pour confronter ses objections. Son dernier avis ne relève plus de problème bloquant dans le dossier fourni. Il n’a pas effectué de vérification web indépendante ; cet avis n’est ni une expertise juridique ni une garantie d’exactitude.
+- **[Journal de la refonte senior](reviews/senior/boucle-senior.md)** : changements, suggestions retenues ou rejetées et auto-critique.
+- [Critique GPT initiale](reviews/senior/gpt-review.md) · [Revue GPT de la refonte](reviews/senior/gpt-final.md).
+- [Critique Grok initiale](reviews/senior/grok-initial.md) · [Contre-revue Grok](reviews/senior/grok-final.md).
+- Modèles effectivement utilisés : `gpt-6-astra` et `grok-4.7`. Les dernières précisions éditoriales sont décrites dans le journal ; les avis ne constituent ni certification juridique ni vérification indépendante des sources.
+- [Contrôles structurels](verification.json) · [Registre des sources](research/ledger-final.json).
 
-## Ancienne version
+## Historique et périmètre
 
-- Le manuscrit rédigé est retiré de la version de travail.
-- Il reste consultable dans [l’historique du premier jet](https://github.com/oussamanaffati/SP_Security_book/tree/4f3353dcbd9b7740d447f84c6ade753ea67ef4d1/books/ciso-fr).
+- [Boucle précédente](reviews/boucle-editoriale.md) ; ses avis concernent la version antérieure.
+- Le [premier manuscrit rédigé](https://github.com/oussamanaffati/SP_Security_book/tree/4f3353dcbd9b7740d447f84c6ade753ea67ef4d1/books/ciso-fr) reste dans l’historique ; il ne remplace pas cette base auteur.
 - Le livre anglais Service Provider Security n’est pas modifié.
