@@ -10,13 +10,31 @@
     3
   ],
   "total_bullets": 21,
-  "nested_bullets": 0,
+  "nested_per_chapter": [
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9
+  ],
+  "nested_bullets": 63,
   "synchronized_sheets": 9,
   "mindmap_branches": 7,
   "svg_xml_valid": 2,
-  "local_links_checked": 27,
+  "local_links_checked": 35,
+  "citation_occurrences": 5,
+  "source_ids": [
+    1,
+    2,
+    3,
+    5
+  ],
   "scope_only_books_ciso_fr": true,
-  "base_words_whitespace": 706,
-  "base_sha256": "cf348928e77242ef6e0863b2da8a7512aeb6b6e45055a8205fdff40e67afa670",
-  "external_sources_refetched": false
+  "base_words_whitespace": 2611,
+  "base_sha256": "ad6df0e075a7c28c95e1eb396774199c18a6703293f0d209554841a879eb4d29",
+  "source_bodies_retrieved_during_development": true,
+  "grok_model": "grok-4.7",
+  "final_post_review_clarifications": true
 }

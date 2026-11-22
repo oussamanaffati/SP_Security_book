@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.bl.uk/home/british-library-cyber-incident-review-8-march-2024.pdf",
+      "title": "",
+      "accessed": "2026-11-22",
+      "quotes": [
+        {
+          "text": "we have been hampered by the lack of viable infrastructure on which to restore it.",
+          "added": "2026-11-22"
+        },
+        {
+          "text": "convening at 10:00 by WhatsApp video call in the absence of email.",
+          "added": "2026-11-22"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://blog.cloudflare.com/post-mortem-on-cloudflare-control-plane-and-analytics-outage",
+      "title": "",
+      "accessed": "2026-11-22",
+      "quotes": [
+        {
+          "text": "some critical systems had non-obvious dependencies that made them unavailable.",
+          "added": "2026-11-22"
+        },
+        {
+          "text": "Throughout the incident, Cloudflare's network and security services continued to work as expected.",
+          "added": "2026-11-22"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://www.enisa.europa.eu/news/supporting-nis2-implementation-through-actionable-guidance",
+      "title": "",
+      "accessed": "2026-11-22",
+      "quotes": [
+        {
+          "text": "The implementation guidance is not a legally binding document",
+          "added": "2026-11-22"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://www.verizon.com/business/resources/reports/2025-dbir-data-breach-investigations-report.pdf",
+      "title": "",
+      "accessed": "2026-11-22",
+      "quotes": [
+        {
+          "text": "But that uncertainty doesn’t take away from exploitation of vulnerabilities being present in 20% of all breaches we analyzed",
+          "added": "2026-11-22"
+        },
+        {
+          "text": "Thus, the incidents described in this report took place between Nov 1, 2023, and Oct 31, 2024.",
+          "added": "2026-11-22"
+        }
+      ]
+    }
+  ]
+}
