@@ -17,3 +17,7 @@ RSSI : applicabilité et preuve ne sont plus des rubriques abstraites ; le choix
 ## 03 — Investissements
 
 RSSI : valeur future séparée de la défense du coût passé. Ingénieur : normalisation des journaux, sémantique des règles, contrôle et données distingués ; reprise de politique après reconnexion ajoutée. Dirigeant : maintien temporaire conditionné à une préparation financée ; consolidation défendue quand elle réduit réellement le travail. Lecteur : le cas Cloudflare reste unique et ne démontre pas une défaillance Cisco. Correction intégrée : remplacement industriel non immédiat et limites de l’isolement dans les deux sens. Limite : essais proposés, aucun comportement de produit certifié.
+
+## 04 — Veille
+
+RSSI : urgence de traitement séparée de l’innovation ; maintien sous protection temporaire borné. Ingénieur : CVSS de base, composant appelé, préconditions et chemins latéraux distingués ; tests autorisés sans exploitation dangereuse suggérée. Dirigeant : pilote susceptible de perdre, coût de relecture et assistance intégrés. Lecteur : le chiffre DBIR sert une question, non une prévision ; les noms Cisco restent limités aux concepts vérifiés. Correction intégrée : l’absence de résultat du scanner ne prouve pas l’absence d’exposition et l’existant doit aussi être comparé. Limite : aucune efficacité de produit mesurée ; dénominateur et période DBIR conservés.
