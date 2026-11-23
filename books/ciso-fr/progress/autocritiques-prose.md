@@ -33,3 +33,7 @@ RSSI : candidat préféré éliminable sur un besoin indispensable, pas sur des 
 ## 07 — Gouvernance
 
 RSSI : avis, acceptation et exécution séparés ; défaite légitime suivie d’une contribution réelle. Ingénieur : agent, connecteur, sessions cibles et files distingués, avec observation indépendante. Dirigeant : délégations locales ne produisant pas une autorité globale ; silence sans acceptation. Lecteur : exemple technique explicitement analytique, aucune anecdote d’auteur ; retour British Library limité au canal de crise. Correction intégrée : approbation humaine non présentée comme garantie et absence de pouvoir général d’arrêt rappelée. Limite : le détail de révocation dépend des mécanismes réellement disponibles dans les systèmes.
+
+## 08 — Conclusion
+
+RSSI : trajectoire choisie et refusée explicites, maintien sous conditions et réexamen. Ingénieur : préparation de migration distincte de bascule générale ; l’automatisation ne crée pas une compétence rare. Dirigeant : économie retardée assumée, autorité et exécution après arbitrage conservées. Lecteur : pas de nouveau cas public ni liste finale ; situation de décision explicitement hypothétique et sans chiffres inventés. Correction intégrée : possibilité d’un essai très limité qui débloque réellement le chemin, pour éviter une interdiction mécanique d’innover. Limite : cette trajectoire n’est pas une priorité universelle applicable à tous les réseaux.
