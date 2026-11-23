@@ -9,3 +9,7 @@ RSSI : le scepticisme risquait de passer pour une doctrine de refus ; le texte d
 ## 01 — Conseil
 
 RSSI : choix explicite entre copie et chaîne de reprise ; refus de dépense séparé de l'acceptation du risque. Ingénieur : dépendance circulaire entre identité, secrets et restauration expliquée, sans l'attribuer au cas British Library. Dirigeant : valeur d'information reliée à une décision et à son échéance ; attente avec contenu et contre-proposition. Lecteur : le cas public porte le mécanisme, le chiffre ENISA élargit sans devenir un second récit. Correction intégrée : contrepoint confidentialité pour empêcher la continuité de devenir le seul objectif ; nombre de pays omis en raison de la divergence interne ENISA. Limite : pas de chiffrage local inventé, les coûts restent à instruire par l'organisation.
+
+## 02 — Standards
+
+RSSI : applicabilité et preuve ne sont plus des rubriques abstraites ; le choix de collecte est concret. Ingénieur : retrait dans un annuaire distingué des droits locaux, puis retest ciblé après migration. Dirigeant : mutualisation conditionnée au périmètre et à la force de l’exigence ; aucune opposabilité française inventée. Lecteur : progression du texte vers la preuve, sans catalogue réglementaire. Correction intégrée : absence de preuve distinguée de preuve d’absence ; les standards retrouvent leur utilité au lieu d’être caricaturés. Limite : ce chapitre n’est pas une qualification juridique d’une entreprise déterminée.
