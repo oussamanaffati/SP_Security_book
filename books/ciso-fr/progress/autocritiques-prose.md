@@ -29,3 +29,7 @@ RSSI : réduction de la première vague recommandée sous hypothèse de maintien
 ## 06 — Gartner et achats
 
 RSSI : candidat préféré éliminable sur un besoin indispensable, pas sur des préférences déguisées. Ingénieur : version/matériel/administration et export sémantiquement utilisable détaillés. Dirigeant : choix contraint et dépendance consciente défendables ; le contrat ne crée pas une capacité absente. Lecteur : aucune attribution non vérifiée à la méthodologie Gartner ; retour ponctuel de la voix constructeur. Correction intégrée : les exigences ne sont pas toutes éliminatoires, et la réversibilité elle-même a un coût. Limite : disponibilité Cisco décrite comme annonce datée, pas état actuel testé.
+
+## 07 — Gouvernance
+
+RSSI : avis, acceptation et exécution séparés ; défaite légitime suivie d’une contribution réelle. Ingénieur : agent, connecteur, sessions cibles et files distingués, avec observation indépendante. Dirigeant : délégations locales ne produisant pas une autorité globale ; silence sans acceptation. Lecteur : exemple technique explicitement analytique, aucune anecdote d’auteur ; retour British Library limité au canal de crise. Correction intégrée : approbation humaine non présentée comme garantie et absence de pouvoir général d’arrêt rappelée. Limite : le détail de révocation dépend des mécanismes réellement disponibles dans les systèmes.
