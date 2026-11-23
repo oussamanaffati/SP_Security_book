@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.first.org/cvss/v4.0/user-guide",
+      "title": "FIRST CVSS v4.0 User Guide",
+      "accessed": "2026-11-23",
+      "quotes": [
+        {
+          "text": "CVSS Base Score (CVSS-B) Measures Severity, not Risk",
+          "added": "2026-11-23"
+        }
+      ]
+    }
+  ]
+}
