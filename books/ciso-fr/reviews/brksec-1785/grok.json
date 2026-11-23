@@ -1,0 +1,28 @@
+{
+  "model_requested": "grok-4.7",
+  "model_returned": "grok-4.7",
+  "source_sha256": "dfeb6988a0f27b2f72cf411211670c3d85cc51a0b27a3630ddafd0ba053d9b39",
+  "prompt_sha256": "77ad8ad6418af581b28198fab5748396241dd06ffc222665337314eeff1c78a9",
+  "source_file": "dossier.md",
+  "review_file": "grok.md",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10537,
+    "completion_tokens": 2539,
+    "total_tokens": 35985,
+    "prompt_tokens_details": {
+      "text_tokens": 10537,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "cached_tokens": 1152
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 22909,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "num_sources_used": 0,
+    "cost_in_usd_ticks": 1720340000
+  }
+}

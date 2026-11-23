@@ -23,18 +23,37 @@
   "synchronized_sheets": 9,
   "mindmap_branches": 7,
   "svg_xml_valid": 2,
-  "local_links_checked": 35,
-  "citation_occurrences": 5,
-  "source_ids": [
+  "diagrams_unchanged": true,
+  "local_links_checked": 84,
+  "citation_occurrences": 12,
+  "historical_citation_occurrences": 5,
+  "cisco_citation_occurrences": 7,
+  "historical_source_ids": [
     1,
     2,
     3,
     5
   ],
   "scope_only_books_ciso_fr": true,
-  "base_words_whitespace": 2611,
-  "base_sha256": "ad6df0e075a7c28c95e1eb396774199c18a6703293f0d209554841a879eb4d29",
-  "source_bodies_retrieved_during_development": true,
+  "base_words_whitespace": 2775,
+  "baseline_words_whitespace": 2611,
+  "word_growth_percent": 6.28,
+  "base_sha256": "3f4e75b6b163b2ff1bb93e833493a2f8529489ba76f89150a21379a6ffa21741",
+  "cisco_pdf_pages_read": 62,
+  "cisco_pages_visually_inspected": [
+    1,
+    15,
+    26,
+    29,
+    34,
+    38,
+    51,
+    53
+  ],
+  "gpt_model": "gpt-6-astra",
   "grok_model": "grok-4.7",
-  "final_post_review_clarifications": true
+  "grok_completed_reviews": 2,
+  "grok_saw_pdf": false,
+  "final_post_review_clarifications": true,
+  "telco_audit_integrated": false
 }

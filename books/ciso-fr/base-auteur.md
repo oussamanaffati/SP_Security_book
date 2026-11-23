@@ -1,6 +1,6 @@
 # La sécurité n’est pas un concours de slides
 
-Base auteur développée. Trois axes par chapitre ; les sous-points donnent de la matière à écrire, pas une prose à recopier. Les cas publics sont sourcés ; les choix et les formules proposés sont des angles éditoriaux, pas des conclusions des sources. Détail des preuves et limites : [registre de sources](research/developpement-sources.md).
+Base auteur développée. Trois axes par chapitre ; les sous-points donnent de la matière à écrire, pas une prose à recopier. Les cas publics sont sourcés ; les choix et les formules proposés sont des angles éditoriaux, pas des conclusions des sources. Détail des preuves et limites : [registre de sources](research/developpement-sources.md) et [lecture critique de BRKSEC-1785](research/brksec-1785.md). Les références Cisco utilisent les pages physiques du PDF, pas une numérotation de slides supposée.
 
 ## Introduction — Acheter moins de certitudes
 
@@ -40,26 +40,26 @@ Menace, obligation et offre commerciale ne sont pas synonymes. Partir de cette c
 
 - **La facture ne prouve pas la protection.**
   - Suivre une capacité jusqu’à son usage : les journaux arrivent-ils, l’alerte est-elle comprise, quelqu’un peut-il agir ? Une licence activée n’efface ni un connecteur cassé ni une réponse sans responsable.
-  - Ici, développer le renouvellement comme une décision neuve : montrer ce qui fonctionne, ce qui pourrait être remis en état et ce qui n’est plus nécessaire. Ne pas confondre un mauvais déploiement réparable avec un mauvais produit.
-  - Contradiction féconde : supprimer un outil peu visible peut retirer le seul contrôle disponible sur un périmètre marginal mais critique. L’utilisation seule n’est donc pas la mesure de la valeur.
+  - Ici, partir du retrait recommandé par Cisco pour ce qui ne peut plus être corrigé, supporté ou mis à niveau : inventaire, exposition Internet d’abord, puis priorités métier, avec précautions pour infrastructures critiques et OT.[Cisco, p. 14–17](research/brksec-1785.md#maintenabilite) Angle auteur : acheter la capacité de rester maintenable, pas seulement une nouvelle boîte.
+  - Contradiction : retirer brutalement un équipement industriel peut dégrader le service qu’il protège. Développer le maintien borné avec isolement éprouvé et sortie préparée ; l’impossibilité de contenir l’exposition peut rendre le remplacement prioritaire.
 - **Sortir peut coûter plus que rester.**
   - Comparer les dépenses et les risques futurs : reprise des règles, export de l’historique, formation, exploitation en parallèle et contrôles temporairement moins efficaces. L’argent déjà dépensé n’est pas un argument pour renouveler.
   - Ici, développer le maintien temporaire assumé : rester peut être rationnel si une sortie précipitée casse la détection. Mais préciser ce qui rendra la sortie praticable, faute de quoi le temporaire devient une rente.
   - Faire changer la recommandation si le fournisseur ne peut plus satisfaire une exigence indispensable. Une transition coûteuse peut alors être nécessaire, même sans économie promise.
 - **Plusieurs fournisseurs peuvent tomber ensemble.**
   - Compter les dépendances plutôt que les logos : identité, hébergement, réseau, administration. Deux contrats ne créent pas deux chemins de secours si le même service est nécessaire pour les utiliser.
-  - Ici, raconter la panne Cloudflare des 2–4 novembre 2023 : malgré une architecture répartie sur trois centres, des dépendances non évidentes ont rendu certains systèmes critiques indisponibles. Les services réseau et de sécurité continuaient ; le plan de contrôle et l’analytique étaient touchés. Ce cas concerne un seul fournisseur, pas une panne multi-fournisseurs : il illustre le mécanisme de dépendance, que l’on propose ensuite de rechercher entre contrats.[2](research/developpement-sources.md#source-2)
-  - Ne pas en faire un procès du fournisseur unique. Proposer la consolidation si elle rend l’exploitation meilleure, puis éprouver séparément l’accès de secours et les opérations encore possibles sans la dépendance commune.
+  - Ici, raconter la panne Cloudflare des 2–4 novembre 2023 : malgré un plan de contrôle et une analytique répartis sur trois centres, des dépendances non évidentes ont rendu certains systèmes critiques indisponibles. Les services réseau et de sécurité continuaient ; le plan de contrôle et l’analytique étaient touchés. Ce cas concerne un seul fournisseur, pas une panne multi-fournisseurs : il illustre le mécanisme de dépendance, que l’on propose ensuite de rechercher entre contrats.[2](research/developpement-sources.md#source-2)
+  - Confronter ce cas au schéma Cisco : des points d’application distribués partagent un plan de contrôle.[Cisco, p. 26](research/brksec-1785.md#dependances) Angle de test proposé, pas panne démontrée : sans ce plan, quelles règles restent appliquées, lesquelles peuvent encore changer ? Consolider si le gain d’exploitation justifie cette dépendance, pas parce que les icônes sont dispersées.
 
 ## 4 — Veille : apprendre quelque chose ou arrêter
 
 - **Une alerte urgente n’est pas un sujet d’innovation.**
-  - Séparer la curiosité technologique du traitement d’une exposition : identifier les actifs concernés, choisir une mesure autorisée, vérifier son effet. Une vulnérabilité exploitable ne doit pas attendre la présentation d’une nouvelle plateforme.
+  - Traiter l’exposition sans attendre un achat d’innovation. Cisco présente Live Protect comme une protection temporaire ciblée, pas un correctif.[Cisco, p. 34–37](research/brksec-1785.md#contenir) Angle auteur : contenir peut acheter du temps si le chemin couvert est vérifié et la correction reste la sortie ; sans couverture démontrée, réarbitrer l’urgence avec l’autorité habilitée.
   - Ici, placer un chiffre précisément borné : le DBIR 2025 situe l’exploitation de vulnérabilités à 20 % des violations de données analysées. Le corpus comprend 22 052 incidents, dont 12 195 violations de données confirmées ; la période de collecte des incidents est du 1er novembre 2023 au 31 octobre 2024.[5](research/developpement-sources.md#source-5)
   - Ne pas convertir ce chiffre en probabilité locale. S’en servir pour ouvrir la question « sommes-nous exposés ? », puis revenir aux actifs et protections réels. Une tendance ne remplace pas un diagnostic.
 - **Un pilote doit pouvoir perdre.**
   - Définir le résultat qui rendrait préférable l’existant ou une option plus simple. Pour une aide à l’analyse d’alertes, comparer la qualité de la décision finale, pas seulement la vitesse de rédaction du résumé.
-  - Ici, développer le travail déplacé : vérifier les affirmations, corriger les erreurs, traiter les cas refusés. Un gain avant relecture peut devenir une perte après validation ; c’est précisément ce que l’essai doit pouvoir découvrir.
+  - Ici, reprendre l’ambition de constats vérifiables de Foundry, présentée par Cisco, sans reprendre sa promesse d’efficacité.[Cisco, p. 49–51](research/brksec-1785.md#pilote) Essai proposé : pour détecter des vulnérabilités, demander une preuve reproductible sur le périmètre autorisé, puis compter relectures et faux positifs. Plus de découvertes annoncées peut signifier plus de travail, pas plus de protection.
   - Préserver la contradiction : une solution moins rapide peut rester préférable si elle réduit une erreur grave. Décider de cette priorité avant de voir les résultats, pas pour sauver le favori après coup.
 - **Une démo réussie ne finance pas l’exploitation.**
   - Retirer progressivement l’assistance temporaire du fournisseur : qui maintient les connecteurs, traite les incidents et adapte les règles ? L’essai doit révéler le travail qui reviendra à l’équipe.
@@ -70,7 +70,7 @@ Menace, obligation et offre commerciale ne sont pas synonymes. Partir de cette c
 
 - **Une économie future ne paie pas la transition.**
   - Montrer les dépenses qui se superposent : ancien contrat, nouvelle plateforme, migration des données, formation et retour arrière. Présenter le moment où l’ancien coût disparaît, pas seulement la facture cible.
-  - Ici, développer le conflit de calendrier : l’équipe qui prépare la bascule maintient aussi la production. Un budget de licences approuvé ne réserve pas ses heures ; la disponibilité doit être négociée avec les responsables concernés.
+  - Ici, partir de la cadence de versions durcies annoncée par Cisco, qui prévoit aussi des corrections hors cycle.[Cisco, p. 40–43](research/brksec-1785.md#cadence) Angle auteur : financer les heures récurrentes de test, bascule et retour arrière, pas seulement la migration initiale. Une cadence fournisseur ne réserve pas la capacité de l’équipe ; préserver aussi une voie urgente.
   - Arbitrage proposé : réduire la première vague pour conserver une reprise praticable, quitte à retarder l’économie. Inverser ce choix si le maintien devient inadmissible ou si une capacité de transition distincte est réellement disponible.
 - **Moins de licences ne signifie pas moins de travail.**
   - Distinguer trois résultats : une dépense supprimée, une tâche supprimée et du temps réaffectable. Ils ne coïncident pas si les contrats continuent ou si le travail revient sous forme de maintenance interne.
@@ -85,7 +85,7 @@ Menace, obligation et offre commerciale ne sont pas synonymes. Partir de cette c
 
 - **Le classement ouvre la recherche, il ne conclut pas l’achat.**
   - Utilité légitime : découvrir des acteurs, structurer une comparaison. Puis passer de « qui domine le marché ? » à « qui répond à notre besoin avec notre exploitation ? ».
-  - Ici, confronter deux critères concrets : compatibilité avec les sources de données existantes et effort quotidien demandé à l’équipe. Un positionnement de marché ne tranche pas ces deux questions locales.
+  - Ici, opposer une feuille de route à une capacité achetable : Cisco annonce Live Protect sans surcoût, mais distingue disponibilité annoncée et plateformes futures, avec réserve de livraison.[Cisco, p. 38](research/brksec-1785.md#achat) Angle auteur : exiger la preuve sur la version et le matériel visés, puis chiffrer l’exploitation. Sans surcoût ne signifie ni couverture locale ni coût total nul.
   - Ne pas remplacer le culte du leader par celui du challenger. Le leader peut gagner, notamment si son intégration et son support réduisent réellement le travail ; il doit simplement pouvoir perdre sur une exigence indispensable.
 - **Une compétition sans élimination possible est un décor.**
   - Montrer comment le résultat peut être verrouillé avant les essais : contrat groupe, compétence rare déjà disponible ou calendrier incompatible avec une migration. La contrainte peut être valable ; la cacher fausse la discussion.
@@ -100,7 +100,7 @@ Menace, obligation et offre commerciale ne sont pas synonymes. Partir de cette c
 
 - **L’avis du CISO n’est pas une autorisation universelle.**
   - Séparer l’expertise sur le risque, la décision de l’accepter dans une délégation et l’autorité d’exécuter une action. Un avis favorable sur un contrôle n’autorise pas à lui seul la mise en production d’un service.
-  - Ici, développer un objet concret : prolonger un accès privilégié temporaire. Le CISO décrit l’exposition et les conditions de réduction ; le décideur habilité arbitre ; l’exploitation applique le périmètre et l’échéance retenus.
+  - Ici, prolonger le propos de Cisco sur les scripts devenus agents d’opérations IT et sur l’inventaire de leurs composants et accès.[Cisco, p. 44–47](research/brksec-1785.md#agents) Angle auteur : autoriser l’analyse n’autorise pas la modification réseau ; borner les identifiants du connecteur et vérifier leur révocation. Arrêter l’agent ne suffit pas à retirer les pouvoirs déjà transmis.
   - Ne pas confondre visibilité du board et transfert de responsabilité. L’enjeu éditorial est de montrer qui peut décider quoi, sans transformer chaque exception en séance du conseil.
 - **Le CISO peut perdre un arbitrage légitime.**
   - Donner de la place à l’autre intérêt : disponibilité du service, engagement client, capacité de changement. Le désaccord ne prouve ni l’incompétence du décideur ni l’excès de prudence du CISO.
