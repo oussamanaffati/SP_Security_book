@@ -25,3 +25,7 @@ RSSI : urgence de traitement séparée de l’innovation ; maintien sous protect
 ## 05 — Budget
 
 RSSI : réduction de la première vague recommandée sous hypothèse de maintien admissible, avec inversion si cette hypothèse tombe. Ingénieur : configuration rétablie distinguée de service remis en charge ; dépendances humaines et connexions expliquées. Dirigeant : trésorerie, charge supprimée et capacité réaffectable séparées ; obligation non annulée par le budget. Lecteur : le cas FCC porte un seul mécanisme, sans accumulation des volumes d’appels. Correction intégrée : ni patch de sécurité ni douze heures uniformes attribués à AT&T ; analogies applicatives signalées comme raisonnement. Limite : aucun gain financier local ni calendrier arbitraire inventé.
+
+## 06 — Gartner et achats
+
+RSSI : candidat préféré éliminable sur un besoin indispensable, pas sur des préférences déguisées. Ingénieur : version/matériel/administration et export sémantiquement utilisable détaillés. Dirigeant : choix contraint et dépendance consciente défendables ; le contrat ne crée pas une capacité absente. Lecteur : aucune attribution non vérifiée à la méthodologie Gartner ; retour ponctuel de la voix constructeur. Correction intégrée : les exigences ne sont pas toutes éliminatoires, et la réversibilité elle-même a un coût. Limite : disponibilité Cisco décrite comme annonce datée, pas état actuel testé.
