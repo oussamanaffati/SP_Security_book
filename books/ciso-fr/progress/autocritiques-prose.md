@@ -21,3 +21,7 @@ RSSI : valeur future séparée de la défense du coût passé. Ingénieur : norm
 ## 04 — Veille
 
 RSSI : urgence de traitement séparée de l’innovation ; maintien sous protection temporaire borné. Ingénieur : CVSS de base, composant appelé, préconditions et chemins latéraux distingués ; tests autorisés sans exploitation dangereuse suggérée. Dirigeant : pilote susceptible de perdre, coût de relecture et assistance intégrés. Lecteur : le chiffre DBIR sert une question, non une prévision ; les noms Cisco restent limités aux concepts vérifiés. Correction intégrée : l’absence de résultat du scanner ne prouve pas l’absence d’exposition et l’existant doit aussi être comparé. Limite : aucune efficacité de produit mesurée ; dénominateur et période DBIR conservés.
+
+## 05 — Budget
+
+RSSI : réduction de la première vague recommandée sous hypothèse de maintien admissible, avec inversion si cette hypothèse tombe. Ingénieur : configuration rétablie distinguée de service remis en charge ; dépendances humaines et connexions expliquées. Dirigeant : trésorerie, charge supprimée et capacité réaffectable séparées ; obligation non annulée par le budget. Lecteur : le cas FCC porte un seul mécanisme, sans accumulation des volumes d’appels. Correction intégrée : ni patch de sécurité ni douze heures uniformes attribués à AT&T ; analogies applicatives signalées comme raisonnement. Limite : aucun gain financier local ni calendrier arbitraire inventé.
