@@ -13,3 +13,7 @@ RSSI : choix explicite entre copie et chaîne de reprise ; refus de dépense sé
 ## 02 — Standards
 
 RSSI : applicabilité et preuve ne sont plus des rubriques abstraites ; le choix de collecte est concret. Ingénieur : retrait dans un annuaire distingué des droits locaux, puis retest ciblé après migration. Dirigeant : mutualisation conditionnée au périmètre et à la force de l’exigence ; aucune opposabilité française inventée. Lecteur : progression du texte vers la preuve, sans catalogue réglementaire. Correction intégrée : absence de preuve distinguée de preuve d’absence ; les standards retrouvent leur utilité au lieu d’être caricaturés. Limite : ce chapitre n’est pas une qualification juridique d’une entreprise déterminée.
+
+## 03 — Investissements
+
+RSSI : valeur future séparée de la défense du coût passé. Ingénieur : normalisation des journaux, sémantique des règles, contrôle et données distingués ; reprise de politique après reconnexion ajoutée. Dirigeant : maintien temporaire conditionné à une préparation financée ; consolidation défendue quand elle réduit réellement le travail. Lecteur : le cas Cloudflare reste unique et ne démontre pas une défaillance Cisco. Correction intégrée : remplacement industriel non immédiat et limites de l’isolement dans les deux sens. Limite : essais proposés, aucun comportement de produit certifié.
