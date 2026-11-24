@@ -1,0 +1,43 @@
+{
+  "canonical_chapters": 9,
+  "main_chapters": 7,
+  "exact_assembly": true,
+  "words_body_whitespace": {
+    "00.md": 876,
+    "01.md": 1257,
+    "02.md": 1270,
+    "03.md": 1259,
+    "04.md": 1311,
+    "05.md": 1341,
+    "06.md": 1207,
+    "07.md": 1360,
+    "08.md": 969
+  },
+  "total_body_words_whitespace": 10850,
+  "count_method": "Whitespace tokens, excluding chapter headings and multiline HTML comments",
+  "evidence_marker_occurrences": 15,
+  "distinct_evidence_markers": 14,
+  "local_links_checked": 103,
+  "historical_review_link_issues_preserved": [
+    {
+      "file": "reviews/concis/dossier.md",
+      "target": "annexe-juridique.md"
+    },
+    {
+      "file": "reviews/concis/dossier.md",
+      "target": "research/reperes-documentaires.md"
+    },
+    {
+      "file": "reviews/concis/dossier.md",
+      "target": "research/reperes-documentaires.md"
+    },
+    {
+      "file": "reviews/concis/dossier.md",
+      "target": "base-auteur.md"
+    }
+  ],
+  "manuscript_sha256": "21d85b697c7dc427bfced666e8f58bae5ea3c732b4537b1d9121ff1b7bb452d3",
+  "model": "gpt-6-astra",
+  "independent_review_of_prose": false,
+  "external_sources_refetched_in_finalization": false
+}

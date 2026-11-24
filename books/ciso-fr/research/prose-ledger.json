@@ -12,6 +12,30 @@
           "added": "2026-11-23"
         }
       ]
+    },
+    {
+      "id": 2,
+      "url": "https://www.enisa.europa.eu/sites/default/files/2025-07/ENISA_Telecom_Security_Incidents_2024_en_1.pdf",
+      "title": "ENISA Telecom Security Incidents 2024",
+      "accessed": "2026-11-23",
+      "quotes": [
+        {
+          "text": "Malicious actions accounted for 15 incidents representing 8% share of total incidents",
+          "added": "2026-11-23"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://docs.fcc.gov/public/attachments/DOC-404150A1.txt",
+      "title": "FCC AT&T Mobility Outage",
+      "accessed": "2026-11-23",
+      "quotes": [
+        {
+          "text": "It took close to two hours to roll back the network change.",
+          "added": "2026-11-23"
+        }
+      ]
     }
   ]
 }
